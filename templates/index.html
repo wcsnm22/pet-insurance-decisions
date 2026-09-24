@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  {{head}}
+</head>
+<body>
+  <header class="site"><div class="wrap">
+    <div class="brand">{{brand}}</div>
+    <nav class="crumbs">{{nav}}</nav>
+  </div></header>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Pet insurance, answered on the first screen</h1>
+      <p class="lede">{{tagline}}</p>
+      <div class="answer">
+        <p><strong>What it is:</strong> pet insurance reimburses you for covered vet bills — you pay the vet, submit a claim, and get paid back after the claim is processed.</p>
+        <p><strong>What it costs (brands' own published figures):</strong> Lemonade from $10/mo · Spot dogs from $15/mo, cats from $9/mo · Fetch averages $35/mo dogs, $22/mo cats.</p>
+        <p><strong>Waiting periods:</strong> Lemonade 14 days illness / 30 days orthopedic · Spot typically 14 days (state-specific) · Fetch up to 15 days.</p>
+        <p><strong>Promo codes:</strong> none of the three publishes a promo code page in its official sitemap (checked 2026-09-24). Real discounts are listed on each brand page.</p>
+        <p class="muted">Every line above is sourced in the tables below and on each brand page, with the official URL and check date.</p>
+      </div>
+    </section>
+
+    <h2>The three brands at a glance</h2>
+    <div class="grid">{{cards}}</div>
+
+    <h2>Facts with sources</h2>
+    <table>
+      <thead><tr><th>Fact</th><th>Condition to get it</th><th>Official source page</th><th>Checked</th></tr></thead>
+      <tbody>{{fact_table_rows}}</tbody>
+    </table>
+
+    <h2>FAQ</h2>
+    {{faqs}}
+
+    <footer class="site">{{footer}}</footer>
+  </main>
+</body>
+</html>
