@@ -5,6 +5,8 @@ import json, re, pathlib
 
 site = pathlib.Path(__file__).parent / "site"
 data = json.loads((pathlib.Path(__file__).parent / "data" / "brands.json").read_text(encoding="utf-8"))
+articles_path = pathlib.Path(__file__).parent / "data" / "articles.json"
+articles = json.loads(articles_path.read_text(encoding="utf-8"))["articles"] if articles_path.exists() else []
 fails = []
 
 # (1) Chinese anywhere in site output
@@ -30,11 +32,40 @@ for b in data["brands"]:
         if u.split("/")[2] not in official:
             offsite += 1
             print("   non-official source:", u)
+
+# articles.json: facts + FAQs + per-cell compare sources must be official and complete
+for a in articles:
+    for f in a["facts"] + a["faqs"]:
+        n += 1
+        u = f.get("source_url", "")
+        if not u.startswith("http") or not f.get("checked"):
+            bad += 1
+            print("   article fact missing source/date:", a["slug"], f.get("fact") or f.get("q"))
+        if u.startswith("http") and u.split("/")[2] not in official:
+            offsite += 1
+            print("   non-official article source:", u)
+    ncols = len(a["columns"])
+    for r in a["rows"]:
+        if len(r["cells"]) != ncols or len(r.get("sources", [])) != ncols:
+            bad += 1
+            print("   compare shape mismatch:", a["slug"], r["label"])
+            continue
+        for i, u in enumerate(r["sources"]):
+            cell = r["cells"][i]
+            if u and u.split("/")[2] not in official:
+                offsite += 1
+                print("   non-official compare source:", u)
+            if not u and not cell.strip().lower().startswith("not published"):
+                bad += 1
+                print("   compare cell has no source and is not a 'not published' cell:", a["slug"], r["label"])
+            if u and cell.strip().lower().startswith("not published"):
+                bad += 1
+                print("   compare cell claims 'not published' but links a source:", a["slug"], r["label"])
 print(f"[2] facts+faqs={n} missing_source_or_date={bad} non_official_domain={offsite}")
 if bad or offsite:
     fails.append("fact-provenance")
 
-# (3) rendered brand pages show source link + date per fact row; check dates == today
+# (3) rendered pages show source link + date per fact row; check dates == today
 for slug in ("lemonade", "spot", "fetch"):
     html = (site / f"{slug}-pet-insurance.html").read_text(encoding="utf-8")
     rows = html.count("<tr>") - (1 if "<th>" in html else 0)
@@ -43,6 +74,17 @@ for slug in ("lemonade", "spot", "fetch"):
     print(f"[3] {slug}: rows={rows} official_source_links={srcs} check_dates={dates}")
     if srcs < rows or dates < rows:
         fails.append(f"render-provenance-{slug}")
+
+# (3b) rendered article pages: every fact row carries an official source link + date
+for a in articles:
+    html = (site / f"{a['slug']}.html").read_text(encoding="utf-8")
+    fact_rows = len(a["facts"])
+    srcs = len(re.findall(r'href="https://(?:www\.)?(?:lemonade|spotpet|spotpetins|fetchpet)[^"]*"', html))
+    dates = html.count(data["site"]["checked"])
+    in_sitemap = f"/{a['slug']}" in (site / "sitemap.xml").read_text(encoding="utf-8")
+    print(f"[3b] {a['slug']}: facts={fact_rows} official_source_links={srcs} check_dates={dates} in_sitemap={in_sitemap}")
+    if srcs < fact_rows or dates < fact_rows or not in_sitemap:
+        fails.append(f"render-provenance-{a['slug']}")
 
 # (4) JSON-LD + canonical on every page; sitemap/robots present
 for p in sorted(site.glob("*.html")):

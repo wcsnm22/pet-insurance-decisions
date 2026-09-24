@@ -1,7 +1,7 @@
 // ILANG
 // TYPE:worker ROLE:canonical-host-and-real-404
 const CANONICAL_HOST = "pet-insurance-decisions.pages.dev";
-const VALID_PATHS = new Set(["/", "/about", "/assets/favicon.svg", "/assets/style.css", "/contact", "/fetch-pet-insurance", "/lemonade-pet-insurance", "/privacy", "/robots.txt", "/sitemap.xml", "/spot-pet-insurance"]);
+const VALID_PATHS = new Set(["/", "/about", "/assets/favicon.svg", "/assets/style.css", "/best-pet-insurance", "/contact", "/fetch-pet-insurance", "/lemonade-pet-insurance", "/privacy", "/robots.txt", "/sitemap.xml", "/spot-pet-insurance"]);
 
 export default {
   async fetch(request, env) {
