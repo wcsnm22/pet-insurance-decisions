@@ -372,7 +372,10 @@ def build() -> None:
     # ---- _worker.js（规范主机 + 真 404）
     from urllib.parse import urlparse
     host = urlparse(site["base_url"]).netloc
-    valid_paths = sorted({"/"} | {path for path, _ in urls})
+    assets = sorted(
+        f"/assets/{p.name}" for p in (SITE_DIR / "assets").iterdir() if p.is_file()
+    )
+    valid_paths = sorted({"/"} | {path for path, _ in urls} | {"/sitemap.xml", "/robots.txt"} | set(assets))
     worker = (
         WORKER_TEMPLATE
         .replace("__CANONICAL_HOST__", host)
