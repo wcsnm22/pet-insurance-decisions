@@ -20,9 +20,9 @@
 
 | # | 支柱 | 站 | 类型 | 英文标题（title/H1 基准） | 主搜索词 | 状态 |
 |---|---|---|---|---|---|---|
-| 1 | 1 | S1 | best | Best Pet Insurance in 2026: Plans Compared Side by Side | best pet insurance | todo |
-| 2 | 1 | S1 | review | Lemonade Pet Insurance Review: Coverage, Quotes & Claim Speed | lemonade pet insurance review | todo |
-| 3 | 1 | S1 | review | Spot Pet Insurance Review: Is It Worth It for Dogs and Cats? | spot pet insurance review | todo |
+| 1 | 1 | S1 | best | Best Pet Insurance in 2026: Plans Compared Side by Side | best pet insurance | published → https://pet-insurance-decisions.pages.dev/best-pet-insurance (2026-09-24) |
+| 2 | 1 | S1 | review | Lemonade Pet Insurance Review: Coverage, Quotes & Claim Speed | lemonade pet insurance review | merged → /lemonade-pet-insurance（品牌页已吃整族 review/cost/quote/promo 意图，按不拆页规则并入，2026-09-24） |
+| 3 | 1 | S1 | review | Spot Pet Insurance Review: Is It Worth It for Dogs and Cats? | spot pet insurance review | merged → /spot-pet-insurance（同上，2026-09-24） |
 | 4 | 1 | S1 | pricing | How Much Does Pet Insurance Cost? Real Quote Breakdown | pet insurance cost per month | todo |
 | 5 | 1 | S1 | vs | Lemonade vs Spot Pet Insurance: Which One Should You Pick? | lemonade vs spot pet insurance | todo |
 | 6 | 1 | S1 | tutorial | How to Submit a Pet Insurance Claim (Step by Step) | how to submit a pet insurance claim | todo |
@@ -53,12 +53,18 @@
 
 ## 起草顺序（每轮 1-2 篇）
 
-1. #1–#7（S1，直接用现有 build.py/brands.json 架构扩）
+1. S1：#1 已发布；#2/#3 已并入品牌页（不拆同意图）；下一轮 #4 定价指南，再 #5 对比、#6 理赔教程、#7 折扣指南
 2. #8–#13（S1b，需新站骨架：复制 S1 架构，改品牌数据）
 3. #14–#18（S2）
 4. #19–#22（S3）
 5. #23–#25（S4）
 6. #26–#28（S5）
+
+## 写作/发布方式（S1 已验证）
+
+- 编辑型文章数据放 `data/articles.json`（blocks 顺序：section / compare / facts / faqs / cards），模板 `templates/article.html`，`python build.py` 渲染到 `site/<slug>.html` 并自动进 sitemap（priority 0.8）+ 全站导航。
+- 来源强制：文章 facts/faqs/对比表单元格的 source_url 必须是品牌官网域名，缺 source_url 或 checked 直接构建失败；没发布的格子写 "not published on the official site"。`python selfcheck.py` 四项全过才发布。
+- 发布：commit + push → `wrangler pages deploy site --project-name=pet-insurance-decisions --branch=main --commit-dirty=true` → 校验线上 200。
 
 ## 事实来源要求（每篇执行）
 
