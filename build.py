@@ -12,6 +12,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 from datetime import datetime, timezone
 from html import escape
@@ -575,7 +576,8 @@ def build() -> None:
 
     # ---- _worker.js（规范主机 + 真 404）
     from urllib.parse import urlparse
-    host = urlparse(site["base_url"]).netloc
+    # 本机构建可用 PET_SITE_CANONICAL_HOST 覆盖 worker 的规范域名（只影响路由跳转，不改任何页面内容）
+    host = os.environ.get("PET_SITE_CANONICAL_HOST") or urlparse(site["base_url"]).netloc
     assets = sorted(
         f"/assets/{p.name}" for p in (SITE_DIR / "assets").iterdir() if p.is_file()
     )
