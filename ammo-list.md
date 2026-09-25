@@ -91,3 +91,19 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 选题：《What pet insurance does NOT pay for: medication, exam fees, wellness》— 汇总三类「通常不保」，全部回官方条款页取句，缺的格子写 not published on the official site。
 
 ⚠️ Forbes / NerdWallet / ASPCA 的说法都是 LEADS（第三方，非冻结三对手，也不进正文），落页前一律回 Lemonade/Spot/Fetch 官方页核（NOFAKE）。
+
+## 2026-09-26 (fill #4 — 当日 S1b 官方页现抓 + 一次检索)
+
+### Questions (line 4 GEO seeds, 2026-09-26)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Should you get pet insurance before your first vet visit? | fetchpet.com/faqs/pet-insurance-before-vet（Fetch 官方 FAQ：waiting period up to 15 days、pre-existing 不保） | 2026-09-26 | 品牌官方页，可直接写成一页；与 /how-to-submit-a-pet-insurance-claim 互链 |
+| Does pet insurance cover prescription food? | usnews.com/insurance/pet-insurance/does-pet-insurance-cover-prescription-food | 2026-09-26 | 第三方线索；落页前必须回 Lemonade/Spot/Fetch 官方 exclusions 页核 |
+| What does pet insurance not cover (pre-existing / wellness / waiting period)? | truvo.com/blog/what-pet-insurance-does-not-cover | 2026-09-26 | 同上，线索；官方口径只能来自三家 exclusions/policy 页 |
+| Do I need my vet's approval to buy prescription pet meds online? | chewy.com/app/content/pharmacy + 1800petmeds.com/help.html（当日现抓：两家都要求 vet authorization 才发药） | 2026-09-26 | S1b 已发 /buy-pet-prescription-meds-online；S1 可写「保险付不付 Rx 药费」并互链 |
+
+### Selection / angle (2026-09-26)
+- 选题：《Pet insurance waiting periods, day by day: accident vs illness vs orthopedic》— 每家只取官方 policy/FAQ 页上印的天数，缺的写 not published on the official site；第一屏直接给「谁等几天」对比表。
+- 选题：《Does pet insurance pay for prescription food, supplements and Rx medication?》— 三家官方 exclusions 页逐条核；Rx 药费那段可用 S1b 今日现抓的 Chewy/PetMeds 授权流程做背景并互链。
+
+⚠️ US News / Truvo / pet-insurance-hub 全是 LEADS（第三方，不进正文），落页前一律回 Lemonade/Spot/Fetch 官方页核（NOFAKE）。
