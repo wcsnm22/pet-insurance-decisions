@@ -6,7 +6,7 @@
       "type": "best",
       "keyword": "best pet insurance",
       "title": "Best Pet Insurance in 2026: Plans Compared Side by Side",
-      "description": "Best pet insurance compared side by side - Lemonade, Spot and Fetch on price, waiting periods, claim speed and discounts, every figure from the brand's own official page, checked 2026-09-24.",
+      "description": "Best pet insurance compared side by side - Lemonade, Spot and Fetch on price, waiting periods, claim speed and discounts, every figure from the brand's own official page, checked 2026-09-25.",
       "h1": "Best pet insurance in 2026: plans compared side by side",
       "lede": "Quick answer: this page compares the best pet insurance options only on figures each company publishes on its own official site, with the source link and check date attached. Lemonade publishes the lowest starting price (from $10/mo), Spot publishes the fastest claim payment (48 hours or less) and the lowest published cat price (from $9/mo), and Fetch publishes the most detailed price table (breed-by-breed averages with a stated methodology). There is no single winner here, because the three brands publish their prices under different conditions - pick the fact that matters to you and verify it on the official page linked next to it.",
       "stats": [
@@ -19,7 +19,7 @@
           "label": "fastest published claim payment (Spot)"
         },
         {
-          "value": "2026-09-24",
+          "value": "2026-09-25",
           "label": "every figure rechecked"
         }
       ],
@@ -171,9 +171,9 @@
         {
           "label": "Promo code page in official sitemap",
           "cells": [
-            "None found (sitemap checked 2026-09-24)",
-            "None found (sitemap checked 2026-09-24)",
-            "None found (sitemap checked 2026-09-24)"
+            "None found (sitemap checked 2026-09-25)",
+            "None found (sitemap checked 2026-09-25)",
+            "None found (sitemap checked 2026-09-25)"
           ],
           "sources": [
             "https://www.lemonade.com/sitemap.xml",
@@ -213,121 +213,121 @@
           "fact": "Lemonade policies for dogs and cats start at $10/month.",
           "condition": "Basic accident and illness coverage; the cost guide states cost varies by coverage amount/type, breed, age and where you live.",
           "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Lemonade pet parents pay around $48/month for dogs and around $27/month for cats on average.",
           "condition": "Stated as on-average figures across different ages, breeds and locations on the cost guide page (last updated Jun 3, 2026).",
           "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Lemonade waiting periods: 14 days for illnesses and 30 days for orthopedic conditions; preventative package benefits can be used the day after purchase.",
           "condition": "As described in the FAQ on Lemonade's pet insurance page.",
           "source_url": "https://www.lemonade.com/pet-insurance",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Lemonade deductible options are $100, $250, $500, $750 or $1,000.",
           "condition": "Listed on the cost guide as choices that lower the premium.",
           "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Spot dog insurance starts from $15/month and cat insurance from $9/month.",
           "condition": "Dog figure: accident and illness plan, 80% reimbursement, $500 annual deductible, $2,500 annual limit, 2-year-old small mixed dog (11-25 lbs) in ZIP 32009. Cat figure: 80% reimbursement, $750 annual deductible, $2,500 annual limit, 2-year-old mixed cat in ZIP 33801. Plan costs vary; premiums may increase or decrease with pet age.",
           "source_url": "https://spotpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Spot reimburses up to 90% of covered vet bills.",
           "condition": "Reimbursement percentage is a plan choice; actual reimbursement depends on plan type, annual limit, co-insurance and deductible.",
           "source_url": "https://spotpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Spot claims are reimbursed in 48 hours or less, and most claims are processed in under 2 business days.",
           "condition": "'48 hrs or less' is based on Spot admin data from 2019 to 2024; 'under 2 business days' is stated in the site FAQ. Actual reimbursement amounts vary by plan and claim.",
           "source_url": "https://spotpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Spot plans typically have a 14-day waiting period for coverage.",
           "condition": "State-specific waiting periods vary; the site directs you to the sample policy for your state's specific waiting periods.",
           "source_url": "https://spotpet.com/sample-policy",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Spot offers a 30-day money-back guarantee.",
           "condition": "Applies to cancellations within 30 days of the policy's start date if no claims were filed and no covered expenses were applied to the deductible or reimbursed. Not available in NY; 15-day guarantee in ME, LA and WA. Cancellations must be requested via email, phone or written notice.",
           "source_url": "https://spotpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Spot gives a 10% multi-pet discount for every pet enrolled after the first.",
           "condition": "Discounts vary by state and are subject to change; more information is shown at checkout.",
           "source_url": "https://spotpet.com/cat-insurance",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Fetch average monthly price: $35/month for dogs and $22/month for cats.",
           "condition": "Based on U.S. annual premiums using the most common coverage configuration of a $10,000 annual limit, $300 deductible and 80% reimbursement rate for 07.01.2024 through 06.30.2025 (Fetch data).",
           "source_url": "https://www.fetchpet.com/pet-insurance-cost",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Fetch covers up to 90% of unexpected vet bills.",
           "condition": "Reimbursement percentage is part of the plan; payment follows claim approval and the deductible being met.",
           "source_url": "https://www.fetchpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "The waiting period for accident and illness coverage with Fetch is up to 15 days.",
           "condition": "Fetch states it emails you as soon as your coverage starts.",
           "source_url": "https://www.fetchpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Fetch covers sick-visit exam fees: every sick visit comes with an exam fee of up to $250 and Fetch covers those.",
           "condition": "Stated in the official homepage coverage section; coverage remains subject to policy terms.",
           "source_url": "https://www.fetchpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Fetch online vet visits are covered up to $1,000 per year, included at no extra cost with no copay.",
           "condition": "Members get 24/7 access to licensed veterinarians; stated in the official FAQ and coverage section.",
           "source_url": "https://www.fetchpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Fetch claims are typically processed in less than 10 days.",
           "condition": "Stated in the official 'How Fetch works' section; payment follows approval and the deductible being met, by direct deposit.",
           "source_url": "https://www.fetchpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "Veterans and active military save 10% on their Fetch pet insurance policy every month for life.",
           "condition": "Discounts and offers are subject to approval and may change at any time; the maximum available discount is 10%, it may not be available in all states, and it is not valid with any other offer.",
           "source_url": "https://www.fetchpet.com/faqs/military-pet-insurance-discount",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "No dedicated promo code or coupon page appears in Lemonade's official sitemap.",
-          "condition": "Sitemap checked on 2026-09-24; no URL matching promo, coupon, discount or deal was found. Published discounts are multi-pet, bundle and annual payment.",
+          "condition": "Sitemap checked on 2026-09-25; no URL matching promo, coupon, discount or deal was found. Published discounts are multi-pet, bundle and annual payment.",
           "source_url": "https://www.lemonade.com/sitemap.xml",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "No dedicated promo code page appears in Spot's official sitemap.",
-          "condition": "Sitemap index and its child sitemaps checked on 2026-09-24; no URL matching promo or coupon was found. Published discounts are multi-pet, group/employee and Spot Perks.",
+          "condition": "Sitemap index and its child sitemaps checked on 2026-09-25; no URL matching promo or coupon was found. Published discounts are multi-pet, group/employee and Spot Perks.",
           "source_url": "https://spotpet.com/sitemap.xml",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "fact": "No dedicated promo code page appears in Fetch's official sitemap.",
-          "condition": "Sitemap checked on 2026-09-24; no URL matching promo or coupon was found. Published discounts are the 10% military discount and Fetch Deals member savings.",
+          "condition": "Sitemap checked on 2026-09-25; no URL matching promo or coupon was found. Published discounts are the 10% military discount and Fetch Deals member savings.",
           "source_url": "https://fetchpet.com/sitemap.xml",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         }
       ],
       "faqs": [
@@ -335,45 +335,45 @@
           "q": "What is the best pet insurance in 2026?",
           "a": "There is no single best pet insurance - the honest answer depends on which published fact you care about. Lemonade publishes the lowest starting price (from $10/month), Spot publishes the fastest claim payment (48 hours or less, based on Spot admin data 2019-2024) and Fetch publishes the most detailed pricing (breed-by-breed averages with a stated methodology). Compare quotes for your own pet on each official site, because advertised prices are quoted under different deductible, limit and reimbursement conditions.",
           "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "q": "Which pet insurance is cheapest?",
           "a": "The lowest published starting prices are Lemonade at $10/month for dogs and cats, Spot at $15/month for dogs and $9/month for cats, and Fetch, which does not publish an entry price but publishes averages of $35/month for dogs and $22/month for cats. These figures are not directly comparable: Spot's price assumes an 80% reimbursement rate, a $500 deductible and a $2,500 annual limit for a specific dog in ZIP 32009, while Fetch's average assumes a $10,000 annual limit, a $300 deductible and 80% reimbursement. Your real price comes from a quote on the brand's official site.",
           "source_url": "https://spotpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "q": "Is there a real pet insurance promo code?",
-          "a": "Not from these three brands. Their official sitemaps were checked on 2026-09-24 and none contains a promo code or coupon page. The discounts that do exist on the official sites are Lemonade's multi-pet, bundle and annual-payment discounts, Spot's 10% multi-pet discount and its group/employee discount, and Fetch's 10% military discount plus Fetch Deals member savings. Third-party coupon sites are not a source we use.",
+          "a": "Not from these three brands. Their official sitemaps were checked on 2026-09-25 and none contains a promo code or coupon page. The discounts that do exist on the official sites are Lemonade's multi-pet, bundle and annual-payment discounts, Spot's 10% multi-pet discount and its group/employee discount, and Fetch's 10% military discount plus Fetch Deals member savings. Third-party coupon sites are not a source we use.",
           "source_url": "https://www.lemonade.com/sitemap.xml",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "q": "How long are pet insurance waiting periods?",
           "a": "Published waiting periods: Lemonade 14 days for illnesses and 30 days for orthopedic conditions (preventative package benefits start the day after purchase); Spot typically 14 days, with state-specific variations detailed in its sample policy; Fetch up to 15 days for accident and illness coverage. Coverage for anything that shows signs before those periods end counts as pre-existing.",
           "source_url": "https://www.lemonade.com/pet-insurance",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "q": "Does pet insurance cover pre-existing conditions?",
           "a": "No. All three brands state that pre-existing conditions are not covered. Spot additionally publishes that a curable condition which has been symptom-free and treatment-free for 180 days is no longer considered pre-existing and can become eligible. Fetch counts anything that occurred or showed clinical signs before enrolment, during the waiting period, or before the pet's first exam as pre-existing.",
           "source_url": "https://spotpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         },
         {
           "q": "Do I need a vet exam to buy pet insurance?",
-          "a": "Spot states no vet exam is needed for enrolment and has no upper age limit, with puppies and kittens 8 weeks and older eligible. Fetch covers dogs and cats 6 weeks and older and advises enrolling early so conditions are not later classed as pre-existing. For Lemonade, an enrolment exam requirement is not published on the official pages checked on 2026-09-24.",
+          "a": "Spot states no vet exam is needed for enrolment and has no upper age limit, with puppies and kittens 8 weeks and older eligible. Fetch covers dogs and cats 6 weeks and older and advises enrolling early so conditions are not later classed as pre-existing. For Lemonade, an enrolment exam requirement is not published on the official pages checked on 2026-09-25.",
           "source_url": "https://spotpet.com/",
-          "checked": "2026-09-24"
+          "checked": "2026-09-25"
         }
       ],
-      "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It repeats only what each brand publishes on its own official pages; policy terms always govern. Facts last checked 2026-09-24.",
+      "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It repeats only what each brand publishes on its own official pages; policy terms always govern. Facts last checked 2026-09-25.",
       "blocks": [
         {
           "type": "section",
           "h2": "How this comparison is built",
-          "html": "<p>There is no lab test for \"best pet insurance\". What we can do honestly is put the figures each insurer publishes on its own website side by side, keep the condition attached to every figure, and link to the page it came from. Nothing on this page is estimated, scored or taken from a third-party comparison site.</p><p>All figures were read from the brands' own pages on <strong>2026-09-24</strong> and are repeated with their conditions in the fact table below. Where an official page does not publish a figure, the cell says <em>not published on the official site</em> instead of a guess.</p><p>The three brands quote their prices under different conditions - different deductibles, annual limits and reimbursement rates - so a raw price-to-price comparison would be misleading. That is why this page does not crown a single winner.</p>"
+          "html": "<p>There is no lab test for \"best pet insurance\". What we can do honestly is put the figures each insurer publishes on its own website side by side, keep the condition attached to every figure, and link to the page it came from. Nothing on this page is estimated, scored or taken from a third-party comparison site.</p><p>All figures were read from the brands' own pages on <strong>2026-09-25</strong> and are repeated with their conditions in the fact table below. Where an official page does not publish a figure, the cell says <em>not published on the official site</em> instead of a guess.</p><p>The three brands quote their prices under different conditions - different deductibles, annual limits and reimbursement rates - so a raw price-to-price comparison would be misleading. That is why this page does not crown a single winner.</p>"
         },
         {
           "type": "compare",
@@ -382,7 +382,7 @@
         {
           "type": "section",
           "h2": "What each plan is best for, on the published facts",
-          "html": "<p><strong>Lemonade, if you want the lowest published starting price.</strong> Its official cost guide lists policies for dogs and cats starting at $10/month, publishes on-average figures of about $48/month for dogs and about $27/month for cats, five deductible options ($100-$1,000) and three official discounts: multi-pet, bundling with other Lemonade policies, and paying annually instead of monthly. A quote is advertised as completable in as little as 90 seconds, and cancelling within the first 30 days gets you a refund. Source: <a href=\"https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/\" rel=\"nofollow noopener\" target=\"_blank\">lemonade.com cost guide</a> and <a href=\"https://www.lemonade.com/pet-insurance\" rel=\"nofollow noopener\" target=\"_blank\">lemonade.com/pet-insurance</a>, checked 2026-09-24.</p><p><strong>Spot, if published claim speed and a money-back window matter most.</strong> Spot states claims are reimbursed in 48 hours or less, with most processed in under 2 business days (its own admin data, 2019-2024), reimburses up to 90% of covered vet bills, offers a 30-day money-back guarantee (not available in NY; 15 days in ME, LA and WA), has no upper age limit and no vet exam to enrol, and gives 10% off every pet enrolled after the first. Source: <a href=\"https://spotpet.com/\" rel=\"nofollow noopener\" target=\"_blank\">spotpet.com</a>, <a href=\"https://spotpet.com/sample-policy\" rel=\"nofollow noopener\" target=\"_blank\">spotpet.com/sample-policy</a> and <a href=\"https://spotpet.com/cat-insurance\" rel=\"nofollow noopener\" target=\"_blank\">spotpet.com/cat-insurance</a>, checked 2026-09-24.</p><p><strong>Fetch, if you want the most transparent pricing and bundled extras.</strong> Fetch publishes breed-level averages on its price page - $35/month for dogs and $22/month for cats on average, French Bulldog $71/month, Golden Retriever $50/month, Domestic Shorthair $24/month - with the methodology stated (a $10,000 annual limit, $300 deductible and 80% reimbursement, 07.01.2024-06.30.2025). It also covers sick-visit exam fees up to $250, includes 24/7 online vet visits up to $1,000/year at no extra cost, states waiting periods of up to 15 days and says claims are typically processed in less than 10 days. Veterans and active military get 10% off every month for life. Source: <a href=\"https://www.fetchpet.com/pet-insurance-cost\" rel=\"nofollow noopener\" target=\"_blank\">fetchpet.com price page</a> and <a href=\"https://www.fetchpet.com/\" rel=\"nofollow noopener\" target=\"_blank\">fetchpet.com</a>, checked 2026-09-24.</p>"
+          "html": "<p><strong>Lemonade, if you want the lowest published starting price.</strong> Its official cost guide lists policies for dogs and cats starting at $10/month, publishes on-average figures of about $48/month for dogs and about $27/month for cats, five deductible options ($100-$1,000) and three official discounts: multi-pet, bundling with other Lemonade policies, and paying annually instead of monthly. A quote is advertised as completable in as little as 90 seconds, and cancelling within the first 30 days gets you a refund. Source: <a href=\"https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/\" rel=\"nofollow noopener\" target=\"_blank\">lemonade.com cost guide</a> and <a href=\"https://www.lemonade.com/pet-insurance\" rel=\"nofollow noopener\" target=\"_blank\">lemonade.com/pet-insurance</a>, checked 2026-09-25.</p><p><strong>Spot, if published claim speed and a money-back window matter most.</strong> Spot states claims are reimbursed in 48 hours or less, with most processed in under 2 business days (its own admin data, 2019-2024), reimburses up to 90% of covered vet bills, offers a 30-day money-back guarantee (not available in NY; 15 days in ME, LA and WA), has no upper age limit and no vet exam to enrol, and gives 10% off every pet enrolled after the first. Source: <a href=\"https://spotpet.com/\" rel=\"nofollow noopener\" target=\"_blank\">spotpet.com</a>, <a href=\"https://spotpet.com/sample-policy\" rel=\"nofollow noopener\" target=\"_blank\">spotpet.com/sample-policy</a> and <a href=\"https://spotpet.com/cat-insurance\" rel=\"nofollow noopener\" target=\"_blank\">spotpet.com/cat-insurance</a>, checked 2026-09-25.</p><p><strong>Fetch, if you want the most transparent pricing and bundled extras.</strong> Fetch publishes breed-level averages on its price page - $35/month for dogs and $22/month for cats on average, French Bulldog $71/month, Golden Retriever $50/month, Domestic Shorthair $24/month - with the methodology stated (a $10,000 annual limit, $300 deductible and 80% reimbursement, 07.01.2024-06.30.2025). It also covers sick-visit exam fees up to $250, includes 24/7 online vet visits up to $1,000/year at no extra cost, states waiting periods of up to 15 days and says claims are typically processed in less than 10 days. Veterans and active military get 10% off every month for life. Source: <a href=\"https://www.fetchpet.com/pet-insurance-cost\" rel=\"nofollow noopener\" target=\"_blank\">fetchpet.com price page</a> and <a href=\"https://www.fetchpet.com/\" rel=\"nofollow noopener\" target=\"_blank\">fetchpet.com</a>, checked 2026-09-25.</p>"
         },
         {
           "type": "section",
@@ -405,6 +405,847 @@
         {
           "type": "cards",
           "h2": "The three plans compared, page by page"
+        }
+      ]
+    },
+    {
+      "slug": "pet-insurance-cost",
+      "nav_label": "Pet Insurance Cost",
+      "type": "pricing",
+      "keyword": "pet insurance cost per month",
+      "title": "How Much Does Pet Insurance Cost? Published Prices and Real Quote Breakdowns",
+      "description": "Pet insurance cost per month: starting prices, published averages and example quotes from Lemonade, Spot and Fetch, each with the deductible, limit and reimbursement conditions it assumes and a link to the official page it was read from. Checked 2026-09-25.",
+      "h1": "How much does pet insurance cost? Published prices, side by side",
+      "lede": "Quick answer, from the figures the insurers publish themselves: Lemonade states policies for dogs and cats start at $10/month and that its policyholders pay about $48/month for dogs and about $27/month for cats; Spot advertises dogs from $15/month and cats from $9/month; Fetch does not publish an entry price but publishes averages of $35/month for dogs and $22/month for cats. Those numbers are not directly comparable - each one is quoted under a stated deductible, annual limit and reimbursement rate, listed next to every figure on this page. The real number for your pet is the quote each brand's own site gives you.",
+      "stats": [
+        {
+          "value": "$10/mo",
+          "label": "lowest published starting price (Lemonade)"
+        },
+        {
+          "value": "$35 / $22",
+          "label": "Fetch published averages: dogs / cats"
+        },
+        {
+          "value": "2026-09-25",
+          "label": "every figure rechecked"
+        }
+      ],
+      "columns": [
+        {
+          "name": "Lemonade",
+          "url": "/lemonade-pet-insurance"
+        },
+        {
+          "name": "Spot",
+          "url": "/spot-pet-insurance"
+        },
+        {
+          "name": "Fetch",
+          "url": "/fetch-pet-insurance"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Published starting price",
+          "cells": [
+            "Starts at $10/month for dogs and cats for basic accident and illness coverage; cost varies by coverage, breed, age and where you live",
+            "Dogs from $15/month; cats from $9/month",
+            "not published on the official site"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/",
+            ""
+          ]
+        },
+        {
+          "label": "Published average price",
+          "cells": [
+            "About $48/month for dogs and about $27/month for cats, across different ages, breeds and locations",
+            "Spot does not publish its own average; its cat page quotes an industry figure of $9 to $32 per month for cat parents (North American Pet Health Insurance Association)",
+            "$35/month for dogs and $22/month for cats, on U.S. annual premiums using a $10,000 annual limit, $300 deductible and 80% reimbursement, 07.01.2024-06.30.2025"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/cat-insurance",
+            "https://www.fetchpet.com/pet-insurance-cost"
+          ]
+        },
+        {
+          "label": "Example quote published on the official page",
+          "cells": [
+            "4-year-old Goldendoodle in Chicago, 80% co-insurance, maximum annual limit, $250 annual deductible: $61/month",
+            "2-year-old small mixed dog (11-25 lbs) in ZIP 32009 at 80% reimbursement, $500 deductible, $2,500 annual limit: from $15/month; 2-year-old mixed cat in ZIP 33801 at 80% reimbursement, $750 deductible, $2,500 limit: from $9/month",
+            "not published on the official site - Fetch publishes averages with their configuration instead of a single example quote"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/",
+            ""
+          ]
+        },
+        {
+          "label": "Deductible choices published",
+          "cells": [
+            "$100, $250, $500, $750 or $1,000 annual deductible; a higher deductible lowers the monthly premium",
+            "Advertised quotes are built on a $500 annual deductible for dogs and $750 for cats; the deductible that applies to your policy is set on its declarations page",
+            "$300 annual deductible in the published average configuration; choosing a higher deductible makes your price lower"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/sample-policy",
+            "https://www.fetchpet.com/pet-insurance-cost"
+          ]
+        },
+        {
+          "label": "Reimbursement percentage published",
+          "cells": [
+            "The worked examples use 80% co-insurance, and the cost guide also describes a 90% co-insurance policy; changing these levels moves the premium by a stated 10% or 15%",
+            "Up to 90% of covered vet bills; advertised quotes use an 80% reimbursement rate",
+            "Up to 90% of the vet bill; the published average uses 80% reimbursement"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/",
+            "https://www.fetchpet.com/pet-insurance-cost"
+          ]
+        },
+        {
+          "label": "Annual limit published",
+          "cells": [
+            "Choose an annual limit anywhere between $5,000 and $100,000",
+            "Both advertised quotes use a $2,500 annual limit; actual plan limits vary by plan and options",
+            "The published average uses a $10,000 annual limit; a higher maximum annual payout raises the price"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/",
+            "https://www.fetchpet.com/pet-insurance-cost"
+          ]
+        },
+        {
+          "label": "How location changes the price",
+          "cells": [
+            "Published state averages: $45 to $49/month in California and Connecticut, $40 to $44 in Illinois and New York, $35 to $39 in Florida and Arizona, $30 to $34 in Texas, Ohio, Pennsylvania, Georgia and Michigan (Lemonade internal data as of October 2024)",
+            "not published on the official site",
+            "not published on the official site"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "",
+            ""
+          ]
+        },
+        {
+          "label": "Discounts that lower the price",
+          "cells": [
+            "Multi-pet discount (eligibility depends on where you live), a bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly",
+            "10% off every pet enrolled after the first, plus an advertised 20% employee discount (up to a 10% group discount plus up to a 10% multi-pet discount on 2nd+ pets, varies by state)",
+            "Veterans and active military save 10% every month for life; the maximum available discount is 10%, subject to approval"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/",
+            "https://www.fetchpet.com/faqs/military-pet-insurance-discount"
+          ]
+        },
+        {
+          "label": "Optional wellness / preventative pricing",
+          "cells": [
+            "Preventative for Adult Pets from +$10/month, Preventative+ for Adult Pets from +$15/month, Preventative for Puppies/Kittens from +$31/month",
+            "Platinum Preventative Care add-on for cats: $24.95/month with a $450 total annual benefit, including up to $150 toward spaying or neutering",
+            "No wellness add-on price published on the official site; online vet visits up to $1,000 per year are included at no extra cost"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet-insurance",
+            "https://spotpet.com/cat-insurance",
+            "https://www.fetchpet.com/"
+          ]
+        },
+        {
+          "label": "Waiting period before you can claim",
+          "cells": [
+            "14 days for illnesses and 30 days for orthopedic conditions; preventative package benefits can be used the day after purchase",
+            "14-day waiting period for illness, including congenital, hereditary and orthopedic illness, in the sample Accident & Illness policy; a paid Waiting Period Health Assessment can modify it",
+            "Up to 15 days before illness coverage begins, with no waiting period for accident coverage"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet-insurance",
+            "https://spotpet.com/sample-policy",
+            "https://www.fetchpet.com/pet-insurance-cost"
+          ]
+        },
+        {
+          "label": "Trial / cancellation refund",
+          "cells": [
+            "Cancel at any time in the app and get a refund if it is within the first 30 days; waiting periods reset after cancellation",
+            "30-day money-back guarantee if no claims have been filed (15 days in ME, LA and WA; not available in NY)",
+            "not published on the official site"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet-insurance",
+            "https://spotpet.com/",
+            ""
+          ]
+        },
+        {
+          "label": "Sample claim published (what came back)",
+          "cells": [
+            "not published on the official site - the cost guide publishes quotes rather than paid claims",
+            "$12,345 vet bill reimbursed $11,110 (2023 policyholder claim on a plan at $75.01/month, $500 deductible, 90% reimbursement, unlimited annual benefit)",
+            "Patella surgery cost $28,776 and Fetch paid back $21,331"
+          ],
+          "sources": [
+            "",
+            "https://spotpet.com/",
+            "https://www.fetchpet.com/pet-insurance-cost"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "fact": "Lemonade policies for dogs and cats start at $10/month.",
+          "condition": "Basic accident and illness coverage; the cost guide states cost varies by coverage amount and type, breed, age and where you live.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade pet parents pay around $48/month for dogs and around $27/month for cats on average.",
+          "condition": "Stated as averages across different ages, breeds and locations on the cost guide page.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade's own six-insurer price check for a 4-year-old Goldendoodle in Chicago (80% co-insurance, maximum annual limit, $250 annual deductible) shows Trupanion $336, Healthy Paws $85, Fetch $99, Pets Best $77, ManyPets $73 and Lemonade $61 per month.",
+          "condition": "Lemonade's comparison table for that single pet profile; the table states the profile and coverage used.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "The matching cat check for a 1-year-old short-haired cat in Danbury, Connecticut ($250 deductible, 80% co-insurance, maximum annual limit, no add-ons or discounts) shows Trupanion $58, ManyPets $44, Fetch $36, Pets Best $35 and Lemonade $29 per month.",
+          "condition": "Same page, base policies adjusted to be as identical as possible; the page notes Trupanion only offered 90% co-insurance.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade publishes average monthly cost ranges by state, for example $45 to $49 in California and Connecticut, $40 to $44 in Illinois and New York, $35 to $39 in Florida and Arizona, and $30 to $34 in Texas, Ohio, Pennsylvania, Georgia and Michigan.",
+          "condition": "Lemonade Insurance analyzed its own policy rates as of October 2024; the page calls the analysis illustrative and says quotes may vary.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade deductible options are $100, $250, $500, $750 or $1,000, and a higher deductible lowers the monthly premium.",
+          "condition": "Listed among the ways to lower the premium on the cost guide.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade annual limits can be set anywhere between $5,000 and $100,000.",
+          "condition": "Stated on the cost guide as the payout limit the customer chooses.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Adjusting co-insurance, deductible and annual limit might lower the premium by 10% or 15%.",
+          "condition": "Stated on the cost guide, with the warning that it also means being covered for less on an expensive bill.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "The price factors Lemonade lists are breed, age, location and state, coverage options (deductible, co-insurance, annual limits), add-ons, and available discounts.",
+          "condition": "Listed in the cost guide FAQ under what affects the premium.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot advertises dog insurance from $15/month and cat insurance from $9/month.",
+          "condition": "Dog figure: accident and illness plan, 80% reimbursement, $500 annual deductible, $2,500 annual limit, 2-year-old small mixed dog (11-25 lbs) in ZIP 32009. Cat figure: 80% reimbursement, $750 annual deductible, $2,500 annual limit, 2-year-old mixed cat in ZIP 33801. Plan costs vary.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot reimburses up to 90% of covered vet bills, and its advertised quotes use an 80% reimbursement rate.",
+          "condition": "Reimbursement is a plan choice; actual reimbursement depends on plan type, annual limit, co-insurance and deductible.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot's published discounts are 10% off every pet enrolled after the first and an advertised 20% employee discount made up of up to a 10% group discount plus up to a 10% multi-pet discount on 2nd+ pets.",
+          "condition": "Discounts vary by state, are subject to change and are not available in all states; more information is shown at checkout.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot Perks gives access to $2,500+ in discounts on pet brands.",
+          "condition": "Based on total combined Spot Perks discounts applied to an average vendor cart value; no purchase necessary.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot's Platinum Preventative Care add-on for cats costs $24.95/month and has a $450 total annual benefit, reimbursing up to $150 on spaying or neutering.",
+          "condition": "Optional add-on added to the base plan at enrollment, as published on the cat insurance page.",
+          "source_url": "https://spotpet.com/cat-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot's preventative care coverage has no deductible and no waiting period, so those benefits can be used the next day.",
+          "condition": "Stated on the dog insurance page; the add-on costs extra and covers eligible routine services.",
+          "source_url": "https://spotpet.com/dog-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch's average monthly price is $35/month for dogs and $22/month for cats.",
+          "condition": "U.S. annual premiums using the most common configuration of a $10,000 annual limit, $300 deductible and 80% reimbursement rate, 07.01.2024 through 06.30.2025.",
+          "source_url": "https://www.fetchpet.com/pet-insurance-cost",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch publishes breed averages: French Bulldog $71/month, German Shepherd $53/month, Golden Doodle $50/month, Golden Retriever $50/month, Maltipoo $35/month and Shih-Tzu $30/month for dogs; Maine Coon $35/month, Siamese $29/month, mixed breed $27/month and Domestic Shorthair $24/month for cats.",
+          "condition": "Shown as 'on avg.' figures under the same average-premium footnote as the $35/$22 averages.",
+          "source_url": "https://www.fetchpet.com/pet-insurance-cost",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch states that choosing a higher deductible makes the price lower and choosing a lower reimbursement rate makes the price lower.",
+          "condition": "Explained on the price page under how to customize deductible and reimbursement.",
+          "source_url": "https://www.fetchpet.com/pet-insurance-cost",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch's sample claim shows patella surgery costing $28,776 with $21,331 paid back.",
+          "condition": "Claim example displayed on the price page; individual results vary by plan and claim.",
+          "source_url": "https://www.fetchpet.com/pet-insurance-cost",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Veterans and active military save 10% on a Fetch policy every month for life.",
+          "condition": "Maximum available discount is 10%, subject to approval, may not be available in all states and is not valid with any other offer.",
+          "source_url": "https://www.fetchpet.com/faqs/military-pet-insurance-discount",
+          "checked": "2026-09-25"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much does pet insurance cost per month?",
+          "a": "The entry points the brands publish are $10/month for dogs and cats at Lemonade, $15/month for dogs and $9/month for cats at Spot, and averages of $35/month for dogs and $22/month for cats at Fetch. Lemonade's own averages across its policyholders are about $48/month for dogs and about $27/month for cats. Every one of those figures is tied to a stated deductible, annual limit and reimbursement rate, so the only number that describes your pet is the quote the brand's own site produces.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "What makes one pet insurance quote more expensive than another?",
+          "a": "Lemonade lists breed and age, location and state, the coverage options chosen (deductible amount, co-insurance percentage and annual limits), any add-ons, and available discounts. Spot adds that premiums are based on the current age of your pet and may increase at renewal, and that species or breed and home address can change the initial premium.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "How can I lower my monthly premium?",
+          "a": "Lemonade's cost guide suggests choosing a higher deductible ($100, $250, $500, $750 or $1,000), selecting a lower annual coverage limit, or skipping optional add-ons, and notes that adjusting these levels might lower the premium by 10% or 15% - at the price of being covered for less. Fetch publishes the same mechanic: a higher deductible makes the price lower, and a lower reimbursement rate makes the price lower.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Does location change what pet insurance costs?",
+          "a": "On Lemonade's published state table, average monthly cost ranges from $30 to $34 in Texas, Ohio, Pennsylvania, Georgia and Michigan up to $45 to $49 in California and Connecticut. Those averages come from Lemonade's own policy rates as of October 2024 and the page calls them illustrative; Spot and Fetch do not publish a state table.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Which is cheaper, Lemonade or Spot?",
+          "a": "On published entry prices Lemonade is lower for dogs ($10/month against Spot's $15/month) and Spot is lower for cats ($9/month against Lemonade's $10/month starting price). The comparison stops there, because Spot's figures assume an 80% reimbursement rate, a $500 or $750 deductible and a $2,500 annual limit for specific pets in specific ZIP codes, while Lemonade's figures assume basic accident and illness coverage. Both brands publish averages only in part: Lemonade publishes about $48/month for dogs and about $27/month for cats, and Spot publishes no average of its own.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "What discounts can lower the price?",
+          "a": "Lemonade publishes a multi-pet discount (eligibility depends on where you live), a bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly. Spot publishes 10% off every pet enrolled after the first and an advertised 20% employee discount. Fetch publishes 10% off every month for life for veterans and active military. None of the three brands publishes a promo code page in its official sitemap.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Does pet insurance cost more as my pet gets older?",
+          "a": "Spot states on its homepage that premiums are based on the current age of your pet and may increase due to the age of your pet at renewal, and that initial premiums can be affected by species or breed and by home address. Lemonade lists age among the factors that change the cost. The published starting prices on this page therefore describe young pets on the stated configurations, not every age.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        }
+      ],
+      "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It repeats only what each brand publishes on its own official pages, with the conditions attached to each figure; your own quote will be based on your pet and your state. Facts last checked 2026-09-25.",
+      "blocks": [
+        {
+          "type": "section",
+          "h2": "How this cost page is built",
+          "html": "<p>Pet insurance prices are quoted, not published as a single number, so this page does two honest things: it repeats the figures each insurer puts on its own website, and it repeats the conditions those figures were calculated under - deductible, annual limit and reimbursement rate - right next to them. Nothing here is estimated, averaged across third-party comparison sites or taken from a broker ranking.</p><p>All figures were read from the brands' own pages on <strong>2026-09-25</strong>. Where an official page does not publish a figure, the cell says <em>not published on the official site</em> instead of a guess.</p><p>The reason the same pet can cost $29 or $336 a month is not only the brand: it is the deductible, limit and reimbursement set chosen, the pet's breed and age, and the state. That is why every row below carries its condition.</p>"
+        },
+        {
+          "type": "compare",
+          "h2": "Published prices side by side - with the conditions attached"
+        },
+        {
+          "type": "section",
+          "h2": "The same-pet price check Lemonade publishes",
+          "html": "<p>Lemonade's cost guide does something unusual: it prices one identical pet at six companies. For a <strong>4-year-old Goldendoodle in Chicago</strong> on 80% co-insurance, the maximum annual limit and a $250 annual deductible it lists Trupanion $336, Healthy Paws $85, Fetch $99, Pets Best $77, ManyPets $73 and Lemonade $61 per month. For a <strong>1-year-old short-haired cat in Danbury, Connecticut</strong> on a $250 deductible, 80% co-insurance, the maximum annual limit and no add-ons or discounts it lists Trupanion $58, ManyPets $44, Fetch $36, Pets Best $35 and Lemonade $29. Source: <a href=\"https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/\" rel=\"nofollow noopener\" target=\"_blank\">lemonade.com cost guide</a>, checked 2026-09-25.</p><p>Treat that spread as a reminder, not a ranking: Lemonade ran the test and published it on its own page, the profiles suit its own pricing, and the page notes the companies could not be made perfectly identical (Trupanion only offered a 90% co-insurance option). The same page also publishes state averages, from $30 to $34 a month in Texas, Ohio, Pennsylvania, Georgia and Michigan up to $45 to $49 in California and Connecticut, using Lemonade's own policy rates as of October 2024.</p>"
+        },
+        {
+          "type": "section",
+          "h2": "What actually moves the number",
+          "html": "<p><strong>Deductible.</strong> Lemonade offers $100, $250, $500, $750 or $1,000 and states plainly that a higher deductible lowers your monthly premium. Fetch says the same, and its published average assumes $300. Spot's advertised quotes assume $500 for dogs and $750 for cats. Source: <a href=\"https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/\" rel=\"nofollow noopener\" target=\"_blank\">lemonade.com cost guide</a> and <a href=\"https://www.fetchpet.com/pet-insurance-cost\" rel=\"nofollow noopener\" target=\"_blank\">fetchpet.com price page</a>, checked 2026-09-25.</p><p><strong>Annual limit.</strong> Lemonade lets you choose anywhere from $5,000 to $100,000; Spot's advertised quotes use $2,500; Fetch's average uses $10,000. A lower limit buys a lower premium and a smaller maximum payout.</p><p><strong>Reimbursement rate.</strong> The examples above use 80%; Spot advertises up to 90%; Fetch advertises up to 90%. Lemonade says adjusting these levels might lower your premium by 10% or 15%, and warns that it also means being covered for less when a large bill arrives.</p><p><strong>Age, breed and state.</strong> Both Lemonade and Spot list age, breed and location as price factors, and Spot states premiums are based on your pet's current age and may increase at renewal. Entry prices on this page are therefore not quotes for an older pet.</p>"
+        },
+        {
+          "type": "section",
+          "h2": "How to get a real number in three steps",
+          "html": "<p>1. Run the same configuration at each brand: pick one deductible (say $500), one annual limit and one reimbursement rate, then take a quote for your own pet at <a href=\"https://www.lemonade.com/pet-insurance\" rel=\"nofollow noopener\" target=\"_blank\">lemonade.com</a>, <a href=\"https://spotpet.com/\" rel=\"nofollow noopener\" target=\"_blank\">spotpet.com</a> and <a href=\"https://www.fetchpet.com/\" rel=\"nofollow noopener\" target=\"_blank\">fetchpet.com</a>. Lemonade advertises a quote in as little as 90 seconds; Spot's quote entry point is its 'Click For Price' button; Fetch states its quote includes all monthly taxes and fees.</p><p>2. Compare those three quotes with each other, not with the advertised figures on this page - advertised figures carry conditions that your pet will not match exactly.</p><p>3. Check what the money buys before you pay: waiting periods (14 days illness at Lemonade and in Spot's sample policy, up to 15 days at Fetch), the deductible you chose, and whether wellness care is something you want to add on - Lemonade prices preventative packages from +$10/month and Spot prices its Platinum cat preventative add-on at $24.95/month.</p>"
+        },
+        {
+          "type": "facts",
+          "h2": "Every price figure with its official source"
+        },
+        {
+          "type": "faqs",
+          "h2": "Pet insurance cost FAQ"
+        },
+        {
+          "type": "cards",
+          "h2": "The three plans, page by page"
+        }
+      ]
+    },
+    {
+      "slug": "lemonade-vs-spot",
+      "nav_label": "Lemonade vs Spot",
+      "type": "vs",
+      "keyword": "lemonade vs spot pet insurance",
+      "title": "Lemonade vs Spot Pet Insurance: Which One Should You Pick?",
+      "description": "Lemonade vs Spot compared only on figures the two companies publish themselves - starting prices, waiting periods, claim payment speed, discounts, add-on pricing and refunds, each with its official source and check date 2026-09-25.",
+      "h1": "Lemonade vs Spot pet insurance: the published facts, side by side",
+      "lede": "Quick answer: on the numbers the two brands put on their own sites, Lemonade publishes the lower dog entry price ($10/month against Spot's $15/month) and says it pays 50% of eligible claims instantly through AI; Spot publishes the lower cat entry price ($9/month), a published full-claim turnaround of 48 hours or less, no upper age limit and a 30-day money-back guarantee. Neither publishes the same set of figures, so this page does not crown a winner - it shows what each one actually publishes, with the condition attached to every number.",
+      "stats": [
+        {
+          "value": "$10/mo",
+          "label": "Lemonade published starting price"
+        },
+        {
+          "value": "48 hrs",
+          "label": "Spot published claim payment (admin data 2019-2024)"
+        },
+        {
+          "value": "2026-09-25",
+          "label": "every figure rechecked"
+        }
+      ],
+      "columns": [
+        {
+          "name": "Lemonade",
+          "url": "/lemonade-pet-insurance"
+        },
+        {
+          "name": "Spot",
+          "url": "/spot-pet-insurance"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Published starting price",
+          "cells": [
+            "Starts at $10/month for dogs and cats, for basic accident and illness coverage",
+            "Dogs from $15/month; cats from $9/month"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Published average price",
+          "cells": [
+            "About $48/month for dogs and about $27/month for cats across ages, breeds and locations",
+            "not published on the official site - Spot's cat page instead quotes an industry range of $9 to $32 per month for cat parents"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            ""
+          ]
+        },
+        {
+          "label": "Conditions behind the advertised price",
+          "cells": [
+            "Example quote: 4-year-old Goldendoodle in Chicago, 80% co-insurance, maximum annual limit, $250 annual deductible: $61/month",
+            "Dog quote assumes 80% reimbursement, $500 annual deductible, $2,500 annual limit for a 2-year-old small mixed dog (11-25 lbs) in ZIP 32009; cat quote assumes 80% reimbursement, $750 deductible, $2,500 limit for a 2-year-old mixed cat in ZIP 33801"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Waiting period before illness cover",
+          "cells": [
+            "14 days for illnesses and 30 days for orthopedic conditions; preventative package benefits can be used the day after purchase",
+            "14 days for illness, including congenital, hereditary and orthopedic illness, in the sample Accident & Illness policy, beginning on the first effective date of coverage; a paid Waiting Period Health Assessment can modify it"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet-insurance",
+            "https://spotpet.com/sample-policy"
+          ]
+        },
+        {
+          "label": "Pre-existing conditions",
+          "cells": [
+            "Not covered; anything your pet showed signs of before the waiting periods are up counts as pre-existing, while accidents and new illnesses are covered as base coverage",
+            "Not covered; a curable condition that has been symptom-free and treatment-free for 180 days stops counting as pre-existing and can become eligible (knee and ligament injuries excluded)"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet-insurance",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Claim payment speed published",
+          "cells": [
+            "50% of eligible claims paid instantly through AI; payment is issued to the bank details you enter in the app once a claim is approved",
+            "Claims reimbursed in 48 hours or less, with most claims processed in under 2 business days (Spot admin data 2019-2024)"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Sample claim published",
+          "cells": [
+            "not published on the official site - Lemonade's guide publishes quotes rather than paid claims",
+            "$12,345 vet bill reimbursed $11,110 (2023 policyholder claim on a plan at $75.01/month, $500 deductible, 90% reimbursement, unlimited annual benefit)"
+          ],
+          "sources": [
+            "",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Reimbursement percentage",
+          "cells": [
+            "Worked examples use 80% co-insurance and the guide also describes a 90% co-insurance policy",
+            "Up to 90% of covered vet bills; advertised quotes use 80%"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Deductible choices published",
+          "cells": [
+            "$100, $250, $500, $750 or $1,000; a higher deductible lowers the monthly premium",
+            "Advertised quotes use a $500 annual deductible for dogs and $750 for cats; the deductible that applies to a policy is set on its declarations page"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/sample-policy"
+          ]
+        },
+        {
+          "label": "Annual limit published",
+          "cells": [
+            "Choose an annual limit anywhere between $5,000 and $100,000",
+            "Both advertised quotes use a $2,500 annual limit; plan limits vary by plan and options"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Where you can take your pet",
+          "cells": [
+            "Any vet in the United States, as long as they are licensed to provide vet care in their state",
+            "Any licensed vet in the United States or Canada"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet-insurance",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Age and enrolment",
+          "cells": [
+            "not published on the official site",
+            "Puppies and kittens 8 weeks and older can be covered; no upper age limit and no vet exam needed to enrol"
+          ],
+          "sources": [
+            "",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Premium behaviour over time",
+          "cells": [
+            "not published on the official site",
+            "Premiums are based on the current age of your pet and may increase due to the age of your pet at renewal; species or breed and home address can change the initial premium"
+          ],
+          "sources": [
+            "",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Discounts published",
+          "cells": [
+            "Multi-pet discount (eligibility depends on where you live), bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly",
+            "10% off every pet enrolled after the first; advertised 20% employee discount (up to a 10% group discount plus up to a 10% multi-pet discount on 2nd+ pets, varies by state); Spot Perks with $2,500+ in brand discounts"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Wellness / preventative add-on price",
+          "cells": [
+            "Preventative for Adult Pets from +$10/month, Preventative+ for Adult Pets from +$15/month, Preventative for Puppies/Kittens from +$31/month",
+            "Platinum Preventative Care add-on for cats: $24.95/month with a $450 total annual benefit, including up to $150 toward spaying or neutering"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet-insurance",
+            "https://spotpet.com/cat-insurance"
+          ]
+        },
+        {
+          "label": "Refund window",
+          "cells": [
+            "Cancel at any time in the app and get a refund if it is within the first 30 days; waiting periods reset after cancellation",
+            "30-day money-back guarantee if no claims have been filed (15 days in ME, LA and WA; not available in NY)"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet-insurance",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Rating shown on its own site",
+          "cells": [
+            "4.9 stars in the App Store and on Google Play (the brand's own displayed figure)",
+            "4.7 / 5 based on 8,300+ reviews (the brand's own displayed figure)"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet-insurance",
+            "https://spotpet.com/"
+          ]
+        },
+        {
+          "label": "Quote flow",
+          "cells": [
+            "Advertised as completable in as little as 90 seconds on the cost guide",
+            "'Click For Price' button opens the quote flow at spotpet.com/quote"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+            "https://spotpet.com/"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "fact": "Lemonade policies for dogs and cats start at $10/month for basic accident and illness coverage.",
+          "condition": "Cost varies by coverage amount and type, breed, age and where you live.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot advertises dog insurance from $15/month and cat insurance from $9/month.",
+          "condition": "Dog figure assumes 80% reimbursement, $500 annual deductible and $2,500 annual limit for a 2-year-old small mixed dog (11-25 lbs) in ZIP 32009; cat figure assumes 80% reimbursement, $750 deductible and $2,500 limit for a 2-year-old mixed cat in ZIP 33801. Plan costs vary.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade publishes averages of about $48/month for dogs and about $27/month for cats across different ages, breeds and locations.",
+          "condition": "Stated on the cost guide; Spot publishes no average of its own.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade waiting periods are 14 days for illnesses and 30 days for orthopedic conditions, and preventative package benefits can be used the day after purchase.",
+          "condition": "As described in the FAQ on Lemonade's pet insurance page.",
+          "source_url": "https://www.lemonade.com/pet-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot's sample Accident & Illness policy states a 14-day waiting period for illness, including congenital anomaly or disorder, hereditary disorder and orthopedic illness, beginning on the first effective date of coverage.",
+          "condition": "Read from the sample policy PDF linked on spotpet.com/sample-policy (California form PET-P-20000-CA-IAIC-1024); a paid Waiting Period Health Assessment can modify the waiting period and state forms differ.",
+          "source_url": "https://spotpet.com/sample-policy",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade states it pays 50% of eligible claims instantly through AI.",
+          "condition": "Stated on the cost guide; the remainder follows review, and payment goes to the bank details entered in the app.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot states claims are reimbursed in 48 hours or less, with most claims processed in under 2 business days.",
+          "condition": "'48 hrs or less' is based on Spot admin data from 2019 to 2024; actual reimbursement depends on plan type, annual limit, co-insurance, deductible and policy terms.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot's published sample claim reimbursed $11,110 of a $12,345 vet bill.",
+          "condition": "2023 policyholder claim on an accident and illness policy at $75.01/month with a $500 deductible, 90% reimbursement and unlimited annual benefit.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade does not cover pre-existing conditions; anything the pet showed signs of before the waiting periods are up counts as pre-existing.",
+          "condition": "Accidents and new illnesses are covered as base coverage once waiting periods are up.",
+          "source_url": "https://www.lemonade.com/pet-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot does not cover pre-existing conditions, but a cured and curable condition symptom-free and treatment-free for 180 days stops being classed as pre-existing.",
+          "condition": "The 180-day rule excludes knee and ligament injuries; stated in the site FAQ.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade deductible options are $100, $250, $500, $750 or $1,000, and annual limits can be set between $5,000 and $100,000.",
+          "condition": "Both listed on the cost guide as choices that change the premium.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot reimburses up to 90% of covered vet bills, and both advertised quotes use an 80% reimbursement rate with a $2,500 annual limit.",
+          "condition": "Reimbursement and limits are plan choices; actual reimbursement depends on plan options and policy terms.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade allows any vet in the United States licensed to provide vet care in their state; Spot allows any licensed vet in the United States or Canada.",
+          "condition": "No network restriction is described on either brand's own page.",
+          "source_url": "https://www.lemonade.com/pet-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot covers puppies and kittens 8 weeks and older, has no upper age limit and needs no vet exam to enrol.",
+          "condition": "Stated in the official page comparison section and FAQ.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot states that premiums are based on the current age of your pet and may increase due to the age of your pet at renewal.",
+          "condition": "Footnote on Spot's plan pages; initial premiums may also be affected by species or breed and by home address.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade publishes three discounts: a multi-pet discount whose eligibility depends on where you live, a bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly.",
+          "condition": "Listed among premium-lowering options on the cost guide; eligibility and availability vary.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot publishes a 10% discount for every pet enrolled after the first, an advertised 20% employee discount, and Spot Perks with $2,500+ in discounts on pet brands.",
+          "condition": "The employee discount is made up of up to a 10% group discount plus up to a 10% multi-pet discount on 2nd+ pets; discounts vary by state, are subject to change and are not available in all states.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot's preventative care coverage has no deductible and no waiting period, so those benefits can be used the next day.",
+          "condition": "Stated on the dog insurance page; the add-on costs extra and reimburses eligible routine services.",
+          "source_url": "https://spotpet.com/dog-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade prices preventative packages from +$10/month (Preventative for Adult Pets), +$15/month (Preventative+ for Adult Pets) and +$31/month (Preventative for Puppies/Kittens), while Spot prices its Platinum Preventative Care cat add-on at $24.95/month with a $450 total annual benefit.",
+          "condition": "Lemonade 'from' prices as published, availability depends on location; Spot add-on is optional at enrollment and reimburses up to $150 on spaying or neutering.",
+          "source_url": "https://www.lemonade.com/pet-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade refunds a cancellation within the first 30 days (waiting periods reset); Spot offers a 30-day money-back guarantee if no claims have been filed.",
+          "condition": "Spot's window is 15 days in ME, LA and WA and not available in NY; Lemonade's refund applies to cancellations in the app within the first 30 days.",
+          "source_url": "https://www.lemonade.com/pet-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade displays 4.9 stars in the App Store and on Google Play; Spot displays 4.7 / 5 based on 8,300+ reviews.",
+          "condition": "Both are the brands' own displayed figures on their own sites, not independent audits.",
+          "source_url": "https://www.lemonade.com/pet-insurance",
+          "checked": "2026-09-25"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is Lemonade or Spot cheaper?",
+          "a": "On published entry prices, Lemonade is lower for dogs ($10/month against Spot's $15/month) and Spot is lower for cats ($9/month against Lemonade's $10/month). The published averages tell a different story for dogs only: Lemonade says its policyholders pay about $48/month for dogs and about $27/month for cats, while Spot publishes no average of its own. Because Spot's advertised prices carry a $500 or $750 deductible and a $2,500 annual limit for specific pets in specific ZIP codes, the only fair comparison is two quotes for your own pet on the two official sites.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Which one pays claims faster?",
+          "a": "Both publish a speed figure, measured differently. Lemonade says it pays 50% of eligible claims instantly through AI and pays approved claims into the bank details you enter in the app. Spot says claims are reimbursed in 48 hours or less, with most processed in under 2 business days, based on its own admin data from 2019 to 2024. Neither figure is an independent measurement, and payment still depends on the claim being covered by the policy.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "What are the waiting periods?",
+          "a": "Lemonade states 14 days for illnesses and 30 days for orthopedic conditions, with preventative package benefits usable the day after purchase. Spot's sample Accident & Illness policy states a 14-day waiting period for illness including congenital, hereditary and orthopedic illness, starting on the first effective date of coverage, and says a paid Waiting Period Health Assessment can modify it; Spot's preventative care coverage has no waiting period, so those benefits start the next day.",
+          "source_url": "https://www.lemonade.com/pet-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Do they cover pre-existing conditions?",
+          "a": "Neither does. Lemonade treats anything your pet showed signs of before the waiting periods are up as pre-existing, while covering accidents and new illnesses as base coverage. Spot excludes pre-existing conditions but reclassifies a cured and curable condition that has been symptom-free and treatment-free for 180 days, except knee and ligament injuries.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Which one has better discounts?",
+          "a": "Lemonade publishes a multi-pet discount whose eligibility depends on where you live, a bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly. Spot publishes 10% off every pet enrolled after the first, an advertised 20% employee discount through employer benefits (up to a 10% group discount plus up to a 10% multi-pet discount on 2nd+ pets, varies by state) and Spot Perks with $2,500+ in brand discounts. Neither brand publishes a promo code page in its official sitemap, so a code you find on a third-party site is not something either brand publishes.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Can I use my own vet with either brand?",
+          "a": "Yes in both cases. Lemonade says you can go to any vet in the United States as long as they are licensed to provide vet care in their state, and Spot says you can visit any licensed vet in the United States or Canada. Both reimburse you rather than paying the vet directly, so you settle the bill and submit the claim.",
+          "source_url": "https://www.lemonade.com/pet-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Which is better for an older pet?",
+          "a": "Spot is the one that publishes an age policy: it covers puppies and kittens from 8 weeks old, states there is no upper age limit and no vet exam to enrol, and also states that premiums are based on your pet's current age and may increase at renewal. Lemonade does not publish a minimum or maximum enrolment age on the pages read here, so its age terms are not published on the official site.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        }
+      ],
+      "disclaimer": "This page is not affiliated with Lemonade or Spot. It repeats only what each brand publishes on its own official pages, with the condition attached to each figure; policy terms always govern and your quote will differ. Facts last checked 2026-09-25.",
+      "blocks": [
+        {
+          "type": "section",
+          "h2": "How this comparison is built",
+          "html": "<p>There is no neutral score for Lemonade vs Spot. What this page does instead is put the figures each company publishes on its own website side by side, keep the conditions attached to every figure, and link to the page it came from. No figure here is estimated, scored or taken from a third-party comparison site, and where an official page does not publish something, the cell says <em>not published on the official site</em>.</p><p>All figures were read from lemonade.com and spotpet.com on <strong>2026-09-25</strong>. Spot's waiting-period wording comes from the sample Accident &amp; Illness policy PDF that spotpet.com/sample-policy links to (California form PET-P-20000-CA-IAIC-1024); state forms differ.</p><p>The two brands also publish different kinds of numbers: Lemonade publishes averages and state tables, Spot publishes claim turnaround and guarantee windows. A blank cell in the table below usually means the other brand simply publishes that category of figure and this one does not.</p>"
+        },
+        {
+          "type": "compare",
+          "h2": "Lemonade vs Spot - official published figures only"
+        },
+        {
+          "type": "section",
+          "h2": "Where each one wins on the published facts",
+          "html": "<p><strong>Lemonade, if you want the lower published dog price and instant partial payment.</strong> Its cost guide lists policies starting at $10/month, averages of about $48/month for dogs and about $27/month for cats, five deductible options ($100 to $1,000), annual limits from $5,000 to $100,000, the statement that adjusting coverage levels might lower the premium by 10% or 15%, and the claim that 50% of eligible claims are paid instantly through AI. Source: <a href=\"https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/\" rel=\"nofollow noopener\" target=\"_blank\">lemonade.com cost guide</a> and <a href=\"https://www.lemonade.com/pet-insurance\" rel=\"nofollow noopener\" target=\"_blank\">lemonade.com/pet-insurance</a>, checked 2026-09-25.</p><p><strong>Spot, if published claim speed, age terms and a refund window matter most.</strong> It publishes claims reimbursed in 48 hours or less with most processed in under 2 business days (its own admin data 2019-2024), a sample claim of $11,110 back on a $12,345 bill, no upper age limit and no vet exam to enrol, a 30-day money-back guarantee (15 days in ME, LA and WA; not available in NY), a 10% multi-pet discount on every pet after the first, and a preventative add-on whose benefits start the next day. Source: <a href=\"https://spotpet.com/\" rel=\"nofollow noopener\" target=\"_blank\">spotpet.com</a>, <a href=\"https://spotpet.com/sample-policy\" rel=\"nofollow noopener\" target=\"_blank\">spotpet.com/sample-policy</a> and <a href=\"https://spotpet.com/dog-insurance\" rel=\"nofollow noopener\" target=\"_blank\">spotpet.com/dog-insurance</a>, checked 2026-09-25.</p>"
+        },
+        {
+          "type": "section",
+          "h2": "How to choose without a fake ranking",
+          "html": "<p>Run the brands' own test against each other: take one configuration - a $500 deductible, an 80% reimbursement rate and a $2,500 annual limit - and request the same quote for the same pet at <a href=\"https://www.lemonade.com/pet-insurance\" rel=\"nofollow noopener\" target=\"_blank\">lemonade.com</a> and <a href=\"https://spotpet.com/\" rel=\"nofollow noopener\" target=\"_blank\">spotpet.com</a>. Then compare those two quotes with each other, not with the advertised figures above, because advertised figures carry conditions (Spot's dog price assumes a specific 2-year-old dog in ZIP 32009).</p><p>Three checks that change the outcome more than the brand name: (1) the waiting period before coverage starts - 14 days for illnesses at Lemonade and 14 days for illness in Spot's sample policy, with different orthopedic wording; (2) whether a condition your pet already has counts as pre-existing - neither brand covers them, but Spot publishes a 180-day symptom- and treatment-free rule for curable conditions that Lemonade does not; (3) whether you want wellness care bundled in - Lemonade prices preventative packages from +$10/month and Spot prices its Platinum cat add-on at $24.95/month with a $450 annual benefit.</p>"
+        },
+        {
+          "type": "facts",
+          "h2": "Every figure with its official source"
+        },
+        {
+          "type": "faqs",
+          "h2": "Lemonade vs Spot FAQ"
+        },
+        {
+          "type": "cards",
+          "h2": "The two plans, page by page"
         }
       ]
     }

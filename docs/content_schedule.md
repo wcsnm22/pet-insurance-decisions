@@ -23,8 +23,8 @@
 | 1 | 1 | S1 | best | Best Pet Insurance in 2026: Plans Compared Side by Side | best pet insurance | published → https://pet-insurance-decisions.pages.dev/best-pet-insurance (2026-09-24) |
 | 2 | 1 | S1 | review | Lemonade Pet Insurance Review: Coverage, Quotes & Claim Speed | lemonade pet insurance review | merged → /lemonade-pet-insurance（品牌页已吃整族 review/cost/quote/promo 意图，按不拆页规则并入，2026-09-24） |
 | 3 | 1 | S1 | review | Spot Pet Insurance Review: Is It Worth It for Dogs and Cats? | spot pet insurance review | merged → /spot-pet-insurance（同上，2026-09-24） |
-| 4 | 1 | S1 | pricing | How Much Does Pet Insurance Cost? Real Quote Breakdown | pet insurance cost per month | todo |
-| 5 | 1 | S1 | vs | Lemonade vs Spot Pet Insurance: Which One Should You Pick? | lemonade vs spot pet insurance | todo |
+| 4 | 1 | S1 | pricing | How Much Does Pet Insurance Cost? Published Prices and Real Quote Breakdowns | pet insurance cost per month | published → https://pet-insurance-decisions.pages.dev/pet-insurance-cost (2026-09-25) |
+| 5 | 1 | S1 | vs | Lemonade vs Spot Pet Insurance: Which One Should You Pick? | lemonade vs spot pet insurance | published → https://pet-insurance-decisions.pages.dev/lemonade-vs-spot (2026-09-25) |
 | 6 | 1 | S1 | tutorial | How to Submit a Pet Insurance Claim (Step by Step) | how to submit a pet insurance claim | todo |
 | 7 | 1 | S1 | coupon | Pet Insurance Promo Codes & Discount Guide (Official Offers Only) | pet insurance promo code | todo |
 | 8 | 1 | S1b | review | Vetster Review: Online Vet Appointments Tested | vetster review | todo |
@@ -53,7 +53,7 @@
 
 ## 起草顺序（每轮 1-2 篇）
 
-1. S1：#1 已发布；#2/#3 已并入品牌页（不拆同意图）；下一轮 #4 定价指南，再 #5 对比、#6 理赔教程、#7 折扣指南
+1. S1：#1 #4 #5 已发布；#2/#3 已并入品牌页（不拆同意图）；下一轮 #6 理赔教程、#7 折扣指南收尾 S1
 2. #8–#13（S1b，需新站骨架：复制 S1 架构，改品牌数据）
 3. #14–#18（S2）
 4. #19–#22（S3）
