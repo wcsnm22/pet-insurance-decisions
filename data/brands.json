@@ -2,7 +2,7 @@
   "site": {
     "name": "Pet Insurance Decisions",
     "tagline": "What pet insurance covers, what it costs, and what the fine print says - every fact read from the brand's own official page, with its source and check date.",
-    "base_url": "https://pet-insurance-decisions.pages.dev",
+    "base_url": "https://furadvisor.com",
     "locale": "en-US",
     "checked": "2026-09-25",
     "repo": "https://github.com/wcsnm22/pet-insurance-decisions"
