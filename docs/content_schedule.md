@@ -25,8 +25,8 @@
 | 3 | 1 | S1 | review | Spot Pet Insurance Review: Is It Worth It for Dogs and Cats? | spot pet insurance review | merged → /spot-pet-insurance（同上，2026-09-24） |
 | 4 | 1 | S1 | pricing | How Much Does Pet Insurance Cost? Published Prices and Real Quote Breakdowns | pet insurance cost per month | published → https://pet-insurance-decisions.pages.dev/pet-insurance-cost (2026-09-25) |
 | 5 | 1 | S1 | vs | Lemonade vs Spot Pet Insurance: Which One Should You Pick? | lemonade vs spot pet insurance | published → https://pet-insurance-decisions.pages.dev/lemonade-vs-spot (2026-09-25) |
-| 6 | 1 | S1 | tutorial | How to Submit a Pet Insurance Claim (Step by Step) | how to submit a pet insurance claim | todo |
-| 7 | 1 | S1 | coupon | Pet Insurance Promo Codes & Discount Guide (Official Offers Only) | pet insurance promo code | todo |
+| 6 | 1 | S1 | tutorial | How to Submit a Pet Insurance Claim (Step by Step) | how to submit a pet insurance claim | published → https://pet-insurance-decisions.pages.dev/how-to-submit-a-pet-insurance-claim (2026-09-25) |
+| 7 | 1 | S1 | coupon | Pet Insurance Promo Codes & Discount Guide (Official Offers Only) | pet insurance promo code | published → https://pet-insurance-decisions.pages.dev/pet-insurance-promo-code (2026-09-25) |
 | 8 | 1 | S1b | review | Vetster Review: Online Vet Appointments Tested | vetster review | todo |
 | 9 | 1 | S1b | vs | Online Vet vs In-Person Vet: When Each Makes Sense | online vet vs in person vet | todo |
 | 10 | 1 | S1b | tutorial | How to Buy Pet Prescription Meds Online Legally (Chewy, 1800PetMeds) | buy pet medication online | todo |
@@ -53,7 +53,7 @@
 
 ## 起草顺序（每轮 1-2 篇）
 
-1. S1：#1 #4 #5 已发布；#2/#3 已并入品牌页（不拆同意图）；下一轮 #6 理赔教程、#7 折扣指南收尾 S1
+1. S1：#1 #4 #5 #6 #7 已发布；#2/#3 已并入品牌页（不拆同意图）—— S1 七篇全部收尾
 2. #8–#13（S1b，需新站骨架：复制 S1 架构，改品牌数据）
 3. #14–#18（S2）
 4. #19–#22（S3）

@@ -1248,6 +1248,715 @@
           "h2": "The two plans, page by page"
         }
       ]
+    },
+    {
+      "slug": "how-to-submit-a-pet-insurance-claim",
+      "nav_label": "Submit a Claim",
+      "type": "tutorial",
+      "keyword": "how to submit a pet insurance claim",
+      "title": "How to Submit a Pet Insurance Claim (Step by Step): Lemonade, Spot and Fetch",
+      "description": "How to submit a pet insurance claim step by step with Lemonade, Spot and Fetch - filing deadlines of 180, 270 and 90 days, the documents each brand requires, published claim speeds and appeal routes, every figure from the brands' own official pages, checked 2026-09-25.",
+      "h1": "How to submit a pet insurance claim, step by step",
+      "lede": "Quick answer: all three brands run on a reimbursement model, so you pay the vet first and then file. What changes is the clock and the paperwork - Lemonade wants the claim in its app within 180 days of treatment (90 days for Texas policies), Spot allows 270 days from the date of treatment, and Fetch allows 90 days and insists the invoice shows a zero balance. The documents are nearly identical everywhere: an itemized paid invoice plus your pet's medical records. The published speeds are different too - Lemonade says 50% of eligible claims are processed instantly by its AI and most others within 5 business days, Spot says claims are reimbursed in 48 hours or less, and Fetch says claims are typically processed in less than 10 days.",
+      "stats": [
+        {
+          "value": "180 / 270 / 90",
+          "label": "days to file: Lemonade / Spot / Fetch"
+        },
+        {
+          "value": "50% / 48 hrs / 10 days",
+          "label": "published claim speeds (Lemonade instant / Spot payout / Fetch processing)"
+        },
+        {
+          "value": "2026-09-25",
+          "label": "every figure rechecked"
+        }
+      ],
+      "columns": [
+        {
+          "name": "Lemonade",
+          "url": "/lemonade-pet-insurance"
+        },
+        {
+          "name": "Spot",
+          "url": "/spot-pet-insurance"
+        },
+        {
+          "name": "Fetch",
+          "url": "/fetch-pet-insurance"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Where you file the claim",
+          "cells": [
+            "In the Lemonade app only - tap the pink 'File a Claim' button in the top right-hand corner; the whole process is app-based",
+            "Through your Member Center - Spot also publishes a downloadable claims form PDF on its site",
+            "In the Fetch app or your online account: go to Claims, then Submit a claim and follow the claim form"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+            "https://spotpet.com/claims-form",
+            "https://www.fetchpet.com/faqs/claim-submission"
+          ]
+        },
+        {
+          "label": "Deadline to file after treatment",
+          "cells": [
+            "Within 180 days of treatment - 90 days if your Lemonade Pet policy is in Texas",
+            "Within 270 days from the date of treatment",
+            "Within 90 days of your pet's treatment, with the paid invoice and medical record attached"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+            "https://spotpet.com/faqs",
+            "https://www.fetchpet.com/faqs/when-to-claim-pet-insurance"
+          ]
+        },
+        {
+          "label": "Documents required",
+          "cells": [
+            "Vet invoice and/or paid receipt plus medical records from that visit - Lemonade also requires a record from a visit within 12 months of your policy's start date",
+            "Your vet bill; medical records only if Spot asks - Spot contacts your vet directly, though sending records may speed up the process",
+            "A finalized invoice that shows a zero balance or 'paid in full', plus detailed records from your pet's most recent checkup (ask the vet for SOAP notes)"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+            "https://spotpet.com/faqs",
+            "https://www.fetchpet.com/faqs/claim-submission"
+          ]
+        },
+        {
+          "label": "Published claim speed",
+          "cells": [
+            "50% of eligible claims processed instantly via AI Jim; most others resolved within 5 business days",
+            "Claims reimbursed in 48 hrs or less",
+            "Typically processed in less than 10 days"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+            "https://spotpet.com/",
+            "https://www.fetchpet.com/claims"
+          ]
+        },
+        {
+          "label": "Waiting period before the first claim",
+          "cells": [
+            "14 days for illnesses and 30 days for orthopedic conditions",
+            "14 days for illness (including congenital, hereditary and orthopedic illness) from the first effective date of coverage, per the California sample policy form",
+            "Up to 15 days for accidents and illness; 6 months for knee, hip and ACL issues"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet-insurance",
+            "https://spotpet.com/sample-policy",
+            "https://www.fetchpet.com/faqs/when-to-claim-pet-insurance"
+          ]
+        },
+        {
+          "label": "How you get paid",
+          "cells": [
+            "Reimbursement model: you pay the vet first, then Lemonade subtracts your deductible, applies co-insurance and wires the approved amount to your bank account",
+            "Reimbursement of eligible expenses at the percentage you chose, once your annual deductible is met",
+            "Direct deposit to your bank account - 5 to 10 days faster than paper checks; up to 90% reimbursement"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+            "https://spotpet.com/faqs",
+            "https://www.fetchpet.com/claims"
+          ]
+        },
+        {
+          "label": "If a claim is denied",
+          "cells": [
+            "Review the explanation in the app, then appeal through the app with additional documentation from your vet",
+            "Written appeal by email to service@customer.spotpetins.com with your reasons and supporting documents; review takes around 30 days and the appeal window varies by state",
+            "not published on the official site"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+            "https://spotpet.com/faqs",
+            ""
+          ]
+        },
+        {
+          "label": "Tracking the status",
+          "cells": [
+            "Track claim status in real time through the Lemonade app",
+            "Emails when the claim is received, when more information is needed and when it is complete; check the claims icon anytime",
+            "Track anytime in the Fetch app or online account under Claims, plus email updates"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+            "https://spotpet.com/faqs",
+            "https://www.fetchpet.com/faqs/track-claim"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "fact": "Lemonade policyholders must file a claim through the app within 180 days of treatment; in Texas the window is 90 days.",
+          "condition": "Stated in the official step-by-step claim guide; the claim must include all information requested during the process.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "The Lemonade claims process is app-based - it cannot be filed without the Lemonade app.",
+          "condition": "Stated in the claim guide FAQ; you sign in with the email used for the policy.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade requires a medical record from a visit that took place within 12 months of the policy's start date before the first claim.",
+          "condition": "SOAP medical records; Lemonade requests them from the vet directly once provided.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "50% of eligible Lemonade claims are processed instantly via AI Jim; most others are resolved within 5 business days.",
+          "condition": "Complex claims may take longer depending on documentation requirements.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade's published example: a $2,400 vet bill with a $250 deductible and 80% co-insurance produced a $1,670 reimbursement, processed in 5 days.",
+          "condition": "Worked example on the official claim guide page for a 3-year-old Labrador with a broken leg; individual results vary.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "If Lemonade denies a claim, the official guidance is to review the explanation in the app and appeal through the app with additional documentation from your vet.",
+          "condition": "Common stated denial reasons: pre-existing conditions, waiting periods or excluded treatments.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot allows a claim to be submitted within 270 days from the date of treatment.",
+          "condition": "Stated in Spot's official FAQ.",
+          "source_url": "https://spotpet.com/faqs",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot states you pay your vet bill as you normally would and then submit a claim to get reimbursed for eligible expenses.",
+          "condition": "Reimbursement follows your annual deductible and the reimbursement percentage you selected at enrollment.",
+          "source_url": "https://spotpet.com/faqs",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot contacts your veterinarian directly for medical records when they are needed; sending them with the claim may speed up the process.",
+          "condition": "Stated in Spot's official FAQ on medical records and claims.",
+          "source_url": "https://spotpet.com/faqs",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot publishes that claims are reimbursed in 48 hrs or less.",
+          "condition": "'48 hrs or less' is based on Spot admin data from 2019 to 2024; actual reimbursement varies by plan and claim.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "A Spot claim appeal must be made in writing by emailing service@customer.spotpetins.com with your reasons and supporting documentation.",
+          "condition": "Appeals may take around 30 days to be reviewed; the number of days to appeal varies by the state your policy was issued in.",
+          "source_url": "https://spotpet.com/faqs",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot publishes a downloadable claims form PDF on its official site.",
+          "condition": "The page offers the latest claims form as a PDF download; phone support for claims is 1-800-905-1595, Mon-Fri 8am-8pm EST.",
+          "source_url": "https://spotpet.com/claims-form",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot emails you when it receives your claim, when it needs more information and when the claim is complete; status is also visible behind the claims icon.",
+          "condition": "Stated in Spot's official FAQ.",
+          "source_url": "https://spotpet.com/faqs",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch requires the claim to be submitted within 90 days of your pet's treatment, including the paid vet bill and the pet's medical record.",
+          "condition": "Stated in the official FAQ; claims can be submitted on the member portal or in the app.",
+          "source_url": "https://www.fetchpet.com/faqs/when-to-claim-pet-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch requires a finalized invoice showing a zero balance or paid in full, plus detailed medical records from the most recent checkup.",
+          "condition": "Ask the vet for 'SOAP notes' (exam notes and lab results); Fetch notes records let it see what it can cover.",
+          "source_url": "https://www.fetchpet.com/faqs/claim-submission",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch states its claims are typically processed in less than 10 days.",
+          "condition": "Published on the official claims page; the claims-submission FAQ separately states claims are typically processed within 15 days from when all documents are received.",
+          "source_url": "https://www.fetchpet.com/claims",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch says direct deposit pays claims 5 to 10 days faster than paper checks, and its plans reimburse up to 90% of covered vet bills.",
+          "condition": "Payment follows approval and the deductible being met; an explanation of benefits (EOB) is issued with each reimbursement.",
+          "source_url": "https://www.fetchpet.com/claims",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch's waiting period is up to 15 days for accidents and illness, and 6 months for knee, hip (CII) and ACL issues.",
+          "condition": "The 6-month knee wait can be bypassed if your vet examines the knees before the 6 months are over.",
+          "source_url": "https://www.fetchpet.com/faqs/when-to-claim-pet-insurance",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch claim status can be tracked anytime in the app or online account under Claims, with email updates along the way.",
+          "condition": "Click an individual claim to see its status, per the official tracking FAQ.",
+          "source_url": "https://www.fetchpet.com/faqs/track-claim",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot's sample claim shows a $12,345 total vet bill reimbursed at $11,110 by a Spot plan.",
+          "condition": "Based on an actual 2023 policyholder claim on an accident and illness policy at $75.01/month with a $500 deductible, 90% reimbursement and unlimited annual benefit; individual results vary.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How long do I have to file a pet insurance claim?",
+          "a": "The official windows are different for each brand: Lemonade says within 180 days of treatment (90 days if your policy is in Texas), Spot says within 270 days from the date of treatment, and Fetch says within 90 days of your pet's treatment. Each figure is linked in the table above, so check the one for your provider before you delay filing.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Do I have to pay the vet before filing a claim?",
+          "a": "Yes - all three brands use a reimbursement model. You pay the vet bill up front, then file; Lemonade subtracts your deductible and applies co-insurance before wiring the payout, Spot reimburses eligible expenses after your annual deductible is met, and Fetch pays you back after approval and your deductible, by direct deposit.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "What documents do I need to submit a pet insurance claim?",
+          "a": "An itemized paid invoice plus your pet's medical records. Fetch is the strictest on paper: the invoice must show a zero balance or paid in full, and it wants detailed records from the most recent checkup (SOAP notes). Spot asks for the bill and contacts your vet directly only if records are needed, though sending them may speed things up. Lemonade asks for the vet invoice or paid receipt and the records from that visit.",
+          "source_url": "https://www.fetchpet.com/faqs/claim-submission",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "How long does reimbursement take?",
+          "a": "Published speeds differ: Lemonade says 50% of eligible claims are processed instantly by AI Jim and most others within 5 business days; Spot says claims are reimbursed in 48 hrs or less; Fetch says claims are typically processed in less than 10 days, and its FAQ adds that processing typically takes within 15 days from when all documents are received. Direct deposit with Fetch is 5 to 10 days faster than paper checks.",
+          "source_url": "https://www.fetchpet.com/claims",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Can I file a claim without an app?",
+          "a": "With Lemonade, no - the official guide states the claims process is app-based. Fetch lets you file either in the app or on a computer through the member portal (Claims, then Submit a claim). Spot lets you submit the claim online through your Member Center and also publishes a claims form PDF for download.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "What if my claim is denied?",
+          "a": "Lemonade's official guidance is to review the denial explanation in the app and then appeal through the app with additional documentation from your vet. Spot requires the appeal in writing, emailed to service@customer.spotpetins.com with your reasons and supporting documents; reviews take around 30 days and the appeal window varies by state. Fetch does not publish an appeal process on its official site as of the check date.",
+          "source_url": "https://spotpet.com/faqs",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Will filing a claim raise my pet insurance rate?",
+          "a": "Lemonade publishes that filing claims will never result in a rate change to your Lemonade Pet policy. Neither Spot nor Fetch publishes a matching statement on its official pages as of 2026-09-25, so for those two the answer is not published on the official site - check your policy terms.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+          "checked": "2026-09-25"
+        }
+      ],
+      "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It repeats only what each brand publishes on its own official claim pages and FAQs, with the source and condition attached to every figure; policy terms always govern and your own claim timeline will differ. Facts last checked 2026-09-25.",
+      "blocks": [
+        {
+          "type": "section",
+          "h2": "How this guide is built",
+          "html": "<p>Every step, deadline and speed on this page was read from the brand's own claim guide, FAQ or help pages on <strong>2026-09-25</strong>, and each figure carries the link it came from. Nothing here is estimated, and where an official page does not publish something - for example Fetch's appeal process - the cell says <em>not published on the official site</em> instead of a guess.</p><p>The three brands agree on the fundamentals: you pay the vet first (reimbursement model), you attach an itemized paid invoice, and you file inside a fixed window after treatment. They differ on how long that window is, how strict the invoice wording must be, how fast the money moves, and whether an appeal route is published at all.</p>"
+        },
+        {
+          "type": "compare",
+          "h2": "The claim process side by side - official published figures only"
+        },
+        {
+          "type": "section",
+          "h2": "The three workflows, step by step",
+          "html": "<p><strong>Lemonade:</strong> open the app, tap the pink 'File a Claim' button, answer AI Jim's questions (starting with a truthfulness pledge), describe what happened, record a short video of the incident, upload the invoice and receipt plus records, and submit. Payment is wired to your bank account if the claim is approved.</p><p><strong>Spot:</strong> pay the vet, sign in to your Member Center and submit the claim online; you have 270 days from the date of treatment. Spot emails you at receipt, if it needs more information, and when the claim is complete.</p><p><strong>Fetch:</strong> pay the vet first, then upload a photo of the paid invoice in the app (or submit on the member portal) together with the medical records. The invoice must show a zero balance. Set up direct deposit early - Fetch says it pays 5 to 10 days faster than paper checks.</p>"
+        },
+        {
+          "type": "section",
+          "h2": "What usually slows a claim down",
+          "html": "<p>Three official sources point at the same bottlenecks. First, waiting periods: Lemonade publishes 14 days for illness and 30 days for orthopedic conditions, Spot's sample policy shows a 14-day illness waiting period, and Fetch publishes up to 15 days with a 6-month wait for knee and hip issues - a claim filed before those end is not eligible. Second, missing records: Fetch requires records from your pet's most recent checkup and Lemonade requires a record from within 12 months of the policy start, so a first claim often waits on the vet's paperwork. Third, invoice wording: Fetch will only accept an invoice showing a zero balance or paid in full.</p><p>On the appeal side, only Lemonade and Spot publish a route - Lemonade through the app with extra documentation from your vet, Spot by a written email that takes around 30 days to review. Fetch's official pages do not publish one.</p>"
+        },
+        {
+          "type": "facts",
+          "h2": "Every claim fact with its official source"
+        },
+        {
+          "type": "faqs",
+          "h2": "FAQ"
+        },
+        {
+          "type": "cards",
+          "h2": "The three brands compared, page by page"
+        }
+      ]
+    },
+    {
+      "slug": "pet-insurance-promo-code",
+      "nav_label": "Promo Codes",
+      "type": "coupon",
+      "keyword": "pet insurance promo code",
+      "title": "Pet Insurance Promo Codes & Discount Guide (Official Offers Only)",
+      "description": "Pet insurance promo code and discount guide using only the brands' own official pages - Lemonade multi-pet, annual and bundle discounts, Spot multi-pet and employer discounts, Fetch military, AARP and Walmart offers, plus what is not published at all, checked 2026-09-25.",
+      "h1": "Pet insurance promo codes and official discounts: what the brands actually publish",
+      "lede": "Quick answer: none of the three brands publishes a promo code you can type in at checkout - there is no promo-code or coupon page for the policy in Lemonade's, Spot's or Fetch's official sitemap as checked on 2026-09-25. The official ways to pay less are published discounts instead: Lemonade offers up to 10% multi-pet, up to 5% for paying annually and up to 10% for bundling other Lemonade policies; Spot offers 10% off every pet after the first and up to 20% through employers; Fetch offers 10% every month for life for veterans, active military and AARP members, 10% for a whole year for Walmart shoppers, and caps any discount at 10%.",
+      "stats": [
+        {
+          "value": "up to 20%",
+          "label": "largest published discount (Spot employer plans)"
+        },
+        {
+          "value": "0",
+          "label": "policy promo-code pages in the three official sitemaps"
+        },
+        {
+          "value": "2026-09-25",
+          "label": "every offer rechecked"
+        }
+      ],
+      "columns": [
+        {
+          "name": "Lemonade",
+          "url": "/lemonade-pet-insurance"
+        },
+        {
+          "name": "Spot",
+          "url": "/spot-pet-insurance"
+        },
+        {
+          "name": "Fetch",
+          "url": "/fetch-pet-insurance"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Promo code you can enter at checkout",
+          "cells": [
+            "not published on the official site",
+            "not published on the official site",
+            "not published on the official site"
+          ],
+          "sources": [
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "label": "Multi-pet discount",
+          "cells": [
+            "Up to 10% off, applied automatically when more than one canine or feline is signed up for Lemonade Pet",
+            "10% off each additional pet - 10% on the 2nd pet and every pet enrolled after that",
+            "not published on the official site"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+            "https://spotpet.com/insurance-for-multiple-pets",
+            ""
+          ]
+        },
+        {
+          "label": "Annual (pay-in-full) discount",
+          "cells": [
+            "Up to 5% off when you pay for a full year of Lemonade Pet at renewal, plus Lemonade waives the monthly $1 transaction fee",
+            "not published on the official site",
+            "not published on the official site"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+            "",
+            ""
+          ]
+        },
+        {
+          "label": "Bundle discount (other policies with the same brand)",
+          "cells": [
+            "Up to 10% off if you have Lemonade renters, homeowners, car or life insurance",
+            "not published on the official site",
+            "not published on the official site"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+            "",
+            ""
+          ]
+        },
+        {
+          "label": "Employer / group discount",
+          "cells": [
+            "not published on the official site",
+            "Up to 20% off: up to 10% group discount plus up to 10% multi-pet discount on 2nd+ pets - discounts vary by state, are subject to change and are not available in all states",
+            "not published on the official site"
+          ],
+          "sources": [
+            "",
+            "https://spotpet.com/employers",
+            ""
+          ]
+        },
+        {
+          "label": "Military discount",
+          "cells": [
+            "not published on the official site",
+            "not published on the official site",
+            "Veterans and active military save 10% on their Fetch policy every month for life"
+          ],
+          "sources": [
+            "",
+            "",
+            "https://www.fetchpet.com/faqs/military-pet-insurance-discount"
+          ]
+        },
+        {
+          "label": "Membership partner discount",
+          "cells": [
+            "not published on the official site",
+            "not published on the official site",
+            "AARP members get 10% off Fetch Pet Insurance every month for life"
+          ],
+          "sources": [
+            "",
+            "",
+            "https://www.fetchpet.com/partners/aarp"
+          ]
+        },
+        {
+          "label": "New-customer sign-up offer",
+          "cells": [
+            "not published on the official site",
+            "not published on the official site",
+            "The homepage shows a limited-time $25 gift card sign-up offer (plus a $25 shelter donation) while the same page's footnote states 'Gift Card offer expires 11:59PM ET on February 21, 2026' - a date already past at check time, so verify the current terms at checkout"
+          ],
+          "sources": [
+            "",
+            "",
+            "https://www.fetchpet.com/"
+          ]
+        },
+        {
+          "label": "Member perks outside the premium",
+          "cells": [
+            "Rover gift card for new Lemonade pet parents: it unlocks 2 months after your policy starts, the code appears in the app, expires one year from issue date, one code per account",
+            "Spot Perks: member promo codes from third-party brands - its terms state Spot Perks are not insurance and that a code may be unique to Spot even when the same promotion is available from the merchant",
+            "Fetch Deals: over $1,500 in savings with an average of $40+ per order, included in every policy at no extra cost and available on day one"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-insurance-faq/",
+            "https://spotpet.com/perks-terms",
+            "https://www.fetchpet.com/deals"
+          ]
+        },
+        {
+          "label": "Fine print on the discounts",
+          "cells": [
+            "All Lemonade Pet discounts apply only to the base accident and illness policy plus the vet visit fee and physical therapy add-ons - Preventative Care packages and other add-ons get no discount, and the discounts might not be available in every state",
+            "Discounts vary by state and are subject to change; not available in all states",
+            "Discounts and offers are subject to approval and may change at any time; maximum available discount is 10%, may not be available in all states and is not valid with any other offer"
+          ],
+          "sources": [
+            "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+            "https://spotpet.com/employers",
+            "https://www.fetchpet.com/faqs/monthly-payments"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "fact": "Lemonade offers an automatic discount of up to 10% when more than one canine or feline is signed up for Lemonade Pet.",
+          "condition": "Applied to your policies automatically; eligibility for Lemonade's multi-pet discount also depends on where you live.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade offers up to 5% off when you pay for a full year of Lemonade Pet at renewal, and waives the monthly $1 transaction fee.",
+          "condition": "Stated on the official renewals page; annual payment is chosen at renewal.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade offers up to 10% off if you hold Lemonade renters, homeowners, car or life insurance.",
+          "condition": "Bundle discount as published on the official renewals page.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "All Lemonade Pet discounts (multi-pet, bundle and annual payment) apply only to the base accident and illness policy plus the vet visit fee and physical therapy add-ons.",
+          "condition": "Preventative Care packages and other add-ons get no discount applied to their pricing.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade states its pet discounts might not be available in every state.",
+          "condition": "Stated on the official renewals page; availability varies by state.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Lemonade's referral program limits rewards to 10 qualified referrals over 12 months.",
+          "condition": "Available to individuals residing outside LA, MI, MS, WA and WV who are in good standing with a Lemonade policy; a purchase of insurance is not required for the referred person to qualify the referral.",
+          "source_url": "https://www.lemonade.com/terms-and-conditions-referral-program",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "New Lemonade pet parents get a Rover gift card that unlocks 2 months after the policy starts, with the code appearing in the Lemonade app.",
+          "condition": "Gift card codes expire one year from the issue date; only one code is provided per account, not per policy.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-insurance-faq/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot offers a 10% multi-pet discount on the 2nd pet and every pet enrolled after that.",
+          "condition": "Discounts vary by state and are subject to change; more information is shown at checkout.",
+          "source_url": "https://spotpet.com/insurance-for-multiple-pets",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot's FAQ states that Spot plans offer a multi-pet discount of 10% off each additional pet that is added.",
+          "condition": "Each pet gets its own independent policy, so coverage settings can differ per pet.",
+          "source_url": "https://spotpet.com/faqs",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot advertises up to 20% off for employees: up to a 10% group discount plus up to a 10% multi-pet discount on 2nd+ pets.",
+          "condition": "Footnote on the official employers page: discounts vary by state, are subject to change and are not available in all states; enrollment is through a cobranded link with direct billing.",
+          "source_url": "https://spotpet.com/employers",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot Perks gives members access to third-party promo codes; its terms state Spot Perks are not insurance.",
+          "condition": "Terms also state the discount code may be unique to Spot while the underlying promotion may also be available directly from the merchant.",
+          "source_url": "https://spotpet.com/perks-terms",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot Perks gives access to $2,500+ in discounts on pet brands.",
+          "condition": "Stated on spotpet.com: no purchase necessary, based on total combined Spot Perks discounts applied to average vendor cart value; terms at spotpet.com/perks-terms.",
+          "source_url": "https://spotpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Spot publishes a Pet Supermarket offer of 50% off a self-service dog wash for members.",
+          "condition": "Barcode presented in store; it is a perks offer, not a discount on the insurance premium.",
+          "source_url": "https://spotpet.com/pet-supermarket-offer",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch gives veterans and active military 10% off their Fetch Pet Insurance policy every month for life.",
+          "condition": "Stated in the official military discount FAQ.",
+          "source_url": "https://www.fetchpet.com/faqs/military-pet-insurance-discount",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch gives AARP members 10% off Fetch Pet Insurance every month for life.",
+          "condition": "Stated on the official AARP partner page; provider offers are subject to change and may have restrictions.",
+          "source_url": "https://www.fetchpet.com/partners/aarp",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch gives Walmart shoppers 10% off Fetch Pet Insurance every month for a whole year.",
+          "condition": "Stated on the official Walmart partner page.",
+          "source_url": "https://www.fetchpet.com/partners/walmart",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch states that discounts and offers are subject to approval and may change at any time, with a maximum available discount of 10%.",
+          "condition": "The maximum discount may not be available in all states and is not valid with any other offer (footnote on the official pricing FAQ).",
+          "source_url": "https://www.fetchpet.com/faqs/monthly-payments",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch Deals gives members over $1,500 in savings with an average of $40+ per order, included at no extra cost.",
+          "condition": "Available on day one of the policy; the average is derived from actual Fetch member purchase data and individual results vary.",
+          "source_url": "https://www.fetchpet.com/deals",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "Fetch's homepage shows a limited-time sign-up offer of a $25 gift card plus a $25 shelter donation.",
+          "condition": "The same page's footnote reads 'Gift Card offer expires 11:59PM ET on February 21, 2026', a date already past as of the 2026-09-25 check - confirm current terms at checkout.",
+          "source_url": "https://www.fetchpet.com/",
+          "checked": "2026-09-25"
+        },
+        {
+          "fact": "None of the three official sitemaps lists a promo-code or coupon page for the insurance policy.",
+          "condition": "Lemonade's sitemap.xml (29 URLs), Spot's sitemap index and Fetch's sitemap.xml were all checked on 2026-09-25; the offer pages that do exist are Spot Perks, Spot's multi-pet page and Fetch Deals, none of which is a policy promo code.",
+          "source_url": "https://www.lemonade.com/sitemap.xml",
+          "checked": "2026-09-25"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is there a valid pet insurance promo code for Lemonade, Spot or Fetch?",
+          "a": "Not on their own sites as of 2026-09-25: none of the three official sitemaps lists a promo-code or coupon page for the policy. The official discounts that do exist are tabled above - multi-pet, annual and bundle for Lemonade, multi-pet and employer for Spot, military, AARP, Walmart and Fetch Deals for Fetch. Any code sold on a third-party coupon site cannot be verified against these official pages, so this guide does not repeat them.",
+          "source_url": "https://www.lemonade.com/sitemap.xml",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "What is the biggest official pet insurance discount?",
+          "a": "Spot's employer program: up to 20% off, made of up to 10% group discount plus up to 10% multi-pet discount on the 2nd and later pets - with the footnote that it varies by state, is subject to change and is not available in all states. Fetch caps every discount at a maximum of 10% and states it is not valid with any other offer. Lemonade's stack tops out at up to 10% multi-pet, up to 10% bundle and up to 5% for annual payment.",
+          "source_url": "https://spotpet.com/employers",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Do insurance discounts apply to wellness plans and add-ons?",
+          "a": "For Lemonade, no: all available Lemonade Pet discounts (multi-pet, bundle, annual payment) apply to the price of the base accident and illness policy plus the vet visit fee and physical therapy add-ons, while Preventative Care packages and other add-ons get no discount. Spot and Fetch do not publish a matching statement about add-ons on their official pages, so for those two it is not published on the official site.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "How do I get the multi-pet discount?",
+          "a": "Lemonade applies up to 10% automatically when more than one canine or feline is signed up for Lemonade Pet. Spot applies 10% off each additional pet - the 2nd pet and every pet enrolled after that - and shows more information at checkout. Fetch does not publish a multi-pet discount on its official pages.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "Are these discounts available in every state?",
+          "a": "No, and all three say so: Lemonade states its pet discounts might not be available in every state, Spot's footnotes say discounts vary by state, are subject to change and are not available in all states, and Fetch states its maximum 10% discount may not be available in all states. Your final price is confirmed in each brand's own quote flow.",
+          "source_url": "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "What is Spot Perks - is it a discount on my premium?",
+          "a": "No. Spot Perks is member access to promo codes from third-party pet brands, and its terms state that Spot Perks are not insurance. The terms also note that the code may be unique to Spot even when the same promotion is available directly from the merchant, so it pays to compare before you buy.",
+          "source_url": "https://spotpet.com/perks-terms",
+          "checked": "2026-09-25"
+        },
+        {
+          "q": "What is Fetch Deals?",
+          "a": "Fetch Deals is included in every Fetch policy at no extra cost and is available on day one: the official page advertises over $1,500 in savings and an average of $40+ per order on pet food, grooming products, litter and more. Fetch's own terms note that Fetch Deals is not insurance and is not provided by AXIS Insurance Company.",
+          "source_url": "https://www.fetchpet.com/deals",
+          "checked": "2026-09-25"
+        }
+      ],
+      "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It repeats only what each brand publishes on its own official pages, with the source and condition attached to every figure; offers change and your state may be excluded, so always confirm the current price in the brand's own quote flow. Facts last checked 2026-09-25.",
+      "blocks": [
+        {
+          "type": "section",
+          "h2": "How this guide is built",
+          "html": "<p>Every discount on this page was read from the brand's own site - its renewals page, FAQ, employers page, partner pages or terms - on <strong>2026-09-25</strong>, and each row links to the page it came from. Where a brand does not publish a discount, the cell says <em>not published on the official site</em> rather than filling the gap with a number from a coupon aggregator. Third-party promo-code sites are not used as sources here, because a code that cannot be verified against the official pages cannot be trusted.</p><p>The honest headline for the search term <em>pet insurance promo code</em>: there is no code to enter. All three official sitemaps were checked for a promo-code or coupon page and none exists - what exists is a set of standing discounts, each with its own eligibility rules and state limits.</p>"
+        },
+        {
+          "type": "compare",
+          "h2": "Every official discount, side by side"
+        },
+        {
+          "type": "section",
+          "h2": "What each brand actually offers",
+          "html": "<p><strong>Lemonade</strong> runs the broadest menu: up to 10% multi-pet applied automatically, up to 5% for paying annually at renewal (plus the monthly $1 transaction fee waived) and up to 10% for bundling other Lemonade policies - but all three apply only to the base accident and illness policy plus the vet visit fee and physical therapy add-ons, never to Preventative Care packages or other add-ons. New customers also get a Rover gift card that unlocks 2 months after the policy starts, one per account.</p><p><strong>Spot</strong> keeps it simpler: 10% off every pet after the first, up to 20% for employees of participating employers (10% group + 10% multi-pet, state-limited), and Spot Perks - third-party member promo codes that its own terms say are not insurance. Spot also publishes a Pet Supermarket dog-wash offer, again a perk rather than a premium discount.</p><p><strong>Fetch</strong> focuses on membership offers: 10% every month for life for veterans, active military and AARP members, 10% every month for a whole year for Walmart shoppers, plus Fetch Deals (over $1,500 in savings, $40+ average per order) inside every policy. Fetch caps everything at a maximum of 10% that is not valid with any other offer.</p>"
+        },
+        {
+          "type": "facts",
+          "h2": "Every discount with its official source"
+        },
+        {
+          "type": "faqs",
+          "h2": "FAQ"
+        },
+        {
+          "type": "cards",
+          "h2": "The three brands compared, page by page"
+        }
+      ]
     }
   ]
 }
