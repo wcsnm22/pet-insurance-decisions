@@ -214,6 +214,15 @@ def article_body(article: dict, brands: list[dict], brand_cards: str) -> str:
     return "".join(parts)
 
 
+def _css_v() -> str:
+    """Cache-bust the stylesheet: version = short hash of the real CSS file,
+    so a style change always ships a new ?v= and browsers never keep stale CSS."""
+    import hashlib
+    import pathlib
+    p = pathlib.Path(__file__).parent / "templates" / "assets" / "style.css"
+    return hashlib.sha1(p.read_bytes()).hexdigest()[:8]
+
+
 def head_block(title: str, description: str, canonical: str, jsonld_blocks: list[str]) -> str:
     parts = [
         f'<meta name="description" content="{escape(description, quote=True)}">',
@@ -225,7 +234,7 @@ def head_block(title: str, description: str, canonical: str, jsonld_blocks: list
         '<meta property="og:site_name" content="Pet Insurance Decisions">',
         '<meta name="twitter:card" content="summary">',
         '<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">',
-        '<link rel="stylesheet" href="/assets/style.css?v=1">',
+        f'<link rel="stylesheet" href="/assets/style.css?v={_css_v()}">',
     ]
     for block in jsonld_blocks:
         parts.append(f'<script type="application/ld+json">{block}</script>')

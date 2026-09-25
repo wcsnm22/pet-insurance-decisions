@@ -14,7 +14,7 @@
   --line-2: #2e3b50;
   --text: #e9eff8;
   --muted: #93a3b8;
-  --dim: #64748b;
+  --dim: #7d8ea6;
   --accent: #f6821f;
   --accent-2: #ffb46b;
   --accent-ink: #1a1206;
@@ -199,9 +199,10 @@ tbody tr { transition: background .14s ease; }
 tbody tr:hover { background: var(--panel-2); }
 tr:last-child td { border-bottom: none; }
 
-.price { font: 600 15.5px/1.2 var(--mono); color: var(--text); white-space: nowrap; }
+.price { font: 600 15.5px/1.2 var(--mono); color: var(--text); }
+td .price, table .price { white-space: nowrap; }
 td.price { color: var(--accent-2); }
-.price.big { font-size: 26px; color: var(--accent); margin: 8px 0 2px; }
+.price.big { font-size: 24px; color: var(--accent); margin: 8px 0 2px; white-space: normal; }
 
 /* ----------------------------------------------------------------- button */
 
@@ -369,4 +370,18 @@ footer.site { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 
   tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
   td { border: none; padding: 3px 0; }
   td::before { content: attr(data-th); display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--dim); margin-bottom: 2px; }
+}
+
+/* mobile density pass (line-1 redesign, 2026-09-25) */
+@media (max-width: 680px) {
+  body { font-size: 16px; }
+  .wrap { padding: 0 16px 56px; }
+  header.site .wrap { padding: 10px 16px 8px; }
+  nav.crumbs { font-size: 13px; gap: 4px 3px; margin-top: 4px; }
+  h1 { font-size: clamp(24px, 6.5vw, 30px); margin-top: 26px; }
+  p.lede { font-size: 16px; }
+  .hero { margin-top: 20px; padding: 18px 16px; }
+  .answer { padding: 14px; }
+  .stats b { font-size: 21px; }
+  .facts b { font-size: 18px; }
 }
