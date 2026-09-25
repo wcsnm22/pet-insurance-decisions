@@ -27,8 +27,8 @@
 | 5 | 1 | S1 | vs | Lemonade vs Spot Pet Insurance: Which One Should You Pick? | lemonade vs spot pet insurance | published → https://pet-insurance-decisions.pages.dev/lemonade-vs-spot (2026-09-25) |
 | 6 | 1 | S1 | tutorial | How to Submit a Pet Insurance Claim (Step by Step) | how to submit a pet insurance claim | published → https://pet-insurance-decisions.pages.dev/how-to-submit-a-pet-insurance-claim (2026-09-25) |
 | 7 | 1 | S1 | coupon | Pet Insurance Promo Codes & Discount Guide (Official Offers Only) | pet insurance promo code | published → https://pet-insurance-decisions.pages.dev/pet-insurance-promo-code (2026-09-25) |
-| 8 | 1 | S1b | review | Vetster Review: Online Vet Appointments Tested | vetster review | todo |
-| 9 | 1 | S1b | vs | Online Vet vs In-Person Vet: When Each Makes Sense | online vet vs in person vet | todo |
+| 8 | 1 | S1b | review | Vetster Review 2026: Vetster Plus vs a Single Appointment, Prices and Prescriptions | vetster review | published → https://pet-health-decisions.pages.dev/vetster-review (2026-09-26) |
+| 9 | 1 | S1b | vs | Online Vet vs In-Person Vet: When Each One Makes Sense (Vetster's Own Guidance) | online vet vs in person vet | published → https://pet-health-decisions.pages.dev/online-vet-vs-in-person (2026-09-26) |
 | 10 | 1 | S1b | tutorial | How to Buy Pet Prescription Meds Online Legally (Chewy, 1800PetMeds) | buy pet medication online | todo |
 | 11 | 1 | S1b | best | Best Joint Supplements for Dogs: Vet-Backed Picks | best joint supplement for dogs | todo |
 | 12 | 1 | S1b | review | Embark Dog DNA Test Review: Breed + Health Results Explained | embark dna test review | todo |
@@ -54,7 +54,7 @@
 ## 起草顺序（每轮 1-2 篇）
 
 1. S1：#1 #4 #5 #6 #7 已发布；#2/#3 已并入品牌页（不拆同意图）—— S1 七篇全部收尾
-2. #8–#13（S1b，站已上线 2026-09-25：写进 pet-health-decisions 仓库的 data/articles.json → python build.py → python selfcheck.py → commit/push → wrangler pages deploy site --project-name=pet-health-decisions --branch=main --commit-dirty=true → 校验线上 200 → 本表改 published）
+2. #8 #9 已发布（2026-09-26：/vetster-review、/online-vet-vs-in-person，各配一张自绘 SVG 信息图）；剩 **#10–#13（S1b，站已上线 2026-09-25：写进 pet-health-decisions 仓库的 data/articles.json → python build.py → python selfcheck.py → commit/push → wrangler pages deploy site --project-name=pet-health-decisions --branch=main --commit-dirty=true → 校验线上 200 → 本表改 published）**
 3. #14–#18（S2）
 4. #19–#22（S3）
 5. #23–#25（S4）

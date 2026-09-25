@@ -75,3 +75,19 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - ~~New long-tail~~ — filled 2026-09-25 via Google autocomplete (above). Re-run daily for movement.
 - Original-material leads (口令 原创内容邪修) — still open; user-side tool, paste results here.
 - PAA re-pull for 2-3 new seeds (how much does pet insurance cost / does pet insurance cover X).
+
+## 2026-09-26 (fill #3 — 来自当日官方页现抓 + 一次 SERP 检索)
+
+### Questions (line 4 GEO seeds, 2026-09-26)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Does pet insurance cover prescription medication? | vetster.com/en-us/vetster-rx-online-pharmacy（药费表：pharmacy fee $7/$14 per order、compounding $10/$20） | 2026-09-26 | 药费是分开收的 → 保险侧要回 Lemonade/Spot/Fetch 官方条款核「Rx 是否在承保内」才能写 |
+| Is pet insurance worth it compared with a vet telehealth subscription? | vetster.com/en-us/plus（Vetster Plus $12/mo billed annually，含 4 次同日视频问诊/年） | 2026-09-26 | 原创角度：订阅 vs 保单，两边都用各自官网数字，可做 one-screen 答案页 |
+| Does pet insurance cover the vet exam fee? | forbes.com/advisor/pet-insurance/best-pet-insurance/（exam fee 通常 $100+，并非所有保单含） | 2026-09-26 | 只是线索；S1 品牌页已有官方口径（Lemonade Visit Fee Add-on、Fetch sick-visit exam up to $250），写页以官网为准 |
+| Does pet insurance cover vaccines, spay/neuter and routine wellness? | nerdwallet.com/insurance/pet/learn/is-pet-insurance-worth-it（多数计划不含，除非买 preventive add-on） | 2026-09-26 | 同上，线索；落地前必须回三家官方页核 preventive/wellness 加购口径 |
+
+### Selection / angle (2026-09-26)
+- 选题：《Pet insurance vs a monthly vet subscription: which one actually pays》— 用本清单前两条官方数字（Vetster Plus $12/mo 与三家 published premium）并排，第一屏给答案；S1 已有 /pet-insurance-cost 可互链。
+- 选题：《What pet insurance does NOT pay for: medication, exam fees, wellness》— 汇总三类「通常不保」，全部回官方条款页取句，缺的格子写 not published on the official site。
+
+⚠️ Forbes / NerdWallet / ASPCA 的说法都是 LEADS（第三方，非冻结三对手，也不进正文），落页前一律回 Lemonade/Spot/Fetch 官方页核（NOFAKE）。
