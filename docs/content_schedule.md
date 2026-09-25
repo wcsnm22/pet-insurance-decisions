@@ -8,7 +8,7 @@
 | 站 | 域名（Cloudflare Pages） | 覆盖 | 状态 |
 |---|---|---|---|
 | S1 保险 | pet-insurance-decisions.pages.dev | 支柱1·保险 | ✅ 已上线 |
-| S1b 健康 | pet-health-decisions（待建） | 支柱1·远程兽医/在线药房/保健品/DNA | 待建 |
+| S1b 健康 | https://pet-health-decisions.pages.dev | 支柱1·远程兽医/在线药房/保健品/DNA | ✅ 已上线（2026-09-25，4 品牌页：Vetster / 1-800-PetMeds / Cosequin / Embark，仓库 github.com/wcsnm22/pet-health-decisions） |
 | S2 鲜粮 | pet-fresh-food-decisions（待建） | 支柱2 | 待建 |
 | S3 智能设备 | smart-pet-device-decisions（待建） | 支柱3 | 待建 |
 | S4 美容 | pet-grooming-decisions（待建） | 支柱4 | 待建 |
@@ -54,7 +54,7 @@
 ## 起草顺序（每轮 1-2 篇）
 
 1. S1：#1 #4 #5 #6 #7 已发布；#2/#3 已并入品牌页（不拆同意图）—— S1 七篇全部收尾
-2. #8–#13（S1b，需新站骨架：复制 S1 架构，改品牌数据）
+2. #8–#13（S1b，站已上线 2026-09-25：写进 pet-health-decisions 仓库的 data/articles.json → python build.py → python selfcheck.py → commit/push → wrangler pages deploy site --project-name=pet-health-decisions --branch=main --commit-dirty=true → 校验线上 200 → 本表改 published）
 3. #14–#18（S2）
 4. #19–#22（S3）
 5. #23–#25（S4）
