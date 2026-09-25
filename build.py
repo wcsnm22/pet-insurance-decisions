@@ -241,6 +241,18 @@ def head_block(title: str, description: str, canonical: str, jsonld_blocks: list
     return "\n  ".join(parts)
 
 
+def breadcrumb_jsonld(name: str, url: str, site: dict) -> str:
+    """BreadcrumbList for content pages (Google breadcrumb rich-result shape)."""
+    return jsonld({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": page_url(site, "/")},
+            {"@type": "ListItem", "position": 2, "name": name, "item": url},
+        ],
+    })
+
+
 FOOTER_LINKS = (
     '<a href="/">Home</a> · <a href="/about">About</a> · <a href="/privacy">Privacy</a> · '
     '<a href="/contact">Contact</a> · <a href="/sitemap.xml">Sitemap</a>'
@@ -420,6 +432,7 @@ def build() -> None:
                 "author": {"@type": "Organization", "name": site["name"]},
             }),
         ]
+        jsonld_blocks.append(breadcrumb_jsonld(b["name"], canonical, site))
         head = head_block(title, description, canonical, jsonld_blocks)
         faq_html = "".join(
             f'<details open><summary>{escape(f["q"])}</summary><p>{escape(f["a"])}</p>'
@@ -505,6 +518,7 @@ def build() -> None:
                     for i, c in enumerate(a["columns"])
                 ],
             }))
+        jsonld_blocks.append(breadcrumb_jsonld(a["title"], canonical, site))
         head = head_block(a["title"], a["description"], canonical, jsonld_blocks)
         html = render(article_tpl, {
             "lang": "en",

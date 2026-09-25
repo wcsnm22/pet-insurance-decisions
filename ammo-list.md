@@ -2,7 +2,10 @@
 
 Daily fills. Every row carries its source and date. Pick tomorrow's article from here.
 
-## 2026-09-25
+## 2026-09-25 (later)
+
+### Taken (main-line articles published)
+- `pet-insurance-claim-denied` — published 2026-09-25, live at https://furadvisor.com/pet-insurance-claim-denied (GSC sitemap resubmitted, discovered=13). Sources: Lemonade how-to-file + denials guide, Spot submitting-a-claim, Fetch claims page + policy APPEALS section.
 
 ### Questions (line 4 GEO seeds)
 | Question | Source | Date |

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 236" width="960" height="236" role="img" aria-label="Appeal flow in four steps: read the denial reason, collect vet records, write the disagreement with documents, send it through the brand's official route">
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <!-- step 1 -->
+    <rect x="8" y="46" width="212" height="144" rx="14" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+    <circle cx="36" cy="74" r="14" fill="#64748b"/>
+    <text x="36" y="79" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">1</text>
+    <text x="58" y="80" font-size="17" font-weight="700" fill="#0f172a">Read the reason</text>
+    <text x="24" y="112" font-size="13.5" fill="#334155">Open the denial explanation:</text>
+    <text x="24" y="132" font-size="13.5" fill="#334155">in-app for Lemonade, the notice</text>
+    <text x="24" y="152" font-size="13.5" fill="#334155">email for Spot and Fetch.</text>
+    <text x="24" y="176" font-size="12.5" fill="#64748b">Category: pre-existing, waiting</text>
+    <text x="24" y="192" font-size="12.5" fill="#64748b">period, exclusion or paperwork.</text>
+
+    <line x1="224" y1="118" x2="252" y2="118" stroke="#64748b" stroke-width="2.5" marker-end="url(#arw)"/>
+
+    <!-- step 2 -->
+    <rect x="256" y="46" width="212" height="144" rx="14" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+    <circle cx="284" cy="74" r="14" fill="#64748b"/>
+    <text x="284" y="79" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">2</text>
+    <text x="306" y="80" font-size="17" font-weight="700" fill="#0f172a">Collect the records</text>
+    <text x="272" y="112" font-size="13.5" fill="#334155">Ask your vet for the complete</text>
+    <text x="272" y="132" font-size="13.5" fill="#334155">file: first-symptom dates and</text>
+    <text x="272" y="152" font-size="13.5" fill="#334155">the itemized paid invoice.</text>
+    <text x="272" y="176" font-size="12.5" fill="#64748b">Dates decide pre-existing</text>
+    <text x="272" y="192" font-size="12.5" fill="#64748b">disputes.</text>
+
+    <line x1="472" y1="118" x2="500" y2="118" stroke="#64748b" stroke-width="2.5" marker-end="url(#arw)"/>
+
+    <!-- step 3 -->
+    <rect x="504" y="46" width="212" height="144" rx="14" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+    <circle cx="532" cy="74" r="14" fill="#64748b"/>
+    <text x="532" y="79" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">3</text>
+    <text x="554" y="80" font-size="17" font-weight="700" fill="#0f172a">Write the appeal</text>
+    <text x="520" y="112" font-size="13.5" fill="#334155">State clearly why you or your</text>
+    <text x="520" y="132" font-size="13.5" fill="#334155">vet disagree with the initial</text>
+    <text x="520" y="152" font-size="13.5" fill="#334155">determination.</text>
+    <text x="520" y="176" font-size="12.5" fill="#64748b">Attach the supporting</text>
+    <text x="520" y="192" font-size="12.5" fill="#64748b">documentation.</text>
+
+    <line x1="720" y1="118" x2="748" y2="118" stroke="#64748b" stroke-width="2.5" marker-end="url(#arw)"/>
+
+    <!-- step 4 -->
+    <rect x="752" y="46" width="200" height="144" rx="14" fill="#e8eef7" stroke="#334155" stroke-width="2.5"/>
+    <circle cx="780" cy="74" r="14" fill="#334155"/>
+    <text x="780" y="79" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">4</text>
+    <text x="802" y="80" font-size="17" font-weight="700" fill="#0f172a">Send it right</text>
+    <text x="768" y="112" font-size="13.5" fill="#334155">Lemonade: in the app</text>
+    <text x="768" y="134" font-size="13.5" fill="#334155">Spot: email service@</text>
+    <text x="768" y="152" font-size="13.5" fill="#334155">customer.spotpetins.com</text>
+    <text x="768" y="176" font-size="13.5" fill="#334155">Fetch: written, 90 days</text>
+  </g>
+  <text x="8" y="24" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f172a">Appeal flow - the official route each brand publishes</text>
+  <text x="8" y="224" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#64748b">Sources: lemonade.com/pet/explained/how-to-file-a-pet-insurance-claim · spotpet.com/submitting-a-claim · fetchpet.com policy terms (APPEALS) · checked 2026-09-25</text>
+</svg>
