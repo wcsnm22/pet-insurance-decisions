@@ -124,3 +124,21 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 选题：《Does pet insurance cover hereditary conditions? (Lemonade, Spot, Fetch wording compared)》— 三家官方 hereditary/congenital 条款原文逐条比，缺口写 not published on the official site，第一屏直接给「谁保谁不保」表。
 
 ⚠️ Embark 的 $139/$109、270+ 条件、94% 找到亲属等全是**品牌官方页当日现抓**（2026-09-26），可直接用；保险承保口径仍是三家官方条款页的专利，不许用第三方比价站顶替（NOFAKE）。
+
+## 2026-09-26 (fill #6 — 当日 S2 鲜粮三家官网现抓，为 #14–#18 备料)
+
+### Questions (line 4 GEO seeds, 2026-09-26)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| How much does Ollie cost per day? | ollie.com/meal-plans（当日现抓：Full Fresh 起价 $1.57/餐、Half Fresh 起价 $1.00/餐、五个配方） | 2026-09-26 | 排期 #15 直接用；Ollie 只公布起价，per-day 换算必须写清是「起价×每天餐数」的推算还是官网原话，禁止编最终账单 |
+| How much does The Farmer's Dog cost per day? | thefarmersdog.com/faq（当日现抓：官方原话 plans start at about $2/day，1 周–2 个月送货、含免邮、48 州） | 2026-09-26 | 官方 $2/day 是原话可直接引；#14 对比表两家口径不同（每餐 vs 每天）要并排标注 |
+| Is JustFoodForDogs cheaper than a fresh food subscription? | justfoodfordogs.com 三个产品页 + /pages/faq（当日现抓：14 装 $153.99/$167.99/$181.99，满 $49 免邮、否则 $19.99，4 种箱规） | 2026-09-26 | JFFD 是货架价不是报价，#16/#17 的对比要按「谁公布价格」分两栏 |
+| Do fresh dog food subscriptions actually cancel anytime? | thefarmersdog.com/faq（pause/cancel/reactivate anytime）+ justfoodfordogs.com/pages/faq（首单订阅 5 折条款） | 2026-09-26 | Ollie 侧取消条款当日只拿到 FAQ 问题、答案在 JS 里没抓到 → 落页前必须补抓 ollie.com/faqs 的原文，抓不到就写 not published on the official site |
+| Does fresh dog food need to be frozen, and how long does it keep? | justfoodfordogs.com/pages/faq（冷冻 18 个月/547 天、解冻后冷藏 7 天）+ thefarmersdog.com/faq（到货须低于 40°F、Instant Fresh 常温） | 2026-09-26 | 两家官方口径都能直接用；适合做 #16 的第一屏「储存」小表 |
+
+### Selection / angle (2026-09-26)
+- 选题：《Ollie vs The Farmer's Dog: what each one publishes about price》（排期 #14）— 第一屏直接并排给两家**官方原话**：Ollie $1.57/餐起 vs TFD 约 $2/天起，标注口径不同不可直接相减；独家角度=「只有 TFD 公布 per-day、只有 Ollie 公布 per-meal」。
+- 选题：《Fresh dog food vs kibble cost: what the brands actually publish》（#16 备选）— 只用三家官网数字，缺的格子写 not published on the official site；可与 S1b 的处方粮/保健品页互链。
+- 跨支柱：《Does pet insurance cover a fresh diet prescribed for a condition?》— 线索，落页前回 Lemonade/Spot/Fetch 官方 exclusions 页核，不许用第三方顶替。
+
+⚠️ 上表里的价格/促销全部是 2026-09-26 当日三家官网现抓（Ollie 50% off first box、TFD 50% off first purchase、JFFD 50% off first subscription order + free shipping），促销随时会变，成稿当天要重抓复核（NOFAKE）。
