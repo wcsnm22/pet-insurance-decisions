@@ -163,7 +163,7 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 
 ⚠️ Ollie/TFD 的价格与促销全部是 2026-09-26 官网现抓；促销随时变，成稿当天要重抓复核。JFFD 与 raw 相关数字落页前一律回 justfoodfordogs.com/品牌官网取（NOFAKE）。
 
-## 2026-09-27 (fill #8 — 当日 S2 三家官网现抓，为 #17–#18 备料；#16 已发布)
+## 2026-09-27 (fill #8 — 当日 S2 三家官网现抓，为 #18 备料；#16 #17 已于 2026-09-27 发布)
 
 ### Questions (line 4 GEO seeds, 2026-09-27)
 | 疑问句 | 来源 | 日期 | 备注 |
