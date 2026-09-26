@@ -31,8 +31,8 @@
 | 9 | 1 | S1b | vs | Online Vet vs In-Person Vet: When Each One Makes Sense (Vetster's Own Guidance) | online vet vs in person vet | published → https://pet-health-decisions.pages.dev/online-vet-vs-in-person (2026-09-26) |
 | 10 | 1 | S1b | tutorial | How to Buy Pet Prescription Meds Online Legally (Chewy, 1800PetMeds) | buy pet medication online | published → https://pet-health-decisions.pages.dev/buy-pet-prescription-meds-online (2026-09-26) |
 | 11 | 1 | S1b | best | Best Joint Supplements for Dogs: Vet-Backed Picks | best joint supplement for dogs | published → https://pet-health-decisions.pages.dev/best-joint-supplement-for-dogs (2026-09-26) |
-| 12 | 1 | S1b | review | Embark Dog DNA Test Review: Breed + Health Results Explained | embark dna test review | todo |
-| 13 | 1 | S1b | coupon | Embark Dog DNA Test Discount Code (Verified Offers) | embark discount code | todo |
+| 12 | 1 | S1b | review | Embark Dog DNA Test Review: Breed + Health Results Explained | embark dna test review | published → https://pet-health-decisions.pages.dev/embark-dna-test-review (2026-09-26) |
+| 13 | 1 | S1b | coupon | Embark Dog DNA Test Discount Code (Verified Offers) | embark discount code | published → https://pet-health-decisions.pages.dev/embark-discount-code (2026-09-26) |
 | 14 | 2 | S2 | vs | Ollie vs The Farmer's Dog: Fresh Dog Food Compared | ollie vs the farmer's dog | todo |
 | 15 | 2 | S2 | pricing | How Much Does Ollie Cost Per Day? Plan Pricing Explained | ollie cost per day | todo |
 | 16 | 2 | S2 | best | Best Fresh Dog Food Subscriptions in 2026 | best fresh dog food subscription | todo |
@@ -54,8 +54,8 @@
 ## 起草顺序（每轮 1-2 篇）
 
 1. S1：#1 #4 #5 #6 #7 已发布；#2/#3 已并入品牌页（不拆同意图）—— S1 七篇全部收尾
-2. #8 #9 #10 #11 已发布（2026-09-26：/vetster-review、/online-vet-vs-in-person、/buy-pet-prescription-meds-online、/best-joint-supplement-for-dogs，各配一张自绘 SVG 信息图）；剩 **#12 #13（S1b，站已上线 2026-09-25：写进 pet-health-decisions 仓库的 data/articles.json → python build.py → python selfcheck.py → commit/push → wrangler pages deploy site --project-name=pet-health-decisions --branch=main --commit-dirty=true → 校验线上 200 → 本表改 published；#12 #13 用 embarkvet.com 官方页）**
-3. #14–#18（S2）
+2. #8–#13 已发布（2026-09-26：/vetster-review、/online-vet-vs-in-person、/buy-pet-prescription-meds-online、/best-joint-supplement-for-dogs、/embark-dna-test-review、/embark-discount-code，各配一张自绘 SVG 信息图）—— **S1b 六篇全部收尾，来源白名单已含 embarkvet.com + help.embarkvet.com**
+3. #14–#18（S2 鲜粮站：**待建** github.com/wcsnm22/pet-fresh-food-decisions + Cloudflare Pages 项目，架构同 S1/S1b，白名单换成 ollie/farmersdog/justfoodfordogs 等官网；先开骨架再成稿）
 4. #19–#22（S3）
 5. #23–#25（S4）
 6. #26–#28（S5）

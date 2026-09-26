@@ -107,3 +107,20 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 选题：《Does pet insurance pay for prescription food, supplements and Rx medication?》— 三家官方 exclusions 页逐条核；Rx 药费那段可用 S1b 今日现抓的 Chewy/PetMeds 授权流程做背景并互链。
 
 ⚠️ US News / Truvo / pet-insurance-hub 全是 LEADS（第三方，不进正文），落页前一律回 Lemonade/Spot/Fetch 官方页核（NOFAKE）。
+
+## 2026-09-26 (fill #5 — 当日 S1b Embark 官方页 + 官方帮助中心现抓)
+
+### Questions (line 4 GEO seeds, 2026-09-26)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Does pet insurance cover a dog DNA test such as Embark's Breed + Health kit? | embarkvet.com/products/breed-and-health-dog-dna-test-kit（当日现抓：$139、270+ 遗传病筛查、结果 2-4 周） | 2026-09-26 | 品牌侧数字已拿到；保险侧必须回三家官方 policy 核「diagnostic testing / genetic testing」是否承保才能写 |
+| Does pet insurance cover genetic or hereditary conditions? | embarkvet.com/pages/health-insights（当日现抓：3 in 4 只受检犬有 carrier/at-risk 结果、1 in 3 主人因此改护理） | 2026-09-26 | 落页前回 Lemonade/Spot/Fetch 的 hereditary & congenital 条款页取原文，缺的格子写 not published on the official site |
+| Does pet insurance cover allergy testing and treatment? | embarkvet.com/pages/dog-allergy-risk-scores-test（当日现抓：4 类过敏 0–100% 风险分） | 2026-09-26 | 线索；三家官方页核 allergy/dermatology 承保与等待期 |
+| Does pet insurance pay for prescription diet food or supplements? | embarkvet.com/pages/health-insights + cosequin.com 标签页（当日现抓：报告含喂养/关节建议，无价格） | 2026-09-26 | 与 fill #4 的 Rx 药费题串成一组「保险到底付不付『吃的东西』」 |
+| How much does a dog DNA test cost, and is it worth it? | embarkvet.com 三个产品页（2026-09-26 现抓：B+H $139/原价 $159、Breed ID $109/原价 $119、Age $109） | 2026-09-26 | S1b 已发 /embark-dna-test-review，保险站写时可互链 |
+
+### Selection / angle (2026-09-26)
+- 选题：《Pet insurance vs a dog DNA test: what each one actually buys you》— 第一屏并排给答案：保险赔的是账单（三家 published premium），DNA 给的是风险（Embark 270+ 条件 / $139），两边数字全用各自官网；与 /pet-insurance-cost 互链。
+- 选题：《Does pet insurance cover hereditary conditions? (Lemonade, Spot, Fetch wording compared)》— 三家官方 hereditary/congenital 条款原文逐条比，缺口写 not published on the official site，第一屏直接给「谁保谁不保」表。
+
+⚠️ Embark 的 $139/$109、270+ 条件、94% 找到亲属等全是**品牌官方页当日现抓**（2026-09-26），可直接用；保险承保口径仍是三家官方条款页的专利，不许用第三方比价站顶替（NOFAKE）。
