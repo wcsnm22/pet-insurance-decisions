@@ -142,3 +142,23 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 跨支柱：《Does pet insurance cover a fresh diet prescribed for a condition?》— 线索，落页前回 Lemonade/Spot/Fetch 官方 exclusions 页核，不许用第三方顶替。
 
 ⚠️ 上表里的价格/促销全部是 2026-09-26 当日三家官网现抓（Ollie 50% off first box、TFD 50% off first purchase、JFFD 50% off first subscription order + free shipping），促销随时会变，成稿当天要重抓复核（NOFAKE）。
+
+## 2026-09-26 (fill #7 — 当日 S2 Ollie/TFD 官方页现抓，为 #16–#18 备料)
+
+### Questions (line 4 GEO seeds, 2026-09-26)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Is The Farmer's Dog really about $2 a day? | thefarmersdog.com/faq（当日现抓：Plans start at about $2/day、1 周–2 个月送货、含免邮、48 州） | 2026-09-26 | 官方原话可直接引用；第一屏给「起价≠你的账单」，价格靠问卷 |
+| Can you cancel Ollie without calling anyone? | ollie.com/faqs（当日点开原文：官网账户里 My Plan>My Info>Subscriptions>Cancel，按只取消，不可在 App 内取消；另印 +1 650-405-3420 及营业时间） | 2026-09-26 | 已写进 #14/#15；可再出一页「Ollie cancellation policy, step by step」吃长尾 |
+| How long does fresh dog food last in the freezer? | ollie.com/faqs（冷冻未开封 6 个月、冷藏解冻 24h、开封后 4 天）+ thefarmersdog.com/faq（到货须低于 40°F、Instant Fresh 常温、冷藏或冷冻） | 2026-09-26 | 两家官方口径都能直接用，#16 第一屏「储存」小表 |
+| Does Ollie charge you before or after it ships? | ollie.com/faqs（发货前 3 天扣款，扣款后订单不可改） | 2026-09-26 | 与 TFD「发货前邮件通知」对比（TFD 未印提前天数 → 写 not published） |
+| Do you need a vet to start a fresh food plan? | thefarmersdog.com/faq（Do I need to consult my vet… Please do!，配方按 AAFCO、由 board-certified veterinary nutritionists 制定） | 2026-09-26 | 跨支柱线索：与 S1b 处方粮/鲜食处方页互链，落页前回 JFFD 官网核同样问题 |
+| Where does Ollie ship — does it deliver to Alaska or Hawaii? | ollie.com/faqs（仅美国本土，暂不发 AK/HI） | 2026-09-26 | 地域长尾，可并入 #14 已有行，不单开页 |
+
+### Selection / angle (2026-09-26)
+- 选题（排期 #16《Best Fresh Dog Food Subscriptions》）：第一屏按「谁公布什么口径的价格」分三栏——Ollie 每餐起价、TFD 每天起价、JFFD 货架价（14 装 $153.99/$167.99/$181.99），标注不可相减；只用三家官网数字。
+- 选题（#17 JFFD review）：货架价三档 + 满 $49 免邮（否则 $19.99）+ 首单订阅 5 折 + 冷冻 18 个月/解冻冷藏 7 天，全部官方页当日口径。
+- 选题（#18 raw delivery）：先现抓 raw 品牌官网（官方域），必要时给 S2 build.py 白名单加域名，再成稿。
+- 独家观察（可做一页或并入对比页）：2026-09-26 同一天内 ollie.com 首单横幅 50%（19:06 页面 HTML）与 70%（19:10 FAQ、19:21 首页）并存 → 「首单折扣是动态的」本身就是可用的独家事实，禁止写死一个数。
+
+⚠️ Ollie/TFD 的价格与促销全部是 2026-09-26 官网现抓；促销随时变，成稿当天要重抓复核。JFFD 与 raw 相关数字落页前一律回 justfoodfordogs.com/品牌官网取（NOFAKE）。

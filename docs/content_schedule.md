@@ -33,8 +33,8 @@
 | 11 | 1 | S1b | best | Best Joint Supplements for Dogs: Vet-Backed Picks | best joint supplement for dogs | published → https://pet-health-decisions.pages.dev/best-joint-supplement-for-dogs (2026-09-26) |
 | 12 | 1 | S1b | review | Embark Dog DNA Test Review: Breed + Health Results Explained | embark dna test review | published → https://pet-health-decisions.pages.dev/embark-dna-test-review (2026-09-26) |
 | 13 | 1 | S1b | coupon | Embark Dog DNA Test Discount Code (Verified Offers) | embark discount code | published → https://pet-health-decisions.pages.dev/embark-discount-code (2026-09-26) |
-| 14 | 2 | S2 | vs | Ollie vs The Farmer's Dog: Fresh Dog Food Compared | ollie vs the farmer's dog | todo |
-| 15 | 2 | S2 | pricing | How Much Does Ollie Cost Per Day? Plan Pricing Explained | ollie cost per day | todo |
+| 14 | 2 | S2 | vs | Ollie vs The Farmer's Dog: Fresh Dog Food Compared | ollie vs the farmer's dog | published → https://pet-fresh-food-decisions.pages.dev/ollie-vs-the-farmers-dog (2026-09-26) |
+| 15 | 2 | S2 | pricing | How Much Does Ollie Cost Per Day? Plan Pricing Explained | ollie cost per day | published → https://pet-fresh-food-decisions.pages.dev/ollie-cost-per-day (2026-09-26) |
 | 16 | 2 | S2 | best | Best Fresh Dog Food Subscriptions in 2026 | best fresh dog food subscription | todo |
 | 17 | 2 | S2 | review | JustFoodForDogs Review: Fresh Food, Pantry & Meals | justfoodfordogs review | todo |
 | 18 | 2 | S2 | best | Best Raw Dog Food Delivery Services for 2026 | best raw dog food delivery | todo |
