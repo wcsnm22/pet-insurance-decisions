@@ -162,3 +162,23 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 独家观察（可做一页或并入对比页）：2026-09-26 同一天内 ollie.com 首单横幅 50%（19:06 页面 HTML）与 70%（19:10 FAQ、19:21 首页）并存 → 「首单折扣是动态的」本身就是可用的独家事实，禁止写死一个数。
 
 ⚠️ Ollie/TFD 的价格与促销全部是 2026-09-26 官网现抓；促销随时变，成稿当天要重抓复核。JFFD 与 raw 相关数字落页前一律回 justfoodfordogs.com/品牌官网取（NOFAKE）。
+
+## 2026-09-27 (fill #8 — 当日 S2 三家官网现抓，为 #17–#18 备料；#16 已发布)
+
+### Questions (line 4 GEO seeds, 2026-09-27)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| How much is JustFoodForDogs shipping? | justfoodfordogs.com/pages/faq（当日现抓：满 $49 免邮、按折后税前算；首单订阅也免邮；否则平运费 $19.99；不送 PO Box/APO/FPO） | 2026-09-27 | #17 直接用；与 Ollie「Meal Plans 标题印 Free Delivery」、TFD「delivery options include free shipping」并排即可成一问 |
+| Can you cancel a JustFoodForDogs subscription anytime? | justfoodfordogs.com/policies/terms-of-service（当日现抓：Autoship 可随时取消，但须在续订前取消以免被扣下一单；在账户内取消） | 2026-09-27 | 与 TFD「pause/cancel/reactivate anytime」、Ollie「先打电话、网站账户逐狗取消、App 内不可取消」三栏对比 |
+| What is the JustFoodForDogs 50% subscription discount, exactly? | justfoodfordogs.com/pages/offers-coupons-promotion-details（当日现抓：首单订阅 5 折、最高减 $139、免邮；后续订阅单 5% off；每户一次；仅限美国本土；条款可随时变更） | 2026-09-27 | 三家里唯一写成书面条款的折扣；chicken-rice 产品页订阅价 $77.00 对照原价 $153.99 = 50% |
+| Is Ollie's first box 50% off or 70% off? | ollie.com 与 ollie.com/meal-plans（03:43 原始 HTML = 50% off）+ ollie.com/faqs（同日浏览器打开 = 70% off） | 2026-09-27 | 动态折扣本身就是独家事实，禁止写死一个数；可做一问一篇 |
+| Does The Farmer's Dog charge you before it ships? | thefarmersdog.com/faq（当日现抓：每单发货前有邮件通知，未印提前天数） | 2026-09-27 | 与 Ollie「发货前 3 天扣款、扣后不可改」对比，TFD 侧写 not published |
+| How long does JustFoodForDogs food keep? | justfoodfordogs.com/pages/faq（当日现抓：冷冻 18 个月/547 天；解冻非鱼肉密封 7 天、开封 5 天；鱼肉 5 天/3 天） | 2026-09-27 | #17 储存表；与 Ollie 6 个月/24h/4 天、TFD 40°F/Instant Fresh 常温三栏 |
+
+### Selection / angle (2026-09-27)
+- 选题（排期 #17《JustFoodForDogs Review》）：货架价三档 $153.99/$167.99/$181.99（21 装 $230.99/$251.99/$272.99）+ 首单订阅 5 折上限 $139 + 后续 5% + 满 $49 免邮否则 $19.99 + Autoship 续订前取消 + 冷冻 18 个月 + AAFCO/NRC 与「唯一的防腐剂是冰箱」，全部 2026-09-27 当日现抓的官方页。
+- 选题（#18 raw delivery）：先定品牌再抓 raw 品牌官网（官方域），需要新增 S2 build.py 白名单域名后才可成稿，不许拿第三方比价站顶替。
+- 独家观察（2026-09-27 复核）：Ollie 首单横幅同晚 03:43 显示 50%、数分钟后 faqs 显示 70% —— 与 09-26 的 50%/70% 并存一致，「折扣动态」已写进 #14/#15/#16，可继续当稳定独家点用。
+- 跨支柱线索：《Does pet insurance cover a prescribed fresh diet?》——落页前回 Lemonade/Spot/Fetch 官方 exclusions 页核，不许用第三方顶替。
+
+⚠️ 上表价格/促销全部是 2026-09-27 三家官网现抓（Ollie 横幅当日动态 50%/70%、TFD 首页 Get started - 50% off、JFFD 50% 首单订阅 + 后续 5%），促销随时会变，成稿当天要重抓复核（NOFAKE）。

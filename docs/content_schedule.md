@@ -35,7 +35,7 @@
 | 13 | 1 | S1b | coupon | Embark Dog DNA Test Discount Code (Verified Offers) | embark discount code | published → https://pet-health-decisions.pages.dev/embark-discount-code (2026-09-26) |
 | 14 | 2 | S2 | vs | Ollie vs The Farmer's Dog: Fresh Dog Food Compared | ollie vs the farmer's dog | published → https://pet-fresh-food-decisions.pages.dev/ollie-vs-the-farmers-dog (2026-09-26) |
 | 15 | 2 | S2 | pricing | How Much Does Ollie Cost Per Day? Plan Pricing Explained | ollie cost per day | published → https://pet-fresh-food-decisions.pages.dev/ollie-cost-per-day (2026-09-26) |
-| 16 | 2 | S2 | best | Best Fresh Dog Food Subscriptions in 2026 | best fresh dog food subscription | todo |
+| 16 | 2 | S2 | best | Best Fresh Dog Food Subscriptions in 2026 | best fresh dog food subscription | published → https://pet-fresh-food-decisions.pages.dev/best-fresh-dog-food-subscriptions (2026-09-27) |
 | 17 | 2 | S2 | review | JustFoodForDogs Review: Fresh Food, Pantry & Meals | justfoodfordogs review | todo |
 | 18 | 2 | S2 | best | Best Raw Dog Food Delivery Services for 2026 | best raw dog food delivery | todo |
 | 19 | 3 | S3 | best | Best Automatic Litter Boxes in 2026: Litter-Robot vs the Rest | best automatic litter box | todo |
