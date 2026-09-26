@@ -225,6 +225,8 @@ def _css_v() -> str:
 
 def head_block(title: str, description: str, canonical: str, jsonld_blocks: list[str]) -> str:
     parts = [
+        # Admitad/Mitgo ad-space ownership verification (site owner action)
+        '<meta name="mitgo-verification" content="525da73b-6632-4867-a8b7-3f78725eee42">',
         f'<meta name="description" content="{escape(description, quote=True)}">',
         f'<link rel="canonical" href="{escape(canonical, quote=True)}">',
         '<meta property="og:type" content="website">',
