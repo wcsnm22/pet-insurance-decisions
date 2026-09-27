@@ -200,3 +200,22 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 独家点（#18 已用，可复用）：三家三种计价单位（每周 / 每 2.0-lb 包 / 每 20-lb 袋 + 每天）不可相减；免邮门槛三种写法（无门槛 / 20 lbs / $249）。
 
 ⚠️ 上表价格/促销全部是 2026-09-27 三家官网现抓（WFR 划线原价、Darwin's 70% 首单、Maev 新客额外 15%），促销随时会变，成稿当天要重抓复核（NOFAKE）；第三方比价站/榜单只当线索不进正文。
+
+## 2026-09-27 (fill #10 — 当日 S3 智能设备五家官网现抓；S3 骨架已于 2026-09-27 上线)
+
+### Questions (line 4 GEO seeds, 2026-09-27)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Does Litter-Robot need special litter? | litter-robot.com/faq.html（当日现抓：推荐标准结块黏土 litter 如 GreatLitter；植物基/非结块/报纸/木屑颗粒不行；透明或白色晶砂会影响 litter level 与 DFI 精度） | 2026-09-27 | #20 alternatives 页的硬核差异点；与免专用袋 FAQ 并排 |
+| Can you return a Litter-Robot if your cat won't use it? | litter-robot.com/money-back-guarantee.html（当日现抓：90 天 in-home trial、全额退款只付回程运费、回来带屎尿收清洁费） | 2026-09-27 | 与 Petcube 45 天、Tractive/Pawfit 30 天四栏对比，可一问一篇 |
+| How much is Furbo Nanny a month? | furbo.com/us/products/furbo-360-dog-camera（当日现抓计划表：Standard 月付 $9.99、年付均 $6.99、两年均 $6.49；Premium $12.49/$8.74/$8.12） | 2026-09-27 | #21 Furbo vs Petcube 的订阅侧；Petcube Care 只印 $9.99/mo 与 3 天录像（Care bundle $5.99/mo 起） |
+| Is a dog GPS tracker subscription really necessary? | tractive.com/en/c/plans（当日现抓：'subscription price is separate from the tracker'，Basic 2 年期 5 €/月、月付 13 €）+ pawfit.com/en-gb/product/pawfit-3.html（£54.99 + Subscription） | 2026-09-27 | #22 主线；Petcube GPS Tracker 印 $29.99 设备价但 checked 页未印月费 → 格子写 not published |
+| Why does Whistle's website redirect to Tractive? | www.whistle.com 301 → tractive.com（当日 curl 实测，最终 URL tractive.com） | 2026-09-27 | 独家观察：排期 #22 写的 Whistle 已并入 Tractive 官网，写稿前必须先核，不许再当独立品牌页写 |
+
+### Selection / angle (2026-09-27)
+- 选题（#19《Best Automatic Litter Boxes》）：官方价差 Litter-Robot 4 $699 / 5 $799 / 5 Pro $899 + 90 天试用 + WhiskerCare 1 年含、3 年 $129（LR4）/$149（LR5）+ Affirm 0% APR 3/6/12/18 期 + HSA/FSA 经 Flex 24 小时批；全部 2026-09-27 当日现抓 litter-robot.com。
+- 独家点（货币不可相减）：USD（Litter-Robot/Furbo/Petcube）、EUR（tractive.com/en）、GBP（pawfit.com 英国站）三种货币同页并排，只能各报各的，禁止换算成一个数比较。
+- 独家点（订阅有无）：Tractive/Pawfit 明写设备+订阅分离；Petcube GPS Tracker 印 $29.99 设备价而 checked 页未印月费；Furbo Nanny 是相机强制订阅口径（页面把计划放进购买按钮）——#22/#21 都能当第一屏答案。
+- 跨支柱：《Does pet insurance cover a damaged automatic litter box or a lost tracker?》——线索，落页前回 Lemonade/Spot/Fetch 官方条款页核。
+
+⚠️ 上表价格/促销全部是 2026-09-27 五家官网现抓（Furbo $54 划线 $184、Petcube 划线价与 'Save up to $67' 横幅、Tractive 69 €/5 € 月、Pawfit £54.99/£3.99），促销随时会变，成稿当天要重抓复核（NOFAKE）；第三方比价站/榜单只当线索不进正文。
