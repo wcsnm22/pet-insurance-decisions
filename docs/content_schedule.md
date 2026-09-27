@@ -10,7 +10,7 @@
 | S1 保险 | pet-insurance-decisions.pages.dev | 支柱1·保险 | ✅ 已上线 |
 | S1b 健康 | https://pet-health-decisions.pages.dev | 支柱1·远程兽医/在线药房/保健品/DNA | ✅ 已上线（2026-09-25，4 品牌页：Vetster / 1-800-PetMeds / Cosequin / Embark，仓库 github.com/wcsnm22/pet-health-decisions） |
 | S2 鲜粮 | https://pet-fresh-food-decisions.pages.dev | 支柱2 | ✅ 已上线（2026-09-26 骨架，3 品牌页：Ollie / The Farmer's Dog / JustFoodForDogs，45 条当日现抓官方事实，仓库 github.com/wcsnm22/pet-fresh-food-decisions，sitemap 7 条；成稿 #14–#18 全部完成） |
-| S3 智能设备 | smart-pet-device-decisions（待建） | 支柱3 | 待建 |
+| S3 智能设备 | https://smart-pet-device-decisions.pages.dev | 支柱3 | ✅ 已上线（2026-09-27 骨架，5 品牌页：Litter-Robot / Furbo / Petcube / Tractive / Pawfit，76 条当日现抓官方事实，仓库 github.com/wcsnm22/smart-pet-device-decisions，sitemap 9 条；成稿 #19–#22 待写） |
 | S4 美容 | pet-grooming-decisions（待建） | 支柱4 | 待建 |
 | S5 B2B | pet-software-decisions（待建） | 支柱5 | 待建 |
 
@@ -56,7 +56,7 @@
 1. S1：#1 #4 #5 #6 #7 已发布；#2/#3 已并入品牌页（不拆同意图）—— S1 七篇全部收尾
 2. #8–#13 已发布（2026-09-26：/vetster-review、/online-vet-vs-in-person、/buy-pet-prescription-meds-online、/best-joint-supplement-for-dogs、/embark-dna-test-review、/embark-discount-code，各配一张自绘 SVG 信息图）—— **S1b 六篇全部收尾，来源白名单已含 embarkvet.com + help.embarkvet.com**
 3. #14–#18 已发布（S2 鲜粮站**已上线** 2026-09-26：github.com/wcsnm22/pet-fresh-food-decisions + Cloudflare Pages 项目 pet-fresh-food-decisions，白名单 ollie/thefarmersdog/justfoodfordogs + raw 三家 wefeedraw/darwinspet/meetmaev；#14–#17 2026-09-26/27 上线，#18 best-raw-dog-food-delivery 2026-09-27 上线）—— **S2 五篇全部收尾**
-4. #19–#22（S3）
+4. #19–#22（S3）——骨架已上线（2026-09-27），#19 待成稿；白名单已含 litter-robot.com / furbo.com / petcube.com / tractive.com / pawfit.com；注意 www.whistle.com 当日 301 → tractive.com，#22 动笔前复核 Whistle 口径
 5. #23–#25（S4）
 6. #26–#28（S5）
 
