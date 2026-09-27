@@ -182,3 +182,21 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 跨支柱线索：《Does pet insurance cover a prescribed fresh diet?》——落页前回 Lemonade/Spot/Fetch 官方 exclusions 页核，不许用第三方顶替。
 
 ⚠️ 上表价格/促销全部是 2026-09-27 三家官网现抓（Ollie 横幅当日动态 50%/70%、TFD 首页 Get started - 50% off、JFFD 50% 首单订阅 + 后续 5%），促销随时会变，成稿当天要重抓复核（NOFAKE）。
+
+## 2026-09-27 (fill #9 — 当日 S2 raw 三家官网现抓；#18 已于 2026-09-27 发布)
+
+### Questions (line 4 GEO seeds, 2026-09-27)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| How much does We Feed Raw cost per week? | wefeedraw.com/recipes/beef、/recipes/duck、/recipes/freeze-dried-raw-beef（当日现抓 product data：$16.10→$9.66、$17.85→$10.71、$22.02→$13.21 每周；$8.89/$9.89 每磅） | 2026-09-27 | #18 已用；可再出「WFR 取消政策 step by step」一问 |
+| Is Darwin's raw dog food free shipping? | darwinspet.com/pages/ask-darwins-faqs（当日现抓：≥20 lbs 免邮、<20 lbs 收费但未印金额、AK/HI 固定 $150、最低下单 10 lbs） | 2026-09-27 | 与 Ollie「Free Delivery 标题」、JFFD「满 $49 免邮」三栏对比 |
+| Can you cancel Maev after the order is placed? | meetmaev.com/shipping-return（当日现抓：下单后不可取消/退款、发货后食品不可退、2–5 工作日处理、不送 PO/APO/FPO） | 2026-09-27 | 与商品页「Pause or cancel anytime」并排=独家矛盾点，可一问一篇 |
+| How long does raw dog food keep in the freezer? | wefeedraw.com/raw-food-subscription（未开封 6 个月、干冰运输）+ darwinspet.com FAQ（须冷冻、解冻后不复冻、碗内 20–30 分钟） | 2026-09-27 | 与 S2 鲜粮储存表（JFFD 18 个月/TFD 40°F/Ollie 6 个月）串成「储存」专题 |
+| Do you need to transition gradually to raw food? | darwinspet.com FAQ（7–10 天，挑食/老年 14–21 天）+ meetmaev.com raw-food 页（10–14 天） | 2026-09-27 | WFR 页面无逐日计划 → 格子写 not published on the official site |
+
+### Selection / angle (2026-09-27)
+- 选题（#19 起 S3 智能设备站）：Litter-Robot / Furbo / Petcube / GPS 四家先定品牌，各自官网现抓（必须品牌自有官网），再给 S3 build.py 白名单加域名。
+- 跨支柱：《Does pet insurance cover a vet visit after a raw-diet scare?》——线索，落页前回 Lemonade/Spot/Fetch 官方 exclusions 页核。
+- 独家点（#18 已用，可复用）：三家三种计价单位（每周 / 每 2.0-lb 包 / 每 20-lb 袋 + 每天）不可相减；免邮门槛三种写法（无门槛 / 20 lbs / $249）。
+
+⚠️ 上表价格/促销全部是 2026-09-27 三家官网现抓（WFR 划线原价、Darwin's 70% 首单、Maev 新客额外 15%），促销随时会变，成稿当天要重抓复核（NOFAKE）；第三方比价站/榜单只当线索不进正文。
