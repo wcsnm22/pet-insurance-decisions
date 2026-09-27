@@ -219,3 +219,24 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 跨支柱：《Does pet insurance cover a damaged automatic litter box or a lost tracker?》——线索，落页前回 Lemonade/Spot/Fetch 官方条款页核。
 
 ⚠️ 上表价格/促销全部是 2026-09-27 五家官网现抓（Furbo $54 划线 $184、Petcube 划线价与 'Save up to $67' 横幅、Tractive 69 €/5 € 月、Pawfit £54.99/£3.99），促销随时会变，成稿当天要重抓复核（NOFAKE）；第三方比价站/榜单只当线索不进正文。
+
+## 2026-09-27 (fill #11 — 当日 S3 四家官网现抓；#19 已于 2026-09-27 发布)
+
+### Questions (line 4 GEO seeds, 2026-09-27)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Does the CatGenie work with a septic system? | catgenie.com/pages/faq（当日现抓：'Yes, the CatGenie Whoosh is safe for septic systems. Only waste water and CatGenie...'） | 2026-09-27 | #19 未展开，可一问一篇；与「需接下水」的安装要求并排 |
+| How many cats can share one automatic litter box? | catgenie.com/pages/faq（Whoosh 1–3 猫、每猫 ≤20 lbs；A.I. 最稳 2 猫各 ≤20 lbs）+ litter-robot.com/litter-robot-5.html（3–30 lbs、最多 5 猫）+ meowant SC09（3.3–30 lbs、多猫） | 2026-09-27 | 三家口径不同，可做「多猫家庭该买几台」一问 |
+| Is Litter-Robot HSA/FSA eligible? | litter-robot.com/litter-robot-5.html（当日现抓：Flex 结账、telehealth 问卷、24 小时内批；页面列了 eligible 条件清单） | 2026-09-27 | #19 已写进表；可单独一问「用 HSA/FSA 买宠械能不能报」，跨支柱可串保险站 |
+| Do automatic litter boxes need a subscription? | petkit.com/collections/automatic-cat-litter-box（Care+ 30 天录像为可选升级）+ litter-robot.com/litter-robot-5.html（Whisker+ 可选）+ 四家产品页均未印强制月费 | 2026-09-27 | #19 已写进 FAQ；核心结论=四家都不强制订阅，付费项全是可选 |
+| Which automatic litter box is the quietest? | meowant.com 两产品页（SC09 36dB、SC02 ≤38dB 当日现抓）；litter-robot/catgenie/petkit 的 checked 页未印分贝数 → 格子写 not published on the official site | 2026-09-27 | 噪音是未被吃掉的长尾；写之前必须再抓一遍官方 spec 页 |
+| Why does Litter-Robot say 'As low as' instead of a fixed price? | litter-robot.com/litter-robot-5.html（'As low as $799'，配置/捆绑会改价）+ payment-options.html（Affirm 3/6/12/18 期 0% APR） | 2026-09-27 | 计价口径类问题，和 #19 的「三家是折扣价、一家是起步价」呼应 |
+
+### Selection / angle (2026-09-27)
+- 选题（#20《Best Litter-Robot Alternatives》）：官方现成弹药——PETKIT Purobot Crystal Duo $199.99（原 $299.99）、Purobot Max 3 $399.99（原 $499.99）、CatGenie 翻新机 Whoosh $400.00 / A.I. $449.00、Meowant SC02 $399.99（原 $559.99，码 SC170 减 $170）；全部 2026-09-27 当日现抓，写稿当天须重抓。
+- 选题（#21 Furbo vs Petcube）：Furbo Nanny 计划表（$9.99 / $6.99 / $6.49 与 Premium $12.49 / $8.74 / $8.12）对 Petcube Care 只印 $9.99/mo 与 Care bundle $5.99/mo 起——订阅口径不对齐是独家点。
+- 选题（#22 GPS）：Whistle 仍需复核（2026-09-27 www.whistle.com 301 → tractive.com）；Petcube GPS Tracker 印 $29.99 设备价但 checked 页未印月费 → 格子写 not published。
+- 跨支柱线索：《Does pet insurance cover an automatic litter box breakdown?》——落页前回 Lemonade/Spot/Fetch 官方条款页核，不许用第三方顶替。
+- 独家点（#19 已用，可复用）：四种计价/促销写法不可混——Litter-Robot 是"as low as"起步价，CatGenie/PETKIT/Meowant 是「现价 + 划线原价」，Meowant 还叠了折扣码（NEW350 / SC170）与 $299 横幅；四家只有 CatGenie 要接下水。
+
+⚠️ 上表价格/促销全部是 2026-09-27 四家官网现抓（LR5 横幅 $75 off、PETKIT Save 20%/17%/11%、Meowant NEW350 与 SC170、CatGenie 套装省 20%），促销随时会变，成稿当天要重抓复核（NOFAKE）；第三方比价站/榜单只当线索不进正文。
