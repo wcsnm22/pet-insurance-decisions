@@ -261,3 +261,24 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 明天选题（2026-09-28）按顺序：先查 furadvisor.com/sitemap.xml 无同词同角度页，再从 G1 或 G2 拿一篇（S1）；S3 侧 #20 Litter-Robot alternatives 仍在排期上，两条线轮着走，绝不空一天。
 
 ⚠️ 上表所有数字均为 2026-09-27 对标站页面现读（petinsurance.com / lemonade.com 直抓、pawlicy.com 走真实 Chrome 绕 Cloudflare），只作选题线索；进正文前必须回品牌官网/官方条款页重抓并带 URL + 复核日期（NOFAKE）。
+
+## 2026-09-28 (fill #13 — G2 等待期成稿当日现抓所得；来源=三家品牌官网与官方样例保单)
+
+### Questions (line 4 GEO seeds, 2026-09-28)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Can I get reimbursement for a surgery that was scheduled before the waiting period ended? | lemonade.com/pet/insurance-guide/waiting-periods/ FAQ 区问句（当日现抓，题面原样） | 2026-09-28 | 一问一篇；答案必须回三家官方条款/FAQ，Lemonade 页只讲自己 |
+| If my puppy is only 2 months old, does the waiting period still apply? | 同上页问句 | 2026-09-28 | 与「幼犬幼猫几周能投保」合写；Lemonade 页写两个月起可买 |
+| Can pet insurance be active the same day? | 同上页问句（另有 Is there pet insurance with no waiting period at all? / Is pet insurance effective immediately? 出现在 fetchpet.com/faqs 问答列表） | 2026-09-28 | 直答：意外 Lemonade 0 天=当天可赔；其余按各家口径 |
+| How can I find out the specific waiting periods for my policy? | 同上页问句 + spotpet.com/sample-policy（Spot 的官方答案就是"按州样例保单"） | 2026-09-28 | 答案型页面，可引三家各自的查询入口 |
+| Does pet insurance cover routine care while I'm still in the waiting period? | 三家 2026-09-28 现抓：lemonade 预防责任生效日/产品页次日可用、spotpet.com/dog-insurance 次日可用、fetchpet.com/faqs/is-there-a-waiting-period-for-pet-wellness 无等待期 | 2026-09-28 | 三家都说"不用等"，但起算措辞不同，差异就是内容 |
+
+### Selection / angle (2026-09-28)
+- 明天（2026-09-29）选题顺序：先查 furadvisor.com/sitemap.xml 无同词同角度 → 从缺口表 **G1《Cost by Brand, date-stamped》** 拿（G2 已于 2026-09-28 发布 /pet-insurance-waiting-periods）；退路 S3 排期 #20《Best Litter-Robot Alternatives》。
+- 独家点（2026-09-28 当日现抓，可直接当 G2 扩写或 G3 引子）：Spot 六州 Accident & Illness 样例保单措辞不同——AZ/CO/FL/GA/IL 全写「14 天盖 accidents, illnesses and ligament and knee conditions」，CA 只写疾病 14 天（含先天/遗传/骨科疾病）且多一段**付费** Waiting Period Health Assessment（体检前 3 天到后 7 天、表格 30 天内回、豁免到生效日或体检次日取晚）；Spot 自家 FAQ 就写着"看你的州样例保单"。
+- 三家"意外等待期"三种写法：Lemonade 0 天（页上还印行业区间 0–2 天）、Spot 并入 14 天、Fetch 根本不单列（只有合并的 up to 15 天）→ 格子只能老实写 not published。
+- 骨科等待期三档：Lemonade 30 天（行业区间 6–12 个月）/ Spot 并入 14 天 / Fetch 6 个月（列了髋发育不良、十字韧带等）；Fetch 另有膝盖豁免（投保 180 天内体检 + 首次理赔交 SOAP notes）。
+- 两处 Lemonade 自家口径差（别折中，两句都引）：guide 说预防责任「生效日」开始，产品页说预防包「购买次日」可用。
+- 州级缺口现状：×州只有 Spot 有官方文档（sample-policy HTML 里只有前 20 州，后面州要翻页/JS），Lemonade 与 Fetch 都没有州级表 → 想做《waiting periods by state》深页，需先把 Spot 剩余州样例抓全。
+
+⚠️ fill #13 所有数字均为 2026-09-28 当日现抓（lemonade.com 等待期指南页标 Last Updated: Jun 3, 2026；spotpet.com/sample-policy 与六州样例 PDF；fetchpet.com 三个 FAQ 页），促销与条款随时会变，成稿当天重抓（NOFAKE）；第三方比价站只当线索不进正文。

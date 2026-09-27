@@ -75,15 +75,16 @@ for slug in ("lemonade", "spot", "fetch"):
     if srcs < rows or dates < rows:
         fails.append(f"render-provenance-{slug}")
 
-# (3b) rendered article pages: every fact row carries an official source link + date
+# (3b) rendered article pages: every fact/FAQ carries an official source link + its OWN check date
+# (articles are rechecked on different days, so each item's own checked date must appear on the page)
 for a in articles:
     html = (site / f"{a['slug']}.html").read_text(encoding="utf-8")
     fact_rows = len(a["facts"])
     srcs = len(re.findall(r'href="https://(?:www\.)?(?:lemonade|spotpet|spotpetins|fetchpet)[^"]*"', html))
-    dates = html.count(data["site"]["checked"])
+    missing_dates = sorted({f.get("checked", "") for f in a["facts"] + a["faqs"] if f.get("checked", "") not in html})
     in_sitemap = f"/{a['slug']}" in (site / "sitemap.xml").read_text(encoding="utf-8")
-    print(f"[3b] {a['slug']}: facts={fact_rows} official_source_links={srcs} check_dates={dates} in_sitemap={in_sitemap}")
-    if srcs < fact_rows or dates < fact_rows or not in_sitemap:
+    print(f"[3b] {a['slug']}: facts={fact_rows} official_source_links={srcs} missing_check_dates={missing_dates} in_sitemap={in_sitemap}")
+    if srcs < fact_rows or missing_dates or not in_sitemap:
         fails.append(f"render-provenance-{a['slug']}")
 
 # (4) JSON-LD + canonical on every page; sitemap/robots present
