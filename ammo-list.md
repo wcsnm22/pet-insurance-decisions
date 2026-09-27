@@ -240,3 +240,24 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 独家点（#19 已用，可复用）：四种计价/促销写法不可混——Litter-Robot 是"as low as"起步价，CatGenie/PETKIT/Meowant 是「现价 + 划线原价」，Meowant 还叠了折扣码（NEW350 / SC170）与 $299 横幅；四家只有 CatGenie 要接下水。
 
 ⚠️ 上表价格/促销全部是 2026-09-27 四家官网现抓（LR5 横幅 $75 off、PETKIT Save 20%/17%/11%、Meowant NEW350 与 SC170、CatGenie 套装省 20%），促销随时会变，成稿当天要重抓复核（NOFAKE）；第三方比价站/榜单只当线索不进正文。
+
+## 2026-09-27 (fill #12 — MODULE BENCH 对标三站读页所得；来源=对标站页面本身，落页前必须回品牌官网/官方条款页现抓)
+
+### Questions (line 4 GEO seeds, 2026-09-27)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Does pet insurance cover the vet's exam fee? | pawlicy.com/insurance-company/lemonade/（覆盖矩阵行 "Exams"：Nationwide 侧 Yes、Lemonade 侧 "With purchase of optional coverage"）+ lemonade.com what-is 页问句 "Does pet insurance pay for the vet's visit fees?" | 2026-09-27 | 对标只有勾叉没有出处；我方按 Lemonade/Spot/Fetch 官方条款/FAQ 现抓三家口径 |
+| Can pet insurance pay the vet directly? | pawlicy.com 博客题 "Pet Insurance That Pays the Vet Directly (2026)" + 同站品牌页问句 "Does Lemonade Pet Insurance Pay Vet Directly" | 2026-09-27 | 一问一篇；答案必须回三家官方 direct-pay 条款页，别用比价站结论 |
+| Is there pet insurance with no deductible? | pawlicy.com 博客题 "Does Pet Insurance with No Deductible Exist?" + 其 Lemonade 页印免赔选项 $100/$250/$500/$750 | 2026-09-27 | 免赔选项要回 lemonade.com 官方页核当天口径 |
+| Does pet insurance cover a pre-existing condition after it's cured? | petinsurance.com/whats-not-covered/（原文：病历证明 "cured for at least six months" 可能可保）+ lemonade.com FAQ 问句 "Can Lemonade cover curable pre-existing conditions?" | 2026-09-27 | 两家口径不同是独家点；我方按三家官方条款写，别折中 |
+| How much is pet insurance in my state? | lemonade.com/pet/insurance-guide/pet-insurance-cost/（分州均价表，2026-09-27 现抓，数字 $30–$49 一片但无抓价日期与来源） | 2026-09-27 | 州级差异我们没有；写之前要各家官方州级页现抓，柠檬水那张表只能当线索 |
+| What does a wellness add-on actually pay per item? | petinsurance.com/petwellness/（额度表：年上限 $450/$800、体检 $80/$40、疫苗 $80、心丝虫 $35、粪检 $30、驱虫 $25、芯片 $50、健康证 $50、跳蚤预防 $100、影像/血检/EKG $100、绝育或洗牙 $250，绝育洗牙 90 天等待） | 2026-09-27 | 单家有完整表、另两家没有 → 跨家每项额度对照是缺口（见 benchmark-gap.md G3） |
+| Does switching pet insurance reset waiting periods? | petinsurance.com/comparison/ pro tip（换公司后既往症可能不保）+ pawlicy.com Lemonade 页按州等待期（意外 2 天 / 8 州 0 天、疾病 14 天、髋 14 或 30 天、十字韧带 30 或 180 天） | 2026-09-27 | 换保司断档 + 等待期重算，两块都要回三家官方条款现抓 |
+
+### Selection / angle (2026-09-27，MODULE BENCH 产出：docs/benchmark-gap.md)
+- 缺口排行（缺口大→小）：G1 跨家价格缺"抓价日期+官方来源+报价假设" → G2 等待期×州 → G3 wellness 每项额度跨家 → G4 索赔窗口三家对照（#6 已有部分）→ G5 异宠（Nationwide 独有 /exotics/）→ G6 疑问句一问一篇。
+- 学到的结构（只学不抄）：pawlicy 品牌页固定模板（Reviewer+Updated+FACT CHECKED → 价格面板 → 按州等待期 → Pros/Cons → 覆盖矩阵 → FAQ）；petinsurance.com `/comparison/<brand>/` 是 JS 渲染的 24 行勾叉对照表（curl 抓是空壳，必须浏览器渲染）；lemonade 内容层 `/pet/insurance-guide/<slug>/` 同意图合并在一页。
+- 对标三家的弱项（我方对打点）：无一家逐条标来源 URL 与复核日期；petinsurance.com 起步价同站三种口径（首页 $12/mo、犬险 $13/mo、评论页 $13/mo、猫险 $6/mo）；pawlicy 品牌页日期口径不一（Review 2025 标题 vs Updated May 2026）；lemonade 同行价格表无抓价日期。
+- 明天选题（2026-09-28）按顺序：先查 furadvisor.com/sitemap.xml 无同词同角度页，再从 G1 或 G2 拿一篇（S1）；S3 侧 #20 Litter-Robot alternatives 仍在排期上，两条线轮着走，绝不空一天。
+
+⚠️ 上表所有数字均为 2026-09-27 对标站页面现读（petinsurance.com / lemonade.com 直抓、pawlicy.com 走真实 Chrome 绕 Cloudflare），只作选题线索；进正文前必须回品牌官网/官方条款页重抓并带 URL + 复核日期（NOFAKE）。
