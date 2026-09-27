@@ -1,6 +1,6 @@
 # 对标缺口表（MODULE BENCH · pet insurance · 28 天周期线二）
 
-- 读取日期：**2026-09-27**（本机时间 21:29–22:0x CST）
+- 读取日期：**2026-09-27**（本机时间 21:29–21:53 CST）
 - 对标三家（28 天冻结，不换）：petinsurance.com（Nationwide）/ lemonade.com / pawlicy.com（Pawlicy Advisor）
 - 选页口径：每站从 robots.txt + sitemap 里挑与 pet insurance 最直接相关的**前 10 页**（按导航显著度与 sitemap 权重），逐页读
 - 抓取方式（可复现）：
