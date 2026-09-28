@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="600" viewBox="0 0 720 600" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="720" height="600" fill="#ffffff"/>
+  <text x="40" y="40" font-size="21" font-weight="700" fill="#0f172a">How long you have to file, and how long you wait to get paid</text>
+
+  <text x="40" y="76" font-size="15" font-weight="700" fill="#2563eb">Days to file after treatment - official windows, read 2026-09-28</text>
+
+  <!-- Panel A: filing windows, scale 400px = 270 days -->
+  <g font-size="14" fill="#334155">
+    <text x="232" y="112" text-anchor="end">Spot</text>
+    <rect x="242" y="96" width="400" height="26" rx="4" fill="#2563eb"/>
+    <text x="650" y="114" font-weight="700" fill="#0f172a">270 days</text>
+
+    <text x="232" y="152" text-anchor="end">Lemonade</text>
+    <rect x="242" y="136" width="267" height="26" rx="4" fill="#0ea5e9"/>
+    <text x="517" y="154" font-weight="700" fill="#0f172a">180 days</text>
+
+    <text x="232" y="192" text-anchor="end">Lemonade, Texas policy</text>
+    <rect x="242" y="176" width="133" height="26" rx="4" fill="#7dd3fc"/>
+    <text x="383" y="194" font-weight="700" fill="#0f172a">90 days</text>
+
+    <text x="232" y="232" text-anchor="end">Fetch</text>
+    <rect x="242" y="216" width="133" height="26" rx="4" fill="#0f766e"/>
+    <text x="383" y="234" font-weight="700" fill="#0f172a">90 days</text>
+  </g>
+  <line x1="242" y1="256" x2="642" y2="256" stroke="#cbd5e1"/>
+  <g font-size="12" fill="#64748b">
+    <text x="242" y="274">0</text>
+    <text x="385" y="274">90</text>
+    <text x="528" y="274">180</text>
+    <text x="630" y="274">270 days</text>
+  </g>
+
+  <text x="40" y="326" font-size="15" font-weight="700" fill="#2563eb">Published time to a decision or a payout - each brand's own wording</text>
+
+  <!-- Panel B: published speeds, scale 400px = 15 days -->
+  <g font-size="14" fill="#334155">
+    <text x="232" y="362" text-anchor="end">Spot (48 hrs or less)</text>
+    <rect x="242" y="346" width="53" height="26" rx="4" fill="#f59e0b"/>
+    <text x="303" y="364" font-weight="700" fill="#0f172a">2 days</text>
+
+    <text x="232" y="402" text-anchor="end">Lemonade</text>
+    <rect x="242" y="386" width="133" height="26" rx="4" fill="#0ea5e9"/>
+    <text x="383" y="404" font-weight="700" fill="#0f172a">5 business days</text>
+
+    <text x="232" y="442" text-anchor="end">Fetch, claims page</text>
+    <rect x="242" y="426" width="267" height="26" rx="4" fill="#0f766e"/>
+    <text x="517" y="444" font-weight="700" fill="#0f172a">under 10 days</text>
+
+    <text x="232" y="482" text-anchor="end">Fetch, claim FAQ</text>
+    <rect x="242" y="466" width="400" height="26" rx="4" fill="#99f6e4"/>
+    <text x="650" y="484" font-weight="700" fill="#0f172a">15 days</text>
+  </g>
+  <line x1="242" y1="506" x2="642" y2="506" stroke="#cbd5e1"/>
+  <g font-size="12" fill="#64748b">
+    <text x="242" y="524">0</text>
+    <text x="375" y="524">5</text>
+    <text x="508" y="524">10</text>
+    <text x="636" y="524">15 days</text>
+  </g>
+
+  <text x="40" y="556" font-size="12" fill="#64748b">Top panel counts from the date of treatment or the vet visit; bottom panel units are the brands' own</text>
+  <text x="40" y="574" font-size="12" fill="#64748b">(48 hrs, business days, calendar days) and are not converted. Sources: spotpet.com FAQ and sample policy,</text>
+  <text x="40" y="592" font-size="12" fill="#64748b">lemonade.com claim guide, fetchpet.com claims page and claim submission FAQ. Read 2026-09-28.</text>
+</svg>
