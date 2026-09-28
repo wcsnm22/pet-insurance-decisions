@@ -364,3 +364,17 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 线五进度（2026-09-28 夜）：best-pet-insurance 补 published-prices.svg、pet-insurance-cost 补 state-averages.svg（图中数字=同篇已复核事实，checked 2026-09-25），提交 e1d15f8 push + wrangler furwell 部署，线上两页各 1 figure、两张 SVG 均 200、sitemap 17 loc。
 
 ⚠️ fill #17 引用的对标页内容只用于描述对方讲了什么（各 bench 文档纪律声明），进正文前须当日现抓官方原文重核（NOFAKE）；同题不写第二篇，以 docs/daily-log.md 去重。
+
+## 2026-09-29 (fill #18 — 线五给 #5 lemonade-vs-spot 补图时，从该篇已复核事实里筛出的 GEO 疑问句；事实复核日 2026-09-25，成稿当日须重抓)
+
+### Questions (line 4 GEO seeds, 2026-09-29)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Is Lemonade cheaper than Spot for the same pet? | lemonade.com/pet/insurance-guide/pet-insurance-cost/（$10 起、$48 犬/$27 猫均值、$61 Goldendoodle 例）+ spotpet.com 首页（犬 $15/猫 $9 起，假设 2 岁小型混种犬 ZIP 32009、80%/$500 免赔/$2,500 限额） | 2026-09-25 | 两家口径不同（均值 vs 带 ZIP 假设的起价）不可直接相减；答法=要求同配置同宠各要一次报价 |
+| Which pays claims faster, Lemonade or Spot? | lemonade.com cost guide（50% 合格索赔经 AI 瞬时赔付）+ spotpet.com（48 小时内、多数 2 个工作日内，Spot admin data 2019–2024） | 2026-09-25 | 单位不同（百分比瞬时 vs 小时）不可相减，必须并排写各自条件 |
+| Does Spot cover a pre-existing condition after 180 days? | spotpet.com FAQ（可治愈病症 180 天无症状无治疗不再算 pre-existing，膝盖与韧带除外）+ lemonade.com/pet-insurance（无对等规则） | 2026-09-25 | 独家：只有 Spot 发布这条天数；Lemonade 空格写 not published |
+| How long do you have to cancel for a refund? | lemonade.com/pet-insurance（App 内 30 天内取消退款，取消后等待期重算）+ spotpet.com（30 天退款保证但须无索赔；ME/LA/WA 15 天、NY 不提供） | 2026-09-25 | 同为 30 天但 Spot 有州级例外与"无索赔"前提，一问一篇可直接答 |
+
+### Selection / angle (2026-09-29)
+- 线五进度（2026-09-29 04:0x）：S1 五篇里 **3/5 已挂自绘 SVG**（#1 best-pet-insurance、#4 pet-insurance-cost、#5 lemonade-vs-spot，提交 dfebecc push + furwell 部署，线上各 1 figure、SVG 200、sitemap 17 loc）→ 剩 **#6 how-to-submit-a-pet-insurance-claim / #7 pet-insurance-promo-code** 两篇，图中数字只能取该篇已复核事实。
+- 2026-09-29 主线仍归 DAILY（09:00，取题 benchmark-top3.md A 段 = N1 按疾病类型逐家等待期表）；推进器只在「已过 09:00 且 daily-log 无当天条目」时补发。
