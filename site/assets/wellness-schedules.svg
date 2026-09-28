@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="560" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+  <title id="title">Published pet insurance wellness add-on ceilings and the routine dental cleaning cap</title>
+  <desc id="desc">Two bar charts. Top: the highest annual dollar ceiling each brand prints for its top wellness tier - Fetch Prime 1,200 dollars, Nationwide 800 dollars, Spot Platinum 450 dollars summed from its printed per-item caps, Lemonade no published dollar ceiling. Bottom: routine dental cleaning cap - Fetch Prime 250 dollars, Nationwide top tier 250 dollars, Spot Platinum 150 dollars, Lemonade Preventative+ 150 dollars per year. Read from the official pages on 2026-09-28.</desc>
+  <rect width="720" height="560" fill="#ffffff"/>
+  <style>
+    .h1 { font: 700 17px "Segoe UI", Arial, sans-serif; fill: #14213a; }
+    .cap { font: 600 13px "Segoe UI", Arial, sans-serif; fill: #1f3a68; }
+    .note { font: 400 11.5px "Segoe UI", Arial, sans-serif; fill: #5b6678; }
+    .name { font: 600 12.5px "Segoe UI", Arial, sans-serif; fill: #24344d; }
+    .val { font: 700 12.5px "Segoe UI", Arial, sans-serif; fill: #14213a; }
+    .foot { font: 400 11px "Segoe UI", Arial, sans-serif; fill: #5b6678; }
+    .axis { font: 400 10.5px "Segoe UI", Arial, sans-serif; fill: #7a8698; }
+  </style>
+
+  <text x="24" y="30" class="h1">What a wellness add-on pays: the ceiling each brand itself prints</text>
+  <text x="24" y="50" class="note">Every figure was read from the brand's own official page or sample policy PDF on 2026-09-28.</text>
+
+  <!-- Panel A -->
+  <text x="24" y="82" class="cap">Top published annual ceiling for the highest wellness tier each brand prints</text>
+  <line x1="24" y1="92" x2="696" y2="92" stroke="#e4e9ee"/>
+  <g>
+    <text x="24" y="118" class="name">Fetch Prime</text>
+    <rect x="170" y="106" width="440" height="17" fill="#2f6fed"/>
+    <text x="618" y="119" class="val">$1,200</text>
+
+    <text x="24" y="150" class="name">Nationwide ($800 plan)</text>
+    <rect x="170" y="138" width="293" height="17" fill="#8aa4d6"/>
+    <text x="471" y="151" class="val">$800</text>
+
+    <text x="24" y="182" class="name">Spot Platinum</text>
+    <rect x="170" y="170" width="165" height="17" fill="#8aa4d6"/>
+    <text x="343" y="183" class="val">$450</text>
+
+    <text x="24" y="214" class="name">Lemonade</text>
+    <text x="170" y="219" class="note">not published - the guide states counts (exams, vaccines), not a dollar ceiling</text>
+  </g>
+  <line x1="170" y1="238" x2="610" y2="238" stroke="#c9d2de"/>
+  <text x="170" y="254" class="axis">$0</text>
+  <text x="586" y="254" class="axis">$1,200</text>
+  <text x="170" y="272" class="foot">Spot prints no plan total: $450 is the sum of the 12 per-item annual maximums in its Platinum sample endorsement.</text>
+
+  <!-- Panel B -->
+  <text x="24" y="312" class="cap">One item, four schedules: routine dental cleaning, annual maximum</text>
+  <line x1="24" y1="322" x2="696" y2="322" stroke="#e4e9ee"/>
+  <g>
+    <text x="24" y="348" class="name">Fetch Prime</text>
+    <rect x="170" y="336" width="400" height="17" fill="#2f6fed"/>
+    <text x="578" y="349" class="val">$250</text>
+
+    <text x="24" y="380" class="name">Nationwide ($800 plan)</text>
+    <rect x="170" y="368" width="400" height="17" fill="#f0883e"/>
+    <text x="578" y="381" class="val">$250</text>
+
+    <text x="24" y="412" class="name">Spot Platinum</text>
+    <rect x="170" y="400" width="240" height="17" fill="#8aa4d6"/>
+    <text x="418" y="413" class="val">$150</text>
+
+    <text x="24" y="444" class="name">Lemonade Preventative+</text>
+    <rect x="170" y="432" width="240" height="17" fill="#8aa4d6"/>
+    <text x="418" y="445" class="val">$150</text>
+  </g>
+  <line x1="170" y1="464" x2="570" y2="464" stroke="#c9d2de"/>
+  <text x="170" y="480" class="axis">$0</text>
+  <text x="540" y="480" class="axis">$250</text>
+
+  <text x="24" y="508" class="foot">Spot and Nationwide pay dental and spay/neuter from one combined line ($150 / $250); Fetch prints one combined line too ($175 / $200 / $250),</text>
+  <text x="24" y="524" class="foot">while Lemonade pays dental only in Preventative+ (routine prophylaxis, up to $150 a year) and puts spay/neuter in its other packages.</text>
+  <text x="24" y="546" class="foot">Sources: fetchpet.com/pet-insurance/wellness · spotpet.com sample Platinum endorsement PDF · petinsurance.com/petwellness/ · lemonade.com preventative care guide. Read 2026-09-28.</text>
+</svg>

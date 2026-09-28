@@ -30,6 +30,9 @@ OFFICIAL_HOSTS = {
     "spotpet.com", "www.spotpet.com",
     "spotpetins.com", "www.spotpetins.com",
     "fetchpet.com", "www.fetchpet.com",
+    # 官方政策文档托管域：Nationwide 官网 + Spot 样例保单 PDF 的官方 CDN
+    "petinsurance.com", "www.petinsurance.com",
+    "assets.ctfassets.net",
 }
 
 # 文章内 compare/facts/faqs/cards 块的默认小标题（可用块内 "h2" 覆盖，null = 不出标题）
@@ -514,7 +517,8 @@ def build() -> None:
                         "@type": "ListItem",
                         "position": i + 1,
                         "name": c["name"],
-                        "url": page_url(site, c["url"]),
+                        # 列可以是本页路径，也可以是被比较品牌的官方页（绝对 URL 原样用）
+                        "url": c["url"] if c["url"].startswith("http") else page_url(site, c["url"]),
                         "description": brands_by_path.get(c["url"], {}).get("short_answer", ""),
                     }
                     for i, c in enumerate(a["columns"])

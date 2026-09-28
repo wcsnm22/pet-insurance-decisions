@@ -302,3 +302,24 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - Spot 只有两张公布价（犬 $15 起 / 猫 $9 起）+ 一个 $75.01/月样例（1 岁巨型混种犬、$500 免赔、90%、无限上限、2023 年理赔数据），没有均值、没有分州表 → 格子写 not published 而不是找第三方补。
 
 ⚠️ fill #14 所有数字均为 2026-09-28 当日现抓（lemonade.com 成本指南标 Last Updated: Jun 3, 2026；spotpet.com 首页页脚；fetchpet.com/pet-insurance-cost 三条方法脚注），价格与促销随时会变，成稿当天重抓（NOFAKE）；第三方比价站只当线索不进正文。
+
+## 2026-09-28 (fill #15 — G3《wellness 每项额度跨家》成稿当日现抓所得；来源=四家官方 wellness 页与 Spot 官方样例批单 PDF)
+
+### Questions (line 4 GEO seeds, 2026-09-28)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Does pet insurance cover microchipping? | petinsurance.com/petwellness/（Microchip $50，两档都有）+ fetchpet.com/pet-insurance/wellness（$25/$25/$35）+ lemonade.com 预防包指南（Puppy/Kitten 与 Routine Vet Care Plus 含 microchip）+ spotpet.com/wellness（页面写 included，但 Gold/Platinum 样例批单里没有 microchip 行） | 2026-09-28 | 四家四种答案，Spot 页面与自家批单不一致是独家点，一问一篇 |
+| Does pet insurance cover spaying or neutering? | 同上四页：Nationwide $250（与洗牙合并一行、90 天等待）、Spot Platinum $150（与洗牙合并）、Fetch $175/$200/$250（合并行）、Lemonade 分在 Plus 与 Puppy/Kitten 包（Preventative+ 不含） | 2026-09-28 | 「合并行 vs 分开行」是别家没写的结构差异 |
+| Can I buy a wellness plan without pet insurance? | fetchpet.com/faqs/can-i-get-a-pet-wellness-plan-on-its-own（原文：only available as an add-on）+ spotpet.com/sample-policy（Gold/Platinum 是批单）+ lemonade.com 预防包指南 + petinsurance.com/petwellness/ | 2026-09-28 | 四家全是附加险，答案直给 |
+| Do wellness plans have a deductible or a waiting period? | lemonade.com 预防包 FAQ（无等待期、预防不走免赔）+ fetchpet.com/faqs/is-there-a-deductible-for-pet-wellness 与 /is-there-a-waiting-period-for-pet-wellness + petinsurance.com/petwellness（洗牙/绝育 90 天、FAQ 写 all plans have an annual deductible）+ spotpet.com 样例批单（两项都没写） | 2026-09-28 | 空格必须写 not published，别找第三方补 |
+| Is a wellness add-on worth it? | fetchpet.com/pet-insurance/wellness（计划年费 $212/$357/$478 对每项上限 $390/$700/$1,200）+ lemonade.com 预防包指南（自家口径：2–7 岁、每年自付 $200–400 的宠物）+ 同页洗牙成本 $500–$1,000（狗）/ 猫低至 $200 | 2026-09-28 | 用品牌自己印的成本与额度算，别自造模型 |
+
+### Selection / angle (2026-09-28)
+- 明天（2026-09-29）选题顺序：先查 furadvisor.com/sitemap.xml 无同词同角度 → 缺口表下一个 **G4《How long do you have to file a claim? 三家官方窗口并排》**（pawlicy 印 180/270 天却不给统计口径与来源；我站 #6 已现抓 Lemonade 180 / Spot 270 / Fetch 90，扩成独立页）；退路 S3 排期 **#20《Best Litter-Robot Alternatives》**（写稿当天重抓 litter-robot.com 等四家现价与试用条款）。
+- 独家点（2026-09-28 当日现抓，可直接当 G4 或 wellness 深页引子）：同一页上 Fetch 的每项上限相加 = $550 / $805 / $1,200，而它自己印的计划总额是 $390 / $700 / $1,200（只有 Prime 对得上，页面不解释差额）；Nationwide 两栏每项相加正好等于 $450 / $800。
+- 口径差（别折中，两句都引）：Lemonade 只发次数（1 检、3 疫苗）不发金额上限；Spot 只发每项金额不发计划总额（$250 / $450 是我方相加）；只有 Fetch 与 Nationwide 两发计划总额 → 任何「谁的 wellness 更值」都必须先说清比的是哪种数。
+- Spot 的 $0.00 行：Gold 批单里 heartworm/flea prevention、health certificate、urinalysis、blood test、Bordetella 疫苗都印 $0.00 —— 「列了但额度为零」，checklist 式对比会误判成已保。
+- 抓取路径备忘：Spot 预防批单 PDF 由 spotpet.com/sample-policy 页面链出（assets.ctfassets.net 官方 CDN，全站各州共用同一对 Gold/Platinum PDF）；petinsurance.com 的 /petwellness/ 直抓可得（1.8MB HTML，正文表在静态 HTML 里，无需浏览器渲染）；lemonade.com 预防包指南标 Last Updated: Aug 19, 2026。
+- 白名单已加 petinsurance.com 与 assets.ctfassets.net（build.py OFFICIAL_HOSTS + selfcheck official 集合与 3b 链接正则），写稿当天重抓后才可用（NOFAKE）。
+
+⚠️ fill #15 所有数字均为 2026-09-28 当日现抓（lemonade.com 预防包指南标 Last Updated: Aug 19, 2026；spotpet.com/wellness 与 /sample-policy 链出的 Gold、Platinum 样例批单；fetchpet.com/pet-insurance/wellness 三张计划表 + 三个 wellness FAQ；petinsurance.com/petwellness/ 两栏额度表），额度与计划名随州与时间会变，成稿当天重抓（NOFAKE）；第三方比价站只当线索不进正文。
