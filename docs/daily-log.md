@@ -1,49 +1,81 @@
 # Daily log — 发布日志（DAILY 任务与推进器共用的唯一去重依据）
 
-格式：`日期 | 标题/页面 | URL | 用了哪个缺口 | 主要来源`
+格式：`日期 | 站 | 页面 slug | URL | 用了哪个缺口 | 当时的 commit 标题`
 去重规则：**同一个缺口不许写第二篇；同一天已有条目 = 今天主线已完成。**
-回填说明：2026-09-28 主会话用各仓库 `git log --diff-filter=A -- site/*.html`（页面文件首次入库日期）回填，与当日 content 提交记录核对一致。09-28 之前的「主要来源」列留空表示未回溯记录，不代表没带来源（站点 selfcheck 强制缺来源即构建失败）。
 
-## 2026-09-28（4 篇，主线达标）
-| 日期 | 标题/页面 | URL | 缺口 | 主要来源 |
+> **生成方式（2026-09-28）**：本文件由脚本 `gen_daily_log.py` 从四个仓库的 `site/*.html` 实际存在文件 + `git log --diff-filter=A` 首次入库日期自动生成，**不是手写的**。
+> 每行都能追溯到一次 git 提交；表中不存在任何磁盘上找不到的页面。
+> 页面首次入库日期 = 该页在本仓库的首次出现日期，即发布日期口径（构建产物随源文件同次入库）。
+
+
+## 2026-09-24
+
+| 站 | 页面 | URL | 缺口 | commit 标题（截断） |
 |---|---|---|---|---|
-| 2026-09-28 | Pet Insurance Waiting Periods | https://furadvisor.com/pet-insurance-waiting-periods | G2 | lemonade.com 等待期指南 + spotpet.com/sample-policy 六州 PDF + fetchpet.com FAQ（均 2026-09-28 现抓） |
-| 2026-09-28 | Pet Insurance Cost by Brand | https://furadvisor.com/pet-insurance-cost-by-brand | G1 | 三家官网价格页与脚注（Lemonade/Spot/Fetch，见 ammo fill #14，2026-09-28 现抓） |
-| 2026-09-28 | Pet Insurance Wellness Add-On | https://furadvisor.com/pet-insurance-wellness-add-on | G3 | Lemonade/Spot/Fetch/Nationwide 官方 wellness 额度表（ammo fill #15，2026-09-28 现抓） |
-| 2026-09-28 | Pet Insurance Claim Filing Deadline | https://furadvisor.com/pet-insurance-claim-filing-deadline | G4 | Spot 270 天 FAQ+样例保单、Lemonade 180 天（德州 90）、Fetch 90 天（ammo fill #16，2026-09-28 现抓） |
+| P1 | fetch-pet-insurance | https://furadvisor.com/fetch-pet-insurance | — | v1: home + 3 brand pages + about/privacy/contact, facts sourced to official sites (checked 2026-09-24) |
+| P1 | lemonade-pet-insurance | https://furadvisor.com/lemonade-pet-insurance | — | v1: home + 3 brand pages + about/privacy/contact, facts sourced to official sites (checked 2026-09-24) |
+| P1 | spot-pet-insurance | https://furadvisor.com/spot-pet-insurance | — | v1: home + 3 brand pages + about/privacy/contact, facts sourced to official sites (checked 2026-09-24) |
 
-## 2026-09-27（S2 三篇 + S3 一篇）
-| 日期 | 标题/页面 | URL | 缺口 | 主要来源 |
+## 2026-09-25
+
+| 站 | 页面 | URL | 缺口 | commit 标题（截断） |
 |---|---|---|---|---|
-| 2026-09-27 | Best Fresh Dog Food Subscriptions | https://pet-fresh-food-decisions.pages.dev/best-fresh-dog-food-subscriptions | S2 #17 | （未回溯） |
-| 2026-09-27 | Best Raw Dog Food Delivery | https://pet-fresh-food-decisions.pages.dev/best-raw-dog-food-delivery | S2 #18 | wefeedraw/darwins/meetmaev 官方页（ammo fill #9） |
-| 2026-09-27 | JustFoodForDogs Review | https://pet-fresh-food-decisions.pages.dev/justfoodfordogs-review | S2 #19 附近 | （未回溯） |
-| 2026-09-27 | Best Automatic Litter Box | https://smart-pet-device-decisions.pages.dev/best-automatic-litter-box | S3 #19 | 四品牌官方页（ammo fill #11） |
+| P1 | best-pet-insurance | https://furadvisor.com/best-pet-insurance | — | feat: guides layer (data/articles.json) + #1 Best Pet Insurance 2026 comparison |
+| P1 | how-to-submit-a-pet-insurance-claim | https://furadvisor.com/how-to-submit-a-pet-insurance-claim | S1 | feat: guides #6 how to submit a claim + #7 promo code & discount guide; publish S1 schedule rows |
+| P1 | lemonade-vs-spot | https://furadvisor.com/lemonade-vs-spot | — | feat: guides #4 pet insurance cost + #5 Lemonade vs Spot; recheck all sources 2026-09-25 |
+| P1 | pet-insurance-claim-denied | https://furadvisor.com/pet-insurance-claim-denied | — | content: claim-denied appeal guide (Lemonade/Spot/Fetch, official sources); BreadcrumbList schema; appeal-flow SVG |
+| P1 | pet-insurance-cost | https://furadvisor.com/pet-insurance-cost | — | feat: guides #4 pet insurance cost + #5 Lemonade vs Spot; recheck all sources 2026-09-25 |
+| P1 | pet-insurance-promo-code | https://furadvisor.com/pet-insurance-promo-code | S1 | feat: guides #6 how to submit a claim + #7 promo code & discount guide; publish S1 schedule rows |
+| S1b | 1800petmeds-online-pharmacy | site:pet-health/1800petmeds-online-pharmacy | S1b | feat: S1b pet health site skeleton - 4 brand pages (Vetster, 1-800-PetMeds, Cosequin, Embark), sourced facts, build/selfcheck with official-host white |
+| S1b | cosequin-joint-supplement | site:pet-health/cosequin-joint-supplement | S1b | feat: S1b pet health site skeleton - 4 brand pages (Vetster, 1-800-PetMeds, Cosequin, Embark), sourced facts, build/selfcheck with official-host white |
+| S1b | embark-dna-test | site:pet-health/embark-dna-test | S1b | feat: S1b pet health site skeleton - 4 brand pages (Vetster, 1-800-PetMeds, Cosequin, Embark), sourced facts, build/selfcheck with official-host white |
+| S1b | vetster-online-vet | site:pet-health/vetster-online-vet | S1b | feat: S1b pet health site skeleton - 4 brand pages (Vetster, 1-800-PetMeds, Cosequin, Embark), sourced facts, build/selfcheck with official-host white |
 
-## 2026-09-26（S1b 四篇 + S2 六篇）
-| 日期 | 标题/页面 | URL | 缺口 | 主要来源 |
+## 2026-09-26
+
+| 站 | 页面 | URL | 缺口 | commit 标题（截断） |
 |---|---|---|---|---|
-| 2026-09-26 | Vetster Review | https://pet-health-decisions.pages.dev/vetster-review | S1b #8 | vetster.com（2026-09-26 现抓） |
-| 2026-09-26 | Online Vet vs In-Person Vet | https://pet-health-decisions.pages.dev/online-vet-vs-in-person | S1b #9 | vetster.com 官方指引 |
-| 2026-09-26 | Best Joint Supplement for Dogs | https://pet-health-decisions.pages.dev/best-joint-supplement-for-dogs | S1b | 官方页 |
-| 2026-09-26 | Buy Pet Prescription Meds Online | https://pet-health-decisions.pages.dev/buy-pet-prescription-meds-online | S1b | 1800petmeds 官方页 |
-| 2026-09-26 | Embark Discount Code | https://pet-health-decisions.pages.dev/embark-discount-code | S1b | embarkvet.com 官方页 |
-| 2026-09-26 | Embark DNA Test Review | https://pet-health-decisions.pages.dev/embark-dna-test-review | S1b | embarkvet.com |
-| 2026-09-26 | Ollie Fresh Dog Food / Ollie Cost Per Day / Ollie vs The Farmer's Dog / JustFoodForDogs Fresh Food / The Farmer's Dog（S2 五篇品牌与对比页） | https://pet-fresh-food-decisions.pages.dev/ | S2 #14 #15 | 各家官网（ammo fill #7，2026-09-26 现抓） |
+| S1b | best-joint-supplement-for-dogs | site:pet-health/best-joint-supplement-for-dogs | — | content: schedule #10 buy pet prescription meds online + #11 best joint supplements for dogs; official sources re-read 2026-09-26; two SVG infographic |
+| S1b | buy-pet-prescription-meds-online | site:pet-health/buy-pet-prescription-meds-online | — | content: schedule #10 buy pet prescription meds online + #11 best joint supplements for dogs; official sources re-read 2026-09-26; two SVG infographic |
+| S1b | embark-discount-code | site:pet-health/embark-discount-code | — | content: schedule #12 Embark DNA test review + #13 Embark discount code; official sources re-read 2026-09-26 (embarkvet.com product/feature pages + he |
+| S1b | embark-dna-test-review | site:pet-health/embark-dna-test-review | — | content: schedule #12 Embark DNA test review + #13 Embark discount code; official sources re-read 2026-09-26 (embarkvet.com product/feature pages + he |
+| S1b | online-vet-vs-in-person | site:pet-health/online-vet-vs-in-person | — | content: schedule #8 Vetster review + #9 online vet vs in-person; official-source facts checked 2026-09-26; two SVG infographics; selfcheck per-item d |
+| S1b | vetster-review | site:pet-health/vetster-review | — | content: schedule #8 Vetster review + #9 online vet vs in-person; official-source facts checked 2026-09-26; two SVG infographics; selfcheck per-item d |
+| S2 | justfoodfordogs-fresh-food | site:pet-fresh-food/justfoodfordogs-fresh-food | S2 | S2 fresh food site skeleton: 3 brand pages, 45 sourced facts, build+selfcheck PASS |
+| S2 | ollie-cost-per-day | site:pet-fresh-food/ollie-cost-per-day | S2 | S2 articles #14 ollie-vs-the-farmers-dog and #15 ollie-cost-per-day: 34 facts + 20 FAQs from ollie.com/thefarmersdog.com reads of 2026-09-26, 2 self-d |
+| S2 | ollie-fresh-dog-food | site:pet-fresh-food/ollie-fresh-dog-food | S2 | S2 fresh food site skeleton: 3 brand pages, 45 sourced facts, build+selfcheck PASS |
+| S2 | ollie-vs-the-farmers-dog | site:pet-fresh-food/ollie-vs-the-farmers-dog | S2 | S2 articles #14 ollie-vs-the-farmers-dog and #15 ollie-cost-per-day: 34 facts + 20 FAQs from ollie.com/thefarmersdog.com reads of 2026-09-26, 2 self-d |
+| S2 | the-farmers-dog | site:pet-fresh-food/the-farmers-dog | S2 | S2 fresh food site skeleton: 3 brand pages, 45 sourced facts, build+selfcheck PASS |
 
-## 2026-09-25（P1 五篇 + S1b 四篇）
-| 日期 | 标题/页面 | URL | 缺口 | 主要来源 |
+## 2026-09-27
+
+| 站 | 页面 | URL | 缺口 | commit 标题（截断） |
 |---|---|---|---|---|
-| 2026-09-25 | Best Pet Insurance in 2026 | https://furadvisor.com/best-pet-insurance | S1 #1 | 三家官网 |
-| 2026-09-25 | How Much Does Pet Insurance Cost | https://furadvisor.com/pet-insurance-cost | S1 #4 | 三家官网价格页 |
-| 2026-09-25 | Lemonade vs Spot | https://furadvisor.com/lemonade-vs-spot | S1 #5 | 两家官网 |
-| 2026-09-25 | How to Submit a Pet Insurance Claim | https://furadvisor.com/how-to-submit-a-pet-insurance-claim | S1 #6 | 三家官网理赔页 |
-| 2026-09-25 | Pet Insurance Promo Codes | https://furadvisor.com/pet-insurance-promo-code | S1 #7 | 三家官方 offer |
-| 2026-09-25 | Pet Insurance Claim Denied（appeal） | https://furadvisor.com/pet-insurance-claim-denied | G（claim denied） | Lemonade/Spot/Fetch 官方条款 |
-| 2026-09-25 | Vetster Online Vet / 1800petmeds / Cosequin / Embark DNA Test（S1b 四个品牌页） | https://pet-health-decisions.pages.dev/ | S1b 骨架 | 各家官网当日现抓 |
+| S2 | best-fresh-dog-food-subscriptions | site:pet-fresh-food/best-fresh-dog-food-subscriptions | S2 | S2 article #16 best-fresh-dog-food-subscriptions: 28 facts + 10 FAQs from ollie.com/thefarmersdog.com/justfoodfordogs.com reads of 2026-09-27, 1 self- |
+| S2 | best-raw-dog-food-delivery | site:pet-fresh-food/best-raw-dog-food-delivery | S2 | S2 article #18 best-raw-dog-food-delivery: 20 facts + 10 FAQs from wefeedraw.com, darwinspet.com and meetmaev.com pages read 2026-09-27, 1 self-drawn  |
+| S2 | justfoodfordogs-review | site:pet-fresh-food/justfoodfordogs-review | S2 | S2 article #17 justfoodfordogs-review: 15 facts + 10 FAQs from justfoodfordogs.com product pages, FAQ, promo terms and ToS read 2026-09-27, 1 self-dra |
+| S3 | best-automatic-litter-box | site:smart-pet-device/best-automatic-litter-box | S3 | S3 article #19 best-automatic-litter-box: 4-way comparison of Litter-Robot, CatGenie, PETKIT and Meowant with 24 facts + 10 FAQs read from the four of |
+| S3 | furbo | site:smart-pet-device/furbo | — | track built site/ like the sibling repos (10 pages, canonical host smart-pet-device-decisions.pages.dev) |
+| S3 | litter-robot | site:smart-pet-device/litter-robot | — | track built site/ like the sibling repos (10 pages, canonical host smart-pet-device-decisions.pages.dev) |
+| S3 | pawfit | site:smart-pet-device/pawfit | — | track built site/ like the sibling repos (10 pages, canonical host smart-pet-device-decisions.pages.dev) |
+| S3 | petcube | site:smart-pet-device/petcube | — | track built site/ like the sibling repos (10 pages, canonical host smart-pet-device-decisions.pages.dev) |
+| S3 | tractive | site:smart-pet-device/tractive | — | track built site/ like the sibling repos (10 pages, canonical host smart-pet-device-decisions.pages.dev) |
 
-## 2026-09-24（P1 骨架 + 三个品牌页）
-- https://furadvisor.com/lemonade-pet-insurance 、/spot-pet-insurance 、/fetch-pet-insurance （品牌页，一品牌一页）
+## 2026-09-28
+
+| 站 | 页面 | URL | 缺口 | commit 标题（截断） |
+|---|---|---|---|---|
+| P1 | pet-insurance-claim-filing-deadline | https://furadvisor.com/pet-insurance-claim-filing-deadline | G4 | content: pet-insurance-claim-filing-deadline (gap G4) - official filing windows side by side: Spot 270 days (FAQ + CA/AZ sample policy contract senten |
+| P1 | pet-insurance-cost-by-brand | https://furadvisor.com/pet-insurance-cost-by-brand | G1 | content: pet-insurance-cost-by-brand (gap G1) - every published price from Lemonade/Spot/Fetch with assumption + brand date stamp + read date; 19 fact |
+| P1 | pet-insurance-waiting-periods | https://furadvisor.com/pet-insurance-waiting-periods | — | content: pet-insurance-waiting-periods (G2) - 17 facts / 9 FAQ / 9-row state-aware comparison + SVG chart, all sources rechecked 2026-09-28; selfcheck |
+| P1 | pet-insurance-wellness-add-on | https://furadvisor.com/pet-insurance-wellness-add-on | G3 | content: pet-insurance-wellness-add-on (gap G3) - four official wellness benefit schedules compared item by item: Lemonade counts, Spot Gold/Platinum  |
 
 ---
-累计（按页面文件首次入库日期统计）：P1 furadvisor 14 篇内容页（不含 about/privacy/contact/404）、S1b 11、S2 9、S3 5。
+
+## 统计
+
+- 总页数（四个站，磁盘上实际存在且已入库）：**37**
+- P1=13，S1b=10，S2=8，S3=6
+- P1（furadvisor.com，本命令主站）：**13 篇**
+- 按日：**2026-09-24:3，2026-09-25:10，2026-09-26:11，2026-09-27:9，2026-09-28:4**
+- git 历史中曾出现但磁盘上已不存在的页面（孤儿）：**0**（脚本已核）
