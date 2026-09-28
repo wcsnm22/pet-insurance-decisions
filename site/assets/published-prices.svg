@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" width="720" height="560" role="img" aria-labelledby="t d">
+  <title id="t">Published pet insurance prices: starting price and average price by brand</title>
+  <desc id="d">Two bar charts read from each brand's own pages: starting prices of 10 dollars for Lemonade, 15 dollars dogs and 9 dollars cats for Spot with Fetch publishing none, and average prices of 48 dollars dogs and 27 dollars cats for Lemonade, 35 dollars dogs and 22 dollars cats for Fetch with Spot publishing none, checked 2026-09-25.</desc>
+  <style>
+    .ttl{font:700 20px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
+    .sub{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#5a6672}
+    .ph{font:700 14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
+    .lb{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#2b3743}
+    .val{font:700 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
+    .vali{font:700 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#ffffff}
+    .np{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#5a6672;font-style:italic}
+    .ax{font:400 11px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#7a8794}
+    .fn{font:400 11.5px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#5a6672}
+  </style>
+  <rect width="720" height="560" fill="#ffffff"/>
+  <text class="ttl" x="24" y="34">What each brand publishes about price</text>
+  <text class="sub" x="24" y="55">Starting price vs. average price, as each brand prints them · checked 2026-09-25</text>
+
+  <!-- Panel A: starting price, 0-50 $/month (x 260 -> 680, 420px = 50) -->
+  <text class="ph" x="24" y="88">Starting price (as published)</text>
+  <text class="ax" x="680" y="88" text-anchor="end">$ per month · 0 – 50</text>
+  <line x1="260" y1="96" x2="680" y2="96" stroke="#dde3e9"/>
+  <g>
+    <text class="lb" x="24" y="121">Lemonade · dogs &amp; cats</text>
+    <rect x="260" y="108" width="84" height="18" fill="#1FA8C1"/>
+    <text class="val" x="352" y="121">$10/mo</text>
+
+    <text class="lb" x="24" y="153">Spot · dogs</text>
+    <rect x="260" y="140" width="126" height="18" fill="#E8833A"/>
+    <text class="val" x="394" y="153">$15/mo</text>
+
+    <text class="lb" x="24" y="185">Spot · cats</text>
+    <rect x="260" y="172" width="76" height="18" fill="#E8833A"/>
+    <text class="val" x="344" y="185">$9/mo</text>
+
+    <text class="lb" x="24" y="217">Fetch · dogs &amp; cats</text>
+    <rect x="260" y="204" width="420" height="18" fill="#f4f6f8" stroke="#c9d2da" stroke-dasharray="4 3"/>
+    <text class="np" x="272" y="217">not published - averages published instead</text>
+  </g>
+  <line x1="260" y1="232" x2="680" y2="232" stroke="#dde3e9"/>
+  <g>
+    <text class="ax" x="260" y="247">0</text>
+    <text class="ax" x="344" y="247">$10</text>
+    <text class="ax" x="428" y="247">$20</text>
+    <text class="ax" x="512" y="247">$30</text>
+    <text class="ax" x="596" y="247">$40</text>
+    <text class="ax" x="680" y="247" text-anchor="end">$50</text>
+  </g>
+
+  <!-- Panel B: average price, 0-50 $/month -->
+  <text class="ph" x="24" y="286">Average price (as published)</text>
+  <text class="ax" x="680" y="286" text-anchor="end">$ per month · 0 – 50</text>
+  <line x1="260" y1="294" x2="680" y2="294" stroke="#dde3e9"/>
+  <g>
+    <text class="lb" x="24" y="319">Lemonade · dogs</text>
+    <rect x="260" y="306" width="403" height="18" fill="#1FA8C1"/>
+    <text class="vali" x="655" y="319" text-anchor="end">$48/mo</text>
+
+    <text class="lb" x="24" y="351">Lemonade · cats</text>
+    <rect x="260" y="338" width="227" height="18" fill="#1FA8C1"/>
+    <text class="vali" x="479" y="351" text-anchor="end">$27/mo</text>
+
+    <text class="lb" x="24" y="383">Spot · dogs &amp; cats</text>
+    <rect x="260" y="370" width="420" height="18" fill="#f4f6f8" stroke="#c9d2da" stroke-dasharray="4 3"/>
+    <text class="np" x="272" y="383">no average published on its own site</text>
+
+    <text class="lb" x="24" y="415">Fetch · dogs</text>
+    <rect x="260" y="402" width="294" height="18" fill="#7B61C9"/>
+    <text class="vali" x="546" y="415" text-anchor="end">$35/mo</text>
+
+    <text class="lb" x="24" y="447">Fetch · cats</text>
+    <rect x="260" y="434" width="185" height="18" fill="#7B61C9"/>
+    <text class="vali" x="437" y="447" text-anchor="end">$22/mo</text>
+  </g>
+  <line x1="260" y1="462" x2="680" y2="462" stroke="#dde3e9"/>
+  <g>
+    <text class="ax" x="260" y="477">0</text>
+    <text class="ax" x="344" y="477">$10</text>
+    <text class="ax" x="428" y="477">$20</text>
+    <text class="ax" x="512" y="477">$30</text>
+    <text class="ax" x="596" y="477">$40</text>
+    <text class="ax" x="680" y="477" text-anchor="end">$50</text>
+  </g>
+
+  <text class="fn" x="24" y="500">Lemonade cost guide: $10 starting price, $48 dogs / $27 cats averages. Spot homepage: $15 dogs,</text>
+  <text class="fn" x="24" y="516">$9 cats starting prices, no average. Fetch: averages only - $35 dogs / $22 cats, 07.01.2024-</text>
+  <text class="fn" x="24" y="532">06.30.2025 with a $10,000 limit, $300 deductible and 80% reimbursement.</text>
+  <text class="fn" x="24" y="548">Three brands, three different kinds of number - the table below links each figure to its page.</text>
+</svg>
