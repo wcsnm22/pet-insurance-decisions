@@ -323,3 +323,23 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 白名单已加 petinsurance.com 与 assets.ctfassets.net（build.py OFFICIAL_HOSTS + selfcheck official 集合与 3b 链接正则），写稿当天重抓后才可用（NOFAKE）。
 
 ⚠️ fill #15 所有数字均为 2026-09-28 当日现抓（lemonade.com 预防包指南标 Last Updated: Aug 19, 2026；spotpet.com/wellness 与 /sample-policy 链出的 Gold、Platinum 样例批单；fetchpet.com/pet-insurance/wellness 三张计划表 + 三个 wellness FAQ；petinsurance.com/petwellness/ 两栏额度表），额度与计划名随州与时间会变，成稿当天重抓（NOFAKE）；第三方比价站只当线索不进正文。
+
+## 2026-09-28 (fill #16 — G4《索赔窗口三家对照》成稿当日现抓所得；来源=三家官方索赔页/FAQ + Spot 官方样例保单 PDF)
+
+### Questions (line 4 GEO seeds, 2026-09-28)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| What happens if I file a pet insurance claim after the deadline? | fetchpet.com/claims（原句 Claims submitted after 90 days won't be covered）+ spotpet.com/sample-policy 链出的 CA/AZ 样例保单（You must submit your claim within 270 days from the date of service）+ lemonade.com 索赔指南（eligible for coverage 需 180 天内提交） | 2026-09-28 | 三家三种措辞（写死/合同 must/资格条件），一问一篇可直接答 |
+| Does Lemonade give you less time to file in Texas? | lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/（原句：Texas policies have 90 days to file a claim） | 2026-09-28 | 同一页两个截止期（180 vs 90），独家，别家没有州级例外 |
+| Does the claim clock start on the accident date or the vet visit date? | Spot 样例保单（date of service）+ fetchpet.com/claims（within 90 days of the vet visit）+ lemonade.com 指南（within 180 days of treatment） | 2026-09-28 | 三家都从就诊/治疗日起算，没有一家从事故日起算（我读过的页里没这句） |
+| How long does it take to get reimbursed after I file? | spotpet.com 首页（Claims reimbursed in 48 hrs or less）+ lemonade.com 指南（50% 瞬时、多数 5 个工作日内）+ fetchpet.com/claims（typically processed in less than 10 days）与 /faqs/claim-submission（within 15 days from when we receive all your documents） | 2026-09-28 | 口径不同不可相减（48 小时 vs 工作日 vs 收齐材料后 15 天），必须并排写 |
+| How many days do I have to appeal a denied claim? | spotpet.com/faqs（天数按州不同、须书面、审核约 30 天）+ lemonade.com 指南（App 内申诉、无天数）+ fetchpet.com/claims 与 FAQ（无申诉路径） | 2026-09-28 | 三家里只有 Spot 发布天数规则；空格写 not published |
+
+### Selection / angle (2026-09-28)
+- 明天（2026-09-29）选题顺序：先查 furadvisor.com/sitemap.xml 无同词同角度 → 缺口表下一个 **G5《Exotic Pet Insurance: Who Actually Covers Birds, Rabbits and Reptiles》**（petinsurance.com 自称唯一保异宠且有 /exotics/ 子站，lemonade 只保猫狗、pawlicy 无异宠页；正文数字回 petinsurance.com 各异宠页当日现抓，白名单已含 petinsurance.com）；退路 S3 排期 **#20《Best Litter-Robot Alternatives》**（写稿当天重抓四家现价与试用条款）或 fill #15 / fill #14。
+- 独家点（2026-09-28 当日现抓，可当 G5 或索赔深页引子）：同一品牌两页两个处理时长——fetchpet.com/claims 写 under 10 days、/faqs/claim-submission 写 within 15 days from all documents received；两页同日本机读到，两句都引不折中。
+- 口径差：Spot FAQ 写 270 days from the date of treatment，它自家合同（CA/AZ 样例保单）写 270 days from the date of service；Lemonade 同页印 180 天与 Texas 90 天两种；三家速度单位各不相同（48 小时 / 5 个工作日 / 收齐材料后 15 天）不可相减。
+- 空格（诚实留白，别拿第三方补）：Spot 与 Fetch 官网均未发布索赔窗口的州级差异；Fetch 官方页未发布申诉路径；Nationwide 公开 FAQ 只写三步流程与 1–14 天保障生效，没有发布索赔提交天数。
+- 抓取路径备忘：Spot 270 天的合同句在 spotpet.com/sample-policy 链出的 PDF 里（assets.ctfassets.net 官方 CDN，CA 与 AZ 两份 Accident & Illness 样例保单同句，用 pypdf 抽文本）；Fetch 的逾期后果句在 /claims 正文；三家 FAQ 页可直抓 curl，无需浏览器。
+
+⚠️ fill #16 所有数字均为 2026-09-28 当日现抓（lemonade.com 索赔指南；spotpet.com/faqs 与首页、/sample-policy 链出的 CA/AZ 样例保单；fetchpet.com/claims、/faqs/when-to-claim-pet-insurance、/faqs/claim-submission；petinsurance.com/faq/），天数与促销随时会变，成稿当天重抓（NOFAKE）；第三方比价站只当线索不进正文。
