@@ -282,3 +282,23 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 州级缺口现状：×州只有 Spot 有官方文档（sample-policy HTML 里只有前 20 州，后面州要翻页/JS），Lemonade 与 Fetch 都没有州级表 → 想做《waiting periods by state》深页，需先把 Spot 剩余州样例抓全。
 
 ⚠️ fill #13 所有数字均为 2026-09-28 当日现抓（lemonade.com 等待期指南页标 Last Updated: Jun 3, 2026；spotpet.com/sample-policy 与六州样例 PDF；fetchpet.com 三个 FAQ 页），促销与条款随时会变，成稿当天重抓（NOFAKE）；第三方比价站只当线索不进正文。
+
+
+## 2026-09-28 (fill #14 — G1《Cost by Brand》成稿当日现抓所得；来源=三家官网价格页与脚注)
+
+### Questions (line 4 GEO seeds, 2026-09-28)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Is Fetch more expensive than Lemonade? | fetchpet.com/pet-insurance-cost 四家对照表（Fetch $27.51 / Spot $19.79 / Pets Best $21.91 / Lemonade $14.97，脚注 as of March 2026，Tampa 33602，$5,000/$500/80%）+ lemonade.com 成本指南六家表（Lemonade $61 / Fetch $99，4 岁 Goldendoodle Chicago，$250 免赔/80%/最高上限，同行各行无日期） | 2026-09-28 | 两家官方表结论相反，答案=假设与日期不同，独家；一问一篇 |
+| What does "starting from $15/mo" actually assume? | spotpet.com 首页页脚 ^（"Advertised premium is from Dec. 11 2024"，80% 报销、$500 免赔、$2,500 年上限、2 岁 11–25 lbs 小型混种犬、ZIP 32009；猫页脚 ^^ 为 $750 免赔、ZIP 33801） | 2026-09-28 | 答案直接引页脚原文，别改写数字 |
+| Why do pet insurance prices differ by ZIP code? | spotpet.com 两个页脚（32009 / 33801）+ fetchpet.com 脚注（1 岁小型混种犬 Tampa FL 33602） | 2026-09-28 | 三家里两家把 ZIP 写进公布价，可当「同保司同计划不同州价差」入口 |
+| How old is the price on this page? | 三家日期戳现抓：Lemonade 页标 Last Updated Jun 3 2026、其分州表与内部测算 as of October 2024；Spot 页脚 Dec. 11 2024；Fetch 对照表 as of March 2026、均值 07.01.2024–06.30.2025、分品种 01.01.25–11.01.25、站内数据 9.10.2026 | 2026-09-28 | GEO 时间戳问答；每条都带 URL 与复核日期 |
+| Does pet insurance cost more in some states? | lemonade.com 成本指南分州表（Oklahoma $20–$24 → California/Connecticut/New Hampshire $45–$49，脚注内部数据 as of October 2024）；Spot 与 Fetch 官网无州级价表 | 2026-09-28 | 只有 Lemonade 有官方州表，另两家格子老实写 not published |
+
+### Selection / angle (2026-09-28)
+- 明天（2026-09-29）选题顺序：G1 已发布 /pet-insurance-cost-by-brand → 下一个缺口 **G3《wellness 每项额度跨家》**（petinsurance.com/petwellness 额度表只当线索，正文回三家官方 wellness/preventive 补充包页现抓，抓不到就 not published）；退路 S3 排期 **#20《Best Litter-Robot Alternatives》**（写稿当天重抓 litter-robot.com 等四家现价与试用条款）。
+- 独家点（今日现抓，可直接当 G3 或价格深页引子）：同两品牌在各自官方对照表里排名相反——Fetch 的表 Fetch $27.51 > Lemonade $14.97（同一 Tampa 报价），Lemonade 的表 Fetch $99 > Lemonade $61（同一 Chicago 报价）；任何「A 比 B 便宜」都必须带假设与日期。
+- 同一只狗、同一张 $889 焦虑症账单，四家赔付被 Fetch 印在一页上：Fetch $889.00 / Spot $311.20 / Pets Best $71.00 / Lemonade $71.00（后三家标 Not covered，因 Fetch 的 7 项 100% 报销含行为与远程兽医）→ 可做「同一账单同一诊所」角度，脚注口径 March 2026。
+- Spot 只有两张公布价（犬 $15 起 / 猫 $9 起）+ 一个 $75.01/月样例（1 岁巨型混种犬、$500 免赔、90%、无限上限、2023 年理赔数据），没有均值、没有分州表 → 格子写 not published 而不是找第三方补。
+
+⚠️ fill #14 所有数字均为 2026-09-28 当日现抓（lemonade.com 成本指南标 Last Updated: Jun 3, 2026；spotpet.com 首页页脚；fetchpet.com/pet-insurance-cost 三条方法脚注），价格与促销随时会变，成稿当天重抓（NOFAKE）；第三方比价站只当线索不进正文。

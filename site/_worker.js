@@ -1,7 +1,7 @@
 // ILANG
 // TYPE:worker ROLE:canonical-host-and-real-404
 const CANONICAL_HOST = "furadvisor.com";
-const VALID_PATHS = new Set(["/", "/about", "/assets/appeal-flow.svg", "/assets/favicon.svg", "/assets/style.css", "/assets/waiting-periods.svg", "/best-pet-insurance", "/contact", "/fetch-pet-insurance", "/how-to-submit-a-pet-insurance-claim", "/lemonade-pet-insurance", "/lemonade-vs-spot", "/pet-insurance-claim-denied", "/pet-insurance-cost", "/pet-insurance-promo-code", "/pet-insurance-waiting-periods", "/privacy", "/robots.txt", "/sitemap.xml", "/spot-pet-insurance"]);
+const VALID_PATHS = new Set(["/", "/about", "/assets/appeal-flow.svg", "/assets/cost-by-brand.svg", "/assets/favicon.svg", "/assets/style.css", "/assets/waiting-periods.svg", "/best-pet-insurance", "/contact", "/fetch-pet-insurance", "/how-to-submit-a-pet-insurance-claim", "/lemonade-pet-insurance", "/lemonade-vs-spot", "/pet-insurance-claim-denied", "/pet-insurance-cost", "/pet-insurance-cost-by-brand", "/pet-insurance-promo-code", "/pet-insurance-waiting-periods", "/privacy", "/robots.txt", "/sitemap.xml", "/spot-pet-insurance"]);
 
 export default {
   async fetch(request, env) {
