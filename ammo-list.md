@@ -342,4 +342,25 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - 空格（诚实留白，别拿第三方补）：Spot 与 Fetch 官网均未发布索赔窗口的州级差异；Fetch 官方页未发布申诉路径；Nationwide 公开 FAQ 只写三步流程与 1–14 天保障生效，没有发布索赔提交天数。
 - 抓取路径备忘：Spot 270 天的合同句在 spotpet.com/sample-policy 链出的 PDF 里（assets.ctfassets.net 官方 CDN，CA 与 AZ 两份 Accident & Illness 样例保单同句，用 pypdf 抽文本）；Fetch 的逾期后果句在 /claims 正文；三家 FAQ 页可直抓 curl，无需浏览器。
 
-⚠️ fill #16 所有数字均为 2026-09-28 当日现抓（lemonade.com 索赔指南；spotpet.com/faqs 与首页、/sample-policy 链出的 CA/AZ 样例保单；fetchpet.com/claims、/faqs/when-to-claim-pet-insurance、/faqs/claim-submission；petinsurance.com/faq/），天数与促销随时会变，成稿当天重抓（NOFAKE）；第三方比价站只当线索不进正文。
+⚠️ fill #16 所有数字均为 2026-09-28 当日现抓（lemonade.com 索赔指南；spotpet.com/faqs 与首页、/sample-policy 链出的 CA 与 AZ 样例保单；fetchpet.com/claims、/faqs/when-to-claim-pet-insurance、/faqs/claim-submission；petinsurance.com/faq/），天数与促销随时会变，成稿当天重抓（NOFAKE）；第三方比价站只当线索不进正文。
+
+## 2026-09-28 (fill #17 — 新三家对标 BENCH 三站齐（docs/bench-geico / bench-aspcapetinsurance / bench-allstate + 合并表 docs/benchmark-top3.md，均 2026-09-28 产出）+ 线五两张补图上线当日所得)
+
+### Questions (line 4 GEO seeds, 2026-09-28)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| How long is the waiting period, and why won't the site tell me? | geico.com/living/pet-insurance-what-is-it-how-does-it-work/（全篇 4 次提 waiting period，结论是 ask an agent，零天数）+ geico.com/pet-insurance/（1 次、无天数）+ allstate.com/resources/pet-insurance/（一句 疾病 2 周、因州而异） | 2026-09-28 | 三家全不给可比天数是结构性位；天数从各家公开条款抄（我站 G2 已现抓三家，可引不可抄对方） |
+| Does pet insurance cover a pre-existing condition if it stops recurring? | aspcapetinsurance.com/research-and-compare/pet-insurance-basics/pet-insurance-and-pre-existing-conditions/（专页）+ spotpet.com（可治愈 180 天无症状无治疗不再算 pre-existing，2026-09-25 现抓） | 2026-09-28 | ASPCA 有专页、我站只有品牌页里一格 → 一问一篇；成稿当日现抓两家原文 |
+| What happens when you hit your pet insurance annual limit? | geico.com/living/dog-insurance-what-is-it-what-does-it-cover/（$5,000 限额打满不再赔的口径）+ allstate.com/resources/pet-insurance/what-does-pet-insurance-cover（按比例报销口径） | 2026-09-28 | 限额打满后的行为各家写法不同，先现抓条款再写，不许拿对方二手数 |
+| Why does the same pet insurance policy differ by state? | aspcapetinsurance.com/more-info/state-documents-and-sample-policies/（51 州 × 4 样例保单、9 州披露文件、7 州等待期评估，只当文件仓库交付不解释） | 2026-09-28 | benchmark-top3 N5 州级长尾入口；解释只引州文件原文与各州 DOI 备案，不推断 |
+| Does renters insurance cover your dog, and do you still need pet insurance? | geico.com/living/does-renters-insurance-cover-dogs/（正文有 "Pet Insurance vs. Renters Insurance" 小节，但不给组合方案与成本） | 2026-09-28 | benchmark-top3 N11 组合页种子；成本侧用我站已发价格页数字 |
+
+### Selection / angle (2026-09-28)
+- **2026-09-29 主线（DAILY 09:00）** 按 docs/benchmark-top3.md A 段从上往下取第一个未发缺口 = **N1 按疾病类型的逐家等待期天数表**（与已发 G2「等待期是什么」角度不同，是深化）；推进器不得与 DAILY 抢同题，发前必查 docs/daily-log.md。
+- **推进器下一轮可选**（DAILY 已发 N1 之后）：线五补图余量（#5 lemonade-vs-spot / #6 how-to-submit-a-pet-insurance-claim / #7 pet-insurance-promo-code 三篇仍无自绘 SVG）、N5 州级首篇（ASPCA 州文件已核存在 51 州样例）、或 S3 排期 #20《Best Litter-Robot Alternatives》（写稿当天重抓四家现价与试用条款）。
+- 三家结构位（判据=对方页面上确实没有，2026-09-28 全文级核过）：GEICO 与 Allstate 均为 Embrace 导流、ASPCA 为 Crum & Forster 自营；**0 张可比价格表、GEICO 10 页 0 个 FAQPage schema（ld: None）、三家报价器都在外部域名侧未进入未试填** → 中立横向对比位（N2）是它们按结构不会来补的。
+- 三站价格全是口头区间（GEICO 狗 $35–65 / 猫 $15–45，Allstate $20–70 + 6 行 from 示例，ASPCA 只有"低至 $X"），**没有一家带日期与假设** → 与我站 #4 cost-by-brand 的「带日期带假设」写法形成对照，可当独家点（引用须回官方页复核）。
+- 抓取路径备忘：geico.com、allstate.com 直抓全 200；aspcapetinsurance.com 直连 403，10/10 页走 r.jina.ai 代理读取成功（/robots.txt 与 /know-before-you-buy 404 已在 bench 文档如实标注）。
+- 线五进度（2026-09-28 夜）：best-pet-insurance 补 published-prices.svg、pet-insurance-cost 补 state-averages.svg（图中数字=同篇已复核事实，checked 2026-09-25），提交 e1d15f8 push + wrangler furwell 部署，线上两页各 1 figure、两张 SVG 均 200、sitemap 17 loc。
+
+⚠️ fill #17 引用的对标页内容只用于描述对方讲了什么（各 bench 文档纪律声明），进正文前须当日现抓官方原文重核（NOFAKE）；同题不写第二篇，以 docs/daily-log.md 去重。
