@@ -230,6 +230,8 @@ def head_block(title: str, description: str, canonical: str, jsonld_blocks: list
     parts = [
         # Admitad/Mitgo ad-space ownership verification (site owner action)
         '<meta name="mitgo-verification" content="525da73b-6632-4867-a8b7-3f78725eee42">',
+        # Impact.com publisher site-ownership verification (site owner action)
+        '<meta name="impact-site-verification" value="2385d48f-31d9-4d68-93cb-707ce4d312fe">',
         f'<meta name="description" content="{escape(description, quote=True)}">',
         f'<link rel="canonical" href="{escape(canonical, quote=True)}">',
         '<meta property="og:type" content="website">',
