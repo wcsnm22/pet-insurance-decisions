@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="580" viewBox="0 0 720 580" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="720" height="580" fill="#ffffff"/>
+  <text x="40" y="40" font-size="21" font-weight="700" fill="#0f172a">Appeal deadlines and review times after a denied claim</text>
+
+  <text x="40" y="74" font-size="15" font-weight="700" fill="#2563eb">Deadline to file the appeal after the denial (days)</text>
+
+  <!-- Panel A: one 0-90 day scale; only Fetch publishes a deadline -->
+  <g font-size="14" fill="#334155">
+    <text x="232" y="110" text-anchor="end">Fetch</text>
+    <rect x="242" y="92" width="400" height="26" rx="4" fill="#0369a1"/>
+    <text x="650" y="110" font-weight="700" fill="#0f172a">90 days</text>
+
+    <text x="232" y="150" text-anchor="end">Spot</text>
+    <rect x="242" y="132" width="400" height="26" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-dasharray="5 4"/>
+    <text x="442" y="150" text-anchor="middle" font-size="13" fill="#64748b">not published</text>
+
+    <text x="232" y="190" text-anchor="end">Lemonade</text>
+    <rect x="242" y="172" width="400" height="26" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-dasharray="5 4"/>
+    <text x="442" y="190" text-anchor="middle" font-size="13" fill="#64748b">not published</text>
+  </g>
+
+  <!-- shared 0-90 day axis -->
+  <line x1="242" y1="210" x2="642" y2="210" stroke="#cbd5e1" stroke-width="1"/>
+  <g stroke="#cbd5e1" stroke-width="1">
+    <line x1="242" y1="210" x2="242" y2="216"/>
+    <line x1="375" y1="210" x2="375" y2="216"/>
+    <line x1="509" y1="210" x2="509" y2="216"/>
+    <line x1="642" y1="210" x2="642" y2="216"/>
+  </g>
+  <g font-size="12" fill="#64748b" text-anchor="middle">
+    <text x="242" y="231">0</text>
+    <text x="375" y="231">30</text>
+    <text x="509" y="231">60</text>
+    <text x="642" y="231">90 days</text>
+  </g>
+
+  <line x1="40" y1="252" x2="680" y2="252" stroke="#e4e9ee" stroke-width="1"/>
+
+  <text x="40" y="284" font-size="15" font-weight="700" fill="#2563eb">The appeal route each brand publishes, and its review time</text>
+
+  <!-- Panel B: route cards, one review time each -->
+  <g>
+    <rect x="40" y="300" width="200" height="180" rx="8" fill="#f8fafc" stroke="#e4e9ee"/>
+    <text x="56" y="328" font-size="14" font-weight="700" fill="#0f172a">Lemonade</text>
+    <text x="56" y="366" font-size="22" font-weight="700" fill="#0ea5e9">not published</text>
+    <g font-size="12.5" fill="#334155">
+      <text x="56" y="394">Route: inside the Lemonade</text>
+      <text x="56" y="412">app, with extra documents</text>
+      <text x="56" y="430">from your vet. No appeal</text>
+      <text x="56" y="448">deadline and no review time</text>
+      <text x="56" y="466">on the cited pages.</text>
+    </g>
+
+    <rect x="260" y="300" width="200" height="180" rx="8" fill="#f8fafc" stroke="#e4e9ee"/>
+    <text x="276" y="328" font-size="14" font-weight="700" fill="#0f172a">Spot</text>
+    <text x="276" y="366" font-size="22" font-weight="700" fill="#2563eb">~30 days</text>
+    <g font-size="12.5" fill="#334155">
+      <text x="276" y="394">Route: appeal by email to</text>
+      <text x="276" y="412">service@customer.</text>
+      <text x="276" y="430">spotpetins.com, in writing</text>
+      <text x="276" y="448">with supporting documents;</text>
+      <text x="276" y="466">confirmation when received.</text>
+    </g>
+
+    <rect x="480" y="300" width="200" height="180" rx="8" fill="#f8fafc" stroke="#e4e9ee"/>
+    <text x="496" y="328" font-size="14" font-weight="700" fill="#0f172a">Fetch</text>
+    <text x="496" y="366" font-size="22" font-weight="700" fill="#0369a1">no duration</text>
+    <g font-size="12.5" fill="#334155">
+      <text x="496" y="394">Route: written appeal within</text>
+      <text x="496" y="412">90 days of the denial, then</text>
+      <text x="496" y="430">an Internal Review; a written</text>
+      <text x="496" y="448">notice reports the outcome,</text>
+      <text x="496" y="466">with no duration published.</text>
+    </g>
+  </g>
+
+  <g font-size="12.5" fill="#64748b">
+    <text x="40" y="514">Sources: Fetch policy section 2 (APPEALS), Spot&#39;s submitting-a-claim page, Lemonade&#39;s how-to-file guide.</text>
+    <text x="40" y="536">&#34;not published&#34; means the cited pages print no such number - not an estimate. The two panels count</text>
+    <text x="40" y="558">different things: appeal deadline vs review time. Facts last checked 2026-09-25.</text>
+  </g>
+</svg>
