@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="570" viewBox="0 0 720 570" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="720" height="570" fill="#ffffff"/>
+  <text x="40" y="40" font-size="21" font-weight="700" fill="#0f172a">Every discount the three brands publish, as a percentage</text>
+
+  <text x="40" y="76" font-size="15" font-weight="700" fill="#2563eb">Published discount rates - one 0 to 20% scale</text>
+  <text x="680" y="76" font-size="12.5" fill="#64748b" text-anchor="end">0 - 20% of premium</text>
+
+  <!-- Panel A: bars, 1% = 18px, start x=242 -->
+  <g font-size="14" fill="#334155">
+    <text x="232" y="114" text-anchor="end">Spot - employer plans</text>
+    <rect x="242" y="98" width="360" height="26" rx="4" fill="#2563eb"/>
+    <text x="610" y="116" font-weight="700" fill="#0f172a">up to 20%</text>
+
+    <text x="232" y="152" text-anchor="end">Lemonade - multi-pet</text>
+    <rect x="242" y="136" width="180" height="26" rx="4" fill="#0ea5e9"/>
+    <text x="430" y="154" font-weight="700" fill="#0f172a">up to 10%</text>
+
+    <text x="232" y="190" text-anchor="end">Lemonade - bundle</text>
+    <rect x="242" y="174" width="180" height="26" rx="4" fill="#0ea5e9"/>
+    <text x="430" y="192" font-weight="700" fill="#0f172a">up to 10%</text>
+
+    <text x="232" y="228" text-anchor="end">Spot - 2nd pet and after</text>
+    <rect x="242" y="212" width="180" height="26" rx="4" fill="#2563eb"/>
+    <text x="430" y="230" font-weight="700" fill="#0f172a">10%</text>
+
+    <text x="232" y="266" text-anchor="end">Fetch - military &amp; AARP</text>
+    <rect x="242" y="250" width="180" height="26" rx="4" fill="#0369a1"/>
+    <text x="430" y="268" font-weight="700" fill="#0f172a">10% for life</text>
+
+    <text x="232" y="304" text-anchor="end">Fetch - Walmart, first year</text>
+    <rect x="242" y="288" width="180" height="26" rx="4" fill="#0369a1"/>
+    <text x="430" y="306" font-weight="700" fill="#0f172a">10% for 1 year</text>
+
+    <text x="232" y="342" text-anchor="end">Lemonade - pay a full year</text>
+    <rect x="242" y="326" width="90" height="26" rx="4" fill="#7dd3fc"/>
+    <text x="340" y="344" font-weight="700" fill="#0f172a">up to 5%</text>
+  </g>
+
+  <line x1="40" y1="372" x2="680" y2="372" stroke="#e4e9ee" stroke-width="1"/>
+
+  <text x="40" y="402" font-size="15" font-weight="700" fill="#2563eb">No promo-code page in any of the three sitemaps - the fine print instead</text>
+
+  <!-- Panel B: fine print cards -->
+  <g>
+    <rect x="40" y="416" width="200" height="112" rx="8" fill="#f8fafc" stroke="#e4e9ee"/>
+    <text x="56" y="440" font-size="14" font-weight="700" fill="#0f172a">Lemonade</text>
+    <text x="56" y="462" font-size="12.5" fill="#334155">Only the base A&amp;I policy,</text>
+    <text x="56" y="478" font-size="12.5" fill="#334155">vet visit fee and physical</text>
+    <text x="56" y="494" font-size="12.5" fill="#334155">therapy add-ons qualify -</text>
+    <text x="56" y="510" font-size="12.5" fill="#334155">not preventative care.</text>
+    <text x="56" y="526" font-size="12.5" fill="#334155">Might not be in every state.</text>
+
+    <rect x="260" y="416" width="200" height="112" rx="8" fill="#f8fafc" stroke="#e4e9ee"/>
+    <text x="276" y="440" font-size="14" font-weight="700" fill="#0f172a">Spot</text>
+    <text x="276" y="462" font-size="12.5" fill="#334155">Vary by state, subject to</text>
+    <text x="276" y="478" font-size="12.5" fill="#334155">change, not available</text>
+    <text x="276" y="494" font-size="12.5" fill="#334155">everywhere. The 20% =</text>
+    <text x="276" y="510" font-size="12.5" fill="#334155">up to 10% group plus</text>
+    <text x="276" y="526" font-size="12.5" fill="#334155">up to 10% multi-pet.</text>
+
+    <rect x="480" y="416" width="200" height="112" rx="8" fill="#f8fafc" stroke="#e4e9ee"/>
+    <text x="496" y="440" font-size="14" font-weight="700" fill="#0f172a">Fetch</text>
+    <text x="496" y="462" font-size="12.5" fill="#334155">Maximum available</text>
+    <text x="496" y="478" font-size="12.5" fill="#334155">discount is 10%; offers</text>
+    <text x="496" y="494" font-size="12.5" fill="#334155">need approval and may</text>
+    <text x="496" y="510" font-size="12.5" fill="#334155">change at any time.</text>
+  </g>
+
+  <text x="40" y="554" font-size="12.5" fill="#64748b">Every percentage is printed on the brand's own renewals, multi-pet, employer, FAQ or partner pages; all read 2026-09-25.</text>
+</svg>
