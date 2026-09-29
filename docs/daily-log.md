@@ -69,13 +69,19 @@
 | P1 | pet-insurance-cost-by-brand | https://furadvisor.com/pet-insurance-cost-by-brand | G1 | content: pet-insurance-cost-by-brand (gap G1) - every published price from Lemonade/Spot/Fetch with assumption + brand date stamp + read date; 19 fact |
 | P1 | pet-insurance-waiting-periods | https://furadvisor.com/pet-insurance-waiting-periods | — | content: pet-insurance-waiting-periods (G2) - 17 facts / 9 FAQ / 9-row state-aware comparison + SVG chart, all sources rechecked 2026-09-28; selfcheck |
 | P1 | pet-insurance-wellness-add-on | https://furadvisor.com/pet-insurance-wellness-add-on | G3 | content: pet-insurance-wellness-add-on (gap G3) - four official wellness benefit schedules compared item by item: Lemonade counts, Spot Gold/Platinum  |
+## 2026-09-29
+
+| 站 | 页面 | URL | 缺口 | commit 标题（截断） |
+|---|---|---|---|---|
+| P1 | pet-insurance-waiting-periods-by-condition | https://furadvisor.com/pet-insurance-waiting-periods-by-condition | N1 | content: pet-insurance-waiting-periods-by-condition (gap N1) - per-condition waiting-period day counts for GEICO, ASPCA and Allstate read from the bra |
+
 
 ---
 
 ## 统计
 
-- 总页数（四个站，磁盘上实际存在且已入库）：**37**
-- P1=13，S1b=10，S2=8，S3=6
-- P1（furadvisor.com，本命令主站）：**13 篇**
-- 按日：**2026-09-24:3，2026-09-25:10，2026-09-26:11，2026-09-27:9，2026-09-28:4**
+- 总页数（四个站，磁盘上实际存在且已入库）：**38**
+- P1=14，S1b=10，S2=8，S3=6
+- P1（furadvisor.com，本命令主站）：**14 篇**
+- 按日：**2026-09-24:3，2026-09-25:10，2026-09-26:11，2026-09-27:9，2026-09-28:4，2026-09-29:1**
 - git 历史中曾出现但磁盘上已不存在的页面（孤儿）：**0**（脚本已核）
