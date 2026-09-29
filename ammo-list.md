@@ -423,3 +423,18 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 ### Selection / angle (2026-09-30)
 - 线五进度（2026-09-30 01:0x）：N1 `pet-insurance-waiting-periods-by-condition` 挂上自绘 `/assets/waiting-period-day-counts.svg`（双面板：上面板=三家自家页面印的天数（GEICO 0 个、Allstate 1 个 14 天、ASPCA 表 0 天 vs 同页正文 14 天两个答案），下面板=GEICO/Allstate 页脚指向的 Embrace 合同 V5/V6 逐条天数；每个数字取自该篇已复核事实 checked 2026-09-29），提交 ac4660d push + wrangler furwell 部署，线上页面 200 且 1 figure、SVG 200（6229 字节）、sitemap 18 loc、未知路径 404、无中文、canonical 不变 → **P1 十一篇 guide 全部有图**，仅剩 `pet-insurance-claim-denied` 是旧式直插 img（appeal-flow.svg，无 figure 数据图），下轮候选。
 - 2026-09-30 主线归 DAILY（09:00，取题 benchmark-top3.md A 段 = **N2 同一只宠 3–5 家真实报价对比表**，需自己跑报价、截图带日期与口径）；推进器 01:0x 运行时未过 09:00 且 daily-log 无 09-30 条目 → 不补发，只做了线五+线三。
+
+## 2026-09-30 (fill #22 — 线五给 pet-insurance-claim-denied 补图时，从该篇已复核事实里筛出的 GEO 疑问句；事实复核日 2026-09-25，成稿当日须重抓官方原文)
+
+### Questions (line 4 GEO seeds, 2026-09-30)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| How long do I have to appeal a denied pet insurance claim? | fetchpet.com 政策 PDF GPTM_050-XX_0316 第 2 节 APPEALS（拒赔日起 90 天、书面）+ lemonade.com how-to-file 与 spotpet.com/submitting-a-claim 两处均未发布期限 | 2026-09-25 | 已发 `pet-insurance-claim-denied` 已覆盖申诉路径，写前必查 daily-log；差异角度=只讲期限与逾期后果 |
+| What happens inside Fetch's Internal Review? | fetchpet.com 政策 PDF 第 2 节（claims specialist + claims manager + 必要时 Fetch 兽医；书面通知，维持原判须列明理由与所依条款） | 2026-09-25 | 独家：三家只有 Fetch 把申诉审级与「维持原判要给理由」写进合同 |
+| How long does a Spot appeal take? | spotpet.com/submitting-a-claim（约 30 天审完、收件发确认邮件、service@customer.spotpetins.com） | 2026-09-25 | 一问一篇好题：三家里唯一发布申诉审期的一家 |
+| Does Lemonade publish an appeal deadline? | lemonade.com/pet/explained/how-to-file-a-pet-insurance-claim 与 /pet/insurance-guide/pet-claim-denials/ 两页通篇无期限（absence，成稿写 publishes no deadline 而非 not published 开头配空源） | 2026-09-25 | 与第 1 条互为镜像，二选一别写两篇 |
+| What are the most common reasons a pet insurance claim is denied? | lemonade.com/pet-claim-denials（既往症/双侧、等待期 14 天疾病 30 天骨科、预防包单项超限、换保司大概率也不保）+ fetchpet.com/claims（无 Wellness 的预防、既往症除非可治愈、就诊超 90 天） | 2026-09-25 | 正对 benchmark-top3 N3「理赔真相层」缺口——三家里两家有官方清单、Spot 无 |
+
+### Selection / angle (2026-09-30 第二段)
+- 线五进度（2026-09-30 05:1x）：`pet-insurance-claim-denied` 挂上自绘 `/assets/appeal-deadlines.svg`（720×580 双面板：上面板=申诉期限同一 0–90 天刻度，只有 Fetch 印 90 天、Spot/Lemonade 虚线位 not published；下面板=三张路径卡（Lemonade App 内申诉无期限无审期 / Spot 邮件书面约 30 天 / Fetch 书面 90 天→Internal Review 无审期），每个数字取自该篇已复核事实 checked 2026-09-25、无一个新数字），提交 b87afb9 push GitHub + wrangler furwell 部署，线上页面 200（30,162 字节）且 1 figure + figcaption、SVG 200（4,493 字节 image/svg+xml）、purge 后仍 200、sitemap 18 loc 不变、未知路径真 404、无中文、canonical 不变、旧 appeal-flow 直插 img 仍在 → **P1 十一篇 guide 全部有 figure 数据图，线五 P1 账清零**；剩 3 个品牌页（fetch/lemonade/spot）0 figure，S1b/S2/S3 各文的图是正文 `<img>` 直插、须先统一口径再论缺漏。
+- 2026-09-30 主线归 DAILY（09:00，取题 benchmark-top3.md A 段 = **N2 同一只宠 3–5 家真实报价对比表**，需自己跑报价、截图带日期与口径）；推进器 05:1x 运行时未过 09:00 且 daily-log 无 09-30 条目 → 不补发，只做了线五+线三。下轮备选：线四 GEO 问答页（从 fill #21/#22 拿题）或 M3（S1b/S2/S3 建 GSC 资源交 sitemap）或 S3 排期 #20。
