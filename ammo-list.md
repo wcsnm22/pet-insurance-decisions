@@ -393,3 +393,18 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 ### Selection / angle (2026-09-29 第二段)
 - 线五进度（2026-09-29 08:1x）：S1 五篇里 **4/5 已挂自绘 SVG**（#1、#4、#5、**#6 how-to-submit-a-pet-insurance-claim 新增 claim-filing-and-speed.svg**，提交 da87815 push + furwell 部署，线上 1 figure、SVG 200、sitemap 17 loc）→ 只剩 **#7 pet-insurance-promo-code**，其数字须取该篇已复核事实（三家折扣百分比与 sitemap 无促销页结论）。
 - 2026-09-29 主线归 DAILY（09:00，取题 benchmark-top3.md A 段 = N1）；推进器本轮 08:1x 运行时未过 09:00 且 daily-log 无 09-29 条目 → 未发稿，只做了线五。
+
+## 2026-09-29 (fill #20 — 线五给 #7 pet-insurance-promo-code 补图时，从该篇已复核事实里筛出的 GEO 疑问句；事实复核日 2026-09-25，成稿当日须重抓官方原文)
+
+### Questions (line 4 GEO seeds, 2026-09-29)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Is there a real Lemonade pet insurance promo code? | lemonade.com/pet-insurance-guide sitemap.xml、spotpet.com sitemap、fetchpet.com sitemap 均无 promo/coupon 页（三家 sitemap 当日逐条核） | 2026-09-25 | 第一屏答案=官方站没有可输入的码，只有折扣；写前重抓三家 sitemap 防新页出现 |
+| Does Spot give a discount for multiple pets? | spotpet.com/insurance-for-multiple-pets 与 /faqs（第 2 只及以后每只 10%）+ spotpet.com/employers（up to 20% = 10% group + 10% multi-pet） | 2026-09-25 | 独家点=Spot 把两条折扣叠成 20%，且注明 vary by state / not available in all states |
+| Can I get pet insurance through my employer? | spotpet.com/employers（up to 20% group discount，按州不同、可变、并非全州提供） | 2026-09-25 | 只有 Spot 发布雇主口径，Lemonade/Fetch 该格为 not published |
+| Which pet insurance brand discounts veterans and military? | fetchpet.com/faqs/military-pet-insurance-discount（现役与退伍 10% 每月终身）+ fetchpet.com/partners/aarp（AARP 同样 10% 终身）+ fetchpet.com/partners/walmart（Walmart 10% 一年） | 2026-09-25 | Fetch 三家伙伴折扣都是 10%，且自家 FAQ 写 maximum available discount of 10% |
+| Do pet insurance discounts apply to wellness add-ons? | lemonade.com/pet/insurance-guide/lemonade-pet-renewals/（折扣只作用于基础意外疾病保单 + vet visit fee + 物理治疗附加，预防包不打折；可能不适用所有州） | 2026-09-25 | 与已发 G3 wellness 页互补：那篇讲额度，这篇讲「折扣碰不碰得到 wellness」 |
+
+### Selection / angle (2026-09-29 第三段)
+- 线五进度（2026-09-29 16:4x）：S1 保险站 5 篇**全部挂上自绘 SVG = 5/5 完成**（#1、#4、#5、#6、**#7 pet-insurance-promo-code 新增 promo-discounts.svg**，提交 6bac816 push + wrangler 部署 furwell，线上页面 200 且 1 figure、SVG 200、sitemap 18 loc、未知路径 404+noindex、无中文、canonical 不变）→ 线五 S1 旧账清零，下一步转向 S1b/S2/S3 老文章补图或线四 GEO 问答页。
+- 2026-09-29 主线已由 DAILY 完成（N1，daily-log 有条目）；2026-09-30 DAILY 取题 = benchmark-top3.md A 段第一个未发 = **N2 同一只宠 3–5 家真实报价对比表**（需我方自己跑报价，报价截图必须带日期与口径）。
