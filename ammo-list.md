@@ -378,3 +378,18 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 ### Selection / angle (2026-09-29)
 - 线五进度（2026-09-29 04:0x）：S1 五篇里 **3/5 已挂自绘 SVG**（#1 best-pet-insurance、#4 pet-insurance-cost、#5 lemonade-vs-spot，提交 dfebecc push + furwell 部署，线上各 1 figure、SVG 200、sitemap 17 loc）→ 剩 **#6 how-to-submit-a-pet-insurance-claim / #7 pet-insurance-promo-code** 两篇，图中数字只能取该篇已复核事实。
 - 2026-09-29 主线仍归 DAILY（09:00，取题 benchmark-top3.md A 段 = N1 按疾病类型逐家等待期表）；推进器只在「已过 09:00 且 daily-log 无当天条目」时补发。
+
+## 2026-09-29 (fill #19 — 线五给 #6 how-to-submit-a-pet-insurance-claim 补图时，从该篇已复核事实里筛出的 GEO 疑问句；事实复核日 2026-09-25，成稿当日须重抓)
+
+### Questions (line 4 GEO seeds, 2026-09-29)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| How many days do I actually have to file a pet insurance claim? | lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/（180 天、Texas 90 天）+ spotpet.com/faqs（270 天，date of treatment）+ fetchpet.com/faqs/when-to-claim-pet-insurance（90 天且逾期不赔写死） | 2026-09-25 | 三家三个数且都从就诊/治疗日起算；与已发 G4 缺口角度重叠度高，写前必查 daily-log 去重 |
+| Can I file a pet insurance claim without the app? | lemonade.com claim guide FAQ（流程纯 App 内、无 App 无法提交）+ spotpet.com/claims-form（Member Center + 可下载 PDF 表）+ fetchpet.com/faqs/claim-submission（App 或网页账户） | 2026-09-25 | 一问一篇的好题：答案三分（只能 App / 两种都行 / 两种都行），独家点是 Lemonade 的 App 硬门槛 |
+| What documents does a pet insurance claim need? | 三家 claim guide/FAQ：Lemonade 要 12 个月内的就诊记录 + 发票、Spot 要账单（记录按需）、Fetch 要 zero balance/paid-in-full 发票 + 最近体检 SOAP notes | 2026-09-25 | Fetch 的「发票必须显示零余额」是最硬的拒绝理由，可当第一屏答案 |
+| Why is my pet insurance claim taking so long? | 三家发布速度口径：Lemonade 50% 瞬时/多数 5 个工作日、Spot 48 小时（admin data 2019–2024）、Fetch <10 天（另一页 <15 天）；加等待期与缺材料两个官方提到的卡点 | 2026-09-25 | 单位不同不可相减；同品牌两页两个处理时长（fetchpet.com/claims vs /faqs/claim-submission）是独家点 |
+| How do I appeal a denied pet insurance claim? | lemonade.com（App 内补材料申诉）+ spotpet.com/faqs（service@customer.spotpetins.com 书面申诉、约 30 天、窗口按州不同）+ fetchpet.com（官网未发布申诉流程 = not published） | 2026-09-25 | 与已发 pet-insurance-claim-denied 主题相近，写前必查 daily-log；差异角度=「三家谁把申诉流程写在官网上」 |
+
+### Selection / angle (2026-09-29 第二段)
+- 线五进度（2026-09-29 08:1x）：S1 五篇里 **4/5 已挂自绘 SVG**（#1、#4、#5、**#6 how-to-submit-a-pet-insurance-claim 新增 claim-filing-and-speed.svg**，提交 da87815 push + furwell 部署，线上 1 figure、SVG 200、sitemap 17 loc）→ 只剩 **#7 pet-insurance-promo-code**，其数字须取该篇已复核事实（三家折扣百分比与 sitemap 无促销页结论）。
+- 2026-09-29 主线归 DAILY（09:00，取题 benchmark-top3.md A 段 = N1）；推进器本轮 08:1x 运行时未过 09:00 且 daily-log 无 09-29 条目 → 未发稿，只做了线五。
