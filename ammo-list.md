@@ -408,3 +408,18 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 ### Selection / angle (2026-09-29 第三段)
 - 线五进度（2026-09-29 16:4x）：S1 保险站 5 篇**全部挂上自绘 SVG = 5/5 完成**（#1、#4、#5、#6、**#7 pet-insurance-promo-code 新增 promo-discounts.svg**，提交 6bac816 push + wrangler 部署 furwell，线上页面 200 且 1 figure、SVG 200、sitemap 18 loc、未知路径 404+noindex、无中文、canonical 不变）→ 线五 S1 旧账清零，下一步转向 S1b/S2/S3 老文章补图或线四 GEO 问答页。
 - 2026-09-29 主线已由 DAILY 完成（N1，daily-log 有条目）；2026-09-30 DAILY 取题 = benchmark-top3.md A 段第一个未发 = **N2 同一只宠 3–5 家真实报价对比表**（需我方自己跑报价，报价截图必须带日期与口径）。
+
+## 2026-09-30 (fill #21 — 线五给 N1 pet-insurance-waiting-periods-by-condition 补图时，从该篇已复核事实里筛出的 GEO 疑问句；事实复核日 2026-09-29，成稿当日须重抓官方原文)
+
+### Questions (line 4 GEO seeds, 2026-09-30)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Why does ASPCA's quote page give two different accident waiting periods? | aspcapetinsurance.com/quote/ 同页两处（表行 "Accidents & Injuries - No waiting period" vs 正文 "Coverage for accidents and illnesses begins 14 days after your coverage effective date"） | 2026-09-29 | 同页自相矛盾、页面从不调和 = 独家；N1 只在表里带过一句，可一问一篇；直连 403，用文本渲染抓同 URL |
+| Which states have a 2-day accident waiting period? | embracepetinsurance.com/state-terms/v5（州选择器：仅 KS/NM/SC，"two (2) days for Accidents"）+ GEICO/Allstate 页零天数 | 2026-09-29 | 州级长尾（N5 方向）：答案=三个州走 V5 合同、其余 48 州+DC 走 V6（意外 0 天）；GEICO/Allstate 官网不写天数只能指到合同 |
+| Do cats get a shorter orthopedic waiting period than dogs? | embracepetinsurance.com/help/article/what-is-the-waiting-period-for-orthopedic-conditions（猫 14 天；狗 V5 六个月 / V6 180 天排除清单） | 2026-09-29 | 一问一篇：猫 14 天 vs 狗两档，差异就在两家链接的同一份合同里 |
+| Does increasing coverage restart the waiting period? | Embrace V5/V6 合同（"also applies again when there are Coverage increases but is waived for policy renewals"） | 2026-09-29 | 与 N1 FAQ 已有一问重叠 → 写前必查 daily-log，可换成「加钱升级会不会重置等待期」实操角度 |
+| What is a Waiting Period Health Assessment? | aspcapetinsurance.com/more-info/state-documents-and-sample-policies（按州 Waiting Period Waiver Form + 链出 Waiting Period Health Assessment） | 2026-09-29 | G2 已写过 CA 的付费评估（体检前 3 天后 7 天、30 天内交表）→ 同角度不写第二篇，只能扩成「各州豁免怎么用」新角度 |
+
+### Selection / angle (2026-09-30)
+- 线五进度（2026-09-30 01:0x）：N1 `pet-insurance-waiting-periods-by-condition` 挂上自绘 `/assets/waiting-period-day-counts.svg`（双面板：上面板=三家自家页面印的天数（GEICO 0 个、Allstate 1 个 14 天、ASPCA 表 0 天 vs 同页正文 14 天两个答案），下面板=GEICO/Allstate 页脚指向的 Embrace 合同 V5/V6 逐条天数；每个数字取自该篇已复核事实 checked 2026-09-29），提交 ac4660d push + wrangler furwell 部署，线上页面 200 且 1 figure、SVG 200（6229 字节）、sitemap 18 loc、未知路径 404、无中文、canonical 不变 → **P1 十一篇 guide 全部有图**，仅剩 `pet-insurance-claim-denied` 是旧式直插 img（appeal-flow.svg，无 figure 数据图），下轮候选。
+- 2026-09-30 主线归 DAILY（09:00，取题 benchmark-top3.md A 段 = **N2 同一只宠 3–5 家真实报价对比表**，需自己跑报价、截图带日期与口径）；推进器 01:0x 运行时未过 09:00 且 daily-log 无 09-30 条目 → 不补发，只做了线五+线三。
