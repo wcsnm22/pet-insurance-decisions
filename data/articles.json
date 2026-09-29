@@ -1586,6 +1586,11 @@
         },
         {
           "type": "section",
+          "h2": "Deadlines and published speeds, charted",
+          "html": "<figure style=\"margin:1.2em 0\"><img src=\"/assets/claim-filing-and-speed.svg\" alt=\"Two panels: filing windows after treatment in days on one scale - Spot 270 days, Lemonade 180 days, Lemonade Texas policy 90 days, Fetch 90 days - and each brand's published claim speed in its own unit: Lemonade 50% of eligible claims paid instantly with most others within 5 business days, Spot 48 hours or less, Fetch typical processing under 10 days with direct deposit 5 to 10 days faster than paper checks; all read from the brands' official pages on 2026-09-25\" width=\"720\" height=\"570\" loading=\"lazy\" style=\"max-width:100%;height:auto;border:1px solid #e4e9ee;border-radius:8px\"><figcaption>Every number is one the brand prints on its own claim guide, FAQ or homepage (facts checked 2026-09-25). The top panel puts four filing windows on one day scale; the bottom cards use three different units (share of claims, hours, days), so they cannot be compared with each other or subtracted from the windows above.</figcaption></figure>"
+        },
+        {
+          "type": "section",
           "h2": "The three workflows, step by step",
           "html": "<p><strong>Lemonade:</strong> open the app, tap the pink 'File a Claim' button, answer AI Jim's questions (starting with a truthfulness pledge), describe what happened, record a short video of the incident, upload the invoice and receipt plus records, and submit. Payment is wired to your bank account if the claim is approved.</p><p><strong>Spot:</strong> pay the vet, sign in to your Member Center and submit the claim online; you have 270 days from the date of treatment. Spot emails you at receipt, if it needs more information, and when the claim is complete.</p><p><strong>Fetch:</strong> pay the vet first, then upload a photo of the paid invoice in the app (or submit on the member portal) together with the medical records. The invoice must show a zero balance. Set up direct deposit early - Fetch says it pays 5 to 10 days faster than paper checks.</p>"
         },

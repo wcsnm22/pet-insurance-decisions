@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="570" viewBox="0 0 720 570" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="720" height="570" fill="#ffffff"/>
+  <text x="40" y="40" font-size="21" font-weight="700" fill="#0f172a">Filing windows and each brand's published claim speed</text>
+
+  <text x="40" y="76" font-size="15" font-weight="700" fill="#2563eb">Days to file after treatment - official windows (days)</text>
+
+  <!-- Panel A: filing windows, scale 400px = 270 days -->
+  <g font-size="14" fill="#334155">
+    <text x="232" y="112" text-anchor="end">Spot</text>
+    <rect x="242" y="96" width="400" height="26" rx="4" fill="#2563eb"/>
+    <text x="650" y="114" font-weight="700" fill="#0f172a">270 days</text>
+
+    <text x="232" y="152" text-anchor="end">Lemonade</text>
+    <rect x="242" y="136" width="267" height="26" rx="4" fill="#0ea5e9"/>
+    <text x="517" y="154" font-weight="700" fill="#0f172a">180 days</text>
+
+    <text x="232" y="192" text-anchor="end">Lemonade, Texas policy</text>
+    <rect x="242" y="176" width="133" height="26" rx="4" fill="#7dd3fc"/>
+    <text x="383" y="194" font-weight="700" fill="#0f172a">90 days</text>
+
+    <text x="232" y="232" text-anchor="end">Fetch</text>
+    <rect x="242" y="216" width="133" height="26" rx="4" fill="#0369a1"/>
+    <text x="383" y="234" font-weight="700" fill="#0f172a">90 days</text>
+  </g>
+
+  <line x1="40" y1="272" x2="680" y2="272" stroke="#e4e9ee" stroke-width="1"/>
+
+  <text x="40" y="304" font-size="15" font-weight="700" fill="#2563eb">Published claim speed - three different units, not comparable</text>
+
+  <!-- Panel B: speed cards, each in its own unit -->
+  <g>
+    <rect x="40" y="320" width="200" height="154" rx="8" fill="#f8fafc" stroke="#e4e9ee"/>
+    <text x="56" y="348" font-size="14" font-weight="700" fill="#0f172a">Lemonade</text>
+    <text x="56" y="382" font-size="26" font-weight="700" fill="#0ea5e9">50%</text>
+    <text x="56" y="404" font-size="12.5" fill="#334155">of eligible claims paid</text>
+    <text x="56" y="422" font-size="12.5" fill="#334155">instantly (AI Jim); most</text>
+    <text x="56" y="440" font-size="12.5" fill="#334155">others within 5 business</text>
+    <text x="56" y="458" font-size="12.5" fill="#334155">days</text>
+
+    <rect x="260" y="320" width="200" height="154" rx="8" fill="#f8fafc" stroke="#e4e9ee"/>
+    <text x="276" y="348" font-size="14" font-weight="700" fill="#0f172a">Spot</text>
+    <text x="276" y="382" font-size="26" font-weight="700" fill="#2563eb">48 hrs</text>
+    <text x="276" y="404" font-size="12.5" fill="#334155">or less - published on</text>
+    <text x="276" y="422" font-size="12.5" fill="#334155">spotpet.com as the</text>
+    <text x="276" y="440" font-size="12.5" fill="#334155">reimbursement window</text>
+
+    <rect x="480" y="320" width="200" height="154" rx="8" fill="#f8fafc" stroke="#e4e9ee"/>
+    <text x="496" y="348" font-size="14" font-weight="700" fill="#0f172a">Fetch</text>
+    <text x="496" y="382" font-size="26" font-weight="700" fill="#0369a1">&lt; 10 days</text>
+    <text x="496" y="404" font-size="12.5" fill="#334155">typical processing time</text>
+    <text x="496" y="422" font-size="12.5" fill="#334155">stated on fetchpet.com;</text>
+    <text x="496" y="440" font-size="12.5" fill="#334155">direct deposit adds 5-10</text>
+    <text x="496" y="458" font-size="12.5" fill="#334155">days vs paper checks</text>
+  </g>
+
+  <text x="40" y="506" font-size="12.5" fill="#64748b">Every figure is printed on the brand's own claim guide, FAQ or homepage; all read 2026-09-25.</text>
+  <text x="40" y="528" font-size="12.5" fill="#64748b">The top panel counts days on one scale; the bottom cards use three different units - do not subtract across cards.</text>
+</svg>
