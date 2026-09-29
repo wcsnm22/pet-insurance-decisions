@@ -33,6 +33,11 @@ OFFICIAL_HOSTS = {
     # 官方政策文档托管域：Nationwide 官网 + Spot 样例保单 PDF 的官方 CDN
     "petinsurance.com", "www.petinsurance.com",
     "assets.ctfassets.net",
+    # 对标三家（@TOP3 2026-09-28 冻结）与它们指向的官方条款托管域（Embrace terms）
+    "geico.com", "www.geico.com",
+    "allstate.com", "www.allstate.com",
+    "aspcapetinsurance.com", "www.aspcapetinsurance.com",
+    "embracepetinsurance.com", "www.embracepetinsurance.com",
 }
 
 # 文章内 compare/facts/faqs/cards 块的默认小标题（可用块内 "h2" 覆盖，null = 不出标题）
