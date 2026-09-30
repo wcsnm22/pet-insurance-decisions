@@ -438,3 +438,19 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 ### Selection / angle (2026-09-30 第二段)
 - 线五进度（2026-09-30 05:1x）：`pet-insurance-claim-denied` 挂上自绘 `/assets/appeal-deadlines.svg`（720×580 双面板：上面板=申诉期限同一 0–90 天刻度，只有 Fetch 印 90 天、Spot/Lemonade 虚线位 not published；下面板=三张路径卡（Lemonade App 内申诉无期限无审期 / Spot 邮件书面约 30 天 / Fetch 书面 90 天→Internal Review 无审期），每个数字取自该篇已复核事实 checked 2026-09-25、无一个新数字），提交 b87afb9 push GitHub + wrangler furwell 部署，线上页面 200（30,162 字节）且 1 figure + figcaption、SVG 200（4,493 字节 image/svg+xml）、purge 后仍 200、sitemap 18 loc 不变、未知路径真 404、无中文、canonical 不变、旧 appeal-flow 直插 img 仍在 → **P1 十一篇 guide 全部有 figure 数据图，线五 P1 账清零**；剩 3 个品牌页（fetch/lemonade/spot）0 figure，S1b/S2/S3 各文的图是正文 `<img>` 直插、须先统一口径再论缺漏。
 - 2026-09-30 主线归 DAILY（09:00，取题 benchmark-top3.md A 段 = **N2 同一只宠 3–5 家真实报价对比表**，需自己跑报价、截图带日期与口径）；推进器 05:1x 运行时未过 09:00 且 daily-log 无 09-30 条目 → 不补发，只做了线五+线三。下轮备选：线四 GEO 问答页（从 fill #21/#22 拿题）或 M3（S1b/S2/S3 建 GSC 资源交 sitemap）或 S3 排期 #20。
+
+## 2026-09-30 (fill #23 — 补发 exotic-pet-insurance 当天，从该篇 17 条当日现抓事实里筛出的 GEO 疑问句；事实复核日 2026-09-30，成稿当日须重抓官方原文)
+
+### Questions (line 4 GEO seeds, 2026-09-30)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Does pet insurance cover birds and reptiles? | petinsurance.com/exotics/（自称 the only pet insurer to cover birds and exotic pets）+ geico.com/pet-insurance/（partnership 句只写 dogs and cats） | 2026-09-30 | 与已发 `exotic-pet-insurance` 同族意图，写前必查 daily-log；可拆的子角度=按动物（兔子/雪貂/龟）逐个答 |
+| How much does exotic pet insurance cost? | petinsurance.com/exotics/（generally starts at less than $21/mo；同页无免赔/比例/年限） | 2026-09-30 | 唯一官方数字；其余三家无产品 → 答案必然是「一家有价、三家无产品」 |
+| Which pets are excluded from Nationwide's exotic plan? | petinsurance.com/exotics/ 不保清单 7 条（毒/濒危/需许可/违法/杂交/群养展示/未列物种） | 2026-09-30 | 一问一篇好题：最后一条「未列物种」是总闸 |
+| Is wellness coverage available for a rabbit or bird? | petinsurance.com/exotics/（Wellness coverage is not available for exotic pets at this time） | 2026-09-30 | 对照 G3 wellness 页（犬猫四家额度表）→ 「异宠没有 wellness」是干净的差异点 |
+| How much does it cost to own a bird or gecko each year? | geico.com/living/how-much-does-it-cost-to-own-a-pet/（鸟 $295+$185+、豹纹守宫 $149++$290+、鱼 $160+$520、寄居蟹 $80+$180+） | 2026-09-30 | 需求侧长尾；GEICO 有数字不接保险（本篇已写），可再按动物拆短问答 |
+
+### Selection / angle (2026-09-30 第三段)
+- **2026-09-30 主线已由推进器补发**：DAILY 09:00 的 N2 尝试 09:55 失败（output length limit），推进器按退路发 N12 异宠 → https://furadvisor.com/exotic-pet-insurance （commit f6676b4，线上 200，sitemap 19 loc，GSC 已重提、已发现网页 18→19）。
+- **A 段第一个未发缺口仍是 N2（实跑报价表）**：明天 DAILY 从 N2 起；跑报价遇到留资墙按 NOFAKE 写「官方需留资后出价」，不许编报价。
+- 下轮推进器备选：S3 排期 #21《Furbo vs Petcube》/ #22《Best Dog GPS Trackers》（#22 动笔前复核 Whistle 301→Tractive）或线四 GEO（从 fill #21–#23 拿题）。
