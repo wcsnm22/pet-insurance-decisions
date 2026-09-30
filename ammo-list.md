@@ -454,3 +454,20 @@ Source: web search of reddit threads, 2026-09-25. Titles are verbatim thread tit
 - **2026-09-30 主线已由推进器补发**：DAILY 09:00 的 N2 尝试 09:55 失败（output length limit），推进器按退路发 N12 异宠 → https://furadvisor.com/exotic-pet-insurance （commit f6676b4，线上 200，sitemap 19 loc，GSC 已重提、已发现网页 18→19）。
 - **A 段第一个未发缺口仍是 N2（实跑报价表）**：明天 DAILY 从 N2 起；跑报价遇到留资墙按 NOFAKE 写「官方需留资后出价」，不许编报价。
 - 下轮推进器备选：S3 排期 #21《Furbo vs Petcube》/ #22《Best Dog GPS Trackers》（#22 动笔前复核 Whistle 301→Tractive）或线四 GEO（从 fill #21–#23 拿题）。
+
+## 2026-09-30 (fill #24 — 推进器发布 S3 排期 #21《Furbo vs Petcube》当天，从 furbo.com 与 petcube.com 当日现抓的原文里筛出的线四 GEO 疑问句；事实复核日 2026-09-30，成稿当日须重抓官方原文)
+
+### Questions (line 4 GEO seeds, 2026-09-30)
+| 疑问句 | 来源 | 日期 | 备注 |
+|---|---|---|---|
+| Do pet cameras require a subscription? | furbo.com/us/products/furbo-360-dog-camera FAQ「Is Furbo Nanny required? — optional ... FREE 14-day trial if you purchase the camera only」+ petcube.com/cam-360 FAQ「By default, there is no monthly fee unless you choose to subscribe」 | 2026-09-30 | 两家同日同答案（都是可选、都送 14 天）；`furbo-vs-petcube` 已覆盖同意图，另起问答页前必查 daily-log |
+| How much does Petcube Care cost per month? | petcube.com/care 计划表：Basic Free / Optimal $9.99 月付、$4.99 月均年付 total $59.88 / Premium $16.99 月付、$11.99 月均 total $143.88，年付按钮写「4 months for free」 | 2026-09-30 | 一问一篇好题：三档免费与付费的分界、14 天免费试用 |
+| Is the Furbo camera ever free? | furbo.com 页头「Get a FREE camera + 30 days of Furbo Nanny」+ 产品页 FAQ「Save over 60% on the camera」与「camera is yours to keep, monthly plans cancel after 3 months」 | 2026-09-30 | 页头 30 天与 FAQ 14 天两个试用口径并存，可当独家点 |
+| Which pet camera has the longest return window? | furbo.com 产品页 buy box「Free Returns within 30 Days」+ FAQ 30 天；petcube.com/docs/shipping-and-returns「45 calendar days ... RMA to support@petcube.com」 | 2026-09-30 | 30 vs 45 天，同单位可比；再接各家退款条件原文 |
+| Does the Petcube GPS tracker work without a monthly plan? | petcube.com/tracker FAQ「Do I need a subscription to use it? Yes」+ 计划表 Basic $12/mo（年付 $7、$84）/ Premium 年付 $8（$96）→ 5 年 $5（$300） | 2026-09-30 | 同站 FAQ「相机默认无月费」与「追踪器必须订阅」并存，答这题要把两句话分开写 |
+| Does a pet camera warranty last longer if you subscribe? | furbo.com FAQ「yearly and two-year plans come with lifetime hardware warranties as long as you have an active Furbo Nanny subscription」+ petcube.com/docs/warranty（US/CA 1 年、EU/UK 2 年）与 petcube.com/care（Premium 2 年、Basic/Optimal 1 年） | 2026-09-30 | 两家都把「更长保修」挂在订阅或地区上，条件必须连着数字写 |
+
+### Selection / angle (2026-09-30 第四段)
+- 2026-09-30 下午推进器已发 **S3 排期 #21 `furbo-vs-petcube`**：https://smart-pet-device-decisions.pages.dev/furbo-vs-petcube （commit a82668f push + wrangler smart-pet-device-decisions 部署，线上 200、sitemap 11→12 loc、未知路径 404、无中文、自绘 `/assets/furbo-vs-petcube.svg` 200）；同轮把当天早些的 #20 `litter-robot-alternatives` 一起补进 daily-log（脚本从 git 生成，非手写）。
+- 当日主线已由推进器上午补发 N12 异宠完成 → 2026-10-01 DAILY 仍从 **N2（同一只宠 3–5 家真实报价对比表）** 起；遇留资墙按 NOFAKE 写「官方需留资后出价」。
+- 下轮推进器备选：S3 排期 #22《Best Dog GPS Trackers》（动笔前复核 whistle.com 301→tractive.com）、线四 GEO 问答页（从 fill #21–#24 拿题）、或 M3（S1b/S2/S3/S4 建 GSC 资源并提交 sitemap）。

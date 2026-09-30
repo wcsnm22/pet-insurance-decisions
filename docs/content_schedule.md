@@ -39,8 +39,8 @@
 | 17 | 2 | S2 | review | JustFoodForDogs Review: Fresh Food, Pantry & Meals | justfoodfordogs review | published → https://pet-fresh-food-decisions.pages.dev/justfoodfordogs-review (2026-09-27) |
 | 18 | 2 | S2 | best | Best Raw Dog Food Delivery Services for 2026 | best raw dog food delivery | published → https://pet-fresh-food-decisions.pages.dev/best-raw-dog-food-delivery (2026-09-27) |
 | 19 | 3 | S3 | best | Best Automatic Litter Boxes in 2026: Litter-Robot vs the Rest | best automatic litter box | published → https://smart-pet-device-decisions.pages.dev/best-automatic-litter-box (2026-09-27) |
-| 20 | 3 | S3 | alternatives | Best Litter-Robot Alternatives (Cheaper Fully-Auto Boxes) | litter-robot alternatives | todo |
-| 21 | 3 | S3 | vs | Furbo vs Petcube: Which Pet Camera Is Worth Buying? | furbo vs petcube | todo |
+| 20 | 3 | S3 | alternatives | Best Litter-Robot Alternatives (Cheaper Fully-Auto Boxes) | litter-robot alternatives | published → https://smart-pet-device-decisions.pages.dev/litter-robot-alternatives (2026-09-30) |
+| 21 | 3 | S3 | vs | Furbo vs Petcube: Which Pet Camera Is Worth Buying? | furbo vs petcube | published → https://smart-pet-device-decisions.pages.dev/furbo-vs-petcube (2026-09-30) |
 | 22 | 3 | S3 | best | Best Dog GPS Trackers: Tractive vs Pawfit vs Whistle | best dog gps tracker | todo |
 | 23 | 4 | S4 | best | Best Dog Grooming Clippers for Home Use (Wahl & More) | best dog clippers for home | todo |
 | 24 | 4 | S4 | tutorial | How to Deshed a Double-Coat Dog at Home (Tools Included) | how to deshed a dog | todo |
@@ -56,7 +56,7 @@
 1. S1：#1 #4 #5 #6 #7 已发布；#2/#3 已并入品牌页（不拆同意图）—— S1 七篇全部收尾
 2. #8–#13 已发布（2026-09-26：/vetster-review、/online-vet-vs-in-person、/buy-pet-prescription-meds-online、/best-joint-supplement-for-dogs、/embark-dna-test-review、/embark-discount-code，各配一张自绘 SVG 信息图）—— **S1b 六篇全部收尾，来源白名单已含 embarkvet.com + help.embarkvet.com**
 3. #14–#18 已发布（S2 鲜粮站**已上线** 2026-09-26：github.com/wcsnm22/pet-fresh-food-decisions + Cloudflare Pages 项目 pet-fresh-food-decisions，白名单 ollie/thefarmersdog/justfoodfordogs + raw 三家 wefeedraw/darwinspet/meetmaev；#14–#17 2026-09-26/27 上线，#18 best-raw-dog-food-delivery 2026-09-27 上线）—— **S2 五篇全部收尾**
-4. #19–#22（S3）——**#19 best-automatic-litter-box 已发布（2026-09-27）**：四列 Litter-Robot / CatGenie / PETKIT / Meowant，24 条事实 + 10 FAQ + 自绘 SVG；白名单新增 catgenie.com / petkit.com / meowant.com（均为 2026-09-27 当日现抓）；剩 #20 #21 #22；注意 www.whistle.com 当日 301 → tractive.com，#22 动笔前复核 Whistle 口径
+4. #19–#22（S3）——**#19 best-automatic-litter-box 已发布（2026-09-27）**：四列 Litter-Robot / CatGenie / PETKIT / Meowant，24 条事实 + 10 FAQ + 自绘 SVG；白名单新增 catgenie.com / petkit.com / meowant.com（均为 2026-09-27 当日现抓）。**#20 litter-robot-alternatives 已发布（2026-09-30）**：四列更便宜的全自动猫砂盆 27 条事实 + 10 FAQ + 自绘 SVG。**#21 furbo-vs-petcube 已发布（2026-09-30）**：双列 Furbo / Petcube，24 条事实 + 10 FAQ + 自绘价格与套餐 SVG，来源 furbo.com 两产品页 + petcube.com 的 cam-360 / bites-2-lite / care / tracker / warranty / shipping-and-returns（全部 2026-09-30 现抓）；剩 #22；注意 www.whistle.com 2026-09-27 301 → tractive.com，#22 动笔前复核 Whistle 口径
 5. #23–#25（S4）
 6. #26–#28（S5）
 

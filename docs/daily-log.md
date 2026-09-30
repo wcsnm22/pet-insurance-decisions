@@ -81,13 +81,14 @@
 | 站 | 页面 | URL | 缺口 | commit 标题（截断） |
 |---|---|---|---|---|
 | P1 | exotic-pet-insurance | https://furadvisor.com/exotic-pet-insurance | N12 | content: exotic-pet-insurance (gap N12/old G5) - who actually covers birds, rabbits and reptiles: Nationwide's own exotic page vs GEICO/Allstate/ASPCA dog-and-cat-only pages, 17 facts + 11 FAQs read 2026-09-30 |
-
+| S3 | furbo-vs-petcube | site:smart-pet-device/furbo-vs-petcube | S3 | S3 article #21 furbo-vs-petcube: two-store comparison of camera prices, Nanny/Care plan rates and return/warranty terms, |
+| S3 | litter-robot-alternatives | site:smart-pet-device/litter-robot-alternatives | S3 | S3 article #20 litter-robot-alternatives: 4-way cheaper-alternative comparison with 27 facts + 10 FAQs read from litter- |
 ---
 
 ## 统计
 
-- 总页数（四个站，磁盘上实际存在且已入库）：**39**
-- P1=15，S1b=10，S2=8，S3=6
+- 总页数（四个站，磁盘上实际存在且已入库）：**41**
+- P1=15，S1b=10，S2=8，S3=8
 - P1（furadvisor.com，本命令主站）：**15 篇**
-- 按日：**2026-09-24:3，2026-09-25:10，2026-09-26:11，2026-09-27:9，2026-09-28:4，2026-09-29:1，2026-09-30:1**
+- 按日：**2026-09-24:3，2026-09-25:10，2026-09-26:11，2026-09-27:9，2026-09-28:4，2026-09-29:1，2026-09-30:3**
 - git 历史中曾出现但磁盘上已不存在的页面（孤儿）：**0**（脚本已核）
