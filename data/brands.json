@@ -18,6 +18,12 @@
       "price_line": "Starts at $10/mo",
       "price_condition": "Basic accident and illness coverage; actual price varies by coverage choices, breed, age and location (Lemonade cost guide, last updated Jun 3, 2026).",
       "price_source": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
+      "related": [
+        {
+          "slug": "lemonade-cat-insurance",
+          "text": "Lemonade cat insurance - what a cat policy covers and what it won't"
+        }
+      ],
       "facts": [
         {
           "fact": "Waiting periods: 14 days for illnesses and 30 days for orthopedic conditions; benefits of the preventative package can be used the day after the policy is purchased.",

@@ -452,6 +452,13 @@ def build() -> None:
             f'{escape(f["source_url"])}</a> · checked {escape(site["checked"])}</p></details>'
             for f in b["faqs"]
         )
+        related = b.get("related", [])
+        related_html = ""
+        if related:
+            links = " · ".join(
+                f'<a href="/{escape(r["slug"])}">{escape(r["text"])}</a>' for r in related
+            )
+            related_html = f'<h2>More on {escape(b["name"])}</h2>\n    <p>{links}</p>'
         html = render(brand_tpl, {
             "lang": "en",
             "title": title,
@@ -468,6 +475,7 @@ def build() -> None:
             "quote_url": b["quote_url"],
             "fact_table_rows": fact_rows(b["facts"]),
             "faqs": faq_html,
+            "related": related_html,
             "checked": site["checked"],
             "footer": FOOTER_LINKS,
         })
