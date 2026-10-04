@@ -22,10 +22,13 @@ def get(path):
 
 cat = get("/lemonade-cat-insurance")
 others = [
-    # article pages use templates/article.html and carried the generic hero line
+    # every other article uses templates/article.html and carried the generic hero line
+    "/best-pet-insurance",
+    "/pet-insurance-cost",
     "/lemonade-vs-spot",
     "/pet-insurance-claim-denied",
-    "/spot-vs-fetch",
+    "/pet-insurance-waiting-periods",
+    "/exotic-pet-insurance",
 ]
 print("1. other ARTICLE pages still carry the generic hero declaration")
 for p in others:
