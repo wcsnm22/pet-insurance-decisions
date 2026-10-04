@@ -309,14 +309,12 @@ footer.site strong { color: var(--text); }
 
 /* ------------------------------------------------------------ responsive */
 
+/* line-1 fix 2026-10-04: this block used to stack the tables too, while the only copy of the
+   td::before cell labels lived in the 640px block further down. That left a band at 641-680px
+   where every table rendered as unlabeled stacked cells. Table stacking and its labels now
+   live in ONE place (the 680px block at the bottom of this file); this block keeps the rest
+   of the mobile pass. */
 @media (max-width: 680px) {
-  table, thead, tbody, th, td, tr { display: block; }
-  thead { display: none; }
-  td { border: none; padding: 5px 0; }
-  tr { border-bottom: 1px solid var(--line); padding: 12px 2px; }
-  tr:last-child { border-bottom: none; }
-  .table-shell { border: none; box-shadow: none; }
-  table { background: transparent; }
   dl { grid-template-columns: 1fr; gap: 4px 0; }
   dt { margin-top: 8px; }
   .critter { width: 84px; height: 84px; right: 12px; bottom: 10px; }
@@ -364,11 +362,16 @@ td a { word-break: break-all; }
 
 footer.site { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 20px; font-size: 14px; color: var(--muted); }
 
-@media (max-width: 640px) {
+/* line-1 fix 2026-10-04: widened from 640px to 680px and made the SINGLE home for table
+   stacking + cell labels, so no width band is left without the data-th labels. Every cell the
+   builder emits already carries data-th (fact table, compare table, brand tables). */
+@media (max-width: 680px) {
   table, thead, tbody, tr, td { display: block; }
   thead { display: none; }
   tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
+  tr:last-child { border-bottom: none; }
   td { border: none; padding: 3px 0; }
+  table { background: transparent; }
   td::before { content: attr(data-th); display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--dim); margin-bottom: 2px; }
 }
 
