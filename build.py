@@ -549,6 +549,7 @@ def build() -> None:
             "nav": f'<a href="/">Home</a> · {nav}',
             "h1": a.get("h1", a["title"]),
             "lede": a["lede"],
+            "facts_note": a.get("facts_note", "Every figure on this page was read from the brand's own official site and carries its source link and check date."),
             "stats": stats_html,
             "body": article_body(a, brands, "".join(
                 f'<div class="card"><h3><a href="/{b["slug"]}">{escape(b["name"])}</a></h3>'

@@ -4661,7 +4661,7 @@
      "checked": "2026-09-28"
     }
    ],
-   "disclaimer": "This page is not affiliated with Lemonade. It repeats only what Lemonade publishes on its own cat, cost, claim and pre-existing-condition pages, with the source and check date attached to every figure; policy terms always govern and your own quote and renewal will differ. Facts last checked 2026-09-28.",
+   "disclaimer": "This page is not affiliated with Lemonade. In the brand-facts sections and the official source table, it repeats only what Lemonade publishes on its own cat, cost, claim and pre-existing-condition pages, with the source and check date attached to every figure; the owner-reported section further down states its own sourcing. Policy terms always govern and your own quote and renewal will differ. Facts last checked 2026-09-28.",
    "blocks": [
     {
      "type": "section",
@@ -4709,7 +4709,8 @@
     {
      "type": "faqs"
     }
-   ]
+   ],
+   "facts_note": "Every figure in the brand-facts sections and in the official source table below was read from Lemonade's own official site and carries its source link and check date. The owner-reported section further down uses separate sourcing."
   }
  ]
 }
