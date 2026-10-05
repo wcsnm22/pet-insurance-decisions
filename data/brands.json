@@ -4,6 +4,7 @@
     "tagline": "What pet insurance covers, what it costs, and what the fine print says - every fact read from the brand's own official page, with its source and check date.",
     "base_url": "https://furadvisor.com",
     "locale": "en-US",
+    "contact_email": "3363565842@qq.com",
     "checked": "2026-09-25",
     "repo": "https://github.com/wcsnm22/pet-insurance-decisions",
     "meta_title": "Pet Insurance: Coverage, Cost and Waiting Periods",

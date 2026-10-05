@@ -363,6 +363,16 @@ def latest_checked(items: list[dict]) -> str:
 INDEXNOW_KEY_PATH = ROOT / "indexnow-key.txt"
 
 
+def security_txt_expiry() -> str:
+    """RFC 9116 requires an Expires field. Pin it to the end of next year.
+
+    Computing it as "now + 365 days" would rewrite the file on every build and
+    make an unchanged site look modified; a yearly fixed date stays valid for
+    12-24 months and only changes once a year.
+    """
+    return f"{datetime.now(timezone.utc).year + 1}-12-31T00:00:00Z"
+
+
 def indexnow_key() -> str:
     """The IndexNow key, generated once and then kept stable in the repo.
 
@@ -877,6 +887,23 @@ def build() -> None:
         encoding="utf-8",
     )
 
+    # ---- .well-known/security.txt（RFC 9116）
+    # 只写真实存在的信息：联系地址就是站上公开的地址，没有 PGP key 就不编一个。
+    wk = SITE_DIR / ".well-known"
+    wk.mkdir(exist_ok=True)
+    contact = site.get("contact_email", "")
+    (wk / "security.txt").write_text(
+        "Contact: "
+        + (f"mailto:{contact}" if contact else page_url(site, "/contact"))
+        + "\n"
+        + f"Expires: {security_txt_expiry()}\n"
+        + f"Canonical: {page_url(site, '/.well-known/security.txt')}\n"
+        + "Policy: "
+        + page_url(site, "/about")
+        + "\nPreferred-Languages: en\n",
+        encoding="utf-8",
+    )
+
     # ---- _worker.js（规范主机 + 真 404）
     from urllib.parse import urlparse
     # 本机构建可用 PET_SITE_CANONICAL_HOST 覆盖 worker 的规范域名（只影响路由跳转，不改任何页面内容）
@@ -885,7 +912,7 @@ def build() -> None:
         f"/assets/{p.name}" for p in (SITE_DIR / "assets").iterdir() if p.is_file()
     )
     valid_paths = sorted(
-        {"/"} | {path for path, _, _ in urls} | {"/sitemap.xml", "/robots.txt", "/llms.txt", "/llms-full.txt", "/ads.txt", f"/{key}.txt"} | set(assets)
+        {"/"} | {path for path, _, _ in urls} | {"/sitemap.xml", "/robots.txt", "/llms.txt", "/llms-full.txt", "/ads.txt", "/.well-known/security.txt", f"/{key}.txt"} | set(assets)
     )
     worker = (
         WORKER_TEMPLATE

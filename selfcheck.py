@@ -106,7 +106,7 @@ for p in sorted(site.glob("*.html")):
     if not (ld and ca):
         fails.append(f"meta-{p.name}")
 for f in ("sitemap.xml", "robots.txt", "_worker.js", "assets/style.css",
-          "llms.txt", "llms-full.txt", "ads.txt"):
+          "llms.txt", "llms-full.txt", "ads.txt", ".well-known/security.txt"):
     ok = (site / f).exists()
     print(f"[4] {f}: {'ok' if ok else 'MISSING'}")
     if not ok:
