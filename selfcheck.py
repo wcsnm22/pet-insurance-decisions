@@ -9,6 +9,12 @@ articles_path = pathlib.Path(__file__).parent / "data" / "articles.json"
 articles = json.loads(articles_path.read_text(encoding="utf-8"))["articles"] if articles_path.exists() else []
 fails = []
 
+
+def latest_checked(items):
+    """Newest check date actually recorded on a page ("" when none is)."""
+    dates = [i["checked"] for i in items if i.get("checked")]
+    return max(dates) if dates else ""
+
 # (1) Chinese anywhere in site output
 cn = []
 for p in site.rglob("*"):
@@ -193,5 +199,33 @@ for p in sorted(site.glob("*.html")):
     for link in ("/about", "/privacy", "/contact"):
         if link not in h:
             fails.append(f"nav-{p.name}-{link}")
+
+# (7) sitemap.xml: every URL it lists must be a page that exists, must carry
+# that page's own lastmod (not one recycled site-wide date), and must not use a
+# date the page has no record of.
+sm = (site / "sitemap.xml").read_text(encoding="utf-8") if (site / "sitemap.xml").exists() else ""
+sm_pairs = re.findall(r"<loc>([^<]+)</loc><lastmod>([^<]*)</lastmod>", sm)
+want_lastmod = {data["site"]["base_url"].rstrip("/"): latest_checked(data["home_facts"] + data["home_faqs"])}
+for b in data["brands"]:
+    want_lastmod[f"{data['site']['base_url'].rstrip('/')}/{b['slug']}"] = latest_checked(b["facts"] + b["faqs"])
+for a in articles:
+    want_lastmod[f"{data['site']['base_url'].rstrip('/')}/{a['slug']}"] = latest_checked(a["facts"] + a["faqs"])
+# utility pages record no facts of their own, so their lastmod is the site-wide check date
+for util in ("about", "privacy", "contact"):
+    want_lastmod[f"{data['site']['base_url'].rstrip('/')}/{util}"] = data["site"]["checked"]
+sm_issues = []
+for url, lastmod in sm_pairs:
+    if url not in want_lastmod:
+        sm_issues.append(f"unknown-url:{url}")
+    elif not lastmod:
+        sm_issues.append(f"no-lastmod:{url}")
+    elif lastmod != want_lastmod[url]:
+        sm_issues.append(f"wrong-lastmod:{url}:{lastmod}!={want_lastmod[url]}")
+missing_urls = [u for u in want_lastmod if f"<loc>{u}</loc>" not in sm]
+if missing_urls:
+    sm_issues.append(f"absent-from-sitemap:{missing_urls}")
+print(f"[7] sitemap urls={len(sm_pairs)} issues={sm_issues}")
+if sm_issues:
+    fails.append("sitemap-lastmod")
 
 print("RESULT:", "PASS" if not fails else "FAIL " + ",".join(sorted(set(fails))))

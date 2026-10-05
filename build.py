@@ -14,6 +14,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import uuid
 from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
@@ -357,6 +358,25 @@ def latest_checked(items: list[dict]) -> str:
     """
     dates = [i["checked"] for i in items if i.get("checked")]
     return max(dates) if dates else ""
+
+
+INDEXNOW_KEY_PATH = ROOT / "indexnow-key.txt"
+
+
+def indexnow_key() -> str:
+    """The IndexNow key, generated once and then kept stable in the repo.
+
+    Regenerating it on every build would orphan URLs already submitted under the
+    old key, so it is read from a file and only created if that file is absent.
+    """
+    if INDEXNOW_KEY_PATH.exists():
+        key = INDEXNOW_KEY_PATH.read_text(encoding="utf-8").strip()
+    else:
+        key = uuid.uuid4().hex
+        INDEXNOW_KEY_PATH.write_text(key, encoding="utf-8")
+    if not re.fullmatch(r"[0-9a-f]{8,128}", key):
+        raise SystemExit(f"INDEXNOW KEY IS NOT A HEX STRING: {key!r}")
+    return key
 
 
 def byline_html(updated: str) -> str:
@@ -810,15 +830,22 @@ def build() -> None:
         shutil.copy2(asset, SITE_DIR / "assets" / asset.name)
 
     # ---- sitemap.xml / robots.txt
-    urls = [("/", "1.0")]
-    urls += [(f'/{b["slug"]}', "0.9") for b in brands]
-    urls += [(f'/{a["slug"]}', "0.8") for a in articles]
-    urls += [("/about", "0.5"), ("/privacy", "0.5"), ("/contact", "0.5")]
+    # lastmod 用每页自己记录的最近复核日，而不是全站同一个日期：全站日期会让
+    # 每一页在每次构建时都宣称"刚改过"，反而让真正的更新看不出来。
+    urls = [("/", "1.0", home_updated)]
+    urls += [(f'/{b["slug"]}', "0.9", latest_checked(b["facts"] + b["faqs"])) for b in brands]
+    urls += [(f'/{a["slug"]}', "0.8", latest_checked(a["facts"] + a["faqs"])) for a in articles]
+    urls += [("/about", "0.5", site["checked"]),
+             ("/privacy", "0.5", site["checked"]),
+             ("/contact", "0.5", site["checked"])]
+    missing_lastmod = [p for p, _, d in urls if not d]
+    if missing_lastmod:
+        raise SystemExit(f"SITEMAP ENTRY WITHOUT A REAL DATE: {missing_lastmod}")
     sitemap_items = "".join(
         f"<url><loc>{escape(page_url(site, path))}</loc>"
-        f"<lastmod>{site['checked']}</lastmod>"
+        f"<lastmod>{lastmod}</lastmod>"
         f"<priority>{pri}</priority></url>"
-        for path, pri in urls
+        for path, pri, lastmod in urls
     )
     sitemap = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -833,6 +860,23 @@ def build() -> None:
     (SITE_DIR / "llms.txt").write_text(llms_index(site, brands, articles), encoding="utf-8")
     (SITE_DIR / "llms-full.txt").write_text(llms_full(site, brands, articles), encoding="utf-8")
 
+    # ---- IndexNow key file
+    # IndexNow 要求把 <key>.txt 放在站点根目录、内容就是 key 本身，提交时用它证明
+    # 我们拥有这个域。key 存在仓库里而不是每次构建重新生成，否则轮换 key 会让
+    # 之前提交的 URL 关联失效。
+    # ::RULE{key 必须可公开访问，worker 白名单必须包含它，否则 404}
+    key = indexnow_key()
+    (SITE_DIR / f"{key}.txt").write_text(key, encoding="utf-8")
+
+    # ---- ads.txt
+    # 站上目前没有任何广告或联盟链接（见 privacy 页）。空的 ads.txt 是合法且常见的
+    # 声明：它明确表示"本站不授权任何广告系统售卖这里的广告位"，比 404 更清楚。
+    (SITE_DIR / "ads.txt").write_text(
+        "# This site does not currently sell advertising inventory and has no\n"
+        "# authorized digital sellers. See /privacy for the current advertising status.\n",
+        encoding="utf-8",
+    )
+
     # ---- _worker.js（规范主机 + 真 404）
     from urllib.parse import urlparse
     # 本机构建可用 PET_SITE_CANONICAL_HOST 覆盖 worker 的规范域名（只影响路由跳转，不改任何页面内容）
@@ -841,7 +885,7 @@ def build() -> None:
         f"/assets/{p.name}" for p in (SITE_DIR / "assets").iterdir() if p.is_file()
     )
     valid_paths = sorted(
-        {"/"} | {path for path, _ in urls} | {"/sitemap.xml", "/robots.txt", "/llms.txt", "/llms-full.txt"} | set(assets)
+        {"/"} | {path for path, _, _ in urls} | {"/sitemap.xml", "/robots.txt", "/llms.txt", "/llms-full.txt", "/ads.txt", f"/{key}.txt"} | set(assets)
     )
     worker = (
         WORKER_TEMPLATE
