@@ -46,6 +46,7 @@ BLOCK_HEADINGS = {
     "facts": "Every figure with its official source",
     "faqs": "FAQ",
     "cards": "The plans compared, page by page",
+    "related": "Related guides",
 }
 
 # Cloudflare Pages 高级模式脚本：全量接管请求。
@@ -217,6 +218,23 @@ def article_body(article: dict, brands: list[dict], brand_cards: str) -> str:
         elif kind == "cards":
             cards = "".join(brand_cards) if isinstance(brand_cards, list) else brand_cards
             parts.append(((f"<h2>{escape(heading)}</h2>") if heading else "") + f'<div class="grid">{cards}</div>')
+        elif kind == "related":
+            links = blk.get("links", [])
+            if not links:
+                raise SystemExit(f"RELATED BLOCK WITH NO LINKS in {article['slug']}")
+            items = []
+            for link in links:
+                href = link["url"]
+                if not href.startswith("http"):
+                    href = link["url"]
+                items.append(
+                    f'<li><a href="{escape(href, quote=True)}">{escape(link["text"])}</a>'
+                    f' <span class="muted">{escape(link["why"])}</span></li>'
+                )
+            parts.append(
+                ((f"<h2>{escape(heading)}</h2>") if heading else "")
+                + f'<ul class="related">{"".join(items)}</ul>'
+            )
         else:
             raise SystemExit(f"UNKNOWN ARTICLE BLOCK in {article['slug']}: {kind}")
     return "".join(parts)
@@ -461,10 +479,16 @@ def build() -> None:
         related = b.get("related", [])
         related_html = ""
         if related:
-            links = " · ".join(
-                f'<a href="/{escape(r["slug"])}">{escape(r["text"])}</a>' for r in related
+            items = "".join(
+                f'<li><a href="/{escape(r["slug"], quote=True)}">{escape(r["text"])}</a>'
+                + (f' <span class="muted">{escape(r["why"])}</span>' if r.get("why") else "")
+                + "</li>"
+                for r in related
             )
-            related_html = f'<h2>More on {escape(b["name"])}</h2>\n    <p>{links}</p>'
+            related_html = (
+                f'<h2>More on {escape(b["name"])}</h2>\n'
+                f'    <ul class="related">{items}</ul>'
+            )
         html = render(brand_tpl, {
             "lang": "en",
             "title": title,

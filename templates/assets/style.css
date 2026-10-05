@@ -243,6 +243,37 @@ td.price { color: var(--accent-2); }
 .facts b { display: block; font: 700 20px/1.3 var(--mono); }
 .facts span { display: block; margin-top: 3px; }
 
+ul.related {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+ul.related li {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  transition: border-color .14s ease, transform .14s ease;
+}
+ul.related li:hover { border-color: var(--line-2); transform: translateY(-2px); }
+ul.related li::marker { content: none; }
+/* whole card is the tap target, so the link clears 40px on touch */
+ul.related a {
+  display: block;
+  padding: 13px 16px 4px;
+  min-height: 40px;
+  font-weight: 600;
+}
+ul.related .muted {
+  display: block;
+  padding: 0 16px 14px;
+  margin-top: 0;
+}
+
 dl {
   display: grid;
   grid-template-columns: 190px 1fr;

@@ -410,6 +410,31 @@
     {
      "type": "cards",
      "h2": "The three plans compared, page by page"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/pet-insurance-cost",
+       "text": "What pet insurance costs per month",
+       "why": "The published starting prices behind each plan compared here."
+      },
+      {
+       "url": "/lemonade-vs-spot",
+       "text": "Lemonade vs Spot, figure by figure",
+       "why": "A two-brand deep dive if you have narrowed the shortlist."
+      },
+      {
+       "url": "/pet-insurance-waiting-periods",
+       "text": "How long each plan makes you wait",
+       "why": "When cover actually starts, which the headline prices do not show."
+      },
+      {
+       "url": "/pet-insurance-wellness-add-on",
+       "text": "Wellness add-ons, item by item",
+       "why": "What each optional benefit schedule pays on top of the base plan."
+      }
+     ]
     }
    ]
   },
@@ -816,6 +841,31 @@
     {
      "type": "cards",
      "h2": "The three plans, page by page"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/pet-insurance-cost-by-brand",
+       "text": "Every price each brand publishes",
+       "why": "The same cost question, broken out by insurer and date-stamped."
+      },
+      {
+       "url": "/pet-insurance-promo-code",
+       "text": "Official discounts and promo codes",
+       "why": "The published offers that lower the monthly figure."
+      },
+      {
+       "url": "/fetch-pet-insurance",
+       "text": "Fetch cost and cover in full",
+       "why": "Where the Fetch average premium comes from and what it assumes."
+      },
+      {
+       "url": "/lemonade-vs-spot",
+       "text": "Lemonade vs Spot on price and cover",
+       "why": "A focused two-brand comparison of the published figures."
+      }
+     ]
     }
    ]
   },
@@ -1261,6 +1311,31 @@
     {
      "type": "cards",
      "h2": "The two plans, page by page"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/lemonade-pet-insurance",
+       "text": "All Lemonade facts on one page",
+       "why": "The full source list behind the Lemonade side of this comparison."
+      },
+      {
+       "url": "/spot-pet-insurance",
+       "text": "All Spot facts on one page",
+       "why": "The full source list behind the Spot side of this comparison."
+      },
+      {
+       "url": "/fetch-pet-insurance",
+       "text": "How Fetch compares",
+       "why": "The third brand, on the same published-figures basis."
+      },
+      {
+       "url": "/pet-insurance-cost-by-brand",
+       "text": "Prices both brands publish",
+       "why": "Where each headline price comes from and what it assumes."
+      }
+     ]
     }
    ]
   },
@@ -1610,6 +1685,31 @@
     {
      "type": "cards",
      "h2": "The three brands compared, page by page"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/pet-insurance-claim-filing-deadline",
+       "text": "How long you have to file",
+       "why": "The 180, 270 and 90 day windows in one place."
+      },
+      {
+       "url": "/pet-insurance-claim-denied",
+       "text": "What to do if a claim is denied",
+       "why": "The appeal route for each brand if the claim does not go through."
+      },
+      {
+       "url": "/pet-insurance-waiting-periods",
+       "text": "Waiting periods before cover starts",
+       "why": "The usual reason a first claim is turned down."
+      },
+      {
+       "url": "/pet-insurance-wellness-add-on",
+       "text": "Claiming wellness benefits",
+       "why": "Add-on benefits are claimed differently from accident and illness."
+      }
+     ]
     }
    ]
   },
@@ -1980,6 +2080,31 @@
     {
      "type": "cards",
      "h2": "The three brands compared, page by page"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/pet-insurance-cost",
+       "text": "What each plan costs per month",
+       "why": "Discounts only matter against the price they reduce."
+      },
+      {
+       "url": "/pet-insurance-cost-by-brand",
+       "text": "Published prices by brand",
+       "why": "The date-stamped figures each offer applies to."
+      },
+      {
+       "url": "/fetch-pet-insurance",
+       "text": "Fetch discounts and cover",
+       "why": "The offers one of these brands publishes on its own site."
+      },
+      {
+       "url": "/lemonade-vs-spot",
+       "text": "Lemonade vs Spot, discounts included",
+       "why": "Which of the two published offers is worth more."
+      }
+     ]
     }
    ]
   },
@@ -2184,6 +2309,31 @@
     },
     {
      "type": "cards"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/how-to-submit-a-pet-insurance-claim",
+       "text": "Filing a claim correctly first",
+       "why": "Most denials trace back to how the claim was submitted."
+      },
+      {
+       "url": "/pet-insurance-claim-filing-deadline",
+       "text": "Missed the filing window?",
+       "why": "Deadline rules by brand, the other common cause of denial."
+      },
+      {
+       "url": "/pet-insurance-waiting-periods-by-condition",
+       "text": "Waiting periods by condition",
+       "why": "Why a claim inside the waiting period is not covered."
+      },
+      {
+       "url": "/best-pet-insurance",
+       "text": "Cover terms compared up front",
+       "why": "Checking exclusions before buying avoids the appeal entirely."
+      }
+     ]
     }
    ]
   },
@@ -2534,6 +2684,31 @@
     {
      "type": "cards",
      "h2": "Every brand on this site, page by page"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/pet-insurance-waiting-periods-by-condition",
+       "text": "Waiting periods by condition",
+       "why": "The same rules split out by accident, illness, cancer and cruciate."
+      },
+      {
+       "url": "/pet-insurance-claim-filing-deadline",
+       "text": "Deadlines for filing a claim",
+       "why": "The other time limit that decides whether a bill is paid."
+      },
+      {
+       "url": "/best-pet-insurance",
+       "text": "How the three plans compare overall",
+       "why": "Waiting periods next to price, limits and claim speed."
+      },
+      {
+       "url": "/how-to-submit-a-pet-insurance-claim",
+       "text": "Submitting a claim, step by step",
+       "why": "What to do once the waiting period has passed."
+      }
+     ]
     }
    ],
    "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It repeats only what each brand publishes on its own guide pages, FAQ pages, product pages and sample policies, with the source and check date attached to every figure; waiting periods depend on the policy you are actually sold, your state and your pet's history, and the policy wording always governs. Facts last checked 2026-09-28."
@@ -2889,6 +3064,31 @@
     {
      "type": "cards",
      "h2": "Every brand on this site, page by page"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/pet-insurance-cost",
+       "text": "The cost question answered directly",
+       "why": "A shorter read on what each brand charges per month."
+      },
+      {
+       "url": "/pet-insurance-promo-code",
+       "text": "Discounts each brand publishes",
+       "why": "The offers that change what you actually pay."
+      },
+      {
+       "url": "/best-pet-insurance",
+       "text": "All three plans side by side",
+       "why": "Price next to waiting periods, limits and claim speed."
+      },
+      {
+       "url": "/pet-insurance-wellness-add-on",
+       "text": "Wellness add-on cost per item",
+       "why": "What the optional benefits cost on top of these base prices."
+      }
+     ]
     }
    ],
    "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It repeats only prices the brands publish on their own guide pages, home pages and pricing pages, with the source, the brand's own date stamp and the day we read it attached to every figure; published prices are averages, floors or worked examples for the pet, ZIP code, deductible and limit each brand states, your quote will differ, and the policy you are sold governs. Facts last checked 2026-09-28."
@@ -3382,6 +3582,31 @@
     {
      "type": "cards",
      "h2": "Every brand on this site, page by page"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/pet-insurance-cost-by-brand",
+       "text": "Published base prices by brand",
+       "why": "What the add-on sits on top of, with each brand's own figures."
+      },
+      {
+       "url": "/pet-insurance-cost",
+       "text": "Monthly cost of a standard plan",
+       "why": "The baseline premium before any wellness rider is added."
+      },
+      {
+       "url": "/fetch-pet-insurance",
+       "text": "Fetch wellness and cover terms",
+       "why": "One of the four benefit schedules compared here, in full."
+      },
+      {
+       "url": "/lemonade-vs-spot",
+       "text": "Lemonade vs Spot on cover and price",
+       "why": "How two of these wellness schedules compare on the base plan."
+      }
+     ]
     }
    ],
    "disclaimer": "This page is not affiliated with Lemonade, Spot, Fetch or Nationwide. It repeats only figures the brands publish on their own official pages, FAQ pages and sample policy documents, with the source and the day we read it attached to every figure; totals marked as our addition are arithmetic on the brands' printed lines, not figures the brands publish. Wellness schedules, prices and plan names vary by state and change over time - check the brand's own page before buying."
@@ -3737,6 +3962,31 @@
     {
      "type": "cards",
      "h2": "The three brands compared, page by page"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/how-to-submit-a-pet-insurance-claim",
+       "text": "Submitting the claim itself",
+       "why": "The full process each brand asks you to follow."
+      },
+      {
+       "url": "/pet-insurance-claim-denied",
+       "text": "If the deadline has passed",
+       "why": "What the published appeal routes allow once a claim is refused."
+      },
+      {
+       "url": "/pet-insurance-waiting-periods",
+       "text": "Waiting periods before cover starts",
+       "why": "The earlier time limit that applies before any claim exists."
+      },
+      {
+       "url": "/best-pet-insurance",
+       "text": "Which plan fits how you claim",
+       "why": "Claim speed and deadlines compared across all three brands."
+      }
+     ]
     }
    ]
   },
@@ -4120,6 +4370,31 @@
     {
      "type": "cards",
      "h2": "Every brand on this site, page by page"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/pet-insurance-waiting-periods",
+       "text": "Waiting periods compared by brand",
+       "why": "The brand-level view these condition-level counts come from."
+      },
+      {
+       "url": "/pet-insurance-claim-filing-deadline",
+       "text": "Deadlines for filing a claim",
+       "why": "The limit that applies after treatment, not before."
+      },
+      {
+       "url": "/exotic-pet-insurance",
+       "text": "Cover for birds, rabbits and reptiles",
+       "why": "Which insurers write policies outside cats and dogs at all."
+      },
+      {
+       "url": "/pet-insurance-claim-denied",
+       "text": "If cover is refused",
+       "why": "Why conditions inside a waiting period lead to a denial."
+      }
+     ]
     }
    ],
    "disclaimer": "This page is not affiliated with GEICO, Allstate, the ASPCA or Embrace. It repeats only what those brands publish on their own pages, footers, notices and sample contract documents, with the source and check date attached to every figure; waiting periods depend on your state, the plan form you are sold and your pet's history, and the policy wording always governs. Facts last checked 2026-09-29."
@@ -4490,6 +4765,31 @@
     {
      "type": "cards",
      "h2": "Every brand on this site, page by page"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/pet-insurance-waiting-periods-by-condition",
+       "text": "Waiting periods by condition",
+       "why": "The time limits that apply once an exotic policy is in force."
+      },
+      {
+       "url": "/best-pet-insurance",
+       "text": "Standard dog and cat plans compared",
+       "why": "What the mainstream plans offer, for contrast."
+      },
+      {
+       "url": "/pet-insurance-cost-by-brand",
+       "text": "Published prices by brand",
+       "why": "The price figures each insurer puts on its own site."
+      },
+      {
+       "url": "/lemonade-cat-insurance",
+       "text": "Lemonade cover for cats",
+       "why": "A species-specific example of how one brand writes exotics out."
+      }
+     ]
     }
    ],
    "disclaimer": "Built only from the four brands' own pages: petinsurance.com (exotic landing page, pet insurance overview), geico.com (pet insurance page, cost-of-owning-a-pet guide), allstate.com (pet insurance page) and aspcapetinsurance.com (plan navigation), all read 2026-09-30. Nationwide's 'only pet insurer' line and its 'four decades' line are the brand's own claims, not an independent survey. Prices and product availability change - check the linked page before you buy. We are not affiliated with any of these brands and no figure here was taken from a comparison site."
@@ -4708,6 +5008,31 @@
     },
     {
      "type": "faqs"
+    },
+    {
+     "type": "related",
+     "links": [
+      {
+       "url": "/lemonade-pet-insurance",
+       "text": "All Lemonade facts on one page",
+       "why": "The full source list behind this cat-specific guide."
+      },
+      {
+       "url": "/pet-insurance-waiting-periods",
+       "text": "Waiting periods across three brands",
+       "why": "When cat cover starts, compared brand by brand."
+      },
+      {
+       "url": "/pet-insurance-cost-by-brand",
+       "text": "Prices each brand publishes",
+       "why": "Where the $10/mo starting figure comes from and what it assumes."
+      },
+      {
+       "url": "/pet-insurance-wellness-add-on",
+       "text": "Wellness benefits for cats",
+       "why": "Whether the optional schedules cover routine cat care."
+      }
+     ]
     }
    ],
    "facts_note": "Every figure in the brand-facts sections and in the official source table below was read from Lemonade's own official site and carries its source link and check date. The owner-reported section further down uses separate sourcing."
