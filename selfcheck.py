@@ -99,11 +99,42 @@ for p in sorted(site.glob("*.html")):
     print(f"[4] {p.name}: jsonld={ld} canonical={ca}")
     if not (ld and ca):
         fails.append(f"meta-{p.name}")
-for f in ("sitemap.xml", "robots.txt", "_worker.js", "assets/style.css"):
+for f in ("sitemap.xml", "robots.txt", "_worker.js", "assets/style.css",
+          "llms.txt", "llms-full.txt"):
     ok = (site / f).exists()
     print(f"[4] {f}: {'ok' if ok else 'MISSING'}")
     if not ok:
         fails.append(f"missing-{f}")
+
+# (5) llms.txt / llms-full.txt: generated from the same data, so they must cover
+# every page and carry every recorded source URL - no invented or dropped figures.
+idx = (site / "llms.txt").read_text(encoding="utf-8") if (site / "llms.txt").exists() else ""
+full = (site / "llms-full.txt").read_text(encoding="utf-8") if (site / "llms-full.txt").exists() else ""
+want_urls = [f"/{b['slug']}" for b in data["brands"]] + [f"/{a['slug']}" for a in articles]
+missing_pages = [u for u in want_urls if f"{data['site']['base_url'].rstrip('/')}{u}" not in idx]
+print(f"[5] llms.txt pages={len(want_urls)} missing={missing_pages}")
+if missing_pages:
+    fails.append("llms-index-incomplete")
+
+all_sources = set()
+for b in data["brands"]:
+    for f in b["facts"] + b["faqs"]:
+        all_sources.add(f["source_url"])
+for a in articles:
+    for f in a["facts"] + a["faqs"]:
+        all_sources.add(f["source_url"])
+    for r in a["rows"]:
+        all_sources.update(u for u in r.get("sources", []) if u)
+dropped = sorted(u for u in all_sources if u not in full)
+print(f"[5] llms-full.txt source_urls={len(all_sources)} dropped={len(dropped)} {dropped[:3]}")
+if dropped:
+    fails.append("llms-full-dropped-sources")
+
+worker = (site / "_worker.js").read_text(encoding="utf-8") if (site / "_worker.js").exists() else ""
+routes = [u for u in ("/llms.txt", "/llms-full.txt") if f'"{u}"' not in worker]
+print(f"[5] worker allowlist llms routes missing={routes}")
+if routes:
+    fails.append("worker-missing-llms-route")
 
 # nav reaches all three utility pages from every page
 for p in sorted(site.glob("*.html")):

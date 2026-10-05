@@ -118,6 +118,94 @@ def page_url(site: dict, path: str) -> str:
     return base if path == "/" else f"{base}{path}"
 
 
+def llms_index(site: dict, brands: list[dict], articles: list[dict]) -> str:
+    """llms.txt: a short, model-readable index of what this site answers.
+
+    Only restates the site's own recorded facts and page purposes - no new claims.
+    """
+    lines = [
+        f"# {site['name']}",
+        "",
+        f"> {site['tagline']}",
+        "",
+        "This site is a reference of pet insurance facts taken only from each brand's own "
+        "official website and official policy pages. Every figure is published on this site "
+        "with the official page it was read from and the date it was checked. Where a brand "
+        "does not publish a figure, the page says so instead of estimating.",
+        "",
+        "## Guides",
+        "",
+    ]
+    for a in articles:
+        lines.append(f"- [{a['title']}]({page_url(site, '/' + a['slug'])}): {a['description']}")
+    lines += ["", "## Brand pages", ""]
+    for b in brands:
+        lines.append(
+            f"- [{b['name']} pet insurance facts]({page_url(site, '/' + b['slug'])}): "
+            f"{b['price_line']}. {b['short_answer']}"
+        )
+    lines += [
+        "",
+        "## Optional",
+        "",
+        f"- [About this site]({page_url(site, '/about')}): who runs it, and how facts are sourced and dated.",
+        f"- [Contact]({page_url(site, '/contact')}): report a fact that no longer matches a brand's official site.",
+        f"- [Full fact list]({page_url(site, '/llms-full.txt')}): every recorded figure with its source page and check date.",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def llms_full(site: dict, brands: list[dict], articles: list[dict]) -> str:
+    """llms-full.txt: every recorded fact with its official source URL and check date."""
+    out = [
+        f"# {site['name']} - full fact list",
+        "",
+        f"> {site['tagline']}",
+        "",
+        f"Every entry below was read from the official page named in its source URL and "
+        f"checked on the date shown. Figures are quoted as published; conditions are stated "
+        f"because the number usually depends on them.",
+        "",
+    ]
+    for b in brands:
+        out += [f"## {b['name']} pet insurance", "", f"URL: {page_url(site, '/' + b['slug'])}", ""]
+        out += [f"- **{b['price_line']}** - {b['price_condition']}",
+                f"  Source: {b['price_source']} (checked {site['checked']})", ""]
+        out.append("### Facts")
+        out.append("")
+        for f in b["facts"]:
+            out.append(f"- {f['fact']} (condition: {f['condition']})")
+            out.append(f"  Source: {f['source_url']} (checked {f['checked']})")
+        out += ["", "### FAQ", ""]
+        for f in b["faqs"]:
+            out.append(f"- **{f['q']}** {f['a']}")
+            out.append(f"  Source: {f['source_url']} (checked {f['checked']})")
+        out.append("")
+    for a in articles:
+        out += [f"## {a['title']}", "", f"URL: {page_url(site, '/' + a['slug'])}", "",
+                f"Keyword: {a.get('keyword', '')}", "", "### Facts", ""]
+        for f in a["facts"]:
+            out.append(f"- {f['fact']} (condition: {f['condition']})")
+            out.append(f"  Source: {f['source_url']} (checked {f['checked']})")
+        out += ["", "### FAQ", ""]
+        for f in a["faqs"]:
+            out.append(f"- **{f['q']}** {f['a']}")
+            out.append(f"  Source: {f['source_url']} (checked {f['checked']})")
+        out.append("")
+    out += [
+        "## About this data",
+        "",
+        f"- Every fact carries the official page it was read from and the date it was checked.",
+        f"- No figure is estimated, rounded or filled in from memory.",
+        f"- Where a brand publishes no figure, the page states that rather than guessing.",
+        f"- This site is not affiliated with, endorsed by, or compensated by any insurer it covers.",
+        f"- Site: {page_url(site, '/')} · Repository: {site['repo']}",
+        "",
+    ]
+    return "\n".join(out)
+
+
 def fact_rows(facts: list[dict]) -> str:
     cols = ["Fact", "Condition to get it", "Official source page", "Checked"]
     rows = []
@@ -125,7 +213,7 @@ def fact_rows(facts: list[dict]) -> str:
         cells = [
             escape(f["fact"]),
             escape(f["condition"]),
-            f'<a href="{escape(f["source_url"])}" rel="nofollow noopener" target="_blank">{escape(f["source_url"])}</a>',
+            f'<a href="{escape(f["source_url"])}" rel="noopener" target="_blank">{escape(f["source_url"])}</a>',
             escape(f["checked"]),
         ]
         rows.append(
@@ -160,7 +248,7 @@ def official_host(url: str) -> str:
 def faq_details(items: list[dict]) -> str:
     return "".join(
         f'<details open><summary>{escape(f["q"])}</summary><p>{escape(f["a"])}</p>'
-        f'<p class="muted">Source: <a href="{escape(f["source_url"])}" rel="nofollow noopener" target="_blank">'
+        f'<p class="muted">Source: <a href="{escape(f["source_url"])}" rel="noopener" target="_blank">'
         f'{escape(f["source_url"])}</a> · checked {escape(f["checked"])}</p></details>'
         for f in items
     )
@@ -181,7 +269,7 @@ def compare_table(article: dict) -> str:
             inner = escape(text)
             if src:
                 inner += (
-                    f'<br><a class="muted" href="{escape(src)}" rel="nofollow noopener" '
+                    f'<br><a class="muted" href="{escape(src)}" rel="noopener" '
                     f'target="_blank">source: {escape(official_host(src))}</a>'
                 )
             cells.append(f'<td data-th="{escape(article["columns"][i]["name"], quote=True)}">{inner}</td>')
@@ -391,14 +479,14 @@ def build() -> None:
         f'<div class="card"><h3><a href="/{b["slug"]}">{escape(b["name"])} pet insurance</a></h3>'
         f'<p class="price big">{escape(b["price_line"])}</p>'
         f'<p class="muted">{escape(b["price_condition"])}</p>'
-        f'<p class="muted">Source: <a href="{escape(b["price_source"])}" rel="nofollow noopener" target="_blank">'
+        f'<p class="muted">Source: <a href="{escape(b["price_source"])}" rel="noopener" target="_blank">'
         f'{escape(b["price_source"])}</a> · checked {escape(site["checked"])}</p>'
         f'<p>{escape(b["short_answer"])}</p></div>'
         for b in brands
     )
     faq_html = "".join(
         f'<details open><summary>{escape(f["q"])}</summary><p>{escape(f["a"])}</p>'
-        f'<p class="muted">Source: <a href="{escape(f["source_url"])}" rel="nofollow noopener" target="_blank">'
+        f'<p class="muted">Source: <a href="{escape(f["source_url"])}" rel="noopener" target="_blank">'
         f'{escape(f["source_url"])}</a> · checked {escape(f["checked"])}</p></details>'
         for f in data["home_faqs"]
     )
@@ -472,7 +560,7 @@ def build() -> None:
         head = head_block(title, description, canonical, jsonld_blocks)
         faq_html = "".join(
             f'<details open><summary>{escape(f["q"])}</summary><p>{escape(f["a"])}</p>'
-            f'<p class="muted">Source: <a href="{escape(f["source_url"])}" rel="nofollow noopener" target="_blank">'
+            f'<p class="muted">Source: <a href="{escape(f["source_url"])}" rel="noopener" target="_blank">'
             f'{escape(f["source_url"])}</a> · checked {escape(site["checked"])}</p></details>'
             for f in b["faqs"]
         )
@@ -649,6 +737,10 @@ def build() -> None:
     robots = f"User-agent: *\nAllow: /\n\nSitemap: {page_url(site, '/sitemap.xml')}\n"
     (SITE_DIR / "robots.txt").write_text(robots, encoding="utf-8")
 
+    # ---- llms.txt / llms-full.txt（生成式引擎的可读索引，内容取自站内既有事实）
+    (SITE_DIR / "llms.txt").write_text(llms_index(site, brands, articles), encoding="utf-8")
+    (SITE_DIR / "llms-full.txt").write_text(llms_full(site, brands, articles), encoding="utf-8")
+
     # ---- _worker.js（规范主机 + 真 404）
     from urllib.parse import urlparse
     # 本机构建可用 PET_SITE_CANONICAL_HOST 覆盖 worker 的规范域名（只影响路由跳转，不改任何页面内容）
@@ -656,7 +748,9 @@ def build() -> None:
     assets = sorted(
         f"/assets/{p.name}" for p in (SITE_DIR / "assets").iterdir() if p.is_file()
     )
-    valid_paths = sorted({"/"} | {path for path, _ in urls} | {"/sitemap.xml", "/robots.txt"} | set(assets))
+    valid_paths = sorted(
+        {"/"} | {path for path, _ in urls} | {"/sitemap.xml", "/robots.txt", "/llms.txt", "/llms-full.txt"} | set(assets)
+    )
     worker = (
         WORKER_TEMPLATE
         .replace("__CANONICAL_HOST__", host)

@@ -1,0 +1,33 @@
+# Pet Insurance Decisions
+
+> What pet insurance covers, what it costs, and what the fine print says - every fact read from the brand's own official page, with its source and check date.
+
+This site is a reference of pet insurance facts taken only from each brand's own official website and official policy pages. Every figure is published on this site with the official page it was read from and the date it was checked. Where a brand does not publish a figure, the page says so instead of estimating.
+
+## Guides
+
+- [Best Pet Insurance in 2026: Plans Compared Side by Side](https://furadvisor.com/best-pet-insurance): Lemonade, Spot and Fetch compared on published price, waiting periods, claim speed and discounts, each figure sourced to the brand's own page.
+- [Pet Insurance Cost per Month: Published Prices](https://furadvisor.com/pet-insurance-cost): Monthly prices Lemonade, Spot and Fetch publish themselves, with the deductible, limit and reimbursement each figure assumes and the page it came from.
+- [Lemonade vs Spot Pet Insurance: Which One Should You Pick?](https://furadvisor.com/lemonade-vs-spot): Lemonade and Spot compared using only figures each company publishes: prices, waiting periods, claim speed, discounts, add-ons and refunds.
+- [How to Submit a Pet Insurance Claim: Step by Step](https://furadvisor.com/how-to-submit-a-pet-insurance-claim): Claim filing step by step for Lemonade, Spot and Fetch: the 180, 270 and 90 day windows, the documents each asks for and every appeal route.
+- [Pet Insurance Promo Codes: What Brands Publish](https://furadvisor.com/pet-insurance-promo-code): Official discounts only: Lemonade multi-pet and bundle offers, Spot employer discounts, Fetch military and AARP deals, and what no brand publishes at all.
+- [Pet Insurance Claim Denied? Appeal Routes Compared](https://furadvisor.com/pet-insurance-claim-denied): Three official appeal routes side by side: Lemonade in the app, Spot by email with a roughly 30 day review, Fetch in writing within 90 days of denial.
+- [Pet Insurance Waiting Periods: Accident vs Illness](https://furadvisor.com/pet-insurance-waiting-periods): Lemonade publishes 0 days for accidents, 14 for illness, 30 orthopedic. Spot's state policies say 14 days. Fetch waits up to 15 days plus six months.
+- [Pet Insurance Cost by Brand: Official Prices](https://furadvisor.com/pet-insurance-cost-by-brand): Every price Lemonade, Spot and Fetch print on their own sites, with each brand's quote assumptions and the date it stamped on the number.
+- [Pet Insurance Wellness Add-Ons Compared](https://furadvisor.com/pet-insurance-wellness-add-on): Per-item annual maximums from the benefit schedules of Lemonade, Spot, Fetch and Nationwide: exams, vaccines, dental cleaning, spay or neuter, microchips.
+- [Pet Insurance Claim Filing Deadlines Compared](https://furadvisor.com/pet-insurance-claim-filing-deadline): How long you have to file: Spot 270 days, Lemonade 180 (90 in Texas) and Fetch 90, each quoted from the brand's own claim page, FAQ or sample policy.
+- [Pet Insurance Waiting Periods by Condition](https://furadvisor.com/pet-insurance-waiting-periods-by-condition): The day counts behind GEICO and Allstate sit in the Embrace sample policy they link to. Read condition by condition, each with its official source.
+- [Exotic Pet Insurance: Who Covers Birds and Reptiles](https://furadvisor.com/exotic-pet-insurance): Nationwide calls itself the only insurer covering birds and exotic pets, priced under $21/mo. GEICO, Allstate and ASPCA list dog and cat plans only.
+- [Lemonade Cat Insurance: What a Cat Policy Covers](https://furadvisor.com/lemonade-cat-insurance): Lemonade cat cover starts at $10/mo and averages about $27/mo. The catch is which conditions Lemonade lists as uncurable, and the 12 month cured clock.
+
+## Brand pages
+
+- [Lemonade pet insurance facts](https://furadvisor.com/lemonade-pet-insurance): Starts at $10/mo. Lemonade pet insurance starts at $10/month for basic accident and illness coverage, reimburses on a customizable co-insurance/deductible basis, and pays claims through its app.
+- [Spot pet insurance facts](https://furadvisor.com/spot-pet-insurance): Dogs from $15/mo, cats from $9/mo. Spot pet insurance advertises dog plans from $15/month and cat plans from $9/month, reimburses up to 90% of covered vet bills, and pays most claims in under 2 business days.
+- [Fetch pet insurance facts](https://furadvisor.com/fetch-pet-insurance): Avg $35/mo dogs, $22/mo cats. Fetch pet insurance averages $35/month for dogs and $22/month for cats on its own published figures, reimburses up to 90% of covered vet bills, and covers exam fees up to $250 per sick visit.
+
+## Optional
+
+- [About this site](https://furadvisor.com/about): who runs it, and how facts are sourced and dated.
+- [Contact](https://furadvisor.com/contact): report a fact that no longer matches a brand's official site.
+- [Full fact list](https://furadvisor.com/llms-full.txt): every recorded figure with its source page and check date.

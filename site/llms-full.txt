@@ -1,0 +1,1034 @@
+# Pet Insurance Decisions - full fact list
+
+> What pet insurance covers, what it costs, and what the fine print says - every fact read from the brand's own official page, with its source and check date.
+
+Every entry below was read from the official page named in its source URL and checked on the date shown. Figures are quoted as published; conditions are stated because the number usually depends on them.
+
+## Lemonade pet insurance
+
+URL: https://furadvisor.com/lemonade-pet-insurance
+
+- **Starts at $10/mo** - Basic accident and illness coverage; actual price varies by coverage choices, breed, age and location (Lemonade cost guide, last updated Jun 3, 2026).
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+
+### Facts
+
+- Waiting periods: 14 days for illnesses and 30 days for orthopedic conditions; benefits of the preventative package can be used the day after the policy is purchased. (condition: As described in the FAQ on Lemonade's pet insurance page.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- Pre-existing conditions are not covered; accidents and new illnesses are covered as part of base coverage once waiting periods are up. (condition: Anything the pet showed signs of before the waiting periods are up counts as pre-existing.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- Covered items listed on the official page include bloodwork, X-rays, MRI, CT scans, lab work, ultrasounds, cancer, emergency care, surgery, heart disease, hospitalization, road accidents, outpatient care, allergy medicine, specialty care, injections, prescription medications, arthritis medication, and knee/elbow/hip dysplasia. (condition: Listed under the coverage section of Lemonade's pet insurance page; coverage remains subject to policy terms.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- Any vet in the United States can be used, as long as they are licensed to provide vet care in their state. (condition: Stated on the pet insurance page; no vet network restriction is described.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- You can cancel at any time in the Lemonade app; you get a refund if it is within the first 30 days, and waiting periods reset after cancellation. (condition: Refund window is the first 30 days of the policy.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- Vet exam fees are only covered if you buy the Visit Fee Add-on, and only when the visit is for treating a covered accident or illness. (condition: Add-on must be purchased; the add-on does not cover routine wellness visits.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance/ (checked 2026-09-25)
+- Policies for dogs and cats start at $10/month. (condition: Basic accident and illness coverage; the cost guide states cost varies by coverage amount/type, breed, age and where you live.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Lemonade pet parents pay around $48/month for dogs and around $27/month for cats on average. (condition: Stated as on-average figures across different ages, breeds and locations on the cost guide page (last updated Jun 3, 2026).)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Example quote: a 4-year-old Goldendoodle in Chicago with 80% co-insurance, the maximum annual limit available and a $250 deductible was quoted at $61/month. (condition: Lemonade's own example quote for that specific pet profile, shown in its comparison table.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Example quote: a 1-year-old short-haired cat in Danbury, Connecticut with a $250 deductible, 80% co-insurance and the maximum annual limit was quoted at $29/month. (condition: Lemonade's own example quote for that specific pet profile, base policy with no add-ons or discounts applied.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Deductible options are $100, $250, $500, $750, or $1,000. (condition: Listed on the cost guide as choices that lower the premium.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Discounts published on the official site: multi-pet discount, bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly. (condition: Listed among premium-lowering options on the cost guide; eligibility varies.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Multi-pet discount eligibility depends on where you live. (condition: Stated in the coverage guide FAQ; the discount is removed from your remaining policy if you cancel all but one pet policy.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance/ (checked 2026-09-25)
+- Preventative add-on packages: Preventative for Adult Pets from +$10/Mo, Preventative+ for Adult Pets from +$15/Mo, Preventative for Puppies/Kittens from +$31/Mo. (condition: 'From' prices as published; package availability depends on your location.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- A quote can be completed in as little as 90 seconds. (condition: Stated on the cost guide page.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Lemonade reports 4.9 stars in the App Store and on Google Play. (condition: Self-reported rating displayed on Lemonade's pet insurance page.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- Each pet needs its own policy. (condition: Stated in the pet insurance page FAQ; pets are set up one at a time.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- No dedicated promo code or coupon page appears in Lemonade's official sitemap. (condition: Sitemap at https://www.lemonade.com/sitemap.xml checked on 2026-09-25; no URL matching promo, coupon, discount or deal was found. The published discounts are the multi-pet, bundle and annual-payment discounts listed above.)
+  Source: https://www.lemonade.com/sitemap.xml (checked 2026-09-25)
+
+### FAQ
+
+- **How much does Lemonade pet insurance cost?** Lemonade states that policies for dogs and cats start at $10/month for basic accident and illness coverage. Its own averages are around $48/month for dogs and around $27/month for cats; its example quotes are $61/month for a 4-year-old Goldendoodle in Chicago and $29/month for a 1-year-old short-haired cat in Danbury, Connecticut, both at $250 deductible and 80% co-insurance. Cost varies by coverage, breed, age and location.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- **How do I get a Lemonade pet insurance quote?** Lemonade's own site says a quote takes as little as 90 seconds. The quote entry point on its pet insurance page is labeled 'CHECK OUR PRICES'.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- **What does Lemonade pet insurance cover?** The official page lists bloodwork, X-rays, MRI, CT scans, lab work, ultrasounds, cancer, emergency care, surgery, heart disease, hospitalization, road accidents, outpatient care, allergy medicine, specialty care, injections, prescription medications, arthritis medication and knee/elbow/hip dysplasia. Vet exam fees are covered only with the Visit Fee Add-on and only for a covered accident or illness. Coverage is subject to policy terms.
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- **What are Lemonade pet insurance waiting periods?** 14 days for illnesses and 30 days for orthopedic conditions. If you bought a preventative package, its benefits can be used the day after purchase.
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- **Are there Lemonade pet insurance promo codes or discounts?** Lemonade's official sitemap contains no promo code or coupon page (checked 2026-09-25). The discounts published on its own site are a multi-pet discount (eligibility depends on where you live), a bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- **What do reviews of Lemonade pet insurance say on its own site?** Lemonade reports 4.9 stars in the App Store and on Google Play on its pet insurance page. That is Lemonade's self-reported figure, not an independent audit.
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+
+## Spot pet insurance
+
+URL: https://furadvisor.com/spot-pet-insurance
+
+- **Dogs from $15/mo, cats from $9/mo** - Advertised premiums: the dog figure is from an accident and illness plan with 80% reimbursement rate, $500 annual deductible and $2,500 annual limit for a 2-year-old small mixed dog (11-25 lbs) in ZIP 32009; the cat figure is from 80% reimbursement, $750 annual deductible and $2,500 annual limit for a 2-year-old mixed cat in ZIP 33801. Plan costs vary.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+
+### Facts
+
+- Spot reimburses up to 90% of covered vet bills. (condition: Reimbursement percentage is a plan choice; actual reimbursement depends on plan type and options including annual limit, co-insurance and deductible.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Dog insurance starts from $15/month and cat insurance starts from $9/month. (condition: Advertised premium for the dog figure: accident and illness plan, 80% reimbursement rate, $500 annual deductible, $2,500 annual limit, 2-year-old small mixed dog (11-25 lbs) in ZIP 32009. Cat figure: 80% reimbursement, $750 annual deductible, $2,500 annual limit, 2-year-old mixed cat in ZIP 33801. Plan costs vary; premiums may increase or decrease with pet age.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- 10% multi-pet discount for every pet enrolled after the first. (condition: Discounts vary by state and are subject to change; more information is shown at checkout.)
+  Source: https://spotpet.com/cat-insurance (checked 2026-09-25)
+- Claims are reimbursed in 48 hours or less, and most claims are processed in under 2 business days. (condition: '48 hrs or less' is based on Spot admin data from 2019 to 2024; 'under 2 business days' is stated in the site FAQ. Actual reimbursement amounts vary by plan and claim.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Sample claim shown on the official page: total vet bill $12,345, Spot plan reimbursed $11,110. (condition: Based on actual policyholder claims from 2023; the example uses an accident and illness policy at $75.01/month with a $500 deductible, 90% reimbursement and unlimited annual benefit for a 1-year-old giant mix dog. Individual reimbursement amounts may vary.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- 30-day money-back guarantee. (condition: Applies to cancellations made within 30 days of the policy's start date if no claims have been filed and no covered expenses were applied to the deductible or reimbursed. Not available in NY; 15-day guarantee in ME, LA and WA. Cancellations must be requested via email, phone or written notice.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot plans typically have a 14-day waiting period for coverage. (condition: Read from the sample Accident & Illness policy PDF linked on spotpet.com/sample-policy (California form PET-P-20000-CA-IAIC-1024): 14 days for illness including congenital, hereditary and orthopedic illness, beginning on the first effective date of coverage. A paid Waiting Period Health Assessment can modify it; state forms differ.)
+  Source: https://spotpet.com/sample-policy (checked 2026-09-25)
+- Pre-existing conditions are not covered; a curable condition that has been symptom-free and treatment-free for 180 days is no longer considered pre-existing and can become eligible. (condition: The 180-day symptom- and treatment-free rule is stated in the site FAQ.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Puppies and kittens 8 weeks and older can be covered; there is no upper age limit, no lifetime cap, and no vet exam is needed for enrollment. (condition: Stated on the official page comparison section and FAQ.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Coverage includes dental illnesses, breed-specific/chronic/hereditary conditions, prescription foods, a 24/7 pet health helpline, behavioral modification and microchip implantation. (condition: Dental illness and hereditary condition coverage only apply with an accident and illness plan. Prescription food and supplements are covered only when prescribed to treat an eligible accident or illness, not for weight management or general health maintenance. Pre-existing conditions are not covered.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- The optional preventative care add-on has no deductible and no waiting period - benefits start the next day. (condition: Add-on costs extra; stated on the dog insurance page.)
+  Source: https://spotpet.com/dog-insurance (checked 2026-09-25)
+- Spot Perks gives access to $2,500+ in discounts on pet brands. (condition: No purchase necessary; based on total combined Spot Perks discounts applied to average vendor cart value; terms at spotpet.com/perks-terms.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- An employee discount advertised at 20% appears on Spot's plan pages for employer benefits. (condition: Footnote: includes up to 10% group discount plus up to 10% multi-pet discount on 2nd+ pets. Discounts vary by state, are subject to change, and are not available in all states.)
+  Source: https://spotpet.com/dog-insurance (checked 2026-09-25)
+- Spot plans are underwritten by Independence American Insurance Company (NAIC #26581) or United States Fire Insurance Company, and produced by Spot Pet Insurance Services, LLC (NPN #19246385). (condition: Underwriter disclosure in the page footer; which carrier applies depends on the policy.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot displays a rating of 4.7 / 5 based on 8,300+ reviews. (condition: Rating as displayed on Spot's homepage; it is the company's own displayed figure.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- You can visit any licensed vet in the United States or Canada. (condition: No network restrictions; stated on the homepage and FAQ.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- No dedicated promo code page appears in Spot's official sitemaps. (condition: Sitemap index at https://spotpet.com/sitemap.xml and its child sitemaps checked on 2026-09-25; no URL matching promo or coupon was found. The published discounts are the multi-pet discount, the group/employee discount and Spot Perks.)
+  Source: https://spotpet.com/sitemap.xml (checked 2026-09-25)
+
+### FAQ
+
+- **How much does Spot pet insurance cost?** Spot advertises dog insurance starting from $15/month and cat insurance starting from $9/month. The dog figure assumes an accident and illness plan with 80% reimbursement, a $500 annual deductible and a $2,500 annual limit for a 2-year-old small mixed dog in ZIP 32009; the cat figure assumes 80% reimbursement, a $750 deductible and a $2,500 annual limit for a 2-year-old mixed cat in ZIP 33801. Plan costs vary by coverage, breed, age and location.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- **How do I get a Spot pet insurance quote?** Spot's official page has a 'Click For Price' button that opens its quote flow at spotpet.com/quote. The site FAQ says to see your price you get a free quote, because cost depends on coverage, age, breed and location.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- **What does Spot pet insurance cover?** Accident-only and accident and illness plans are offered, plus an optional preventive care add-on. The accident and illness plan covers dental illnesses, hereditary and breed-specific conditions, prescription foods when prescribed for an eligible accident or illness, behavioral modification, microchip implantation and a 24/7 pet health helpline. Pre-existing conditions are not covered.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- **What are Spot pet insurance waiting periods?** Spot plans typically have a 14-day waiting period; state-specific waiting periods vary and are listed in the sample policy. The preventative care add-on has no waiting period - its benefits start the next day.
+  Source: https://spotpet.com/sample-policy (checked 2026-09-25)
+- **Are there Spot pet insurance promo codes or discounts?** Spot's official sitemaps contain no promo code page (checked 2026-09-25). Discounts published on its own site: 10% off for every pet enrolled after the first, an advertised 20% employee discount through employer benefits (up to 10% group discount plus up to 10% multi-pet discount on 2nd+ pets, varies by state, not available in all states), and Spot Perks with $2,500+ in brand discounts.
+  Source: https://spotpet.com/cat-insurance (checked 2026-09-25)
+- **What do reviews of Spot pet insurance say on its own site?** Spot displays 4.7 / 5 based on 8,300+ reviews on its homepage. That is the company's own displayed figure.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+
+## Fetch pet insurance
+
+URL: https://furadvisor.com/fetch-pet-insurance
+
+- **Avg $35/mo dogs, $22/mo cats** - Based on U.S. annual premiums using the most common coverage configuration of a $10,000 annual limit, $300 deductible and 80% reimbursement rate for the period 07.01.2024 through 06.30.2025.
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-25)
+
+### Facts
+
+- Average monthly price: $35/month for dogs and $22/month for cats. (condition: Based on U.S. annual premiums using the most common coverage configuration of a $10,000 annual limit, $300 deductible and 80% reimbursement rate for the period 07.01.2024 through 06.30.2025 (Fetch data).)
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-25)
+- Breed averages on the official price page: French Bulldog $71/mo, German Shepherd $53/mo, Golden Doodle $50/mo, Golden Retriever $50/mo, Maltipoo $35/mo, Shih-Tzu $30/mo for dogs; Siamese $29/mo, Maine Coon $35/mo, Mixed Breed $27/mo and Domestic Shorthair $24/mo for cats. (condition: Shown as 'on avg.' figures on Fetch's price page; the same average-premium footnote applies (period 07.01.2024-06.30.2025, $10,000 annual limit, $300 deductible, 80% reimbursement).)
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-25)
+- Fetch covers up to 90% of unexpected vet bills. (condition: Reimbursement percentage is part of the plan; payment follows claim approval and the deductible being met.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- The waiting period for accident and illness coverage with Fetch is up to 15 days. (condition: Fetch states it emails you as soon as your coverage starts.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Fetch covers dogs and cats 6 weeks and older. (condition: Stated in the official FAQ; enrolling early avoids conditions later being classed as pre-existing.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Pre-existing conditions are not covered. (condition: A condition that occurred, or showed clinical signs, before enrollment, during the waiting period, or before the pet's first exam counts as pre-existing.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Sick-visit exam fees are covered: every sick visit comes with an exam fee of up to $250 and Fetch covers those. (condition: Stated on the official homepage coverage section.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Online vet visits are covered up to $1,000 per year, included at no extra cost with no copay. (condition: Members get 24/7 access to licensed veterinarians; stated in the official FAQ and coverage section.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- 100% reimbursement on hundreds of qualifying pet meds through Fetch Pet Rx. (condition: Subject to deductible and policy limit; applies to qualifying medications purchased from FetchPetRx.com (fulfilled by Allivet) or Allivet.com, as designated in the Terms & Conditions.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Claims are typically processed in less than 10 days. (condition: Stated in the official 'How Fetch works' section; payment follows approval and the deductible being met, by direct deposit.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Veterans and active military save 10% on their Fetch pet insurance policy every month for life. (condition: Discounts and offers are subject to approval and may change at any time; the maximum available discount is 10%, it may not be available in all states, and it is not valid with any other offer.)
+  Source: https://www.fetchpet.com/faqs/military-pet-insurance-discount (checked 2026-09-25)
+- Fetch publishes $1,500+ in members-only savings with its Health Perks, and its Fetch Deals page states members save an average of $40+ per order. (condition: $1,500+ shown in the Health Perks section of fetchpet.com; the $40+ average is stated twice on fetchpet.com/deals (Fetch member purchase data). Both are the brand's own figures.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Every adult tooth is covered - injury and disease in every adult tooth, not just the canines. (condition: Stated in the official homepage coverage section; all coverage is subject to policy limits.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Sample claim shown on the official price page: patella surgery cost $28,776, Fetch paid back $21,331. (condition: Claim example displayed on Fetch's price page; individual results vary by plan and claim.)
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-25)
+- Fetch insurance policies are administered by Fetch Insurance Services, LLC and underwritten by AXIS Insurance Company in the U.S. and AXIS Reinsurance Company (Canadian Branch) in Canada. (condition: Underwriter disclosure in the homepage footer.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Fetch states that any veterinarian in the U.S. or Canada can be used, including specialists and emergency clinics. (condition: No network restriction described in the official FAQ.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- No dedicated promo code page appears in Fetch's official sitemap. (condition: Sitemap at https://fetchpet.com/sitemap.xml checked on 2026-09-25; no URL matching promo or coupon was found. The published discounts are the 10% military discount (maximum available discount is 10% per the site footnote) and the Fetch Deals member savings.)
+  Source: https://fetchpet.com/sitemap.xml (checked 2026-09-25)
+
+### FAQ
+
+- **How much does Fetch pet insurance cost?** Fetch publishes averages of $35/month for dogs and $22/month for cats, based on U.S. annual premiums with the most common configuration of a $10,000 annual limit, $300 deductible and 80% reimbursement rate for 07.01.2024 through 06.30.2025. Its breed averages run from $24/month (Domestic Shorthair cats) to $71/month (French Bulldogs). Your price varies by pet age, breed and where you live.
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-25)
+- **How do I get a Fetch pet insurance quote?** Fetch's quote flow starts from the 'Get your price' button on its official site, which opens its pet setup page at fetchpet.com/mypet. Fetch states your quote includes all monthly taxes and fees.
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- **What does Fetch pet insurance cover?** Accident and illness coverage with up to 90% reimbursement, exam fees up to $250 per sick visit, every adult tooth (not just canines), online vet visits up to $1,000 per year at no extra cost, and 100% reimbursement on qualifying pet meds through Fetch Pet Rx (subject to deductible and policy limit). A Wellness add-on covers routine and preventive care. Pre-existing conditions are not covered.
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- **What are Fetch pet insurance waiting periods?** The waiting period for accident and illness coverage with Fetch is up to 15 days. Fetch emails you as soon as your coverage starts.
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- **Are there Fetch pet insurance promo codes or discounts?** Fetch's official sitemap contains no promo code page (checked 2026-09-25). Discounts published on its own site: veterans and active military save 10% every month for life (maximum available discount is 10%, subject to approval, may not be available in all states, not valid with any other offer), and Fetch Deals member savings of $1,500+ included at no extra cost.
+  Source: https://www.fetchpet.com/faqs/military-pet-insurance-discount (checked 2026-09-25)
+- **What do reviews of Fetch pet insurance say on its own site?** Fetch's homepage says thousands of 5-star reviews on Trustpilot and labels itself '#1 Pet Insurance, Readers' Choice 2026'. Those are the company's own claims as displayed on its site.
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+
+## Best Pet Insurance in 2026: Plans Compared Side by Side
+
+URL: https://furadvisor.com/best-pet-insurance
+
+Keyword: best pet insurance
+
+### Facts
+
+- Lemonade policies for dogs and cats start at $10/month. (condition: Basic accident and illness coverage; the cost guide states cost varies by coverage amount/type, breed, age and where you live.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Lemonade pet parents pay around $48/month for dogs and around $27/month for cats on average. (condition: Stated as on-average figures across different ages, breeds and locations on the cost guide page (last updated Jun 3, 2026).)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Lemonade waiting periods: 14 days for illnesses and 30 days for orthopedic conditions; preventative package benefits can be used the day after purchase. (condition: As described in the FAQ on Lemonade's pet insurance page.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- Lemonade deductible options are $100, $250, $500, $750 or $1,000. (condition: Listed on the cost guide as choices that lower the premium.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Spot dog insurance starts from $15/month and cat insurance from $9/month. (condition: Dog figure: accident and illness plan, 80% reimbursement, $500 annual deductible, $2,500 annual limit, 2-year-old small mixed dog (11-25 lbs) in ZIP 32009. Cat figure: 80% reimbursement, $750 annual deductible, $2,500 annual limit, 2-year-old mixed cat in ZIP 33801. Plan costs vary; premiums may increase or decrease with pet age.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot reimburses up to 90% of covered vet bills. (condition: Reimbursement percentage is a plan choice; actual reimbursement depends on plan type, annual limit, co-insurance and deductible.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot claims are reimbursed in 48 hours or less, and most claims are processed in under 2 business days. (condition: '48 hrs or less' is based on Spot admin data from 2019 to 2024; 'under 2 business days' is stated in the site FAQ. Actual reimbursement amounts vary by plan and claim.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot plans typically have a 14-day waiting period for coverage. (condition: State-specific waiting periods vary; the site directs you to the sample policy for your state's specific waiting periods.)
+  Source: https://spotpet.com/sample-policy (checked 2026-09-25)
+- Spot offers a 30-day money-back guarantee. (condition: Applies to cancellations within 30 days of the policy's start date if no claims were filed and no covered expenses were applied to the deductible or reimbursed. Not available in NY; 15-day guarantee in ME, LA and WA. Cancellations must be requested via email, phone or written notice.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot gives a 10% multi-pet discount for every pet enrolled after the first. (condition: Discounts vary by state and are subject to change; more information is shown at checkout.)
+  Source: https://spotpet.com/cat-insurance (checked 2026-09-25)
+- Fetch average monthly price: $35/month for dogs and $22/month for cats. (condition: Based on U.S. annual premiums using the most common coverage configuration of a $10,000 annual limit, $300 deductible and 80% reimbursement rate for 07.01.2024 through 06.30.2025 (Fetch data).)
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-25)
+- Fetch covers up to 90% of unexpected vet bills. (condition: Reimbursement percentage is part of the plan; payment follows claim approval and the deductible being met.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- The waiting period for accident and illness coverage with Fetch is up to 15 days. (condition: Fetch states it emails you as soon as your coverage starts.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Fetch covers sick-visit exam fees: every sick visit comes with an exam fee of up to $250 and Fetch covers those. (condition: Stated in the official homepage coverage section; coverage remains subject to policy terms.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Fetch online vet visits are covered up to $1,000 per year, included at no extra cost with no copay. (condition: Members get 24/7 access to licensed veterinarians; stated in the official FAQ and coverage section.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Fetch claims are typically processed in less than 10 days. (condition: Stated in the official 'How Fetch works' section; payment follows approval and the deductible being met, by direct deposit.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- Veterans and active military save 10% on their Fetch pet insurance policy every month for life. (condition: Discounts and offers are subject to approval and may change at any time; the maximum available discount is 10%, it may not be available in all states, and it is not valid with any other offer.)
+  Source: https://www.fetchpet.com/faqs/military-pet-insurance-discount (checked 2026-09-25)
+- No dedicated promo code or coupon page appears in Lemonade's official sitemap. (condition: Sitemap checked on 2026-09-25; no URL matching promo, coupon, discount or deal was found. Published discounts are multi-pet, bundle and annual payment.)
+  Source: https://www.lemonade.com/sitemap.xml (checked 2026-09-25)
+- No dedicated promo code page appears in Spot's official sitemap. (condition: Sitemap index and its child sitemaps checked on 2026-09-25; no URL matching promo or coupon was found. Published discounts are multi-pet, group/employee and Spot Perks.)
+  Source: https://spotpet.com/sitemap.xml (checked 2026-09-25)
+- No dedicated promo code page appears in Fetch's official sitemap. (condition: Sitemap checked on 2026-09-25; no URL matching promo or coupon was found. Published discounts are the 10% military discount and Fetch Deals member savings.)
+  Source: https://fetchpet.com/sitemap.xml (checked 2026-09-25)
+
+### FAQ
+
+- **What is the best pet insurance in 2026?** There is no single best pet insurance - the honest answer depends on which published fact you care about. Lemonade publishes the lowest starting price (from $10/month), Spot publishes the fastest claim payment (48 hours or less, based on Spot admin data 2019-2024) and Fetch publishes the most detailed pricing (breed-by-breed averages with a stated methodology). Compare quotes for your own pet on each official site, because advertised prices are quoted under different deductible, limit and reimbursement conditions.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- **Which pet insurance is cheapest?** The lowest published starting prices are Lemonade at $10/month for dogs and cats, Spot at $15/month for dogs and $9/month for cats, and Fetch, which does not publish an entry price but publishes averages of $35/month for dogs and $22/month for cats. These figures are not directly comparable: Spot's price assumes an 80% reimbursement rate, a $500 deductible and a $2,500 annual limit for a specific dog in ZIP 32009, while Fetch's average assumes a $10,000 annual limit, a $300 deductible and 80% reimbursement. Your real price comes from a quote on the brand's official site.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- **Is there a real pet insurance promo code?** Not from these three brands. Their official sitemaps were checked on 2026-09-25 and none contains a promo code or coupon page. The discounts that do exist on the official sites are Lemonade's multi-pet, bundle and annual-payment discounts, Spot's 10% multi-pet discount and its group/employee discount, and Fetch's 10% military discount plus Fetch Deals member savings. Third-party coupon sites are not a source we use.
+  Source: https://www.lemonade.com/sitemap.xml (checked 2026-09-25)
+- **How long are pet insurance waiting periods?** Published waiting periods: Lemonade 14 days for illnesses and 30 days for orthopedic conditions (preventative package benefits start the day after purchase); Spot typically 14 days, with state-specific variations detailed in its sample policy; Fetch up to 15 days for accident and illness coverage. Coverage for anything that shows signs before those periods end counts as pre-existing.
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- **Does pet insurance cover pre-existing conditions?** No. All three brands state that pre-existing conditions are not covered. Spot additionally publishes that a curable condition which has been symptom-free and treatment-free for 180 days is no longer considered pre-existing and can become eligible. Fetch counts anything that occurred or showed clinical signs before enrolment, during the waiting period, or before the pet's first exam as pre-existing.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- **Do I need a vet exam to buy pet insurance?** Spot states no vet exam is needed for enrolment and has no upper age limit, with puppies and kittens 8 weeks and older eligible. Fetch covers dogs and cats 6 weeks and older and advises enrolling early so conditions are not later classed as pre-existing. For Lemonade, an enrolment exam requirement is not published on the official pages checked on 2026-09-25.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+
+## Pet Insurance Cost per Month: Published Prices
+
+URL: https://furadvisor.com/pet-insurance-cost
+
+Keyword: pet insurance cost per month
+
+### Facts
+
+- Lemonade policies for dogs and cats start at $10/month. (condition: Basic accident and illness coverage; the cost guide states cost varies by coverage amount and type, breed, age and where you live.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Lemonade pet parents pay around $48/month for dogs and around $27/month for cats on average. (condition: Stated as averages across different ages, breeds and locations on the cost guide page.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Lemonade's own six-insurer price check for a 4-year-old Goldendoodle in Chicago (80% co-insurance, maximum annual limit, $250 annual deductible) shows Trupanion $336, Healthy Paws $85, Fetch $99, Pets Best $77, ManyPets $73 and Lemonade $61 per month. (condition: Lemonade's comparison table for that single pet profile; the table states the profile and coverage used.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- The matching cat check for a 1-year-old short-haired cat in Danbury, Connecticut ($250 deductible, 80% co-insurance, maximum annual limit, no add-ons or discounts) shows Trupanion $58, ManyPets $44, Fetch $36, Pets Best $35 and Lemonade $29 per month. (condition: Same page, base policies adjusted to be as identical as possible; the page notes Trupanion only offered 90% co-insurance.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Lemonade publishes average monthly cost ranges by state, for example $45 to $49 in California and Connecticut, $40 to $44 in Illinois and New York, $35 to $39 in Florida and Arizona, and $30 to $34 in Texas, Ohio, Pennsylvania, Georgia and Michigan. (condition: Lemonade Insurance analyzed its own policy rates as of October 2024; the page calls the analysis illustrative and says quotes may vary.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Lemonade deductible options are $100, $250, $500, $750 or $1,000, and a higher deductible lowers the monthly premium. (condition: Listed among the ways to lower the premium on the cost guide.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Lemonade annual limits can be set anywhere between $5,000 and $100,000. (condition: Stated on the cost guide as the payout limit the customer chooses.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Adjusting co-insurance, deductible and annual limit might lower the premium by 10% or 15%. (condition: Stated on the cost guide, with the warning that it also means being covered for less on an expensive bill.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- The price factors Lemonade lists are breed, age, location and state, coverage options (deductible, co-insurance, annual limits), add-ons, and available discounts. (condition: Listed in the cost guide FAQ under what affects the premium.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Spot advertises dog insurance from $15/month and cat insurance from $9/month. (condition: Dog figure: accident and illness plan, 80% reimbursement, $500 annual deductible, $2,500 annual limit, 2-year-old small mixed dog (11-25 lbs) in ZIP 32009. Cat figure: 80% reimbursement, $750 annual deductible, $2,500 annual limit, 2-year-old mixed cat in ZIP 33801. Plan costs vary.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot reimburses up to 90% of covered vet bills, and its advertised quotes use an 80% reimbursement rate. (condition: Reimbursement is a plan choice; actual reimbursement depends on plan type, annual limit, co-insurance and deductible.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot's published discounts are 10% off every pet enrolled after the first and an advertised 20% employee discount made up of up to a 10% group discount plus up to a 10% multi-pet discount on 2nd+ pets. (condition: Discounts vary by state, are subject to change and are not available in all states; more information is shown at checkout.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot Perks gives access to $2,500+ in discounts on pet brands. (condition: Based on total combined Spot Perks discounts applied to an average vendor cart value; no purchase necessary.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot's Platinum Preventative Care add-on for cats costs $24.95/month and has a $450 total annual benefit, reimbursing up to $150 on spaying or neutering. (condition: Optional add-on added to the base plan at enrollment, as published on the cat insurance page.)
+  Source: https://spotpet.com/cat-insurance (checked 2026-09-25)
+- Spot's preventative care coverage has no deductible and no waiting period, so those benefits can be used the next day. (condition: Stated on the dog insurance page; the add-on costs extra and covers eligible routine services.)
+  Source: https://spotpet.com/dog-insurance (checked 2026-09-25)
+- Fetch's average monthly price is $35/month for dogs and $22/month for cats. (condition: U.S. annual premiums using the most common configuration of a $10,000 annual limit, $300 deductible and 80% reimbursement rate, 07.01.2024 through 06.30.2025.)
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-25)
+- Fetch publishes breed averages: French Bulldog $71/month, German Shepherd $53/month, Golden Doodle $50/month, Golden Retriever $50/month, Maltipoo $35/month and Shih-Tzu $30/month for dogs; Maine Coon $35/month, Siamese $29/month, mixed breed $27/month and Domestic Shorthair $24/month for cats. (condition: Shown as 'on avg.' figures under the same average-premium footnote as the $35/$22 averages.)
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-25)
+- Fetch states that choosing a higher deductible makes the price lower and choosing a lower reimbursement rate makes the price lower. (condition: Explained on the price page under how to customize deductible and reimbursement.)
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-25)
+- Fetch's sample claim shows patella surgery costing $28,776 with $21,331 paid back. (condition: Claim example displayed on the price page; individual results vary by plan and claim.)
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-25)
+- Veterans and active military save 10% on a Fetch policy every month for life. (condition: Maximum available discount is 10%, subject to approval, may not be available in all states and is not valid with any other offer.)
+  Source: https://www.fetchpet.com/faqs/military-pet-insurance-discount (checked 2026-09-25)
+
+### FAQ
+
+- **How much does pet insurance cost per month?** The entry points the brands publish are $10/month for dogs and cats at Lemonade, $15/month for dogs and $9/month for cats at Spot, and averages of $35/month for dogs and $22/month for cats at Fetch. Lemonade's own averages across its policyholders are about $48/month for dogs and about $27/month for cats. Every one of those figures is tied to a stated deductible, annual limit and reimbursement rate, so the only number that describes your pet is the quote the brand's own site produces.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- **What makes one pet insurance quote more expensive than another?** Lemonade lists breed and age, location and state, the coverage options chosen (deductible amount, co-insurance percentage and annual limits), any add-ons, and available discounts. Spot adds that premiums are based on the current age of your pet and may increase at renewal, and that species or breed and home address can change the initial premium.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- **How can I lower my monthly premium?** Lemonade's cost guide suggests choosing a higher deductible ($100, $250, $500, $750 or $1,000), selecting a lower annual coverage limit, or skipping optional add-ons, and notes that adjusting these levels might lower the premium by 10% or 15% - at the price of being covered for less. Fetch publishes the same mechanic: a higher deductible makes the price lower, and a lower reimbursement rate makes the price lower.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- **Does location change what pet insurance costs?** On Lemonade's published state table, average monthly cost ranges from $30 to $34 in Texas, Ohio, Pennsylvania, Georgia and Michigan up to $45 to $49 in California and Connecticut. Those averages come from Lemonade's own policy rates as of October 2024 and the page calls them illustrative; Spot and Fetch do not publish a state table.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- **Which is cheaper, Lemonade or Spot?** On published entry prices Lemonade is lower for dogs ($10/month against Spot's $15/month) and Spot is lower for cats ($9/month against Lemonade's $10/month starting price). The comparison stops there, because Spot's figures assume an 80% reimbursement rate, a $500 or $750 deductible and a $2,500 annual limit for specific pets in specific ZIP codes, while Lemonade's figures assume basic accident and illness coverage. Both brands publish averages only in part: Lemonade publishes about $48/month for dogs and about $27/month for cats, and Spot publishes no average of its own.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- **What discounts can lower the price?** Lemonade publishes a multi-pet discount (eligibility depends on where you live), a bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly. Spot publishes 10% off every pet enrolled after the first and an advertised 20% employee discount. Fetch publishes 10% off every month for life for veterans and active military. None of the three brands publishes a promo code page in its official sitemap.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- **Does pet insurance cost more as my pet gets older?** Spot states on its homepage that premiums are based on the current age of your pet and may increase due to the age of your pet at renewal, and that initial premiums can be affected by species or breed and by home address. Lemonade lists age among the factors that change the cost. The published starting prices on this page therefore describe young pets on the stated configurations, not every age.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+
+## Lemonade vs Spot Pet Insurance: Which One Should You Pick?
+
+URL: https://furadvisor.com/lemonade-vs-spot
+
+Keyword: lemonade vs spot pet insurance
+
+### Facts
+
+- Lemonade policies for dogs and cats start at $10/month for basic accident and illness coverage. (condition: Cost varies by coverage amount and type, breed, age and where you live.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Spot advertises dog insurance from $15/month and cat insurance from $9/month. (condition: Dog figure assumes 80% reimbursement, $500 annual deductible and $2,500 annual limit for a 2-year-old small mixed dog (11-25 lbs) in ZIP 32009; cat figure assumes 80% reimbursement, $750 deductible and $2,500 limit for a 2-year-old mixed cat in ZIP 33801. Plan costs vary.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Lemonade publishes averages of about $48/month for dogs and about $27/month for cats across different ages, breeds and locations. (condition: Stated on the cost guide; Spot publishes no average of its own.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Lemonade waiting periods are 14 days for illnesses and 30 days for orthopedic conditions, and preventative package benefits can be used the day after purchase. (condition: As described in the FAQ on Lemonade's pet insurance page.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- Spot's sample Accident & Illness policy states a 14-day waiting period for illness, including congenital anomaly or disorder, hereditary disorder and orthopedic illness, beginning on the first effective date of coverage. (condition: Read from the sample policy PDF linked on spotpet.com/sample-policy (California form PET-P-20000-CA-IAIC-1024); a paid Waiting Period Health Assessment can modify the waiting period and state forms differ.)
+  Source: https://spotpet.com/sample-policy (checked 2026-09-25)
+- Lemonade states it pays 50% of eligible claims instantly through AI. (condition: Stated on the cost guide; the remainder follows review, and payment goes to the bank details entered in the app.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Spot states claims are reimbursed in 48 hours or less, with most claims processed in under 2 business days. (condition: '48 hrs or less' is based on Spot admin data from 2019 to 2024; actual reimbursement depends on plan type, annual limit, co-insurance, deductible and policy terms.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot's published sample claim reimbursed $11,110 of a $12,345 vet bill. (condition: 2023 policyholder claim on an accident and illness policy at $75.01/month with a $500 deductible, 90% reimbursement and unlimited annual benefit.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Lemonade does not cover pre-existing conditions; anything the pet showed signs of before the waiting periods are up counts as pre-existing. (condition: Accidents and new illnesses are covered as base coverage once waiting periods are up.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- Spot does not cover pre-existing conditions, but a cured and curable condition symptom-free and treatment-free for 180 days stops being classed as pre-existing. (condition: The 180-day rule excludes knee and ligament injuries; stated in the site FAQ.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Lemonade deductible options are $100, $250, $500, $750 or $1,000, and annual limits can be set between $5,000 and $100,000. (condition: Both listed on the cost guide as choices that change the premium.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Spot reimburses up to 90% of covered vet bills, and both advertised quotes use an 80% reimbursement rate with a $2,500 annual limit. (condition: Reimbursement and limits are plan choices; actual reimbursement depends on plan options and policy terms.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Lemonade allows any vet in the United States licensed to provide vet care in their state; Spot allows any licensed vet in the United States or Canada. (condition: No network restriction is described on either brand's own page.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- Spot covers puppies and kittens 8 weeks and older, has no upper age limit and needs no vet exam to enrol. (condition: Stated in the official page comparison section and FAQ.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot states that premiums are based on the current age of your pet and may increase due to the age of your pet at renewal. (condition: Footnote on Spot's plan pages; initial premiums may also be affected by species or breed and by home address.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Lemonade publishes three discounts: a multi-pet discount whose eligibility depends on where you live, a bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly. (condition: Listed among premium-lowering options on the cost guide; eligibility and availability vary.)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- Spot publishes a 10% discount for every pet enrolled after the first, an advertised 20% employee discount, and Spot Perks with $2,500+ in discounts on pet brands. (condition: The employee discount is made up of up to a 10% group discount plus up to a 10% multi-pet discount on 2nd+ pets; discounts vary by state, are subject to change and are not available in all states.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot's preventative care coverage has no deductible and no waiting period, so those benefits can be used the next day. (condition: Stated on the dog insurance page; the add-on costs extra and reimburses eligible routine services.)
+  Source: https://spotpet.com/dog-insurance (checked 2026-09-25)
+- Lemonade prices preventative packages from +$10/month (Preventative for Adult Pets), +$15/month (Preventative+ for Adult Pets) and +$31/month (Preventative for Puppies/Kittens), while Spot prices its Platinum Preventative Care cat add-on at $24.95/month with a $450 total annual benefit. (condition: Lemonade 'from' prices as published, availability depends on location; Spot add-on is optional at enrollment and reimburses up to $150 on spaying or neutering.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- Lemonade refunds a cancellation within the first 30 days (waiting periods reset); Spot offers a 30-day money-back guarantee if no claims have been filed. (condition: Spot's window is 15 days in ME, LA and WA and not available in NY; Lemonade's refund applies to cancellations in the app within the first 30 days.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- Lemonade displays 4.9 stars in the App Store and on Google Play; Spot displays 4.7 / 5 based on 8,300+ reviews. (condition: Both are the brands' own displayed figures on their own sites, not independent audits.)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+
+### FAQ
+
+- **Is Lemonade or Spot cheaper?** On published entry prices, Lemonade is lower for dogs ($10/month against Spot's $15/month) and Spot is lower for cats ($9/month against Lemonade's $10/month). The published averages tell a different story for dogs only: Lemonade says its policyholders pay about $48/month for dogs and about $27/month for cats, while Spot publishes no average of its own. Because Spot's advertised prices carry a $500 or $750 deductible and a $2,500 annual limit for specific pets in specific ZIP codes, the only fair comparison is two quotes for your own pet on the two official sites.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- **Which one pays claims faster?** Both publish a speed figure, measured differently. Lemonade says it pays 50% of eligible claims instantly through AI and pays approved claims into the bank details you enter in the app. Spot says claims are reimbursed in 48 hours or less, with most processed in under 2 business days, based on its own admin data from 2019 to 2024. Neither figure is an independent measurement, and payment still depends on the claim being covered by the policy.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- **What are the waiting periods?** Lemonade states 14 days for illnesses and 30 days for orthopedic conditions, with preventative package benefits usable the day after purchase. Spot's sample Accident & Illness policy states a 14-day waiting period for illness including congenital, hereditary and orthopedic illness, starting on the first effective date of coverage, and says a paid Waiting Period Health Assessment can modify it; Spot's preventative care coverage has no waiting period, so those benefits start the next day.
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- **Do they cover pre-existing conditions?** Neither does. Lemonade treats anything your pet showed signs of before the waiting periods are up as pre-existing, while covering accidents and new illnesses as base coverage. Spot excludes pre-existing conditions but reclassifies a cured and curable condition that has been symptom-free and treatment-free for 180 days, except knee and ligament injuries.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- **Which one has better discounts?** Lemonade publishes a multi-pet discount whose eligibility depends on where you live, a bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly. Spot publishes 10% off every pet enrolled after the first, an advertised 20% employee discount through employer benefits (up to a 10% group discount plus up to a 10% multi-pet discount on 2nd+ pets, varies by state) and Spot Perks with $2,500+ in brand discounts. Neither brand publishes a promo code page in its official sitemap, so a code you find on a third-party site is not something either brand publishes.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-25)
+- **Can I use my own vet with either brand?** Yes in both cases. Lemonade says you can go to any vet in the United States as long as they are licensed to provide vet care in their state, and Spot says you can visit any licensed vet in the United States or Canada. Both reimburse you rather than paying the vet directly, so you settle the bill and submit the claim.
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-25)
+- **Which is better for an older pet?** Spot is the one that publishes an age policy: it covers puppies and kittens from 8 weeks old, states there is no upper age limit and no vet exam to enrol, and also states that premiums are based on your pet's current age and may increase at renewal. Lemonade does not publish a minimum or maximum enrolment age on the pages read here, so its age terms are not published on the official site.
+  Source: https://spotpet.com/ (checked 2026-09-25)
+
+## How to Submit a Pet Insurance Claim: Step by Step
+
+URL: https://furadvisor.com/how-to-submit-a-pet-insurance-claim
+
+Keyword: how to submit a pet insurance claim
+
+### Facts
+
+- Lemonade policyholders must file a claim through the app within 180 days of treatment; in Texas the window is 90 days. (condition: Stated in the official step-by-step claim guide; the claim must include all information requested during the process.)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-25)
+- The Lemonade claims process is app-based - it cannot be filed without the Lemonade app. (condition: Stated in the claim guide FAQ; you sign in with the email used for the policy.)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-25)
+- Lemonade requires a medical record from a visit that took place within 12 months of the policy's start date before the first claim. (condition: SOAP medical records; Lemonade requests them from the vet directly once provided.)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-25)
+- 50% of eligible Lemonade claims are processed instantly via AI Jim; most others are resolved within 5 business days. (condition: Complex claims may take longer depending on documentation requirements.)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-25)
+- Lemonade's published example: a $2,400 vet bill with a $250 deductible and 80% co-insurance produced a $1,670 reimbursement, processed in 5 days. (condition: Worked example on the official claim guide page for a 3-year-old Labrador with a broken leg; individual results vary.)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-25)
+- If Lemonade denies a claim, the official guidance is to review the explanation in the app and appeal through the app with additional documentation from your vet. (condition: Common stated denial reasons: pre-existing conditions, waiting periods or excluded treatments.)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-25)
+- Spot allows a claim to be submitted within 270 days from the date of treatment. (condition: Stated in Spot's official FAQ.)
+  Source: https://spotpet.com/faqs (checked 2026-09-25)
+- Spot states you pay your vet bill as you normally would and then submit a claim to get reimbursed for eligible expenses. (condition: Reimbursement follows your annual deductible and the reimbursement percentage you selected at enrollment.)
+  Source: https://spotpet.com/faqs (checked 2026-09-25)
+- Spot contacts your veterinarian directly for medical records when they are needed; sending them with the claim may speed up the process. (condition: Stated in Spot's official FAQ on medical records and claims.)
+  Source: https://spotpet.com/faqs (checked 2026-09-25)
+- Spot publishes that claims are reimbursed in 48 hrs or less. (condition: '48 hrs or less' is based on Spot admin data from 2019 to 2024; actual reimbursement varies by plan and claim.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- A Spot claim appeal must be made in writing by emailing service@customer.spotpetins.com with your reasons and supporting documentation. (condition: Appeals may take around 30 days to be reviewed; the number of days to appeal varies by the state your policy was issued in.)
+  Source: https://spotpet.com/faqs (checked 2026-09-25)
+- Spot publishes a downloadable claims form PDF on its official site. (condition: The page offers the latest claims form as a PDF download; phone support for claims is 1-800-905-1595, Mon-Fri 8am-8pm EST.)
+  Source: https://spotpet.com/claims-form (checked 2026-09-25)
+- Spot emails you when it receives your claim, when it needs more information and when the claim is complete; status is also visible behind the claims icon. (condition: Stated in Spot's official FAQ.)
+  Source: https://spotpet.com/faqs (checked 2026-09-25)
+- Fetch requires the claim to be submitted within 90 days of your pet's treatment, including the paid vet bill and the pet's medical record. (condition: Stated in the official FAQ; claims can be submitted on the member portal or in the app.)
+  Source: https://www.fetchpet.com/faqs/when-to-claim-pet-insurance (checked 2026-09-25)
+- Fetch requires a finalized invoice showing a zero balance or paid in full, plus detailed medical records from the most recent checkup. (condition: Ask the vet for 'SOAP notes' (exam notes and lab results); Fetch notes records let it see what it can cover.)
+  Source: https://www.fetchpet.com/faqs/claim-submission (checked 2026-09-25)
+- Fetch states its claims are typically processed in less than 10 days. (condition: Published on the official claims page; the claims-submission FAQ separately states claims are typically processed within 15 days from when all documents are received.)
+  Source: https://www.fetchpet.com/claims (checked 2026-09-25)
+- Fetch says direct deposit pays claims 5 to 10 days faster than paper checks, and its plans reimburse up to 90% of covered vet bills. (condition: Payment follows approval and the deductible being met; an explanation of benefits (EOB) is issued with each reimbursement.)
+  Source: https://www.fetchpet.com/claims (checked 2026-09-25)
+- Fetch's waiting period is up to 15 days for accidents and illness, and 6 months for knee, hip (CII) and ACL issues. (condition: The 6-month knee wait can be bypassed if your vet examines the knees before the 6 months are over.)
+  Source: https://www.fetchpet.com/faqs/when-to-claim-pet-insurance (checked 2026-09-25)
+- Fetch claim status can be tracked anytime in the app or online account under Claims, with email updates along the way. (condition: Click an individual claim to see its status, per the official tracking FAQ.)
+  Source: https://www.fetchpet.com/faqs/track-claim (checked 2026-09-25)
+- Spot's sample claim shows a $12,345 total vet bill reimbursed at $11,110 by a Spot plan. (condition: Based on an actual 2023 policyholder claim on an accident and illness policy at $75.01/month with a $500 deductible, 90% reimbursement and unlimited annual benefit; individual results vary.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+
+### FAQ
+
+- **How long do I have to file a pet insurance claim?** The official windows are different for each brand: Lemonade says within 180 days of treatment (90 days if your policy is in Texas), Spot says within 270 days from the date of treatment, and Fetch says within 90 days of your pet's treatment. Each figure is linked in the table above, so check the one for your provider before you delay filing.
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-25)
+- **Do I have to pay the vet before filing a claim?** Yes - all three brands use a reimbursement model. You pay the vet bill up front, then file; Lemonade subtracts your deductible and applies co-insurance before wiring the payout, Spot reimburses eligible expenses after your annual deductible is met, and Fetch pays you back after approval and your deductible, by direct deposit.
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-25)
+- **What documents do I need to submit a pet insurance claim?** An itemized paid invoice plus your pet's medical records. Fetch is the strictest on paper: the invoice must show a zero balance or paid in full, and it wants detailed records from the most recent checkup (SOAP notes). Spot asks for the bill and contacts your vet directly only if records are needed, though sending them may speed things up. Lemonade asks for the vet invoice or paid receipt and the records from that visit.
+  Source: https://www.fetchpet.com/faqs/claim-submission (checked 2026-09-25)
+- **How long does reimbursement take?** Published speeds differ: Lemonade says 50% of eligible claims are processed instantly by AI Jim and most others within 5 business days; Spot says claims are reimbursed in 48 hrs or less; Fetch says claims are typically processed in less than 10 days, and its FAQ adds that processing typically takes within 15 days from when all documents are received. Direct deposit with Fetch is 5 to 10 days faster than paper checks.
+  Source: https://www.fetchpet.com/claims (checked 2026-09-25)
+- **Can I file a claim without an app?** With Lemonade, no - the official guide states the claims process is app-based. Fetch lets you file either in the app or on a computer through the member portal (Claims, then Submit a claim). Spot lets you submit the claim online through your Member Center and also publishes a claims form PDF for download.
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-25)
+- **What if my claim is denied?** Lemonade's official guidance is to review the denial explanation in the app and then appeal through the app with additional documentation from your vet. Spot requires the appeal in writing, emailed to service@customer.spotpetins.com with your reasons and supporting documents; reviews take around 30 days and the appeal window varies by state. Fetch does not publish an appeal process on its official site as of the check date.
+  Source: https://spotpet.com/faqs (checked 2026-09-25)
+- **Will filing a claim raise my pet insurance rate?** Lemonade publishes that filing claims will never result in a rate change to your Lemonade Pet policy. Neither Spot nor Fetch publishes a matching statement on its official pages as of 2026-09-25, so for those two the answer is not published on the official site - check your policy terms.
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/ (checked 2026-09-25)
+
+## Pet Insurance Promo Codes: What Brands Publish
+
+URL: https://furadvisor.com/pet-insurance-promo-code
+
+Keyword: pet insurance promo code
+
+### Facts
+
+- Lemonade offers an automatic discount of up to 10% when more than one canine or feline is signed up for Lemonade Pet. (condition: Applied to your policies automatically; eligibility for Lemonade's multi-pet discount also depends on where you live.)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/ (checked 2026-09-25)
+- Lemonade offers up to 5% off when you pay for a full year of Lemonade Pet at renewal, and waives the monthly $1 transaction fee. (condition: Stated on the official renewals page; annual payment is chosen at renewal.)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/ (checked 2026-09-25)
+- Lemonade offers up to 10% off if you hold Lemonade renters, homeowners, car or life insurance. (condition: Bundle discount as published on the official renewals page.)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/ (checked 2026-09-25)
+- All Lemonade Pet discounts (multi-pet, bundle and annual payment) apply only to the base accident and illness policy plus the vet visit fee and physical therapy add-ons. (condition: Preventative Care packages and other add-ons get no discount applied to their pricing.)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/ (checked 2026-09-25)
+- Lemonade states its pet discounts might not be available in every state. (condition: Stated on the official renewals page; availability varies by state.)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/ (checked 2026-09-25)
+- Lemonade's referral program limits rewards to 10 qualified referrals over 12 months. (condition: Available to individuals residing outside LA, MI, MS, WA and WV who are in good standing with a Lemonade policy; a purchase of insurance is not required for the referred person to qualify the referral.)
+  Source: https://www.lemonade.com/terms-and-conditions-referral-program (checked 2026-09-25)
+- New Lemonade pet parents get a Rover gift card that unlocks 2 months after the policy starts, with the code appearing in the Lemonade app. (condition: Gift card codes expire one year from the issue date; only one code is provided per account, not per policy.)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonade-pet-insurance-faq/ (checked 2026-09-25)
+- Spot offers a 10% multi-pet discount on the 2nd pet and every pet enrolled after that. (condition: Discounts vary by state and are subject to change; more information is shown at checkout.)
+  Source: https://spotpet.com/insurance-for-multiple-pets (checked 2026-09-25)
+- Spot's FAQ states that Spot plans offer a multi-pet discount of 10% off each additional pet that is added. (condition: Each pet gets its own independent policy, so coverage settings can differ per pet.)
+  Source: https://spotpet.com/faqs (checked 2026-09-25)
+- Spot advertises up to 20% off for employees: up to a 10% group discount plus up to a 10% multi-pet discount on 2nd+ pets. (condition: Footnote on the official employers page: discounts vary by state, are subject to change and are not available in all states; enrollment is through a cobranded link with direct billing.)
+  Source: https://spotpet.com/employers (checked 2026-09-25)
+- Spot Perks gives members access to third-party promo codes; its terms state Spot Perks are not insurance. (condition: Terms also state the discount code may be unique to Spot while the underlying promotion may also be available directly from the merchant.)
+  Source: https://spotpet.com/perks-terms (checked 2026-09-25)
+- Spot Perks gives access to $2,500+ in discounts on pet brands. (condition: Stated on spotpet.com: no purchase necessary, based on total combined Spot Perks discounts applied to average vendor cart value; terms at spotpet.com/perks-terms.)
+  Source: https://spotpet.com/ (checked 2026-09-25)
+- Spot publishes a Pet Supermarket offer of 50% off a self-service dog wash for members. (condition: Barcode presented in store; it is a perks offer, not a discount on the insurance premium.)
+  Source: https://spotpet.com/pet-supermarket-offer (checked 2026-09-25)
+- Fetch gives veterans and active military 10% off their Fetch Pet Insurance policy every month for life. (condition: Stated in the official military discount FAQ.)
+  Source: https://www.fetchpet.com/faqs/military-pet-insurance-discount (checked 2026-09-25)
+- Fetch gives AARP members 10% off Fetch Pet Insurance every month for life. (condition: Stated on the official AARP partner page; provider offers are subject to change and may have restrictions.)
+  Source: https://www.fetchpet.com/partners/aarp (checked 2026-09-25)
+- Fetch gives Walmart shoppers 10% off Fetch Pet Insurance every month for a whole year. (condition: Stated on the official Walmart partner page.)
+  Source: https://www.fetchpet.com/partners/walmart (checked 2026-09-25)
+- Fetch states that discounts and offers are subject to approval and may change at any time, with a maximum available discount of 10%. (condition: The maximum discount may not be available in all states and is not valid with any other offer (footnote on the official pricing FAQ).)
+  Source: https://www.fetchpet.com/faqs/monthly-payments (checked 2026-09-25)
+- Fetch Deals gives members over $1,500 in savings with an average of $40+ per order, included at no extra cost. (condition: Available on day one of the policy; the average is derived from actual Fetch member purchase data and individual results vary.)
+  Source: https://www.fetchpet.com/deals (checked 2026-09-25)
+- Fetch's homepage shows a limited-time sign-up offer of a $25 gift card plus a $25 shelter donation. (condition: The same page's footnote reads 'Gift Card offer expires 11:59PM ET on February 21, 2026', a date already past as of the 2026-09-25 check - confirm current terms at checkout.)
+  Source: https://www.fetchpet.com/ (checked 2026-09-25)
+- None of the three official sitemaps lists a promo-code or coupon page for the insurance policy. (condition: Lemonade's sitemap.xml (29 URLs), Spot's sitemap index and Fetch's sitemap.xml were all checked on 2026-09-25; the offer pages that do exist are Spot Perks, Spot's multi-pet page and Fetch Deals, none of which is a policy promo code.)
+  Source: https://www.lemonade.com/sitemap.xml (checked 2026-09-25)
+
+### FAQ
+
+- **Is there a valid pet insurance promo code for Lemonade, Spot or Fetch?** Not on their own sites as of 2026-09-25: none of the three official sitemaps lists a promo-code or coupon page for the policy. The official discounts that do exist are tabled above - multi-pet, annual and bundle for Lemonade, multi-pet and employer for Spot, military, AARP, Walmart and Fetch Deals for Fetch. Any code sold on a third-party coupon site cannot be verified against these official pages, so this guide does not repeat them.
+  Source: https://www.lemonade.com/sitemap.xml (checked 2026-09-25)
+- **What is the biggest official pet insurance discount?** Spot's employer program: up to 20% off, made of up to 10% group discount plus up to 10% multi-pet discount on the 2nd and later pets - with the footnote that it varies by state, is subject to change and is not available in all states. Fetch caps every discount at a maximum of 10% and states it is not valid with any other offer. Lemonade's stack tops out at up to 10% multi-pet, up to 10% bundle and up to 5% for annual payment.
+  Source: https://spotpet.com/employers (checked 2026-09-25)
+- **Do insurance discounts apply to wellness plans and add-ons?** For Lemonade, no: all available Lemonade Pet discounts (multi-pet, bundle, annual payment) apply to the price of the base accident and illness policy plus the vet visit fee and physical therapy add-ons, while Preventative Care packages and other add-ons get no discount. Spot and Fetch do not publish a matching statement about add-ons on their official pages, so for those two it is not published on the official site.
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/ (checked 2026-09-25)
+- **How do I get the multi-pet discount?** Lemonade applies up to 10% automatically when more than one canine or feline is signed up for Lemonade Pet. Spot applies 10% off each additional pet - the 2nd pet and every pet enrolled after that - and shows more information at checkout. Fetch does not publish a multi-pet discount on its official pages.
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/ (checked 2026-09-25)
+- **Are these discounts available in every state?** No, and all three say so: Lemonade states its pet discounts might not be available in every state, Spot's footnotes say discounts vary by state, are subject to change and are not available in all states, and Fetch states its maximum 10% discount may not be available in all states. Your final price is confirmed in each brand's own quote flow.
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/ (checked 2026-09-25)
+- **What is Spot Perks - is it a discount on my premium?** No. Spot Perks is member access to promo codes from third-party pet brands, and its terms state that Spot Perks are not insurance. The terms also note that the code may be unique to Spot even when the same promotion is available directly from the merchant, so it pays to compare before you buy.
+  Source: https://spotpet.com/perks-terms (checked 2026-09-25)
+- **What is Fetch Deals?** Fetch Deals is included in every Fetch policy at no extra cost and is available on day one: the official page advertises over $1,500 in savings and an average of $40+ per order on pet food, grooming products, litter and more. Fetch's own terms note that Fetch Deals is not insurance and is not provided by AXIS Insurance Company.
+  Source: https://www.fetchpet.com/deals (checked 2026-09-25)
+
+## Pet Insurance Claim Denied? Appeal Routes Compared
+
+URL: https://furadvisor.com/pet-insurance-claim-denied
+
+Keyword: pet insurance claim denied
+
+### Facts
+
+- A written appeal within 90 days of the denial triggers an Internal Review (condition: Fetch pet health insurance policy, section 2 APPEALS (form GPTM 050 0316, copyright 2016, hosted on fetchpet.com): reviewed by a claims specialist with a claims manager and Fetch's veterinarian when applicable; a written notice reports the outcome, and if the original decision is upheld that notice cites the specific reasons and the policy sections relied on)
+  Source: https://www.fetchpet.com/PORTALDOCS/FORMS/2016_04/TermsConditions/GPTM_050-XX_0316.pdf (checked 2026-09-25)
+- Appeals take around 30 days to be reviewed (condition: Spot: appeal emailed to service@customer.spotpetins.com with supporting documents; an email confirmation is sent once the appeal is received)
+  Source: https://spotpet.com/submitting-a-claim (checked 2026-09-25)
+- The appeal goes through the app with extra vet documents (condition: Lemonade: read the denial explanation in the app first - the page lists the common reasons as pre-existing conditions, waiting periods or excluded treatments - then appeal in the app)
+  Source: https://www.lemonade.com/pet/explained/how-to-file-a-pet-insurance-claim (checked 2026-09-25)
+- Waiting periods: 14 days for illnesses, 30 days for orthopedic conditions (condition: Lemonade denial reason: a claim filed before the relevant waiting period has passed is not eligible; the same page warns that cancelling and reapplying resets the waiting periods)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/ (checked 2026-09-25)
+- Claims submitted after 90 days are not covered (condition: Fetch: the claim itself must reach Fetch within 90 days of the vet visit to be eligible for reimbursement)
+  Source: https://www.fetchpet.com/claims (checked 2026-09-25)
+- Preventive care is not covered unless Fetch Wellness is added - with 30 days from enrollment to add it (condition: Fetch claims page: annual exams, dental cleanings, vaccinations, heartworm/flea/tick prevention, spaying/neutering and microchipping are preventive-care examples that need Fetch Wellness)
+  Source: https://www.fetchpet.com/claims (checked 2026-09-25)
+- Pre-existing conditions are not covered - except curable pre-existing conditions (condition: Fetch: a condition whose signs or symptoms appear before enrollment or during the waiting period of up to 15 days; claims tied to it are not covered unless it is curable)
+  Source: https://www.fetchpet.com/claims (checked 2026-09-25)
+
+### FAQ
+
+- **How do I appeal a denied Lemonade pet insurance claim?** Lemonade's own instructions: first review the explanation in your app to understand why the claim was denied - the common reasons it lists are pre-existing conditions, waiting periods or excluded treatments - then appeal through the app with additional documentation from your vet. Its customer support team can also help clarify coverage questions. The cited page publishes no appeal deadline (checked 2026-09-25).
+  Source: https://www.lemonade.com/pet/explained/how-to-file-a-pet-insurance-claim (checked 2026-09-25)
+- **How do I appeal a denied Spot pet insurance claim?** Email your request and supporting documentation to service@customer.spotpetins.com. Spot says every appeal must be sent in writing and must clearly state why you or your vet disagree with the initial determination, and that you will receive an email confirmation once it arrives. Spot publishes the review time as around 30 days (checked 2026-09-25).
+  Source: https://spotpet.com/submitting-a-claim (checked 2026-09-25)
+- **How do I appeal a denied Fetch pet insurance claim?** Under your policy's section 2 (APPEALS), you may appeal to have the claim undergo an Internal Review. The request must be in writing within 90 days of the denial and should state clearly why you or your vet disagree with the initial determination, with supporting documentation. A claims specialist reviews it with a claims manager and, when applicable, Fetch's veterinarian, and you get a written notice of the outcome; if the original decision is upheld, that notice cites the specific reasons and the policy sections relied on (checked 2026-09-25).
+  Source: https://www.fetchpet.com/PORTALDOCS/FORMS/2016_04/TermsConditions/GPTM_050-XX_0316.pdf (checked 2026-09-25)
+- **Why was my Lemonade pet insurance claim denied?** Lemonade's denial guide names the usual causes: the condition was considered pre-existing or bilateral; the relevant waiting period (14 days for illnesses, 30 days for orthopedic conditions) had not passed; or you went beyond the per-item limits in your Preventative Care package. It also warns that cancelling and reapplying later resets waiting periods and can enlarge the list of conditions treated as pre-existing (checked 2026-09-25).
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/ (checked 2026-09-25)
+- **What reasons does Fetch give for not approving claims?** Fetch's claims page lists them: preventive care without Fetch Wellness added, pre-existing conditions (unless curable), and claims submitted after the 90-day window - plus its note that a pre-existing condition is one with signs or symptoms before enrollment or during the waiting period of up to 15 days. Fetch states it has paid back $500 million+ in claims since 2021 and that only a small percentage of claims are not approved (checked 2026-09-25).
+  Source: https://www.fetchpet.com/claims (checked 2026-09-25)
+- **If my claim was denied as pre-existing, will another insurer cover it?** Lemonade's denial guide addresses this directly: chances are the new carrier would not cover those conditions either, and any new conditions or injuries your pet experiences while insured with Lemonade would be considered pre-existing by a new carrier. In other words, switching insurers rarely rescues a denied pre-existing condition (checked 2026-09-25).
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/ (checked 2026-09-25)
+
+## Pet Insurance Waiting Periods: Accident vs Illness
+
+URL: https://furadvisor.com/pet-insurance-waiting-periods
+
+Keyword: pet insurance waiting periods
+
+### Facts
+
+- Lemonade's published waiting periods are 14 days for illnesses and 30 days for orthopedic conditions, and they begin on the policy's start date (condition: Waiting-period guide, section "How do pet insurance waiting periods work?"; the page is marked Last Updated: Jun 3, 2026)
+  Source: https://www.lemonade.com/pet/insurance-guide/waiting-periods/ (checked 2026-09-28)
+- Lemonade prints its own comparison table: accidents 0 days (industry range 0 to 2), illnesses 14 days (14 to 30), orthopedic conditions 30 days (industry range 6 to 12 months), pre-existing conditions never covered (condition: Table under "How do Lemonade's waiting periods compare to other providers?" - the industry range column is Lemonade's own framing, not a measured survey)
+  Source: https://www.lemonade.com/pet/insurance-guide/waiting-periods/ (checked 2026-09-28)
+- Accident coverage at Lemonade kicks in immediately, with no waiting period at all (condition: Same guide page; the FAQ on that page also answers "Is there pet insurance with no waiting periods?" with "Nope" - every policy on the site has waiting periods on some coverage)
+  Source: https://www.lemonade.com/pet/insurance-guide/waiting-periods/ (checked 2026-09-28)
+- Lemonade's preventative care coverage kicks in the date the policy becomes effective (condition: Guide, "Are there any exclusions to pet insurance waiting periods" - applies to the preventative care options added to the policy)
+  Source: https://www.lemonade.com/pet/insurance-guide/waiting-periods/ (checked 2026-09-28)
+- Lemonade's pet insurance page words the same benefit as usable "the day after the policy is purchased", and says cancelling in the app resets waiting periods (condition: FAQ answer on the product page; the 30-day refund window is the first 30 days of the policy - note the two Lemonade pages describe the preventive start one day apart (guide: effective date; product page: day after purchase))
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-28)
+- "Anything your pet has shown signs of before the waiting periods are up is considered a pre-existing condition", and pre-existing conditions are not covered (condition: FAQ on Lemonade's pet insurance page)
+  Source: https://www.lemonade.com/pet-insurance (checked 2026-09-28)
+- Spot: "Spot plans typically have a 14 day waiting period for coverage", followed by "See our sample policy for more information on your states specific waiting periods" (condition: Question "What is a waiting period for pet insurance?" in the FAQ block on Spot's home page; the sample policy link points to spotpet.com/sample-policy)
+  Source: https://spotpet.com/ (checked 2026-09-28)
+- Spot's Arizona, Colorado, Florida, Georgia and Illinois Accident & Illness sample policies all say: "There is a 14 day waiting period for: diagnosis, treatment or surgery related to accidents, illnesses and ligament and knee conditions. The waiting period begins on the first effective date of the applicable coverage." (condition: Five state sample PDFs linked from spotpet.com/sample-policy, read 2026-09-28: AZ and CO form PET-P-20000-1024, FL PET-P-20000-FL-1024, IL PET-P-20000-IL-1024, GA PET-P-20000-0723 (same waiting-period sentence in all five))
+  Source: https://spotpet.com/sample-policy (checked 2026-09-28)
+- Spot's California Accident & Illness sample policy reads differently: "There is a 14 day waiting period for diagnosis, treatment or surgery related to any illness, including... congenital anomaly or disorder, hereditary disorder and orthopedic illness", with no separate accident sentence in that section (condition: California sample PDF PET-P-20000-CA-IAIC-1024 (Independence American Insurance Company) linked from spotpet.com/sample-policy, read 2026-09-28 - this is the state-level wording difference Spot's FAQ points to)
+  Source: https://spotpet.com/sample-policy (checked 2026-09-28)
+- Spot's California policy adds a paid way to change the wait: a Waiting Period Health Assessment - qualifying vet exam 3 days before or 7 days after the initial effective date, form returned within 30 calendar days of the exam, and "the waiting period will be waived to either the policy period effective date or the day after the qualifying exam, whichever is later" (condition: California sample PDF PET-P-20000-CA-IAIC-1024, WAITING PERIODS section; the policy says "You may elect at your cost", and the waiver does not alter the pre-existing conditions exclusion)
+  Source: https://spotpet.com/sample-policy (checked 2026-09-28)
+- Spot's Accident Only sample policy for Arizona also uses 14 days: "There is a 14 day waiting period for: diagnosis, treatment or surgery related to accidents and ligament and knee conditions" (condition: AZ Accident Only sample PDF linked from spotpet.com/sample-policy, read 2026-09-28)
+  Source: https://spotpet.com/sample-policy (checked 2026-09-28)
+- Spot: a curable pre-existing condition that has been cured and free from treatment and symptoms for 180 days counts as a new occurrence - but that carve-out "does not apply to chronic conditions or ligament and knee conditions" in the AZ, CO, FL and IL samples, while the GA sample's sentence omits chronic conditions (condition: CURED CONDITION ELIGIBILITY section of the state sample policies, read 2026-09-28; the exact exclusion list differs between form versions)
+  Source: https://spotpet.com/sample-policy (checked 2026-09-28)
+- Spot: "Preventative care coverage has no deductible or waiting period, meaning you can start using these benefits the next day" (condition: Preventative care description on Spot's dog insurance page)
+  Source: https://spotpet.com/dog-insurance (checked 2026-09-28)
+- Fetch: "The waiting period, which begins the day after you enroll, is a set period of time, of up to 15 days, before your coverage kicks in"; conditions during it are pre-existing and claims submitted during it are not covered (condition: Fetch FAQ page "What is a waiting period for pet insurance?", read 2026-09-28)
+  Source: https://www.fetchpet.com/faqs/waiting-period (checked 2026-09-28)
+- Fetch also applies "a 6-month waiting period before orthopedic conditions can be covered", and lists elbow dysplasia, hip dysplasia, intervertebral disc degeneration, patellar luxation and ruptured cranial cruciate ligaments as orthopedic conditions (condition: Same Fetch FAQ; it then offers the knee waiver: a vet exam within 180 days of enrollment with "SOAP notes" submitted with the first claim)
+  Source: https://www.fetchpet.com/faqs/waiting-period (checked 2026-09-28)
+- Fetch: "No, there is no waiting period for Fetch Wellness" - wellness claims work on or after the effective date given in the enrollment confirmation email (condition: Fetch FAQ "Is there a waiting period for pet wellness?", read 2026-09-28)
+  Source: https://www.fetchpet.com/faqs/is-there-a-waiting-period-for-pet-wellness (checked 2026-09-28)
+- Fetch's home page disclaimer: "Policy activation periods, risk free cancellation terms, waiting periods, limitations, exclusions to coverage and other terms and conditions vary by state or province and are subject to change without notice. Please see your policy for full terms" (condition: Footer disclaimer on fetchpet.com; the site publishes a single national waiting-period figure in its FAQ and no state-by-state table (checked 2026-09-28))
+  Source: https://www.fetchpet.com/ (checked 2026-09-28)
+
+### FAQ
+
+- **What is a pet insurance waiting period?** Spot's own definition: "A waiting period is a set period between the day you enroll and the day your coverage begins. Conditions that occur during the waiting period will be considered pre-existing and will not be eligible for coverage under your plan." Fetch words it as the gap between enrollment and when coverage kicks in, and Lemonade calls it the time the insurer requires you to wait until your pet is eligible for reimbursement on specific conditions (all checked 2026-09-28).
+  Source: https://spotpet.com/ (checked 2026-09-28)
+- **How long is the waiting period with Lemonade?** 0 days for accidents, 14 days for illnesses and 30 days for orthopedic conditions, counted from the policy's start date. Preventive care from a preventative package can be used the day after purchase. That is the whole national table Lemonade publishes - no state-by-state version appears on the pages cited here (checked 2026-09-28).
+  Source: https://www.lemonade.com/pet/insurance-guide/waiting-periods/ (checked 2026-09-28)
+- **How long is the waiting period with Spot?** Spot says its plans "typically" have a 14-day waiting period and then points you at the sample policy for your state's specific waiting periods. Of the six state Accident & Illness samples read on 2026-09-28 (AZ, CA, CO, FL, GA, IL), five state 14 days covering accidents, illnesses and ligament and knee conditions; the California sample states 14 days for illness only and adds a paid Waiting Period Health Assessment that can waive it. Preventive care add-ons start the next day.
+  Source: https://spotpet.com/sample-policy (checked 2026-09-28)
+- **How long is the waiting period with Fetch?** Up to 15 days for accident and illness coverage combined, beginning the day after you enroll, plus a separate 6-month waiting period before orthopedic conditions - hip dysplasia, elbow dysplasia, luxating patella, IVDD and ruptured cruciate ligaments are named. Fetch Wellness has no waiting period. Fetch also publishes a knee waiver: a vet exam within 180 days of enrollment with SOAP notes sent in your first claim (checked 2026-09-28).
+  Source: https://www.fetchpet.com/faqs/waiting-period (checked 2026-09-28)
+- **Do waiting periods change from state to state?** For Spot, yes - that is what its FAQ means by "see our sample policy for more information on your states specific waiting periods": spotpet.com/sample-policy hosts separate Accident Only and Accident & Illness sample PDFs per state, and the sentences are not identical (the California sample has no separate accident sentence and offers a waiver the others do not). Fetch does not publish a state table but disclaims that waiting periods vary by state or province. The two Lemonade pages read print one national table only (checked 2026-09-28).
+  Source: https://spotpet.com/sample-policy (checked 2026-09-28)
+- **Can you shorten or waive a pet insurance waiting period?** Fetch publishes a way for knees: have your pet examined by a vet within 180 days of enrollment to show no relevant pre-existing conditions, then submit that visit's SOAP notes with your first claim. Spot's California sample policy offers a paid Waiting Period Health Assessment (exam 3 days before or 7 days after the effective date, form returned within 30 days) that waives the wait to the effective date or the day after the exam, whichever is later. The Lemonade pages cited here publish no such option (checked 2026-09-28).
+  Source: https://www.fetchpet.com/faqs/waiting-period (checked 2026-09-28)
+- **What happens if my pet gets sick during the waiting period?** All three treat it as pre-existing: Fetch says any accident, injury or illness during the wait "will be considered a pre-existing condition, which means it won't be eligible for coverage"; Spot's sample policy says any condition occurring during a waiting period is a pre-existing condition; Lemonade says anything your pet showed signs of before the wait ended counts as pre-existing. Spot adds that a curable pre-existing condition can count as new after 180 days symptom- and treatment-free, except chronic and ligament/knee conditions in the samples read (checked 2026-09-28).
+  Source: https://www.fetchpet.com/faqs/waiting-period (checked 2026-09-28)
+- **Do wellness and preventive add-ons have a waiting period?** No, according to all three brands' own pages: Fetch Wellness claims work "on or after the effective date" in your enrollment email; Spot says preventive care has no deductible or waiting period and starts the next day; Lemonade says preventative care coverage kicks in on the effective date (its product page says the day after purchase). The base accident and illness waits above still apply (checked 2026-09-28).
+  Source: https://www.fetchpet.com/faqs/is-there-a-waiting-period-for-pet-wellness (checked 2026-09-28)
+- **Does switching insurers restart the waiting periods?** Yes - that is the coverage gap Lemonade defines in its own glossary: "A period when switching providers where your pet may temporarily lack full coverage, since new waiting periods apply with each new policy." Spot's California sample policy says the same thing for a new enrollment: "A new enrollment will result in new waiting periods", and conditions before it are pre-existing. This is why switching mid-treatment can cost coverage (checked 2026-09-28).
+  Source: https://www.lemonade.com/pet/insurance-guide/waiting-periods/ (checked 2026-09-28)
+
+## Pet Insurance Cost by Brand: Official Prices
+
+URL: https://furadvisor.com/pet-insurance-cost-by-brand
+
+Keyword: pet insurance cost by brand
+
+### Facts
+
+- Lemonade's published floor price: "a policy for a dog or a cat starts at $10/month" (condition: Cost guide, first figure on the page; the page is marked Last Updated: Jun 3, 2026; the same page states the base accident and illness policy "starts around $10 per month, but this can vary by breed and state")
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- Lemonade's published averages are about $48/month for dogs and about $27/month for cats (condition: "On average, across different ages, breeds, and locations" - Lemonade's own policyholder data, not a quote)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- Lemonade's worked dog example averages $61/month (condition: 4-year-old Goldendoodle in Chicago, 80% co-insurance, maximum annual limit available, $250 annual deductible)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- Lemonade's own competitor table for dogs: Trupanion $336, Fetch $99, Healthy Paws $85, Pets Best $77, ManyPets $73, Lemonade $61 per month (condition: "We picked the base policy offered by six different pet insurance companies ... $250 deductible, 80% co-insurance, and the maximum annual limit available, with no add-ons or discounts"; caption: "Based on rates for a 4-year-old Goldendoodle in Chicago" - the competitor rows carry no date)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- Lemonade's own competitor table for cats: Trupanion $58, ManyPets $44, Fetch $36, Pets Best $35, Lemonade $29 per month (condition: Caption: "Based on rates for a 1-year-old short-haired cat in Danbury"; the page notes Trupanion only offered a 90% co-insurance option, so the offers were standardized as far as possible)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- Lemonade publishes a state-by-state average range, from $20 to $24 in Oklahoma to $45 to $49 in California, Connecticut and New Hampshire (condition: Table footnote: "Lemonade Insurance analyzed policy rates to calculate average pet premiums as of October, 2024. This analysis is based on Lemonade's internal data and is meant for illustrative purposes only"; for states with no Lemonade data the average was supplemented from another source)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- Lemonade's published premium levers: deductible options of $100, $250, $500 and $750 (and $1,000 in the same page's FAQ), annual limits from $5,000 to $100,000, and the co-insurance percentage (condition: Cost guide, "how to lower your premium" section; the deductible list in the FAQ adds a $1,000 option)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- Spot's published dog price: "Dog insurance Starting from $15/mo" (condition: Footnote ^: "Advertised premium is from Dec. 11 2024 based on an accident and illness plan with an 80% reimbursement rate, $500 annual deductible, and a $2,500 annual limit for a 2-year-old small mixed dog (11-25lbs) in 32009")
+  Source: https://spotpet.com/ (checked 2026-09-28)
+- Spot's published cat price: "Cat insurance Starting from $9/mo" (condition: Footnote ^^: "Advertised premium is based on an accident and illness plan with an 80% reimbursement rate, $750 annual deductible, and a $2,500 annual limit for a 2-year-old mixed cat in 33801" - the cat footnote carries no date, the dog footnote is dated Dec. 11 2024)
+  Source: https://spotpet.com/ (checked 2026-09-28)
+- Spot prices a named example policy at $75.01/month (condition: Footnote on the $12,345 osteosarcoma claim example: "an accident and illness policy at $75.01/month with a $500 deductible, 90% reimbursement, and unlimited annual benefit for a 1-year-old giant mix dog"; the claim itself is "based on actual policyholder claims from 2023")
+  Source: https://spotpet.com/ (checked 2026-09-28)
+- Spot publishes no average and no state table - its home page shows starting prices, a "Click For Price" quote button, a 10% multi-pet discount and a 20% employee discount (condition: Home page, header and FAQ block, read 2026-09-28)
+  Source: https://spotpet.com/ (checked 2026-09-28)
+- Fetch's published averages: $35/month for dogs and $22/month for cats (condition: "Average monthly premiums are based on U.S. annual premiums for dogs and cats, using the most common coverage configuration of $10,000 annual limit, $300 deductible, and 80% reimbursement rate for the period of 07.01.2024 through 06.30.2025")
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+- Fetch publishes twelve breed averages: French Bulldog $71, German Shepherd $53, Golden Doodle $50, Golden Retriever $50, Maltipoo $35, Shih-Tzu $30, Siamese $29, Mixed Breed $27, Maine Coon $35, Domestic Long Hair $27, Domestic Medium Hair $25, Domestic Shorthair $24 per month (condition: "Calculated using all policy configurations for the total amount of active policies of that breed, for the period of 01.01.25 through 11.01.25" - so these are portfolio averages, not quotes)
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+- Fetch's own four-insurer table: Fetch $27.51, Spot $19.79, Pets Best $21.91, Lemonade $14.97 per month (condition: Footnote: "Provider comparisons contained herein was prepared solely by Fetch based upon a comparison of the company's policy form or core policy coverages available on Trupanion's Healthy Paws's Lemonade's and Spot's website as of March 2026. Monthly premium is for a 1 year old small mixed breed in Tampa Florida (zip 33602) with a $5,000 / $500 / 80% policy configuration, no wellness. Monthly premiums do not include any taxes or fees. Lemonade & Pets Best Pricing does not include optional add on for Exam Fee")
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+- On the same table's $889 sample claim, Fetch reimburses $889.00, Spot $311.20, Pets Best $71.00 and Lemonade $71.00 (condition: "Sample claim to treat anxiety for a small, mixed-breed, 1-year-old dog in Tampa, FL"; the $889.00 row is marked covered because Fetch includes 100% reimbursement on 7 coverage areas at no extra cost, the other three rows are marked "Not covered")
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+- Fetch publishes no starting price: "The average monthly pet insurance price for Fetch is $35/mo. for dogs and $22/mo. for cats. Your price will vary depending on 3 key factors: your pet's age, their breed and where you live" (condition: Pricing page opening answer, read 2026-09-28)
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+- Fetch's cost page is itself date-stamped three times: comparison "as of March 2026", averages for 07.01.2024-06.30.2025, breed figures for 01.01.25-11.01.25 (condition: Footnotes on fetchpet.com/pet-insurance-cost; the page's own data line adds "Policies in force and number of pets helped based on Fetch data as of 9.10.2026")
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+- The two brand-printed competitor tables rank Lemonade and Fetch opposite ways: Fetch's table has Fetch at $27.51 against Lemonade at $14.97, Lemonade's table has Lemonade at $61 against Fetch at $99 (condition: Both figures read 2026-09-28 from the brands' own pages; the quotes are not the same - Tampa 1-year-old small mixed breed at $5,000/$500/80% versus Chicago 4-year-old Goldendoodle at $250 deductible/80%/maximum limit, and the two sets of competitor numbers carry different date stamps)
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+- Where each brand puts its price: Lemonade on an editorial guide page, Spot in the home-page hero with footnotes under the FAQ block, Fetch on a dedicated pricing page (condition: All three pages read 2026-09-28; none of the three shows a price without an assumption footnote somewhere on the page)
+  Source: https://spotpet.com/ (checked 2026-09-28)
+
+### FAQ
+
+- **What is the cheapest pet insurance, by brand, from published numbers?** Only within one table. The lowest figures each brand publishes for itself are Lemonade's $10/month starting price, Spot's $9/month cat and $15/month dog starting prices, and Fetch's $22/month cat and $35/month dog averages - but those three are three different assumption sets (read 2026-09-28). The only same-assumption cross-brand numbers available are Fetch's table ($14.97 to $27.51/month for one Tampa quote) and Lemonade's table ($61 to $336/month for one Chicago Goldendoodle). Comparing across the two tables produces nonsense.
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+- **Why do Lemonade and Fetch publish competitor prices that disagree about who is cheaper?** Because each one prices a different pet under a different policy. Fetch prices a 1-year-old small mixed breed in Tampa, FL 33602 at a $5,000 limit, $500 deductible and 80% reimbursement, without wellness, "as of March 2026". Lemonade prices a 4-year-old Goldendoodle in Chicago at a $250 deductible, 80% co-insurance and the maximum annual limit, with no date on the competitor rows. Same two brands, opposite order - the assumption footnote is the difference.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- **What does Spot's "Starting from $15/mo" actually assume?** Spot's footnote spells it out: an accident and illness plan with an 80% reimbursement rate, a $500 annual deductible and a $2,500 annual limit, for a 2-year-old small mixed dog of 11-25 lbs in ZIP 32009, advertised as of Dec. 11 2024. The cat version uses a $750 deductible and ZIP 33801. Your ZIP, your pet's age and a different deductible all move that number.
+  Source: https://spotpet.com/ (checked 2026-09-28)
+- **Why doesn't Fetch publish a starting price?** It publishes averages instead: $35/month for dogs and $22/month for cats under a stated $10,000 limit / $300 deductible / 80% reimbursement configuration for 07.01.2024-06.30.2025, plus twelve breed averages from its own in-force policies. The page says your price depends on age, breed and location, so it gives portfolio figures rather than a floor.
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+- **How old are the prices on this page?** Each brand dates its own figures differently: Lemonade marks its guide "Last Updated: Jun 3, 2026" while the underlying premium analysis and state table are "as of October, 2024"; Spot dates its advertised premium "Dec. 11 2024"; Fetch dates its comparison "as of March 2026", its averages 07.01.2024-06.30.2025 and its breed figures 01.01.25-11.01.25. All three pages were read again on 2026-09-28.
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- **Are the three brands' published prices comparable?** No. Lemonade's averages come from its own policyholders across ages, breeds and locations; Spot's starting prices are one fixed plan for one age, weight band and ZIP; Fetch's averages use the most common configuration of $10,000 limit, $300 deductible and 80% reimbursement. Subtracting one from another tells you about the assumptions, not about the brands.
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+- **Do these published prices include taxes, fees and add-ons?** Fetch states its comparison premiums "do not include any taxes or fees" and that Lemonade and Pets Best pricing excludes the optional Exam Fee add-on. Spot's advertised premium is a specific accident and illness configuration, and its other discounts (10% multi-pet, 20% employee) are listed separately. Lemonade's figures assume no add-ons or discounts.
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+- **What is the actual price I would pay?** The quote each brand gives you for your pet - Lemonade's quote flow, Spot's "Click For Price" button and Fetch's "Get your price" button. The published numbers on this page are averages, floors and worked examples stamped with someone else's pet, ZIP and deductible (read 2026-09-28).
+  Source: https://spotpet.com/ (checked 2026-09-28)
+- **Do the brands update these published prices?** Only by rewriting the page. Each price carries whatever stamp the brand gave it (Jun 3 2026 / October 2024, Dec. 11 2024, March 2026), so a figure can sit on an official page for months after the analysis behind it. Re-reading the page - as this page does, most recently on 2026-09-28 - is the only way to know what is printed today.
+  Source: https://www.fetchpet.com/pet-insurance-cost (checked 2026-09-28)
+
+## Pet Insurance Wellness Add-Ons Compared
+
+URL: https://furadvisor.com/pet-insurance-wellness-add-on
+
+Keyword: pet insurance wellness add-on
+
+### Facts
+
+- Fetch publishes three wellness plans with a plan-level annual ceiling: Essentials reimburses up to $390/yr, Advantage up to $700/yr, Prime up to $1,200/yr (condition: Wellness is an add-on to a Fetch accident and illness policy; prices printed as low as $18, $30 and $40 per month and $212, $357 and $478 per year; the page notes plans vary by state)
+  Source: https://www.fetchpet.com/pet-insurance/wellness (checked 2026-09-28)
+- Fetch's per-item annual maximums, top plan (Prime): annual exam $100, vaccinations $125, heartworm/flea/tick prevention $250, dental cleaning or spay/neuter $250, blood test $100, heartworm test $65, urinalysis $65, fecal test $65, microchip $35, anal gland expression $40, behavioral exam $25, health certificate $30, activity monitor $50 (condition: Prime plan; each line is a per-year maximum printed in the plan table, paid as a set dollar amount rather than a percentage)
+  Source: https://www.fetchpet.com/pet-insurance/wellness (checked 2026-09-28)
+- Fetch's per-item annual maximums, Essentials / Advantage: annual exam $50 / $75, vaccinations $50 / $80, heartworm-flea-tick prevention $35 / $75, dental cleaning or spay/neuter $175 / $200, blood test $20 / $65, heartworm test $20 / $50, urinalysis $20 / $50, fecal test $20 / $50, microchip $25 / $25, health certificate $30 / $30, activity monitor $50 / $50, anal gland expression $30 / $30, behavioral exam $25 / $25 (condition: Essentials and Advantage plans respectively, from the same two plan tables on the wellness page)
+  Source: https://www.fetchpet.com/pet-insurance/wellness (checked 2026-09-28)
+- Adding Fetch's own printed per-item maximums gives $550 (Essentials), $805 (Advantage) and $1,200 (Prime), while the plan totals Fetch prints are $390, $700 and $1,200 - only the Prime column agrees (condition: Our addition of the figures printed in Fetch's three plan tables on 2026-09-28; Fetch's page does not explain the difference between the item sums and the plan totals)
+  Source: https://www.fetchpet.com/pet-insurance/wellness (checked 2026-09-28)
+- Fetch Wellness pays a set dollar amount for each type of preventive care instead of 70%, 80% or 90% of an approved claim, with no copay, no deductible and no waiting period (condition: Stated on the wellness page under What does pet wellness cover)
+  Source: https://www.fetchpet.com/pet-insurance/wellness (checked 2026-09-28)
+- There is no deductible for Fetch Wellness coverage (condition: Fetch FAQ answer: No, there is no deductible for Fetch Wellness coverage)
+  Source: https://www.fetchpet.com/faqs/is-there-a-deductible-for-pet-wellness (checked 2026-09-28)
+- There is no waiting period for Fetch Wellness - claims can be submitted on or after the effective date in the enrollment confirmation email (condition: Fetch FAQ answer; the same page says wellness coverage starts on or after the day you enroll)
+  Source: https://www.fetchpet.com/faqs/is-there-a-waiting-period-for-pet-wellness (checked 2026-09-28)
+- Fetch Wellness coverage is only available as an add-on to a Fetch pet insurance policy, never on its own (condition: Fetch FAQ answer to Can I get a pet wellness plan on its own?)
+  Source: https://www.fetchpet.com/faqs/can-i-get-a-pet-wellness-plan-on-its-own (checked 2026-09-28)
+- Spot's sample Gold Preventive Care endorsement prints annual maximums of: dental cleaning $100.00, annual exam $50.00, heartworm/flea prevention $0.00, deworming $20.00, health certificate $0.00, heartworm or FeLV test $20.00, urinalysis $0.00, blood test $0.00, fecal test $20.00, Bordetella/FELV vaccine $0.00, DHLPP/FVRCP $20.00, rabies/lyme/FIP $20.00 - they sum to $250 (condition: Sample endorsement (Independence American Insurance Company, sample effective 08/02/2024 to 08/02/2025) linked from spotpet.com/sample-policy; the $250 total is our addition of the printed lines)
+  Source: https://assets.ctfassets.net/m5ehn3s5t7ec/rcRJqNeeTUUYxIm0WS6bU/10732c41bdf344599e656aecfbb93125/Preventive_IAIC_Gold_copy.pdf (checked 2026-09-28)
+- Spot's sample Platinum Preventive Care endorsement prints annual maximums of: dental cleaning or spay/neuter $150.00, annual exam $50.00, heartworm/flea prevention $25.00, deworming $25.00, health certificate $25.00, heartworm or FeLV test $25.00, urinalysis $25.00, blood test $25.00, fecal test $25.00, Bordetella/FELV vaccine $25.00, DHLPP/FVRCP $25.00, rabies/lyme/FIP $25.00 - they sum to $450 (condition: Same sample endorsement series; reimbursement is up to the lesser of the allowable maximum or the amount charged, and only for procedures listed for the option on the declarations page)
+  Source: https://assets.ctfassets.net/m5ehn3s5t7ec/4v8nxVvZL52Gzot7vlIfZz/b4210a777421682f3e6f2c7e09b6e618/Preventive_IAIC_Platinum_copy.pdf (checked 2026-09-28)
+- Spot's sample-policy page offers Gold Preventive Care and Platinum Preventive Care as optional add-ons, and every Gold/Platinum link we read on that page (2026-09-28) pointed to the same two endorsement PDFs (condition: spotpet.com/sample-policy, which publishes separate Accident Only and Accident & Illness PDFs per state but shared preventive-care PDFs)
+  Source: https://spotpet.com/sample-policy (checked 2026-09-28)
+- Spot's wellness page advertises exam fees covered, microchip implantation coverage included, $1,000 in discounts from Spot Perks and any licensed vet in the U.S. or Canada, and says spaying or neutering is covered for an extra cost in the Platinum Preventative Add-on (condition: The page's footnote states exam fees for wellness or annual exams are not covered unless the optional preventive care coverage is purchased; neither sample schedule contains a microchip line)
+  Source: https://spotpet.com/wellness (checked 2026-09-28)
+- Lemonade's Routine Vet Care package covers 1 wellness exam per year, 3 vaccines per year and annual wellness testing (fecal or internal parasite test, bloodwork, heartworm or FeLV/FIV test) (condition: Routine Vet Care is the basic package, available nationwide; preventative care is not subject to the policy's annual deductible)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/ (checked 2026-09-28)
+- Lemonade's Preventative+ package adds flea/tick or heartworm medication and routine dental cleaning, and pays routine dental prophylaxis up to $150 per year (condition: Routine dental prophylaxis only - not treatment for dental illness; Routine Vet Care Plus explicitly excludes routine dental cleanings, which live in the separate Dental Care add-on)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/ (checked 2026-09-28)
+- Lemonade's Routine Vet Care Plus package lists Life Essentials: spay/neuter, microchip, gastropexy, heartworm/flea/tick prevention medication, deworming, nail trimming, urinalysis, joint screening, organ screening, blood testing, blood pressure monitoring, genetic testing, preventative x-rays and ultrasounds (condition: Available in select states; every covered item is subject to an annual limit, and no dollar caps are printed on the page)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/ (checked 2026-09-28)
+- Lemonade's Puppy/Kitten package covers 2 wellness exams, up to 6 vaccines, wellness testing, flea/tick or heartworm medication, the spay/neuter procedure and microchipping, and can only be added while the pet is under two years old (condition: Puppy/Kitten Preventative Care package, from the same official preventative care guide)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/ (checked 2026-09-28)
+- Lemonade has no waiting period for preventative care (coverage activates at 12:01 AM the next day) and does not apply the deductible to preventative care claims; benefits reset each policy year (condition: Lemonade FAQ block on the same page; coverage options and availability vary by state)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/ (checked 2026-09-28)
+- Lemonade publishes no list of specific vaccines eligible for reimbursement - the vaccine only has to be recommended by a vet licensed in the state where they operate (condition: Lemonade FAQ answer on the preventative care guide page)
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/ (checked 2026-09-28)
+- Nationwide's wellness page prints two maximum annual benefits, $450 and $800, with per-item maximums of: two exams per policy term at $80 total ($40 max per exam), vaccination or titer $80, heartworm or FeLV/FIV test $35, fecal test $30, deworming $25, microchip $50, health certificate $50, flea control or heartworm prevention $100 (condition: Both columns carry the same lines; the $450 column shows Not covered for the extra test and for spay/neuter or dental cleaning; the columns sum to exactly $450 and $800)
+  Source: https://www.petinsurance.com/petwellness/ (checked 2026-09-28)
+- Nationwide's $800 plan adds one additional test per policy term - health screen blood test, radiograph (X-rays) or electrocardiogram (EKG) - at $100, and Spay/Neuter or Dental cleaning at $250 that starts 90 days after the original policy term effective date (condition: Top tier only; both lines are marked Not covered in the $450 column; the page also states wellness plans are not available in all states)
+  Source: https://www.petinsurance.com/petwellness/ (checked 2026-09-28)
+- Nationwide reimburses some plans on pre-set benefit allowances rather than a percentage, and its own FAQ answer on that page states all plans have an annual deductible (condition: From the How does reimbursement work? answer on the wellness page; the page also says most plans start 1-14 days after approval)
+  Source: https://www.petinsurance.com/petwellness/ (checked 2026-09-28)
+- Fetch's wellness page states that Pets Best, AKC and Nationwide only offer 2 wellness plans while Fetch offers 3, and compares its own coverage against Trupanion, Healthy Paws, Lemonade and MetLife (condition: Fetch's own competitor claim, printed in the Compare Fetch Pet Wellness Plans section - it is a claim by an interested party, not an independent count)
+  Source: https://www.fetchpet.com/pet-insurance/wellness (checked 2026-09-28)
+
+### FAQ
+
+- **Which pet insurance wellness add-on pays the most per item?** On the published schedules read 2026-09-28, Fetch's Prime plan carries the highest printed caps on most lines ($100 exam, $125 vaccines, $250 dental cleaning or spay/neuter, $250 heartworm-flea-tick prevention) and the highest plan ceiling at $1,200 a year, with Nationwide's $800 plan second. Spot's Platinum endorsement sums to $450 and Lemonade prints no dollar caps at all. Those are published ceilings, not quotes - what you pay depends on your state, your pet and your declarations page.
+  Source: https://www.fetchpet.com/pet-insurance/wellness (checked 2026-09-28)
+- **Do wellness add-ons have a waiting period?** Lemonade says no waiting period for preventative care - coverage activates at 12:01 AM the day after purchase. Fetch says no waiting period for wellness either, with claims accepted from the effective date in the enrollment confirmation email. Spot's sample preventive-care endorsement states no wellness waiting period of its own. Nationwide publishes one: spay/neuter or dental cleaning starts 90 days after the original policy term effective date on the $800 plan (read 2026-09-28).
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/ (checked 2026-09-28)
+- **Do I have to meet my deductible for wellness claims?** Lemonade says you will not be asked to meet your deductible for preventative care claims, and Fetch says there is no deductible for Fetch Wellness coverage. Spot's wellness page and its sample Gold and Platinum endorsements do not publish an answer, and Nationwide's own reimbursement FAQ states all plans have an annual deductible (read 2026-09-28).
+  Source: https://www.fetchpet.com/faqs/is-there-a-deductible-for-pet-wellness (checked 2026-09-28)
+- **Can I buy a wellness plan on its own, without pet insurance?** No, not from any of these four. Fetch's FAQ says Fetch Wellness coverage is only available as an add-on to a Fetch policy; Spot sells its Gold and Platinum preventive care as endorsements to a base plan; Lemonade's packages attach to a Lemonade pet policy; Nationwide's wellness plans are added to its accident and illness plans (read 2026-09-28).
+  Source: https://www.fetchpet.com/faqs/can-i-get-a-pet-wellness-plan-on-its-own (checked 2026-09-28)
+- **How much does a wellness add-on cost?** Only Fetch publishes a price on the page: as low as $18, $30 and $40 a month for Essentials, Advantage and Prime, with printed annual plan costs of $212, $357 and $478. Lemonade, Spot and Nationwide all send readers to a quote and print no premium (read 2026-09-28).
+  Source: https://www.fetchpet.com/pet-insurance/wellness (checked 2026-09-28)
+- **Does a wellness add-on cover dental cleaning and spay/neuter?** The four schedules draw the line differently. Spot and Nationwide combine both procedures in one line ($150 Spot Platinum, $250 Nationwide's $800 plan, not covered in its $450 plan). Fetch combines them too at $175 / $200 / $250 a year. Lemonade pays routine dental prophylaxis up to $150 a year only in Preventative+ - Routine Vet Care Plus explicitly excludes routine cleanings - while spay/neuter sits in Routine Vet Care Plus and the Puppy/Kitten package (read 2026-09-28).
+  Source: https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/ (checked 2026-09-28)
+- **Is a microchip covered by a wellness add-on?** Nationwide prints $50 a year in both plans; Fetch prints $25 / $25 / $35 a year across its three plans; Lemonade covers microchip implantation and registration in the Puppy/Kitten package and in Routine Vet Care Plus. Spot's wellness page advertises microchip implantation coverage included, but neither of the two sample preventive-care endorsements we read on 2026-09-28 contains a microchip line.
+  Source: https://www.petinsurance.com/petwellness/ (checked 2026-09-28)
+- **Can I just add up the per-item caps to see what a plan pays?** Sometimes the sum matches the printed ceiling, sometimes it does not. Nationwide's item caps add up to exactly $450 and $800, and Fetch's Prime caps add up to exactly $1,200 - but Fetch's Essentials caps add up to $550 against a printed $390 ceiling, and Advantage adds up to $805 against a printed $700. Spot prints no ceiling at all, so its $250 and $450 are our sums, and Lemonade's benefits are counts, not dollars. Compare the printed ceiling, not the item list (read 2026-09-28).
+  Source: https://www.fetchpet.com/pet-insurance/wellness (checked 2026-09-28)
+- **How do I check the schedule that applies to my own policy?** Read your declarations page and the endorsement attached to it - Spot's sample endorsement says outright that it pays only for procedures listed for the Preventive Care option on your declarations page, and both Fetch and Nationwide say plans vary by state. Spot also publishes state sample policies at spotpet.com/sample-policy, which is where the Gold and Platinum schedules on this page come from (read 2026-09-28).
+  Source: https://spotpet.com/sample-policy (checked 2026-09-28)
+
+## Pet Insurance Claim Filing Deadlines Compared
+
+URL: https://furadvisor.com/pet-insurance-claim-filing-deadline
+
+Keyword: how long do you have to file a pet insurance claim
+
+### Facts
+
+- Spot's FAQ answer to 'How Long Do I Have to File a Claim?' is: you can submit a claim within 270 days from the date of treatment (condition: Published in the FAQPage data on spotpet.com/faqs; no state exception is printed next to it)
+  Source: https://spotpet.com/faqs (checked 2026-09-28)
+- Spot's sample Accident & Illness policy (California) prints the contract sentence: You must submit your claim within 270 days from the date of service (condition: Sample policy form for California, Independence American Insurance Company, linked from spotpet.com/sample-policy)
+  Source: https://assets.ctfassets.net/m5ehn3s5t7ec/1BnVbZD0bckBstD3zXO6wE/05ab8626875f3adbc9c06bf1134664b0/Sample_PolicyPages_CA_AccidentIllness_IAIC.pdf (checked 2026-09-28)
+- Spot's sample Accident & Illness policy (Arizona) prints the same 270-day sentence, so the two state forms we read agree (condition: Sample policy form for Arizona, linked from spotpet.com/sample-policy)
+  Source: https://assets.ctfassets.net/m5ehn3s5t7ec/1jSJ3wibAqaL8wdIY3yKhQ/5c6fe63f297179c6da4cef326dc5fc3e/Sample_PolicyPages_AZ_AccidentandIllness_47_copy.pdf (checked 2026-09-28)
+- Lemonade requires the claim to be filed through its app within 180 days of treatment, with all requested information supplied in that process (condition: The page frames this as a coverage condition: in order to be eligible for coverage, you'll need to file within 180 days)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-28)
+- A Lemonade Pet policy in Texas has 90 days to file a claim - half the 180 days printed for the rest of the book (condition: Stated on the same claim guide page: if you have a Lemonade Pet policy in Texas, you have 90 days to file a claim)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-28)
+- Fetch states that claims must be submitted within 90 days of the vet visit to be eligible for reimbursement, and that claims submitted after 90 days won't be covered (condition: Printed in the Claims section of Fetch's own claims page)
+  Source: https://www.fetchpet.com/claims (checked 2026-09-28)
+- Fetch's claim FAQ wording is 90 days of your pet's treatment, with both the paid vet bill (invoice) and your pet's medical record attached (condition: FAQ page 'When can I submit a pet insurance claim?'; same 90-day number as the claims page, different starting phrase)
+  Source: https://www.fetchpet.com/faqs/when-to-claim-pet-insurance (checked 2026-09-28)
+- Fetch requires the invoice to show a zero balance or that it was paid in full before it will accept the claim (condition: From Fetch's claim submission FAQ; a photo of the paid invoice plus records from the most recent checkup are the two required documents)
+  Source: https://www.fetchpet.com/faqs/claim-submission (checked 2026-09-28)
+- Fetch says claims are typically processed within 15 days from when we receive all your documents (condition: Claim submission FAQ; the clock it describes starts when every document is in hand, not when you file)
+  Source: https://www.fetchpet.com/faqs/claim-submission (checked 2026-09-28)
+- Fetch's claims page separately says claims are typically processed in less than 10 days - a second, different published figure from the same brand (condition: Both figures were read on 2026-09-28; we report them side by side and do not reconcile them)
+  Source: https://www.fetchpet.com/claims (checked 2026-09-28)
+- Fetch says direct deposit gets you paid back 5 to 10 days faster than paper checks (condition: Published on both its claims page and its claim submission FAQ; up to 90% reimbursement once the deductible is met)
+  Source: https://www.fetchpet.com/claims (checked 2026-09-28)
+- Lemonade says 50% of eligible claims are processed instantly by its AI and most others are resolved within 5 business days (condition: Complex claims may take longer depending on documentation requirements, per the same FAQ block)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-28)
+- Spot prints 'Claims reimbursed in 48 hrs or less' on its homepage next to its published sample reimbursement example (condition: The homepage text does not say what moment the 48 hours is measured from; we quote it as printed)
+  Source: https://spotpet.com/ (checked 2026-09-28)
+- Spot emails you when it receives your claim, when it needs more information and when the claim is complete, and shows status under the claims icon (condition: FAQ answer on status of a claim, spotpet.com/faqs)
+  Source: https://spotpet.com/faqs (checked 2026-09-28)
+- Spot's appeal deadline is not a fixed number: the number of days to appeal a claim varies by the state in which your policy was issued (condition: Appeal must be in writing to service@customer.spotpetins.com with supporting documents; Spot says appeals may take around 30 days to be reviewed)
+  Source: https://spotpet.com/faqs (checked 2026-09-28)
+- Lemonade's claim guide tells readers to appeal through the app with additional documentation from their vet, but prints no day count for appeals (condition: Read on the same guide page on 2026-09-28; no appeal window appears anywhere in its text)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-28)
+- Lemonade requires a medical record from a visit that took place within 12 months of your policy's start date (condition: Stated as a prerequisite in the same guide, so a first claim often waits on that record even inside the 180-day window)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-28)
+- Fetch publishes no appeal route on the pages we read: its claims and FAQ pages describe filing, tracking and payment only (condition: Absence noted, not filled from a third party - nothing on this page comes from a broker or a review site)
+  Source: https://www.fetchpet.com/claims (checked 2026-09-28)
+- Nationwide (petinsurance.com) publishes how to file a claim in three steps and when coverage begins (most plans start 1-14 days after approval), but no filing deadline in days (condition: Its public FAQ page was read on 2026-09-28 looking specifically for a day count; none was found, so we do not quote one)
+  Source: https://www.petinsurance.com/faq/ (checked 2026-09-28)
+- Spot lets you cancel a claim request at any time by calling 1.800.905.1595 (condition: FAQ answer under Administrative questions, spotpet.com/faqs)
+  Source: https://spotpet.com/faqs (checked 2026-09-28)
+
+### FAQ
+
+- **How long do I have to file a claim with Spot?** Spot's own FAQ answer is 270 days: you can submit a claim within 270 days from the date of treatment. Spot's sample Accident & Illness policy prints the same 270 days and calls it the date of service. Both were read on 2026-09-28.
+  Source: https://spotpet.com/faqs (checked 2026-09-28)
+- **Does Lemonade give me 180 days to file?** Yes - Lemonade's claim guide says you file through the app within 180 days of treatment, and it presents that as a condition of the claim being eligible for coverage. The same page says a Lemonade Pet policy in Texas has 90 days to file a claim.
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-28)
+- **How long after the vet visit can I file with Fetch?** 90 days. Fetch's claims page says claims must be submitted within 90 days of the vet visit to be eligible for reimbursement, and that claims submitted after 90 days won't be covered. Its claim FAQ gives the same 90 days counted from your pet's treatment.
+  Source: https://www.fetchpet.com/claims (checked 2026-09-28)
+- **Does the clock start on the day of the accident?** Not on any of the pages we read. Spot's sample policy counts its 270 days from the date of service, Lemonade counts from the date of treatment and Fetch counts from the vet visit - so the window starts when your pet is treated, and the paperwork (invoice, records) has to be finished inside that same window.
+  Source: https://assets.ctfassets.net/m5ehn3s5t7ec/1BnVbZD0bckBstD3zXO6wE/05ab8626875f3adbc9c06bf1134664b0/Sample_PolicyPages_CA_AccidentIllness_IAIC.pdf (checked 2026-09-28)
+- **What happens if I file after the deadline?** Fetch is the only one of the three that writes the consequence out: claims submitted after 90 days won't be covered. Spot's sample policy says you must submit within 270 days, and Lemonade frames the 180 days as a condition of eligibility for coverage.
+  Source: https://www.fetchpet.com/claims (checked 2026-09-28)
+- **Do some states get a shorter window?** Yes for Lemonade: its claim guide states that a Lemonade Pet policy in Texas has 90 days to file a claim instead of 180. Spot and Fetch publish no state variation in the filing window on the pages we read - Spot does publish state variation for its appeal deadline, which is a different clock.
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-28)
+- **How fast does Spot pay a claim?** Spot's homepage prints claims reimbursed in 48 hrs or less, and it emails you when the claim is received, when it needs more information and when it is complete. The homepage text does not say what moment the 48 hours is measured from.
+  Source: https://spotpet.com/ (checked 2026-09-28)
+- **How long does Fetch take to process a claim?** Fetch's claim submission FAQ says claims are typically processed within 15 days from when we receive all your documents, and that direct deposit pays you back 5 to 10 days faster than a check. Its claims page separately prints under 10 days - two official figures from one brand, reported as published.
+  Source: https://www.fetchpet.com/faqs/claim-submission (checked 2026-09-28)
+- **How do I appeal a denied claim?** Spot's route is a written appeal by email to service@customer.spotpetins.com with your reasons and supporting documents; it says the number of days to appeal varies by the state your policy was issued in and that reviews take around 30 days. Lemonade tells you to appeal in the app with extra documentation from your vet. Fetch publishes no appeal route on the pages we read.
+  Source: https://spotpet.com/faqs (checked 2026-09-28)
+- **Does Nationwide publish a filing deadline?** No. Its public FAQ explains how to file a claim in three steps and says most plans start 1-14 days after your application is approved, but it prints no number of days for filing a claim. We read that page on 2026-09-28 specifically looking for one and found none.
+  Source: https://www.petinsurance.com/faq/ (checked 2026-09-28)
+
+## Pet Insurance Waiting Periods by Condition
+
+URL: https://furadvisor.com/pet-insurance-waiting-periods-by-condition
+
+Keyword: pet insurance waiting periods by condition
+
+### Facts
+
+- GEICO publishes no waiting-period day counts: "Waiting periods vary by condition (accident, illness, etc.) and insurer, so be sure to ask an agent what waiting periods apply to your policy" (condition: Flagship guide "Pet insurance: what is it, how does it work", bylined August 31, 2026 by GEICO Team; the article mentions waiting periods four times and prints a day count zero times, and geico.com/pet-insurance mentions it once, inside the pre-existing definition)
+  Source: https://www.geico.com/living/pet-insurance-what-is-it-how-does-it-work/ (checked 2026-09-29)
+- GEICO's own footer: "Pet Health Insurance is administered by Embrace Pet Insurance Agency, LLC (Lic. No 0G89328) and underwritten by one of the licensed insurers of American Modern Insurance Group, Inc., including American Modern Home Insurance Company ... and American Southern Home Insurance Company ... For full terms and conditions, visit www.embracepetinsurance.com/coverage/embrace-terms" (condition: Legal disclaimer block in the footer of geico.com/pet-insurance - this is the only place GEICO hands over the contract wording, and it hands over Embrace's)
+  Source: https://www.geico.com/pet-insurance/ (checked 2026-09-29)
+- Allstate's complete published answer on waiting periods: "Pet insurance usually has waiting periods for accidents, illnesses, and specific conditions ... All policies have a 2-week illness waiting period. Other waiting periods and exclusions vary by state." (condition: FAQ block on allstate.com/pet-insurance, item "When does coverage start?"; no accident, orthopedic, cruciate or cancer figure appears anywhere else on that page)
+  Source: https://www.allstate.com/pet-insurance (checked 2026-09-29)
+- Allstate's footer carries the same administrator and underwriters as GEICO's - Embrace Pet Insurance Agency, LLC and the American Modern Insurance Group insurers - and the same link: "For full terms and conditions, visit www.embracepetinsurance.com/coverage/embrace-terms" (condition: Footnote 1 on allstate.com/pet-insurance - the disclaimer block that names the administrator, the underwriters and the link to the full terms)
+  Source: https://www.allstate.com/pet-insurance (checked 2026-09-29)
+- Allstate files cancer under illness coverage: "Coverage for accidents and illnesses: This type of policy covers worst-case scenarios, such as poisoning, dental trauma and illnesses, including cancer" (condition: Section "What do the different pet insurance coverage types cover?" on Allstate's dog insurance resource page (Last Updated: October 2025 banner on that page))
+  Source: https://www.allstate.com/resources/pet-insurance/dog-insurance (checked 2026-09-29)
+- The Embrace sample policy that both GEICO and Allstate link to states: "the time period is two (2) days for Accidents and fourteen (14) days for Illnesses, except for Orthopedic conditions for dogs where the Waiting Period is six (6) months. The Waiting Period starts from the Pet Original Start Date." (condition: Sample contract "Embrace Pet Health Insurance V5", definition of Waiting Period; the state selector on the terms page maps this version to Kansas, New Mexico and South Carolina only)
+  Source: https://www.embracepetinsurance.com/state-terms/v5 (checked 2026-09-29)
+- The V6 version of the same contract - the one used in the other 48 states and DC - defines only "Illness Waiting Period is the fourteen (14) day period of time where the policy's Coverage is restricted" and its coverage section says "Accidents (no Waiting Periods apply)", so accident coverage starts with no wait in those states (condition: Sample contract "Embrace Pet Health Insurance V6", definitions and "which result from" coverage list; state selector maps V6 to 48 states plus the District of Columbia)
+  Source: https://www.embracepetinsurance.com/state-terms/v6 (checked 2026-09-29)
+- V6 cruciate and orthopedic rule: "Orthopedic conditions that occur or show Clinical Signs during the first 180 days after the Pet Original Start Date are excluded and are Pre-existing Conditions for the life of the policy: Cruciate Ligament Disease; Intervertebral Disk Disease (IVDD); Patellar Luxation; and Hip Dysplasia" (condition: Pre-existing Conditions section of the V6 sample contract - note this is an exclusion period, not a named orthopedic waiting period, and it attaches for the life of the policy)
+  Source: https://www.embracepetinsurance.com/state-terms/v6 (checked 2026-09-29)
+- Embrace's terms page lets you read the contract for your own state, and the two live versions split three ways for orthopedics: V5 (KS, NM, SC) says six (6) months for dogs; V6 (48 states and DC) uses the 180-day exclusion list; and Embrace's help article adds that cats have a 14-day orthopedic waiting period (condition: State selector on embracepetinsurance.com/coverage/embrace-terms (options read 2026-09-29) plus the orthopedic help article's cats-only paragraph)
+  Source: https://www.embracepetinsurance.com/coverage/embrace-terms (checked 2026-09-29)
+- Cancer sits inside the illness wait in the contract wording: "Illnesses, including but not limited to Genetic Conditions, cancer, and Chronic Conditions" (condition: Coverage list of the V5 sample contract; V6 adds that "If a Pet has had Undiagnosed masses prior to the end of the Illness Waiting Period, any mass, or condition where a mass is a Clinical Sign, is not covered, including those caused by cancer", and V5 excludes "Osteosarcoma diagnosed or showing Clinical Signs within the Orthopedic Waiting Period")
+  Source: https://www.embracepetinsurance.com/state-terms/v5 (checked 2026-09-29)
+- Embrace's own marketing page says "All Embrace insurance policies have a 14-day waiting period for illnesses, while accident coverage starts on your policy's effective date" and that orthopedic waiting periods vary by state (condition: Waiting-period guide page - read alongside the contracts: the "accident coverage starts on your policy's effective date" line matches the V6 form (48 states and DC) but not the V5 form's two-day accident wait in KS, NM and SC)
+  Source: https://www.embracepetinsurance.com/coverage/waiting-period (checked 2026-09-29)
+- Embrace's orthopedic help article: for dogs, conditions that show symptoms before the end of the illness wait or during the first 180 days - IVDD, cruciate ligament injury, patellar luxation, canine hip dysplasia - "are excluded from coverage and are pre-existing for the life of the policy"; all other orthopedic conditions fall under the 14-day illness wait; for cats "there is also a 14-day waiting period for orthopedic conditions" (condition: Help-center article "What Is the Waiting Period for Orthopedic Conditions?", which also notes orthopedic waiting periods vary by state)
+  Source: https://www.embracepetinsurance.com/help/article/what-is-the-waiting-period-for-orthopedic-conditions (checked 2026-09-29)
+- The orthopedic wait can be cut: "Some states allow you have the option to reduce the waiting period for certain orthopedic conditions to as few as 14 days by following the Orthopedic Exam and Waiver Process" - an exam inside the first 14 days moves the end date to the end of the 14-day illness wait, an exam after that moves it to the exam date (condition: Same orthopedic help article; the V5 contract words the same option as reducing the wait to "two (2) days for Accidents or fourteen (14) days for Illnesses, or from the Orthopedic examination date, whichever is later")
+  Source: https://www.embracepetinsurance.com/help/article/what-is-the-waiting-period-for-orthopedic-conditions (checked 2026-09-29)
+- ASPCA's published waiting-period table: "Accidents & Injuries (Excluding ligament and knee injuries) - No waiting period"; "Preventive Care - No waiting period"; "Ligament and knee injuries - 14-day waiting period"; "Illnesses - 14-day waiting period"; "Hereditary and congenital conditions - 14-day waiting period" (condition: Waiting-period table inside the quote flow on aspcapetinsurance.com/quote/ (the page returned 403 to direct requests, so it was read through a text-rendering fetch of the same URL on 2026-09-29))
+  Source: https://www.aspcapetinsurance.com/quote/ (checked 2026-09-29)
+- The same ASPCA quote page contradicts its own accident row: "Coverage for accidents and illnesses begins 14 days after your coverage effective date. This means any accident or illness that occurs during the 14-day waiting period is ineligible." (condition: "Accident & Illness Effective Date" section of aspcapetinsurance.com/quote/, read 2026-09-29 - one page therefore publishes 0 days and 14 days for accidents, and the page never reconciles them)
+  Source: https://www.aspcapetinsurance.com/quote/ (checked 2026-09-29)
+- ASPCA preventive care starts day one: "There is no waiting period for preventive care coverage, so it will begin on the same day as your base plan coverage effective date" (condition: "Preventive Care Effective Date" section of the quote page; its What's Covered page says those benefits have no waiting period and "you can sign up today and have this coverage tomorrow")
+  Source: https://www.aspcapetinsurance.com/quote/ (checked 2026-09-29)
+- ASPCA's California policy notice publishes three different waiting-period sets on one page: "On Levels 2, 3, and 4, a 30-day illness waiting period applies to the first policy period. On Levels 3 and 4, conditions that appear on the Hereditary, Genetic, or Congenital List are subject to a 180 day waiting period. Diagnosis and treatment for ligament and knee conditions are subject to a 12 month waiting period on all policies."; "On Complete CoverageSM, a 14 day illness waiting period applies ... ligament and knee conditions ... 14 day"; and "A 14 day accident and illness waiting period apply to the first policy period ... ligament and knee conditions ... 14 day" (condition: "Notice to California Residents" page on aspcapetinsurance.com, three consecutive Waiting Periods disclosures for different plan forms - the day count depends on the form you are sold, and the notice does not say which one that is)
+  Source: https://aspcapetinsurance.com/more-info/notice-to-california-residents (checked 2026-09-29)
+- ASPCA hands the per-state paperwork over: "Please choose your state below to view sample plans and, where applicable, the Insurer Disclosure of Important Policy Provisions and Waiting Period Waiver Form specific to your state" (condition: State Documents and Sample Policies page, which also links a "Waiting Period Health Assessment" and an Insurer Disclosure per state - the only one of the three sites that publishes state-level waiting-period documents)
+  Source: https://www.aspcapetinsurance.com/more-info/state-documents-and-sample-policies (checked 2026-09-29)
+- ASPCA treats cancer as an illness: "With illness coverage, you can get reimbursed for the eligible costs of major and minor illnesses, such as cancer, arthritis ... " and its FAQ answers "Does pet insurance cover cancer treatments?" with "Complete CoverageSM can help you manage those costs" (condition: What's Covered page - cancer therefore sits inside the 14-day illness wait printed on the quote page; no cancer-specific day count is published)
+  Source: https://www.aspcapetinsurance.com/research-and-compare/pet-insurance-basics/whats-covered/ (checked 2026-09-29)
+- Allstate defines the pre-existing cut-off by the waiting period: "A pre-existing condition is any injury, illness, or irregularity noticed by you or your veterinarian before the end of your waiting period" (condition: FAQ on allstate.com/pet-insurance - the page never says when the waiting period starts or how long the non-illness waits are)
+  Source: https://www.allstate.com/pet-insurance (checked 2026-09-29)
+
+### FAQ
+
+- **How long is the waiting period with GEICO?** GEICO does not say. Its guide answers the question with "ask an agent what waiting periods apply to your policy", and its landing page only defines pre-existing conditions in terms of the waiting period. The day counts exist one step away: GEICO's footer links to Embrace's terms, where the sample contract for 48 states and DC has no accident wait, a 14-day illness wait and a 180-day orthopedic exclusion list, and the Kansas, New Mexico and South Carolina contract says two days accident, fourteen days illness and six months orthopedic for dogs (all read 2026-09-29).
+  Source: https://www.geico.com/living/pet-insurance-what-is-it-how-does-it-work/ (checked 2026-09-29)
+- **How long is the waiting period with Allstate?** "All policies have a 2-week illness waiting period. Other waiting periods and exclusions vary by state." That is the whole published answer: no accident figure, no orthopedic figure, no cruciate figure and no cancer figure appear on the Allstate pet insurance pages read 2026-09-29. Its footer links to the same Embrace terms GEICO links to.
+  Source: https://www.allstate.com/pet-insurance (checked 2026-09-29)
+- **How long is the waiting period with ASPCA?** Its quote page prints a five-row table: accidents and injuries excluding ligament and knee injuries - no waiting period; preventive care - no waiting period; ligament and knee injuries - 14 days; illnesses - 14 days; hereditary and congenital conditions - 14 days. The same page's effective-date text then says accident and illness coverage begins 14 days after the effective date, so accidents are published as both 0 and 14 days on one page (read 2026-09-29).
+  Source: https://www.aspcapetinsurance.com/quote/ (checked 2026-09-29)
+- **Where do GEICO's and Allstate's day counts actually live?** In one document neither of them hosts. Both footers say the product is administered by Embrace Pet Insurance Agency and underwritten by American Modern Insurance Group companies, then point to embracepetinsurance.com/coverage/embrace-terms for full terms and conditions. That terms page publishes two versions: V5 for Kansas, New Mexico and South Carolina (2 days accident, 14 days illness, 6 months orthopedic for dogs) and V6 for the other 48 states and DC (no accident wait, 14 days illness, 180-day orthopedic exclusion list) (read 2026-09-29).
+  Source: https://www.embracepetinsurance.com/coverage/embrace-terms (checked 2026-09-29)
+- **How long before cancer is covered?** No brand publishes a cancer-specific wait, so the illness wait is what applies. In the Embrace contract behind GEICO and Allstate, cancer is named inside "Illnesses" - fourteen days - with two written traps: an undiagnosed mass before the end of that wait is not covered "including those caused by cancer", and osteosarcoma showing signs during the orthopedic period is excluded. Allstate files cancer under illnesses, so its 2-week figure applies. ASPCA lists cancer under illness coverage, so its 14-day row applies (all read 2026-09-29).
+  Source: https://www.embracepetinsurance.com/state-terms/v5 (checked 2026-09-29)
+- **How long is the cruciate ligament (CCL or TPLO) waiting period?** In the Embrace contract GEICO and Allstate link to, a cruciate ligament injury showing signs in the first 180 days after the start date is excluded and pre-existing for the life of the policy (V6, 48 states and DC), while the V5 form for KS, NM and SC uses a six-month orthopedic waiting period instead - reducible by an orthopedic exam in states that allow it. ASPCA publishes 14 days for "Ligament and knee injuries" on its quote page, but its California notice prints 12 months for ligament and knee conditions on the Levels 2, 3 and 4 disclosure (all read 2026-09-29).
+  Source: https://www.embracepetinsurance.com/state-terms/v6 (checked 2026-09-29)
+- **Do waiting periods change from state to state?** For all three, yes - in three different ways. Allstate just says they "vary by state". The Embrace contract GEICO and Allstate link to splits into two versions: V5 for KS, NM and SC and V6 for the other 48 states and DC, and the accident wait is 2 days in the first and none in the second. ASPCA publishes state-by-state documents - sample plans, an Insurer Disclosure of Important Policy Provisions and a Waiting Period Waiver Form per state - plus a California notice with three different waiting-period sets (read 2026-09-29).
+  Source: https://www.embracepetinsurance.com/coverage/embrace-terms (checked 2026-09-29)
+- **Can you shorten or waive a pet insurance waiting period?** Two of the three publish a route. Embrace's orthopedic exam and waiver process can cut the orthopedic wait "to as few as 14 days" in states that allow it - an exam inside the first 14 days moves the end date to the end of the illness wait, a later exam moves it to the exam date. ASPCA links a state-specific Waiting Period Waiver Form and a Waiting Period Health Assessment from its state documents page. GEICO's own pages publish no waiver; Allstate's publish none either (all read 2026-09-29).
+  Source: https://www.embracepetinsurance.com/help/article/what-is-the-waiting-period-for-orthopedic-conditions (checked 2026-09-29)
+- **Does the waiting period restart later on?** In the contract behind GEICO and Allstate, yes on a coverage increase: the waiting period "also applies again when there are Coverage increases but is waived for policy renewals and optional Coverage renewals". ASPCA's quote page does not publish a restart rule; it only says conditions during the wait are ineligible. Switching insurers still means a fresh wait with the new company (read 2026-09-29).
+  Source: https://www.embracepetinsurance.com/state-terms/v6 (checked 2026-09-29)
+
+## Exotic Pet Insurance: Who Covers Birds and Reptiles
+
+URL: https://furadvisor.com/exotic-pet-insurance
+
+Keyword: exotic pet insurance
+
+### Facts
+
+- Nationwide's exotic page states it is 'the only pet insurer to cover birds and exotic pets' and offers 'Call for a quote: 844-397-8937'. (condition: Brand claim printed on its own /exotics/ page, read on the check date; it is Nationwide's wording, not an independent market survey.)
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- Nationwide lists six exotic groups it covers: Birds, Rabbits, Mini pigs & goats, Lizards, reptiles & frogs, Guinea pigs, and Ferrets & small mammals. (condition: The category links printed under 'Which exotic pets are covered?' on the check date.)
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- Nationwide prints that an exotic premium 'generally starts at less than $21/mo' and that the monthly premium depends on the type of pet and amount of coverage selected. (condition: That is the only price figure on the exotic page read; no deductible, reimbursement percentage or annual limit is printed there.)
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- Nationwide's not-covered list for exotics: venomous or poisonous species in the listed genus groups, endangered or threatened species, species needing a state or federal permit/licence/registration, species illegal to own, hybrids of domesticated pets with wild species, species kept in flocks or on display, and any other species not listed. (condition: Read verbatim from the 'Which exotic pets are not covered?' answer on the check date.)
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- Nationwide's coverage answer says 'Policies for each exotic pet category differ, but all plans include our reliable coverage for accidents, injuries and illnesses', with condition examples for small mammals (overgrown teeth, eye infection, bladder infection, upper respiratory infection), birds (feather picking/loss, excessive egg-laying, soft tissue trauma) and reptiles & amphibians (internal parasites, diarrhea, dehydration/constipation). (condition: Condition lists as printed per category on the exotic page, read on the check date.)
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- Nationwide states 'Wellness coverage is not available for exotic pets at this time.' (condition: Direct answer from the exotic page's FAQ on the check date - so routine care for an exotic pet is not sold as a rider there.)
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- Nationwide says an exotic plan 'covers medical services and medical treatment from any licensed veterinarian' and that you are free to use specialists and emergency providers. (condition: From the exotic page's FAQ on the check date; reimbursement and annual limits 'depend on the product and coverage level selected. See policy documents for details.')
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- Nationwide's exotic page prints no deductible amount, no reimbursement percentage and no annual dollar limit - it points to policy documents instead. (condition: Absence check: the full page text read on 2026-09-30 contained no deductible or limit figure, so those numbers are recorded as not published on that page.)
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- GEICO's pet insurance page states: 'The GEICO Insurance Agency has partnered with Embrace Pet Insurance Agency, to help you get pet insurance coverage for your dogs and cats.' (condition: Read from geico.com's pet insurance page on the check date - the page offers no exotic product.)
+  Source: https://www.geico.com/pet-insurance/ (checked 2026-09-30)
+- GEICO's own cost guide prints exotic ownership costs: hermit crabs ~$80 initially plus $180+ a year, gerbils and hamsters ~$180 plus $150+ a year, fish ~$160 plus $520 a year, leopard gecko ~$149+ plus $290+ a year, birds ~$295 initially plus $185+ a year, against cats ~$1,200 then $800+ per year and dogs ~$1,500+ plus $1,500+ a year. (condition: Figures as printed in the guide's headings on the check date; the article's insurance CTA is the same dog-and-cat quote offer.)
+  Source: https://www.geico.com/living/how-much-does-it-cost-to-own-a-pet/ (checked 2026-09-30)
+- GEICO's cost guide says the purchase cost of a leopard gecko plus aquarium and setup 'will run you between $149-$565', covering enclosure, accessories, heater, lights, bowls, hides and decor. (condition: Body copy read from the guide on the check date; GEICO presents the figures as editorial estimates for one example setup.)
+  Source: https://www.geico.com/living/how-much-does-it-cost-to-own-a-pet/ (checked 2026-09-30)
+- Allstate's pet insurance page states 'Birds, reptiles, and other non-traditional pets usually require a type of coverage called exotic pet insurance.' (condition: Sentence read from allstate.com's pet insurance page on the check date; the page itself sells cat and dog cover.)
+  Source: https://www.allstate.com/pet-insurance (checked 2026-09-30)
+- Allstate's page states that clicking 'get a quote' means 'you will leave Allstate.com and be directed to the Embrace website', and its product sections are Cat insurance and Dog insurance. (condition: Read from the page's footnote and navigation on the check date.)
+  Source: https://www.allstate.com/pet-insurance (checked 2026-09-30)
+- Allstate's page states 'All policies have a 2-week illness waiting period. Other waiting periods and exclusions vary by state.' (condition: FAQ answer on the same page, read on the check date - the statement sits in a cat/dog policy context.)
+  Source: https://www.allstate.com/pet-insurance (checked 2026-09-30)
+- ASPCA's site plan menu lists Dog Insurance, Cat Insurance, Puppy Insurance, Kitten Insurance, Senior Dog Insurance and Senior Cat Insurance, with no exotic or bird product. (condition: Navigation read from the official site on the check date (retrieved through a server-side text render because direct requests are blocked by that domain's gateway).)
+  Source: https://www.aspcapetinsurance.com/ (checked 2026-09-30)
+- ASPCA's site publishes real claim examples with totals - an ear infection with a $1,099.19 total vet bill reimbursed at $989.27 (01/2021) and a torn ligament with $6,794.00 reimbursed at $5,625.00 (08/2021) - all for dogs and cats. (condition: Claim cards printed on the homepage read on the check date; they are the only money figures on that page.)
+  Source: https://www.aspcapetinsurance.com/ (checked 2026-09-30)
+- Neither GEICO nor Allstate prints any exotic-pet price, because both pages sell dog-and-cat cover through Embrace. (condition: Absence check: the full text of both pages was read on 2026-09-30 and neither contains a price for a bird, rabbit or reptile policy.)
+  Source: https://www.geico.com/pet-insurance/ (checked 2026-09-30)
+
+### FAQ
+
+- **Does any pet insurance cover exotic pets?** Of the four brands read on 2026-09-30, only Nationwide does: its own page says it is 'the only pet insurer to cover birds and exotic pets', lists six exotic groups and prices the plan at 'generally starts at less than $21/mo'. GEICO and Allstate sell dog and cat cover through Embrace, and ASPCA's plan menu lists only dog and cat products.
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- **Which animals count as an exotic pet at Nationwide?** Its page lists six groups: Birds, Rabbits, Mini pigs & goats, Lizards, reptiles & frogs, Guinea pigs, and Ferrets & small mammals - and defines 'exotic' as an umbrella term covering small mammals, birds, reptiles and amphibians.
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- **How much does exotic pet insurance cost?** Nationwide prints one figure on its exotic page: premiums 'generally starts at less than $21/mo', varying by type of pet and amount of coverage. No deductible, reimbursement percentage or annual limit is published there - it points to policy documents instead - and quotes come via 844-397-8937.
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- **What exotic pets does Nationwide NOT cover?** Its published exclusions: venomous or poisonous species in the listed genus groups, endangered or threatened species, species that need a state or federal permit/licence/registration, species illegal to own, hybrids of domesticated pets with wild species, species kept in flocks or on display, and any species not on its list.
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- **Is wellness or routine care covered for an exotic pet?** No - Nationwide's exotic page answers directly: 'Wellness coverage is not available for exotic pets at this time.' Routine care for birds, rabbits and reptiles therefore has to be budgeted separately.
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- **Does GEICO cover birds and reptiles?** Its own page says the GEICO Insurance Agency partnered with Embrace 'to help you get pet insurance coverage for your dogs and cats' - no exotic product appears on the page read 2026-09-30. GEICO does publish what exotic pets cost to own (birds ~$295 plus $185+ a year), but never attaches cover to them.
+  Source: https://www.geico.com/pet-insurance/ (checked 2026-09-30)
+- **Does Allstate cover exotic pets?** Allstate's page names the category - 'Birds, reptiles, and other non-traditional pets usually require a type of coverage called exotic pet insurance' - but its own products are cat and dog insurance sold through Embrace, and its quote button leaves allstate.com for the Embrace site.
+  Source: https://www.allstate.com/pet-insurance (checked 2026-09-30)
+- **Does ASPCA Pet Health Insurance cover exotic pets?** Nothing exotic is offered on the official site: the plan menu read on 2026-09-30 lists Dog, Cat, Puppy, Kitten, Senior Dog and Senior Cat Insurance only, and the site's claim examples are cats and dogs.
+  Source: https://www.aspcapetinsurance.com/ (checked 2026-09-30)
+- **How much does it cost to own an exotic pet in the first year?** GEICO's own cost guide prints these starting-plus-annual figures: hermit crabs ~$80 then $180+ a year, gerbils and hamsters ~$180 then $150+, fish ~$160 then $520, leopard gecko ~$149+ then $290+, and birds ~$295 then $185+ - against cats ~$1,200 then $800+ and dogs ~$1,500+ then $1,500+.
+  Source: https://www.geico.com/living/how-much-does-it-cost-to-own-a-pet/ (checked 2026-09-30)
+- **Can I use any veterinarian for an exotic pet?** Nationwide's exotic page says its plan covers medical services and treatment from any licensed veterinarian, and that you are free to use specialists and emergency providers - the same freedom its dog and cat policies describe.
+  Source: https://www.petinsurance.com/exotics/ (checked 2026-09-30)
+- **Why do the three comparison brands have no exotic price?** Because none of them sells an exotic plan: GEICO and Allstate route quotes to Embrace for dogs and cats, and ASPCA's menu has no exotic tier. With no product, there is no official price to publish - so those cells are recorded as not published rather than filled in.
+  Source: https://www.geico.com/pet-insurance/ (checked 2026-09-30)
+
+## Lemonade Cat Insurance: What a Cat Policy Covers
+
+URL: https://furadvisor.com/lemonade-cat-insurance
+
+Keyword: lemonade cat insurance
+
+### Facts
+
+- A dog or a cat policy starts at $10/month (condition: Lemonade's cost guide states that a policy for a dog or a cat starts at $10/month; its latest cat average is about $27/month and its latest dog average about $48/month)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- A 1-year-old short-haired cat quoted at about $34/month (condition: Lemonade's own cat quote: a 1-year-old short-haired cat in Danbury, Connecticut, base policy from six insurers, adjusted to a $250 deductible, 80% co-insurance, maximum annual limit, no add-ons or discounts)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- Pre-existing means signs or symptoms before the waiting periods are up (condition: Lemonade's cat page: anything your cat has shown signs of before the waiting periods are up is considered a pre-existing condition, and pre-existing conditions are not covered)
+  Source: https://www.lemonade.com/pet/cats (checked 2026-09-28)
+- Waiting periods: 14 days for illnesses, 30 days for orthopedic conditions (condition: Lemonade: all policies carry both periods, they apply when you first sign up and do not repeat each year, but cancelling and reapplying resets them)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/ (checked 2026-09-28)
+- Chronic cat conditions cannot be cured out of a pre-existing exclusion (condition: Lemonade names knee or ligament conditions and chronic conditions - arthritis, allergies, asthma, cancers and endocrine diseases - as conditions that cannot be cured; their symptoms can be managed but the condition itself is not curable)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-pre-existing-conditions/ (checked 2026-09-28)
+- A curable condition needs 12 symptom-free, treatment-free months (condition: Lemonade: a non-chronic pre-existing condition may be considered cured in some states once it has been treated and resolved with no further recurring symptoms or treatment for 12 consecutive months, counting ongoing medication and prescription diets)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-pre-existing-conditions/ (checked 2026-09-28)
+- Cancer is the costliest entry on Lemonade's own pre-existing cat list (condition: Lemonade's stated average annual cost to treat these conditions in cats: chronic kidney disease $500-$2,000, diabetes $500-$3,000, uveitis $300-$1,000, hyperthyroidism $200-$1,000, asthma $100-$800, cancer $10,000-$30,000, dental disease $300-$2,000, feline immunodeficiency virus $150-$2,000, feline leukemia virus $150-$600, ringworm $50-$100; Lemonade calls them rough estimates)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-pre-existing-conditions/ (checked 2026-09-28)
+- Claims are filed in the app through a six-step flow that asks for a short video (condition: Lemonade's steps: open the app, meet AI Jim and sign a truthfulness pledge, describe what happened, record a short explanatory video of about a minute, upload the invoice and receipt, get paid - Lemonade states the video is confidential and used only to review the claim)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-28)
+- 50% of eligible claims are processed instantly, most others within 5 business days (condition: Lemonade states 50% of eligible claims are processed instantly via AI Jim, most others are resolved within 5 business days, and complex claims may take longer depending on documentation requirements)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-28)
+- One of Lemonade's own cat claim examples: $320 bill, $198 back (condition: Lemonade's example of Luna, a 5-year-old indoor cat diagnosed with a urinary tract infection, on a $100 deductible and 90% co-insurance; Lemonade adds that on first illness claims AI Jim can request medical records directly from the vet)
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-28)
+- Deductibles are annual, not per claim or per condition (condition: Lemonade: you choose a $100, $250, $500 or $750 deductible - a separate answer on the same page also lists $1,000 - and choose 70%, 80% or 90% co-insurance; the annual limit can be set anywhere between $5,000 and $100,000)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- An approved claim can still pay you nothing until the annual deductible is met (condition: Lemonade's own worked example on a $250 deductible and 80% co-insurance: of a $100 cat bill, $40 is an uncovered vet visit fee and the remaining $60 does not clear the deductible, though it reduces it by $48; Lemonade adds that within a couple of covered vet visits you will likely start being reimbursed)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/ (checked 2026-09-28)
+- Preventative packages for cats start at +$10/mo, +$15/mo and +$31/mo (condition: Lemonade's cat page prices its Preventative package from +$10/mo, Preventative+ for adult cats from +$15/mo and Preventative for kittens from +$31/mo; the kitten package covers spaying or neutering, microchipping and six vaccinations while the adult tier adds flea, tick or heartworm medication and a routine dental cleaning)
+  Source: https://www.lemonade.com/pet/cats (checked 2026-09-28)
+- Buy a policy for a kitten from two months old, and cancel free within 30 days (condition: Lemonade: you can buy a policy for your puppy or kitten from two months old, and you can cancel in the app with a refund inside the first 30 days - with the warning that the waiting periods reset)
+  Source: https://www.lemonade.com/pet/cats (checked 2026-09-28)
+- Grooming and cosmetic procedures are outside the base policy (condition: Lemonade lists grooming, elective cosmetic procedures, obedience training and boarding or travel as things not related to an accident or illness and therefore not covered)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/ (checked 2026-09-28)
+- Lemonade documents three reasons a cat's premium can rise at renewal (condition: Lemonade's stated reasons that rates might increase: the age of your pet, changes within the pet insurance industry as a whole, and inflation; the same page states that filing claims or having claims denied will never result in a rate change)
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/ (checked 2026-09-28)
+
+### FAQ
+
+- **Does Lemonade cover cats?** Yes. Lemonade publishes a dedicated cat page, and its cost guide states that a policy for a dog or a cat starts at $10/month, with its own cat average at about $27/month. Coverage includes diagnostics such as bloodwork, X-rays, MRI, CT scans, lab work, urinalysis and ultrasounds, plus cancer, emergency care, surgery, heart disease, hospitalization, outpatient care, specialty care, injections, prescription medications, diabetes and urinary tract infections. What the base policy leaves out is routine and elective care: Lemonade lists grooming, cosmetic procedures, obedience training and boarding or travel as things not related to an accident or illness (checked 2026-09-28).
+  Source: https://www.lemonade.com/pet/cats (checked 2026-09-28)
+- **How does Lemonade decide a cat condition is pre-existing?** From the medical record and the calendar, not from a diagnosis. Lemonade says that anything your cat has shown signs of before the waiting periods are up is considered a pre-existing condition, that a condition is determined by your pet's medical history, and that any diagnoses, treatments or symptoms in the record before the pet was actively insured can indicate a pre-existing condition. It also answers the breed question directly: a Siamese cat's higher odds of developing asthma do not by themselves make asthma pre-existing - it depends on whether signs or symptoms were present before the policy and its applicable waiting periods. That cuts both ways, because it also means symptoms cost nothing to exclude and a diagnosis is not required (checked 2026-09-28).
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-pre-existing-conditions/ (checked 2026-09-28)
+- **Which cat conditions can never be cured out of a pre-existing exclusion?** Lemonade names them itself: knee or ligament conditions, and chronic conditions - arthritis, allergies, asthma, cancers and endocrine diseases such as diabetes and hyperthyroidism. The symptoms can be managed with medication, diet or physical therapy, but Lemonade states the condition itself is not curable. For a cat owner this is the sentence that matters most, because those are the conditions cats actually get. A curable one-off, by contrast, can come back into coverage after it has been treated and resolved with no recurring symptoms or treatment for 12 consecutive months, counting ongoing medication and prescription diets. Lemonade's own example is roundworms: treat, resolve, test negative, then stay clean for 12 months (checked 2026-09-28).
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-insurance-pre-existing-conditions/ (checked 2026-09-28)
+- **How long do I have to wait after buying a Lemonade cat policy?** Lemonade publishes two waiting periods on every policy: 14 days for illnesses and 30 days for orthopedic conditions. Anything your cat shows signs of inside those windows is treated as pre-existing. Two further details come from the same page: the waiting periods apply only when you first sign up and do not reset or repeat each year, but if you cancel and reapply later they reset, which Lemonade says can expand the list of conditions treated as pre-existing (checked 2026-09-28).
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/ (checked 2026-09-28)
+- **How fast does Lemonade pay a cat claim?** The claim goes in through the app: open it, meet AI Jim, sign a truthfulness pledge, describe what happened, record a short video of about a minute, then upload the invoice and receipt. Lemonade states that 50% of eligible claims are processed instantly through AI Jim and that most of the rest are resolved within 5 business days, with complex claims taking longer depending on documentation. Its own worked cat example is Luna, a 5-year-old indoor cat with a urinary tract infection: a $320 bill, a $100 deductible at 90% co-insurance, and $198 reimbursed. Lemonade also notes that on a first illness claim AI Jim can request the medical records straight from your vet (checked 2026-09-28).
+  Source: https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/ (checked 2026-09-28)
+- **Why would my Lemonade cat premium go up at renewal?** Lemonade lists three reasons: the age of your pet, since younger pets pay less, changes within the pet insurance industry as a whole, and inflation. It adds one thing it explicitly rules out - filing claims or having claims denied will never result in a rate change on your policy. The page does not publish a cap or a maximum percentage increase, so a renewal letter is the only place the number appears (checked 2026-09-28).
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/ (checked 2026-09-28)
+- **Why can an approved cat claim still reimburse nothing?** Because the deductible comes first, and it is annual rather than per claim or per condition. Lemonade's own example on a $250 deductible with 80% co-insurance: of a $100 cat bill, $40 is a standard vet visit fee that is not covered and does not count toward the deductible, and the remaining $60 does not clear it - it reduces the deductible to $202. Lemonade's own guidance is that within a couple of covered vet visits you will likely meet the deductible and start being reimbursed (checked 2026-09-28).
+  Source: https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/ (checked 2026-09-28)
+
+## About this data
+
+- Every fact carries the official page it was read from and the date it was checked.
+- No figure is estimated, rounded or filled in from memory.
+- Where a brand publishes no figure, the page states that rather than guessing.
+- This site is not affiliated with, endorsed by, or compensated by any insurer it covers.
+- Site: https://furadvisor.com · Repository: https://github.com/wcsnm22/pet-insurance-decisions
