@@ -106,11 +106,27 @@ for p in sorted(site.glob("*.html")):
     if not (ld and ca):
         fails.append(f"meta-{p.name}")
 for f in ("sitemap.xml", "robots.txt", "_worker.js", "assets/style.css",
-          "llms.txt", "llms-full.txt"):
+          "llms.txt", "llms-full.txt", "ads.txt"):
     ok = (site / f).exists()
     print(f"[4] {f}: {'ok' if ok else 'MISSING'}")
     if not ok:
         fails.append(f"missing-{f}")
+
+# (4b) IndexNow: the key file must be published at the site root with its own
+# name as content, and it must be reachable behind the worker's allowlist.
+ikey = (pathlib.Path(__file__).parent / "indexnow-key.txt")
+if not ikey.exists():
+    print("[4b] indexnow-key.txt MISSING")
+    fails.append("missing-indexnow-key")
+else:
+    kv = ikey.read_text(encoding="utf-8").strip()
+    kf = site / f"{kv}.txt"
+    served = kf.read_text(encoding="utf-8").strip() if kf.exists() else ""
+    in_worker = f'"/{kv}.txt"' in (site / "_worker.js").read_text(encoding="utf-8")
+    ok = bool(re.fullmatch(r"[0-9a-f]{8,128}", kv)) and served == kv and in_worker
+    print(f"[4b] indexnow key={kv[:8]}... file={kf.exists()} serves_key={served == kv} in_worker={in_worker}")
+    if not ok:
+        fails.append("indexnow-key-not-published")
 
 # (6) social card + E-E-A-T on every content page:
 # absolute og:image that exists on disk, large-image preview allowed, and a VISIBLE

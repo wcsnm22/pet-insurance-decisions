@@ -27,8 +27,11 @@ if not urls:
 # The key file has to be live before the endpoint will accept the submission;
 # check it here so a failed submit is reported as the real cause.
 probe = f"{base}/{key}.txt"
+# ::RULE{Cloudflare 会 403 掉 python-urllib 的默认 UA，必须显式带 UA}
+UA = "Mozilla/5.0 (compatible; furadvisor-indexnow/1.0; +https://furadvisor.com/about)"
 try:
-    with urllib.request.urlopen(probe, timeout=30) as r:
+    req = urllib.request.Request(probe, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=30) as r:
         live_key = r.read().decode("utf-8").strip()
 except urllib.error.URLError as e:
     raise SystemExit(f"KEY FILE NOT LIVE YET: {probe} ({e}) - deploy first")
@@ -44,7 +47,7 @@ payload = {
 req = urllib.request.Request(
     "https://api.indexnow.org/indexnow",
     data=json.dumps(payload).encode("utf-8"),
-    headers={"Content-Type": "application/json; charset=utf-8"},
+    headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": UA},
     method="POST",
 )
 try:
