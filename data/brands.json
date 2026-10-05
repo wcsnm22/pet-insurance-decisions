@@ -5,7 +5,9 @@
     "base_url": "https://furadvisor.com",
     "locale": "en-US",
     "checked": "2026-09-25",
-    "repo": "https://github.com/wcsnm22/pet-insurance-decisions"
+    "repo": "https://github.com/wcsnm22/pet-insurance-decisions",
+    "meta_title": "Pet Insurance: Coverage, Cost and Waiting Periods",
+    "meta_description": "What pet insurance covers and what it costs, with waiting periods and claim rules read from Lemonade, Spot and Fetch, each figure carrying its source."
   },
   "brands": [
     {
@@ -171,7 +173,9 @@
           "source_url": "https://www.lemonade.com/pet-insurance",
           "checked": "2026-09-25"
         }
-      ]
+      ],
+      "meta_title": "Lemonade Pet Insurance: Cost, Coverage and Claims",
+      "meta_description": "Lemonade pet insurance starts at $10/mo for accident and illness cover. Published prices, waiting periods, claim steps and discounts, each with its source."
     },
     {
       "id": "spot",
@@ -324,7 +328,9 @@
           "source_url": "https://spotpet.com/",
           "checked": "2026-09-25"
         }
-      ]
+      ],
+      "meta_title": "Spot Pet Insurance: Cost, Coverage and Claims",
+      "meta_description": "Spot advertises dog plans from $15/mo and cat plans from $9/mo. Published prices, waiting periods, claim speed and discounts, each with its source."
     },
     {
       "id": "fetch",
@@ -477,7 +483,9 @@
           "source_url": "https://www.fetchpet.com/",
           "checked": "2026-09-25"
         }
-      ]
+      ],
+      "meta_title": "Fetch Pet Insurance: Cost, Coverage and Claims",
+      "meta_description": "Fetch averages $35/mo for dogs and $22/mo for cats on its own figures. Published prices, waiting periods, claim steps and discounts, each with its source."
     }
   ],
   "home_facts": [

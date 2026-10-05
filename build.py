@@ -358,9 +358,14 @@ def build() -> None:
             ],
         }),
     ]
+    home_title = site.get(
+        "meta_title",
+        "Pet Insurance: Coverage, Cost and Waiting Periods",
+    )
+    home_desc = site.get("meta_description", site["tagline"])
     home_head = head_block(
-        "Pet Insurance: Coverage, Cost and Waiting Periods - Facts from Lemonade, Spot and Fetch",
-        site["tagline"],
+        home_title,
+        home_desc,
         page_url(site, "/"),
         home_jsonld,
     )
@@ -381,7 +386,7 @@ def build() -> None:
     )
     home = render(template("index.html"), {
         "lang": "en",
-        "title": "Pet Insurance: Coverage, Cost and Waiting Periods - Facts from Lemonade, Spot and Fetch",
+        "title": home_title,
         "head": home_head,
         "brand": site["name"],
         "nav": f'<a href="/">Home</a> · {nav}',
@@ -397,14 +402,15 @@ def build() -> None:
 
     # ---- 品牌页：一个品牌一页，整族说法都进 title/H1/FAQ/JSON-LD
     for b in brands:
-        title = (
-            f'{b["name"]} Pet Insurance: Review, Cost, Quote and Promo Code Facts '
-            f'(Sources Inside)'
+        title = b.get(
+            "meta_title",
+            f'{b["name"]} Pet Insurance: Review, Cost and Promo Code Facts',
         )
-        description = (
+        description = b.get(
+            "meta_description",
             f'{b["name"]} pet insurance in plain facts: cost, coverage, waiting periods, '
-            f'quote flow and any official discounts - every line linked to {b["official_site"].split("//")[1]} '
-            f"and checked {site['checked']}."
+            f'quote flow and any official discounts, every line linked to '
+            f'{b["official_site"].split("//")[1]}.',
         )
         canonical = page_url(site, f'/{b["slug"]}')
         jsonld_blocks = [
