@@ -157,6 +157,22 @@ li::marker { color: var(--accent); }
 .stats b { display: block; font-size: 24px; letter-spacing: -.02em; }
 .stats span { display: block; margin-top: 2px; }
 
+/* byline: who maintains the page and when its facts were last checked.
+   ::RULE{byline must be visible text - not JSON-LD only} */
+.byline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin: 18px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  color: var(--muted);
+}
+.byline a { color: var(--text); }
+.byline .sep { color: var(--line-2); }
+
 /* ----------------------------------------------------------------- cards */
 
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(224px, 1fr)); gap: 14px; margin-top: 14px; }

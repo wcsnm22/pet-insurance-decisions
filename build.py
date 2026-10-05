@@ -118,6 +118,18 @@ def page_url(site: dict, path: str) -> str:
     return base if path == "/" else f"{base}{path}"
 
 
+def asset_url(canonical: str, path: str) -> str:
+    """Absolute URL for a static asset referenced from <head>.
+
+    og:image / twitter:image must be absolute, so take the origin from the page's
+    own canonical URL - that keeps the social crawler on the canonical host and
+    never on a *.pages.dev preview domain.
+    """
+    from urllib.parse import urlparse
+    origin = "{0.scheme}://{0.netloc}".format(urlparse(canonical))
+    return f"{origin}{path}"
+
+
 def llms_index(site: dict, brands: list[dict], articles: list[dict]) -> str:
     """llms.txt: a short, model-readable index of what this site answers.
 
@@ -337,7 +349,62 @@ def _css_v() -> str:
     return hashlib.sha1(p.read_bytes()).hexdigest()[:8]
 
 
-def head_block(title: str, description: str, canonical: str, jsonld_blocks: list[str]) -> str:
+def latest_checked(items: list[dict]) -> str:
+    """Most recent check date among a page's own facts/FAQs.
+
+    Pages are rechecked in batches, so the honest "last updated" is the newest
+    date actually recorded on that page - not the site-wide build date.
+    """
+    dates = [i["checked"] for i in items if i.get("checked")]
+    return max(dates) if dates else ""
+
+
+def byline_html(updated: str) -> str:
+    """Visible byline: who maintains the page, when its facts were last checked.
+
+    Rendered into the page, not just declared in JSON-LD - the E-E-A-T signals
+    Google reads are on the page itself.
+    """
+    return (
+        '<p class="byline">'
+        f'By <a href="/about">tangshoufu</a><span class="sep">·</span>'
+        'built and maintained from the brands\' own official pages<span class="sep">·</span>'
+        f'<time datetime="{escape(updated)}">Facts last checked {escape(updated)}</time>'
+        '</p>'
+    )
+
+
+def author_jsonld(site: dict) -> dict:
+    """The Person behind the site, tied to the repo account stated on /about."""
+    return {
+        "@type": "Person",
+        "name": "tangshoufu",
+        "url": page_url(site, "/about"),
+        "sameAs": ["https://github.com/wcsnm22"],
+    }
+
+
+def publisher_jsonld(site: dict) -> dict:
+    """Article.publisher must be an Organization, so the site itself carries it."""
+    return {
+        "@type": "Organization",
+        "name": site["name"],
+        "url": page_url(site, "/"),
+        "founder": author_jsonld(site),
+    }
+
+
+def head_block(title: str, description: str, canonical: str, jsonld_blocks: list[str],
+               og_slug: str = "og-home", og_type: str = "article") -> str:
+    """共享 <head>：社交卡片、robots 指令、canonical、JSON-LD。
+
+    og:image 由 make_og.py 预生成到 templates/assets/og-<slug>.png；这里只负责引用，
+    所以缺图时构建必须报错而不是发出一页没图的卡片。
+    """
+    og_path = TEMPLATE_DIR / "assets" / f"{og_slug}.png"
+    if not og_path.exists():
+        raise SystemExit(f"OG IMAGE MISSING (run python make_og.py): {og_path.name}")
+    og_url = asset_url(canonical, f"/assets/{og_path.name}")
     parts = [
         # Admitad/Mitgo ad-space ownership verification (site owner action)
         '<meta name="mitgo-verification" content="525da73b-6632-4867-a8b7-3f78725eee42">',
@@ -345,12 +412,21 @@ def head_block(title: str, description: str, canonical: str, jsonld_blocks: list
         '<meta name="impact-site-verification" value="2385d48f-31d9-4d68-93cb-707ce4d312fe">',
         f'<meta name="description" content="{escape(description, quote=True)}">',
         f'<link rel="canonical" href="{escape(canonical, quote=True)}">',
-        '<meta property="og:type" content="website">',
+        # 允许大图预览：不写这条时 Google 只会拿小缩略图
+        '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">',
+        '<meta property="og:type" content="{}">'.format(og_type),
         f'<meta property="og:title" content="{escape(title, quote=True)}">',
         f'<meta property="og:description" content="{escape(description, quote=True)}">',
         f'<meta property="og:url" content="{escape(canonical, quote=True)}">',
         '<meta property="og:site_name" content="Pet Insurance Decisions">',
-        '<meta name="twitter:card" content="summary">',
+        f'<meta property="og:image" content="{escape(og_url, quote=True)}">',
+        f'<meta property="og:image:alt" content="{escape(title, quote=True)}">',
+        '<meta property="og:image:width" content="1200">',
+        '<meta property="og:image:height" content="630">',
+        f'<meta name="twitter:card" content="summary_large_image">',
+        f'<meta name="twitter:title" content="{escape(title, quote=True)}">',
+        f'<meta name="twitter:description" content="{escape(description, quote=True)}">',
+        f'<meta name="twitter:image" content="{escape(og_url, quote=True)}">',
         '<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">',
         f'<link rel="stylesheet" href="/assets/style.css?v={_css_v()}">',
     ]
@@ -438,6 +514,7 @@ def build() -> None:
     )
 
     # ---- 首页
+    home_updated = latest_checked(data["home_facts"] + data["home_faqs"])
     home_jsonld = [
         jsonld({
             "@context": "https://schema.org",
@@ -446,6 +523,7 @@ def build() -> None:
             "url": page_url(site, "/"),
             "description": site["tagline"],
             "inLanguage": site["locale"],
+            "publisher": publisher_jsonld(site),
         }),
         jsonld({
             "@context": "https://schema.org",
@@ -474,6 +552,8 @@ def build() -> None:
         home_desc,
         page_url(site, "/"),
         home_jsonld,
+        og_slug="og-home",
+        og_type="website",
     )
     cards = "".join(
         f'<div class="card"><h3><a href="/{b["slug"]}">{escape(b["name"])} pet insurance</a></h3>'
@@ -497,6 +577,7 @@ def build() -> None:
         "brand": site["name"],
         "nav": f'<a href="/">Home</a> · {nav}',
         "tagline": site["tagline"],
+        "byline": byline_html(home_updated),
         "cards": cards,
         "article_cards": article_cards,
         "fact_table_rows": fact_rows(data["home_facts"]),
@@ -519,6 +600,7 @@ def build() -> None:
             f'{b["official_site"].split("//")[1]}.',
         )
         canonical = page_url(site, f'/{b["slug"]}')
+        b_updated = latest_checked(b["facts"] + b["faqs"])
         jsonld_blocks = [
             jsonld({
                 "@context": "https://schema.org",
@@ -542,8 +624,13 @@ def build() -> None:
                 "headline": title,
                 "description": description,
                 "url": canonical,
-                "dateModified": site["checked"],
-                "publisher": {"@type": "Organization", "name": site["name"]},
+                "inLanguage": site["locale"],
+                # 只声明可核对的 dateModified（= 该页事实最近一次复核日）。
+                # 站上从未记录过首发日，所以不写 datePublished，不编一个日期出去。
+                "dateModified": b_updated,
+                "author": author_jsonld(site),
+                "publisher": publisher_jsonld(site),
+                "mainEntityOfPage": canonical,
                 "about": {"@type": "Thing", "name": f'{b["name"]} pet insurance'},
             }),
             jsonld({
@@ -557,7 +644,7 @@ def build() -> None:
             }),
         ]
         jsonld_blocks.append(breadcrumb_jsonld(b["name"], canonical, site))
-        head = head_block(title, description, canonical, jsonld_blocks)
+        head = head_block(title, description, canonical, jsonld_blocks, og_slug=f'og-{b["slug"]}')
         faq_html = "".join(
             f'<details open><summary>{escape(f["q"])}</summary><p>{escape(f["a"])}</p>'
             f'<p class="muted">Source: <a href="{escape(f["source_url"])}" rel="noopener" target="_blank">'
@@ -595,6 +682,7 @@ def build() -> None:
             "faqs": faq_html,
             "related": related_html,
             "checked": site["checked"],
+            "byline": byline_html(b_updated),
             "footer": FOOTER_LINKS,
         })
         (SITE_DIR / f'{b["slug"]}.html').write_text(html, encoding="utf-8")
@@ -603,6 +691,7 @@ def build() -> None:
     brands_by_path = {f'/{b["slug"]}': b for b in brands}
     for a in articles:
         canonical = page_url(site, f'/{a["slug"]}')
+        a_updated = latest_checked(a["facts"] + a["faqs"])
         stats_html = "".join(
             f'<div><b>{escape(s["value"])}</b><span class="muted">{escape(s["label"])}</span></div>'
             for s in a.get("stats", [])
@@ -615,10 +704,10 @@ def build() -> None:
                 "description": a["description"],
                 "url": canonical,
                 "inLanguage": site["locale"],
-                "datePublished": site["checked"],
-                "dateModified": site["checked"],
-                "author": {"@type": "Organization", "name": site["name"]},
-                "publisher": {"@type": "Organization", "name": site["name"]},
+                # 同上：只有事实复核日是可核对的，不编首发日
+                "dateModified": a_updated,
+                "author": author_jsonld(site),
+                "publisher": publisher_jsonld(site),
                 "mainEntityOfPage": canonical,
                 "about": {"@type": "Thing", "name": a.get("keyword", a["title"])},
             }),
@@ -658,7 +747,7 @@ def build() -> None:
                 ],
             }))
         jsonld_blocks.append(breadcrumb_jsonld(a["title"], canonical, site))
-        head = head_block(a["title"], a["description"], canonical, jsonld_blocks)
+        head = head_block(a["title"], a["description"], canonical, jsonld_blocks, og_slug=f'og-{a["slug"]}')
         html = render(article_tpl, {
             "lang": "en",
             "title": a["title"],
@@ -679,6 +768,7 @@ def build() -> None:
             )),
             "disclaimer": a.get("disclaimer", ""),
             "checked": site["checked"],
+            "byline": byline_html(a_updated),
             "footer": FOOTER_LINKS,
         })
         (SITE_DIR / f'{a["slug"]}.html').write_text(html, encoding="utf-8")
@@ -699,6 +789,8 @@ def build() -> None:
             f"{page.capitalize()} page of {site['name']}.",
             canonical,
             blocks,
+            og_slug="og-home",
+            og_type="website",
         )
         html = render(tpl, {
             "lang": "en",

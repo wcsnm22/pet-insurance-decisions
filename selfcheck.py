@@ -106,6 +106,57 @@ for f in ("sitemap.xml", "robots.txt", "_worker.js", "assets/style.css",
     if not ok:
         fails.append(f"missing-{f}")
 
+# (6) social card + E-E-A-T on every content page:
+# absolute og:image that exists on disk, large-image preview allowed, and a VISIBLE
+# byline + check date (not JSON-LD only), with Article author/publisher/dateModified.
+CONTENT = [b["slug"] for b in data["brands"]] + [a["slug"] for a in articles]
+for slug in CONTENT:
+    h = (site / f"{slug}.html").read_text(encoding="utf-8")
+    og = re.search(r'<meta property="og:image" content="([^"]+)"', h)
+    tw = re.search(r'<meta name="twitter:card" content="([^"]+)"', h)
+    rb = re.search(r'<meta name="robots" content="([^"]+)"', h)
+    og_name = og.group(1).rsplit("/", 1)[-1] if og else ""
+    problems = []
+    if not og or not og.group(1).startswith("https://furadvisor.com/assets/og-"):
+        problems.append("og:image-not-absolute-or-wrong-host")
+    elif not (site / "assets" / og_name).exists():
+        problems.append(f"og:image-missing-file:{og_name}")
+    if not tw or tw.group(1) != "summary_large_image":
+        problems.append("twitter-card-not-large-image")
+    if not rb or "max-image-preview:large" not in rb.group(1):
+        problems.append("robots-no-large-image-preview")
+    if 'class="byline"' not in h:
+        problems.append("no-visible-byline")
+    # the byline must name the maintainer and print a check date that appears in the data
+    by = re.search(r'<p class="byline">(.*?)</p>', h, re.S)
+    txt = re.sub(r"<[^>]+>", " ", by.group(1)) if by else ""
+    if "tangshoufu" not in txt:
+        problems.append("byline-no-maintainer")
+    dates = {f.get("checked", "") for f in
+             next((b for b in data["brands"] if b["slug"] == slug), {}).get("facts", [])
+             + next((b for b in data["brands"] if b["slug"] == slug), {}).get("faqs", [])}
+    art = next((a for a in articles if a["slug"] == slug), None)
+    if art:
+        dates = {f.get("checked", "") for f in art["facts"] + art["faqs"]}
+    if not any(d and d in txt for d in dates):
+        problems.append("byline-date-not-a-recorded-check-date")
+    # Article JSON-LD must carry a Person author and an Organization publisher
+    ld = [json.loads(m.group(1)) for m in
+          re.finditer(r'<script type="application/ld\+json">(.*?)</script>', h, re.S)]
+    page_ld = [b for b in ld if b.get("@type") == "Article"]
+    for b in page_ld:
+        if b.get("author", {}).get("@type") != "Person":
+            problems.append("article-author-not-person")
+        if b.get("publisher", {}).get("@type") != "Organization":
+            problems.append("article-publisher-not-organization")
+        if not b.get("dateModified"):
+            problems.append("article-no-dateModified")
+        if "datePublished" in b:
+            problems.append("article-invented-datePublished")
+    print(f"[6] {slug}: og_image={og_name} problems={problems}")
+    if problems:
+        fails.append(f"eeat-{slug}")
+
 # (5) llms.txt / llms-full.txt: generated from the same data, so they must cover
 # every page and carry every recorded source URL - no invented or dropped figures.
 idx = (site / "llms.txt").read_text(encoding="utf-8") if (site / "llms.txt").exists() else ""
