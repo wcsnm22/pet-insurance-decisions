@@ -10,11 +10,15 @@
 <body>
   <header class="site"><div class="wrap">
     <div class="brand">{{brand}}</div>
+    <input type="checkbox" id="navtoggle" class="navtoggle" aria-label="Show page links">
+    <label class="navtoggle-label" for="navtoggle">Pages</label>
     <nav class="crumbs">{{nav}}</nav>
   </div></header>
   <main class="wrap">
-    <h1>404 — page not found</h1>
-    <p>That address does not exist on this site.</p>
+    <section class="hero">
+      <h1>404 — page not found</h1>
+      <p class="lede">That address does not exist on this site.</p>
+    </section>
     <p><a href="/">Go to the homepage</a> · <a href="/sitemap.xml">See the sitemap</a></p>
     <footer class="site">{{footer}}</footer>
   </main>

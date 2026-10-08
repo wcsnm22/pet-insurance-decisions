@@ -10,6 +10,8 @@
 <body>
   <header class="site"><div class="wrap">
     <div class="brand">{{brand}}</div>
+    <input type="checkbox" id="navtoggle" class="navtoggle" aria-label="Show page links">
+    <label class="navtoggle-label" for="navtoggle">Pages</label>
     <nav class="crumbs">{{nav}}</nav>
   </div></header>
   <main class="wrap">
@@ -29,6 +31,7 @@
 
     <h2>{{name}} pet insurance facts — every line with its official source</h2>
     <table>
+      <caption class="muted">Every figure read from {{name}}'s own official pages, with the page it came from and the date it was checked.</caption>
       <thead><tr><th>Fact</th><th>Condition to get it</th><th>Official source page</th><th>Checked</th></tr></thead>
       <tbody>{{fact_table_rows}}</tbody>
     </table>

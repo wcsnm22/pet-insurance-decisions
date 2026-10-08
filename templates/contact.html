@@ -10,11 +10,15 @@
 <body>
   <header class="site"><div class="wrap">
     <div class="brand">{{brand}}</div>
+    <input type="checkbox" id="navtoggle" class="navtoggle" aria-label="Show page links">
+    <label class="navtoggle-label" for="navtoggle">Pages</label>
     <nav class="crumbs">{{nav}}</nav>
   </div></header>
   <main class="wrap">
-    <h1>Contact</h1>
-    <p>Found a fact that no longer matches a brand's official site, or a link that broke? Tell us and include the page URL.</p>
+    <section class="hero">
+      <h1>Contact</h1>
+      <p class="lede">Found a fact that no longer matches a brand's official site, or a link that broke? Tell us and include the page URL.</p>
+    </section>
     <ul>
       <li>Email: <a href="mailto:3363565842@qq.com">3363565842@qq.com</a></li>
       <li>Public repository (issues welcome): <a href="{{repo}}" rel="noopener" target="_blank">{{repo}}</a></li>

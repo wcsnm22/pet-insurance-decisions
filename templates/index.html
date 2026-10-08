@@ -10,10 +10,12 @@
 <body>
   <header class="site"><div class="wrap">
     <div class="brand">{{brand}}</div>
+    <input type="checkbox" id="navtoggle" class="navtoggle" aria-label="Show page links">
+    <label class="navtoggle-label" for="navtoggle">Pages</label>
     <nav class="crumbs">{{nav}}</nav>
   </div></header>
   <main class="wrap">
-    <section class="hero">
+    <section class="hero home-hero">
       <h1>Pet insurance, answered on the first screen</h1>
       <p class="lede">{{tagline}}</p>
       <div class="answer">
@@ -34,6 +36,7 @@
 
     <h2>Facts with sources</h2>
     <table>
+      <caption class="muted">Published facts with the official page each one was read from and the date it was checked.</caption>
       <thead><tr><th>Fact</th><th>Condition to get it</th><th>Official source page</th><th>Checked</th></tr></thead>
       <tbody>{{fact_table_rows}}</tbody>
     </table>

@@ -2,15 +2,15 @@
   <title id="t">Lemonade vs Spot pet insurance: published prices and published windows</title>
   <desc id="d">Two bar charts read from each brand's own pages: monthly prices of 10 dollars starting from Lemonade, 15 dollars dogs and 9 dollars cats starting from Spot, 48 dollars dog average and 27 dollars cat average from Lemonade with Spot publishing no average, and a 61 dollar Lemonade example quote; and windows in days: 14-day illness waits for both brands, 30-day orthopedic wait and 30-day cancellation refund at Lemonade, 30-day money-back window at Spot (15 days in Maine, Louisiana and Washington, not in New York) and Spot's 180-day symptom-free rule for curable pre-existing conditions; read 2026-09-25.</desc>
   <style>
-    .ttl{font:700 20px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
-    .sub{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#5a6672}
-    .ph{font:700 14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
-    .lb{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#2b3743}
-    .val{font:700 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
+    .ttl{font:700 20px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
+    .sub{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#767670}
+    .ph{font:700 14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
+    .lb{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
+    .val{font:700 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
     .vali{font:700 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#ffffff}
-    .np{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#5a6672;font-style:italic}
-    .ax{font:400 11px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#7a8794}
-    .fn{font:400 11.5px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#5a6672}
+    .np{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#767670;font-style:italic}
+    .ax{font:400 11px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#767670}
+    .fn{font:400 11.5px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#767670}
   </style>
   <rect width="720" height="700" fill="#ffffff"/>
   <text class="ttl" x="24" y="34">What each brand publishes about price and about time</text>
@@ -19,37 +19,37 @@
   <!-- Panel A: published monthly prices, 0-70 $/month (x 260 -> 680, 420px = 70) -->
   <text class="ph" x="24" y="88">Published price (as printed)</text>
   <text class="ax" x="680" y="88" text-anchor="end">$ per month · 0 – 70</text>
-  <line x1="260" y1="96" x2="680" y2="96" stroke="#dde3e9"/>
+  <line x1="260" y1="96" x2="680" y2="96" stroke="#d9d6ce"/>
   <g>
     <text class="lb" x="24" y="121">Lemonade · starting price</text>
-    <rect x="260" y="108" width="60" height="18" fill="#1FA8C1"/>
+    <rect x="260" y="108" width="60" height="18" fill="#2b5ce6"/>
     <text class="val" x="328" y="121">$10/mo</text>
 
     <text class="lb" x="24" y="153">Spot · dogs from</text>
-    <rect x="260" y="140" width="90" height="18" fill="#E8833A"/>
+    <rect x="260" y="140" width="90" height="18" fill="#767670"/>
     <text class="val" x="358" y="153">$15/mo</text>
 
     <text class="lb" x="24" y="185">Spot · cats from</text>
-    <rect x="260" y="172" width="54" height="18" fill="#E8833A"/>
+    <rect x="260" y="172" width="54" height="18" fill="#767670"/>
     <text class="val" x="322" y="185">$9/mo</text>
 
     <text class="lb" x="24" y="217">Lemonade · dog average</text>
-    <rect x="260" y="204" width="288" height="18" fill="#1FA8C1"/>
+    <rect x="260" y="204" width="288" height="18" fill="#2b5ce6"/>
     <text class="vali" x="540" y="217" text-anchor="end">$48/mo</text>
 
     <text class="lb" x="24" y="249">Lemonade · cat average</text>
-    <rect x="260" y="236" width="162" height="18" fill="#1FA8C1"/>
+    <rect x="260" y="236" width="162" height="18" fill="#2b5ce6"/>
     <text class="vali" x="414" y="249" text-anchor="end">$27/mo</text>
 
     <text class="lb" x="24" y="281">Lemonade · example quote</text>
-    <rect x="260" y="268" width="366" height="18" fill="#1FA8C1"/>
+    <rect x="260" y="268" width="366" height="18" fill="#2b5ce6"/>
     <text class="vali" x="618" y="281" text-anchor="end">$61/mo</text>
 
     <text class="lb" x="24" y="313">Spot · average price</text>
-    <rect x="260" y="300" width="420" height="18" fill="#f4f6f8" stroke="#c9d2da" stroke-dasharray="4 3"/>
+    <rect x="260" y="300" width="420" height="18" fill="#efece5" stroke="#767670" stroke-dasharray="4 3"/>
     <text class="np" x="272" y="313">no average published on its own site</text>
   </g>
-  <line x1="260" y1="328" x2="680" y2="328" stroke="#dde3e9"/>
+  <line x1="260" y1="328" x2="680" y2="328" stroke="#d9d6ce"/>
   <g>
     <text class="ax" x="260" y="343">0</text>
     <text class="ax" x="380" y="343">$20</text>
@@ -61,33 +61,33 @@
   <!-- Panel B: published windows, 0-180 days (x 260 -> 680, 420px = 180) -->
   <text class="ph" x="24" y="382">Published waiting periods and windows</text>
   <text class="ax" x="680" y="382" text-anchor="end">days · 0 – 180</text>
-  <line x1="260" y1="390" x2="680" y2="390" stroke="#dde3e9"/>
+  <line x1="260" y1="390" x2="680" y2="390" stroke="#d9d6ce"/>
   <g>
     <text class="lb" x="24" y="415">Lemonade · illness wait</text>
-    <rect x="260" y="402" width="33" height="18" fill="#1FA8C1"/>
+    <rect x="260" y="402" width="33" height="18" fill="#2b5ce6"/>
     <text class="val" x="301" y="415">14 days</text>
 
     <text class="lb" x="24" y="447">Spot · illness wait</text>
-    <rect x="260" y="434" width="33" height="18" fill="#E8833A"/>
+    <rect x="260" y="434" width="33" height="18" fill="#767670"/>
     <text class="val" x="301" y="447">14 days</text>
 
     <text class="lb" x="24" y="479">Lemonade · orthopedic wait</text>
-    <rect x="260" y="466" width="70" height="18" fill="#1FA8C1"/>
+    <rect x="260" y="466" width="70" height="18" fill="#2b5ce6"/>
     <text class="val" x="338" y="479">30 days</text>
 
     <text class="lb" x="24" y="511">Lemonade · cancel refund</text>
-    <rect x="260" y="498" width="70" height="18" fill="#1FA8C1"/>
+    <rect x="260" y="498" width="70" height="18" fill="#2b5ce6"/>
     <text class="val" x="338" y="511">30 days</text>
 
     <text class="lb" x="24" y="543">Spot · money-back window</text>
-    <rect x="260" y="530" width="70" height="18" fill="#E8833A"/>
+    <rect x="260" y="530" width="70" height="18" fill="#767670"/>
     <text class="val" x="338" y="543">30 days</text>
 
     <text class="lb" x="24" y="575">Spot · curable pre-existing</text>
-    <rect x="260" y="562" width="420" height="18" fill="#E8833A"/>
+    <rect x="260" y="562" width="420" height="18" fill="#767670"/>
     <text class="vali" x="672" y="575" text-anchor="end">180 days</text>
   </g>
-  <line x1="260" y1="590" x2="680" y2="590" stroke="#dde3e9"/>
+  <line x1="260" y1="590" x2="680" y2="590" stroke="#d9d6ce"/>
   <g>
     <text class="ax" x="260" y="605">0</text>
     <text class="ax" x="400" y="605">60</text>

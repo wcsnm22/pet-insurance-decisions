@@ -10,11 +10,15 @@
 <body>
   <header class="site"><div class="wrap">
     <div class="brand">{{brand}}</div>
+    <input type="checkbox" id="navtoggle" class="navtoggle" aria-label="Show page links">
+    <label class="navtoggle-label" for="navtoggle">Pages</label>
     <nav class="crumbs">{{nav}}</nav>
   </div></header>
   <main class="wrap">
-    <h1>About</h1>
-    <p>Pet Insurance Decisions is a small static site that answers pet insurance questions with facts taken only from each brand's own official website and official policy pages.</p>
+    <section class="hero">
+      <h1>About</h1>
+      <p class="lede">Pet Insurance Decisions is a small static site that answers pet insurance questions with facts taken only from each brand's own official website and official policy pages.</p>
+    </section>
     <p>Who runs it: this site is built and maintained by tangshoufu — GitHub: <a href="https://github.com/wcsnm22" rel="noopener" target="_blank">wcsnm22</a>, the account that owns the site's public repository.</p>
     <p>How it works:</p>
     <ul>

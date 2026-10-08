@@ -2,13 +2,13 @@
   <title id="t">Pet insurance waiting periods by brand and coverage type</title>
   <desc id="d">Horizontal bars comparing published waiting periods: accident and illness (0 to 35 day scale) and orthopedic and knee (0 to 180 day scale) for Lemonade, Spot and Fetch, read from each brand's own pages on 2026-09-28.</desc>
   <style>
-    .ttl{font:700 20px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
-    .sub{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#5a6672}
-    .ph{font:700 14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
-    .lb{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#2b3743}
-    .val{font:700 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
-    .ax{font:400 11px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#7a8794}
-    .fn{font:400 11.5px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#5a6672}
+    .ttl{font:700 20px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
+    .sub{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#767670}
+    .ph{font:700 14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
+    .lb{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
+    .val{font:700 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
+    .ax{font:400 11px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#767670}
+    .fn{font:400 11.5px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#767670}
   </style>
   <rect width="720" height="500" fill="#ffffff"/>
   <text class="ttl" x="24" y="34">Waiting periods before coverage starts</text>
@@ -17,25 +17,25 @@
   <!-- Panel A: accident and illness, 0-35 day scale (x 260 -> 680, 420px = 35 days) -->
   <text class="ph" x="24" y="88">Accident &amp; illness wait</text>
   <text class="ax" x="260" y="88">0 – 35 days</text>
-  <line x1="260" y1="96" x2="680" y2="96" stroke="#dde3e9"/>
+  <line x1="260" y1="96" x2="680" y2="96" stroke="#d9d6ce"/>
   <g>
     <text class="lb" x="24" y="120">Lemonade · accident</text>
-    <rect x="260" y="108" width="3" height="18" fill="#1FA8C1"/>
+    <rect x="260" y="108" width="3" height="18" fill="#2b5ce6"/>
     <text class="val" x="272" y="121">0 days (immediate)</text>
 
     <text class="lb" x="24" y="152">Lemonade · illness</text>
-    <rect x="260" y="140" width="168" height="18" fill="#1FA8C1"/>
+    <rect x="260" y="140" width="168" height="18" fill="#2b5ce6"/>
     <text class="val" x="436" y="153">14 days</text>
 
     <text class="lb" x="24" y="184">Spot · accidents, illness, knee</text>
-    <rect x="260" y="172" width="168" height="18" fill="#E8833A"/>
+    <rect x="260" y="172" width="168" height="18" fill="#767670"/>
     <text class="val" x="436" y="185">14 days</text>
 
     <text class="lb" x="24" y="216">Fetch · accident &amp; illness</text>
-    <rect x="260" y="204" width="180" height="18" fill="#7B61C9"/>
+    <rect x="260" y="204" width="180" height="18" fill="#a85c00"/>
     <text class="val" x="448" y="217">up to 15 days</text>
   </g>
-  <line x1="260" y1="230" x2="680" y2="230" stroke="#dde3e9"/>
+  <line x1="260" y1="230" x2="680" y2="230" stroke="#d9d6ce"/>
   <g>
     <text class="ax" x="260" y="245">0</text>
     <text class="ax" x="340" y="245">7</text>
@@ -48,21 +48,21 @@
   <!-- Panel B: orthopedic and knee, 0-180 day scale -->
   <text class="ph" x="24" y="286">Orthopedic &amp; knee wait</text>
   <text class="ax" x="260" y="286">0 – 180 days (separate scale)</text>
-  <line x1="260" y1="294" x2="680" y2="294" stroke="#dde3e9"/>
+  <line x1="260" y1="294" x2="680" y2="294" stroke="#d9d6ce"/>
   <g>
     <text class="lb" x="24" y="318">Lemonade</text>
-    <rect x="260" y="306" width="70" height="18" fill="#1FA8C1"/>
+    <rect x="260" y="306" width="70" height="18" fill="#2b5ce6"/>
     <text class="val" x="338" y="319">30 days</text>
 
     <text class="lb" x="24" y="350">Spot</text>
-    <rect x="260" y="338" width="33" height="18" fill="#E8833A"/>
+    <rect x="260" y="338" width="33" height="18" fill="#767670"/>
     <text class="val" x="301" y="351">14 days (inside the same wait)</text>
 
     <text class="lb" x="24" y="382">Fetch</text>
-    <rect x="260" y="370" width="420" height="18" fill="#7B61C9"/>
+    <rect x="260" y="370" width="420" height="18" fill="#a85c00"/>
     <text class="val" x="272" y="383" fill="#ffffff">6 months</text>
   </g>
-  <line x1="260" y1="396" x2="680" y2="396" stroke="#dde3e9"/>
+  <line x1="260" y1="396" x2="680" y2="396" stroke="#d9d6ce"/>
   <g>
     <text class="ax" x="260" y="411">0</text>
     <text class="ax" x="397" y="411">60</text>

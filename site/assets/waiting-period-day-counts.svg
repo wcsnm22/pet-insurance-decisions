@@ -1,113 +1,113 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="740" viewBox="0 0 720 740" font-family="Segoe UI, Helvetica, Arial, sans-serif">
   <rect width="720" height="740" fill="#ffffff"/>
-  <text x="40" y="38" font-size="21" font-weight="700" fill="#0f172a">Waiting-period day counts, condition by condition</text>
-  <text x="40" y="60" font-size="12.5" fill="#64748b">What each brand prints on its own site - and the contract GEICO and Allstate actually link to</text>
+  <text x="40" y="38" font-size="21" font-weight="700" fill="#1a1a18">Waiting-period day counts, condition by condition</text>
+  <text x="40" y="60" font-size="12.5" fill="#767670">What each brand prints on its own site - and the contract GEICO and Allstate actually link to</text>
 
   <!-- Panel A header -->
-  <text x="40" y="92" font-size="15" font-weight="700" fill="#2563eb">On the brands' own pages (read 2026-09-29)</text>
-  <text x="680" y="92" font-size="12" fill="#64748b" text-anchor="end">day count, 0 - 180 scale</text>
+  <text x="40" y="92" font-size="15" font-weight="700" fill="#1a1a18">On the brands' own pages (read 2026-09-29)</text>
+  <text x="680" y="92" font-size="12" fill="#767670" text-anchor="end">day count, 0 - 180 scale</text>
 
   <!-- Panel A gridlines: axis 0 at x=272, 30d=337, 90d=466, 180d=660 -->
-  <g stroke="#e4e9ee" stroke-width="1">
+  <g stroke="#d9d6ce" stroke-width="1">
     <line x1="337" y1="104" x2="337" y2="342"/>
     <line x1="466" y1="104" x2="466" y2="342"/>
     <line x1="660" y1="104" x2="660" y2="342"/>
   </g>
-  <line x1="272" y1="104" x2="272" y2="342" stroke="#cbd5e1" stroke-width="1.5"/>
+  <line x1="272" y1="104" x2="272" y2="342" stroke="#d9d6ce" stroke-width="1.5"/>
 
   <!-- Panel A rows -->
-  <g font-size="13" fill="#334155">
+  <g font-size="13" fill="#1a1a18">
     <text x="262" y="123" text-anchor="end">GEICO - all conditions</text>
-    <text x="278" y="123" font-size="13" fill="#64748b">no day count printed - the guide says ask an agent</text>
+    <text x="278" y="123" font-size="13" fill="#767670">no day count printed - the guide says ask an agent</text>
 
     <text x="262" y="153" text-anchor="end">Allstate - illness</text>
-    <rect x="272" y="140" width="30" height="18" rx="4" fill="#2563eb"/>
-    <text x="310" y="153" font-weight="700" fill="#0f172a">14 days (2 weeks)</text>
+    <rect x="272" y="140" width="30" height="18" rx="4" fill="#2b5ce6"/>
+    <text x="310" y="153" font-weight="700" fill="#1a1a18">14 days (2 weeks)</text>
 
     <text x="262" y="183" text-anchor="end">ASPCA - accident (table)</text>
-    <rect x="272" y="170" width="4" height="18" fill="#94a3b8"/>
-    <text x="284" y="183" fill="#0f172a">no waiting period (0 days)</text>
+    <rect x="272" y="170" width="4" height="18" fill="#767670"/>
+    <text x="284" y="183" fill="#1a1a18">no waiting period (0 days)</text>
 
     <text x="262" y="213" text-anchor="end">ASPCA - accident (text)</text>
-    <rect x="272" y="200" width="30" height="18" rx="4" fill="#0ea5e9"/>
-    <text x="310" y="213" font-weight="700" fill="#0f172a">14 days</text>
+    <rect x="272" y="200" width="30" height="18" rx="4" fill="#767670"/>
+    <text x="310" y="213" font-weight="700" fill="#1a1a18">14 days</text>
 
     <text x="262" y="243" text-anchor="end">ASPCA - illness</text>
-    <rect x="272" y="230" width="30" height="18" rx="4" fill="#0ea5e9"/>
-    <text x="310" y="243" font-weight="700" fill="#0f172a">14 days</text>
+    <rect x="272" y="230" width="30" height="18" rx="4" fill="#767670"/>
+    <text x="310" y="243" font-weight="700" fill="#1a1a18">14 days</text>
 
     <text x="262" y="273" text-anchor="end">ASPCA - hereditary</text>
-    <rect x="272" y="260" width="30" height="18" rx="4" fill="#0ea5e9"/>
-    <text x="310" y="273" font-weight="700" fill="#0f172a">14 days</text>
+    <rect x="272" y="260" width="30" height="18" rx="4" fill="#767670"/>
+    <text x="310" y="273" font-weight="700" fill="#1a1a18">14 days</text>
 
     <text x="262" y="303" text-anchor="end">ASPCA - ligament and knee</text>
-    <rect x="272" y="290" width="30" height="18" rx="4" fill="#0ea5e9"/>
-    <text x="310" y="303" font-weight="700" fill="#0f172a">14 days</text>
+    <rect x="272" y="290" width="30" height="18" rx="4" fill="#767670"/>
+    <text x="310" y="303" font-weight="700" fill="#1a1a18">14 days</text>
 
     <text x="262" y="333" text-anchor="end">ASPCA - preventive care</text>
-    <rect x="272" y="320" width="4" height="18" fill="#94a3b8"/>
-    <text x="284" y="333" fill="#0f172a">no waiting period (0 days)</text>
+    <rect x="272" y="320" width="4" height="18" fill="#767670"/>
+    <text x="284" y="333" fill="#1a1a18">no waiting period (0 days)</text>
   </g>
 
   <!-- Panel A axis labels -->
-  <g font-size="11.5" fill="#94a3b8" text-anchor="middle">
+  <g font-size="11.5" fill="#767670" text-anchor="middle">
     <text x="272" y="358">0</text>
     <text x="337" y="358">30</text>
     <text x="466" y="358">90</text>
     <text x="660" y="358">180</text>
   </g>
 
-  <text x="40" y="380" font-size="13" fill="#b45309">One page, two answers: ASPCA's table says accidents wait 0 days; its own text says 14.</text>
+  <text x="40" y="380" font-size="13" fill="#a85c00">One page, two answers: ASPCA's table says accidents wait 0 days; its own text says 14.</text>
 
-  <line x1="40" y1="396" x2="680" y2="396" stroke="#e4e9ee" stroke-width="1"/>
+  <line x1="40" y1="396" x2="680" y2="396" stroke="#d9d6ce" stroke-width="1"/>
 
   <!-- Panel B header -->
-  <text x="40" y="424" font-size="15" font-weight="700" fill="#2563eb">The Embrace contract behind GEICO and Allstate</text>
-  <text x="40" y="442" font-size="11.5" fill="#64748b">Same 0-180 day scale. V5 = Kansas, New Mexico, South Carolina; V6 = the other 48 states and DC.</text>
+  <text x="40" y="424" font-size="15" font-weight="700" fill="#1a1a18">The Embrace contract behind GEICO and Allstate</text>
+  <text x="40" y="442" font-size="11.5" fill="#767670">Same 0-180 day scale. V5 = Kansas, New Mexico, South Carolina; V6 = the other 48 states and DC.</text>
 
   <!-- Panel B gridlines -->
-  <g stroke="#e4e9ee" stroke-width="1">
+  <g stroke="#d9d6ce" stroke-width="1">
     <line x1="337" y1="454" x2="337" y2="692"/>
     <line x1="466" y1="454" x2="466" y2="692"/>
     <line x1="660" y1="454" x2="660" y2="692"/>
   </g>
-  <line x1="272" y1="454" x2="272" y2="692" stroke="#cbd5e1" stroke-width="1.5"/>
+  <line x1="272" y1="454" x2="272" y2="692" stroke="#d9d6ce" stroke-width="1.5"/>
 
   <!-- Panel B rows -->
-  <g font-size="13" fill="#334155">
+  <g font-size="13" fill="#1a1a18">
     <text x="262" y="473" text-anchor="end">V5 - accident (KS, NM, SC)</text>
-    <rect x="272" y="460" width="5" height="18" rx="2" fill="#0369a1"/>
-    <text x="286" y="473" font-weight="700" fill="#0f172a">2 days</text>
+    <rect x="272" y="460" width="5" height="18" rx="2" fill="#2b5ce6"/>
+    <text x="286" y="473" font-weight="700" fill="#1a1a18">2 days</text>
 
     <text x="262" y="503" text-anchor="end">V5 - illness (3 states)</text>
-    <rect x="272" y="490" width="30" height="18" rx="4" fill="#0369a1"/>
-    <text x="310" y="503" font-weight="700" fill="#0f172a">14 days</text>
+    <rect x="272" y="490" width="30" height="18" rx="4" fill="#2b5ce6"/>
+    <text x="310" y="503" font-weight="700" fill="#1a1a18">14 days</text>
 
     <text x="262" y="533" text-anchor="end">V5 - orthopedic, dogs</text>
-    <rect x="272" y="520" width="200" height="18" rx="4" fill="#f1f5f9" stroke="#cbd5e1"/>
-    <text x="282" y="533" font-size="12.5" fill="#334155">6 months - printed in months</text>
+    <rect x="272" y="520" width="200" height="18" rx="4" fill="#efece5" stroke="#d9d6ce"/>
+    <text x="282" y="533" font-size="12.5" fill="#1a1a18">6 months - printed in months</text>
 
     <text x="262" y="563" text-anchor="end">V6 - accident (48 + DC)</text>
-    <rect x="272" y="550" width="4" height="18" fill="#94a3b8"/>
-    <text x="284" y="563" fill="#0f172a">no waiting period (0 days)</text>
+    <rect x="272" y="550" width="4" height="18" fill="#767670"/>
+    <text x="284" y="563" fill="#1a1a18">no waiting period (0 days)</text>
 
     <text x="262" y="593" text-anchor="end">V6 - illness (48 + DC)</text>
-    <rect x="272" y="580" width="30" height="18" rx="4" fill="#0369a1"/>
-    <text x="310" y="593" font-weight="700" fill="#0f172a">14 days</text>
+    <rect x="272" y="580" width="30" height="18" rx="4" fill="#2b5ce6"/>
+    <text x="310" y="593" font-weight="700" fill="#1a1a18">14 days</text>
 
     <text x="262" y="623" text-anchor="end">V6 - cruciate and knee list</text>
-    <rect x="272" y="610" width="388" height="18" rx="4" fill="#0369a1"/>
+    <rect x="272" y="610" width="388" height="18" rx="4" fill="#2b5ce6"/>
     <text x="652" y="623" font-weight="700" font-size="13" fill="#ffffff" text-anchor="end">180-day exclusion</text>
 
     <text x="262" y="653" text-anchor="end">Orthopedic exam waiver</text>
-    <rect x="272" y="640" width="30" height="18" rx="4" fill="#bae6fd" stroke="#0369a1"/>
-    <text x="310" y="653" font-weight="700" fill="#0f172a">as few as 14 days</text>
+    <rect x="272" y="640" width="30" height="18" rx="4" fill="#e6e9f2" stroke="#2b5ce6"/>
+    <text x="310" y="653" font-weight="700" fill="#1a1a18">as few as 14 days</text>
 
     <text x="262" y="683" text-anchor="end">Cats - orthopedic</text>
-    <rect x="272" y="670" width="30" height="18" rx="4" fill="#0369a1"/>
-    <text x="310" y="683" font-weight="700" fill="#0f172a">14 days</text>
+    <rect x="272" y="670" width="30" height="18" rx="4" fill="#2b5ce6"/>
+    <text x="310" y="683" font-weight="700" fill="#1a1a18">14 days</text>
   </g>
 
-  <text x="40" y="712" font-size="12" fill="#64748b">Every day count above is printed on geico.com, allstate.com, the ASPCA quote page, or the Embrace</text>
-  <text x="40" y="728" font-size="12" fill="#64748b">sample contracts those footers link to - all read 2026-09-29. Months stay as printed, never converted.</text>
+  <text x="40" y="712" font-size="12" fill="#767670">Every day count above is printed on geico.com, allstate.com, the ASPCA quote page, or the Embrace</text>
+  <text x="40" y="728" font-size="12" fill="#767670">sample contracts those footers link to - all read 2026-09-29. Months stay as printed, never converted.</text>
 </svg>

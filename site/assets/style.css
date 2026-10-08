@@ -2,129 +2,149 @@
    TYPE:asset ROLE:stylesheet
    ::RULE{system fonts only - no external fonts or CDN, saves a third-party request}
    ::RULE{CSS only - no framework}
-   ::BOUNDARY{never:hide prices or source links with styling|scope:file} */
+   ::RULE{one accent colour, never more than ~10% of the page}
+   ::RULE{every price and date is tabular-nums so columns line up}
+   ::BOUNDARY{never:hide prices or source links with styling|scope:file}
+
+   line-1 redesign 2026-10-08: the whole stylesheet was rewritten from the FurAdvisor
+   high-fidelity prototype (warm paper #F7F5F0, ink #1A1A18, cobalt #2B5CE6, 1px
+   hairlines, serif display headings, no shadows, no gradients). The markup, the
+   twenty URLs and every fact on the site are unchanged - only the visual layer moved.
+
+   Anti-patterns deliberately absent: gradients, dark backgrounds, glassmorphism,
+   box-shadow, lift-on-hover. A card is separated by a hairline, not a shadow. */
 
 :root {
-  color-scheme: dark;
-  --bg: #0a0d13;
-  --bg-soft: #0e131c;
-  --panel: #121926;
-  --panel-2: #172033;
-  --line: #212c3d;
-  --line-2: #2e3b50;
-  --text: #e9eff8;
-  --muted: #93a3b8;
-  --dim: #7d8ea6;
-  --accent: #f6821f;
-  --accent-2: #ffb46b;
-  --accent-ink: #1a1206;
-  --ok: #3fb950;
-  --radius: 16px;
-  --radius-sm: 10px;
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .35);
-  --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 16px 40px -18px rgba(0, 0, 0, .75);
-  --ring: 0 0 0 3px rgba(246, 130, 31, .35);
-  --maxw: 1060px;
+  color-scheme: light;
+
+  /* prototype tokens (specs/theme-guide.md + prototype/src/data/theme.json) */
+  --base: #f7f5f0;          /* surface-base   - warm paper */
+  --surface: #ffffff;       /* surface-raised - the sheet a card sits on */
+  --ink: #1a1a18;           /* text-primary   - near-black */
+  --muted-ink: #767670;     /* text-muted */
+  --border: #d9d6ce;        /* border-subtle  - 1px hairline */
+  --border-strong: #767670; /* border-strong */
+  --accent: #2b5ce6;        /* brand accent, the only saturated colour */
+  --accent-ink: #ffffff;
+
+  --radius-sm: 3px;
+  --radius: 6px;
+  --radius-lg: 10px;
+
+  --maxw: 1200px;
+  --prose: 68ch;
+
+  /* system stacks only - no Google Fonts request */
   --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  --display: Georgia, "Times New Roman", Times, serif;
 }
 
 * { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  background:
-    radial-gradient(1100px 520px at 12% -12%, rgba(246, 130, 31, .10), transparent 60%),
-    radial-gradient(900px 480px at 88% -6%, rgba(88, 132, 255, .10), transparent 62%),
-    var(--bg);
-  color: var(--text);
-  font: 16.5px/1.68 var(--font);
+  background: var(--base);
+  color: var(--ink);
+  font: 16px/1.65 var(--font);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   min-height: 100vh;
 }
 
-a { color: var(--accent); text-decoration: none; }
-a:hover { color: var(--accent-2); text-decoration: underline; text-underline-offset: 2px; }
-a:focus-visible, button:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 6px; }
-
-code {
-  font: 13.5px/1.4 var(--mono);
-  background: var(--panel-2);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 1px 5px;
+/* long official URLs are used verbatim as anchor text in body copy and
+   captions, so every link must be able to break inside itself, not just
+   the ones inside table cells - otherwise the page scrolls sideways. */
+a { color: var(--accent); text-decoration: none; overflow-wrap: anywhere; }
+a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible, summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
 }
 
-.wrap { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 22px 72px; }
+.wrap { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 24px 96px; }
 
 /* ---------------------------------------------------------------- header */
 
+/* a masthead rather than a sticky bar: this site has 17 real pages, and pinning
+   that many links to the viewport would eat the first screen the whole design
+   is built around. The header scrolls away and the links sit on one or two rows. */
 header.site {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  border-bottom: 1px solid var(--line);
-  background: color-mix(in srgb, var(--bg) 78%, transparent);
-  backdrop-filter: saturate(140%) blur(12px);
-  -webkit-backdrop-filter: saturate(140%) blur(12px);
+  background: var(--base);
+  border-bottom: 1px solid var(--border);
 }
 
-header.site .wrap { padding: 14px 22px 12px; }
+header.site .wrap { padding: 16px 24px 12px; }
 
 .brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  font-weight: 800;
-  font-size: 20px;
-  letter-spacing: -.01em;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: -.02em;
+  color: var(--ink);
+  line-height: 1.2;
 }
 
-.brand::before {
-  content: "";
-  width: 12px;
-  height: 12px;
-  border-radius: 3px;
-  background: linear-gradient(135deg, var(--accent), #ff5d3b);
-  box-shadow: 0 0 0 2px rgba(246, 130, 31, .18), 0 0 18px rgba(246, 130, 31, .45);
-}
-
+/* flat text navigation - every page is one link away, no dropdowns, no menus.
+   The links wrap rather than hide, so nothing is reachable only by scrolling a
+   strip with no visible scrollbar. */
 nav.crumbs {
-  margin-top: 8px;
-  font-size: 14px;
-  color: var(--dim);
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--muted-ink);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 6px 4px;
+  gap: 2px 14px;
 }
-
-nav.crumbs a { color: var(--muted); }
-nav.crumbs a:hover { color: var(--accent); }
+nav.crumbs a {
+  color: var(--muted-ink);
+  white-space: nowrap;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 1px;
+}
+nav.crumbs a:hover { color: var(--ink); border-bottom-color: var(--border); text-decoration: none; }
 
 /* ------------------------------------------------------------------ type */
 
 h1 {
-  font-size: clamp(26px, 4vw, 34px);
-  line-height: 1.2;
+  font-family: var(--display);
+  font-size: clamp(28px, 4.4vw, 46px);
+  line-height: 1.12;
   letter-spacing: -.02em;
-  margin: 34px 0 10px;
+  font-weight: 700;
+  margin: 0 0 16px;
+  text-wrap: balance;
 }
 
 h2 {
-  font-size: 19px;
-  letter-spacing: -.01em;
-  margin: 38px 0 12px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--line);
+  font-family: var(--display);
+  font-size: clamp(22px, 2.6vw, 32px);
+  line-height: 1.2;
+  letter-spacing: -.02em;
+  font-weight: 700;
+  margin: 64px 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
 }
 
-p { margin: 0 0 12px; }
-p.lede { color: var(--muted); font-size: 17px; margin-bottom: 6px; }
-.muted { color: var(--muted); font-size: 14.5px; }
+h3 {
+  font-family: var(--display);
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: -.01em;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+p { margin: 0 0 16px; }
+.hero p, main p, li { max-width: var(--prose); }
+
+p.lede { color: var(--muted-ink); font-size: 17px; line-height: 1.6; margin-bottom: 24px; }
+.muted { color: var(--muted-ink); font-size: 14px; line-height: 1.55; }
 ul { padding-left: 20px; }
 li { margin: 6px 0; }
 li::marker { color: var(--accent); }
@@ -132,30 +152,67 @@ li::marker { color: var(--accent); }
 /* ------------------------------------------------------------------ hero */
 
 .hero {
-  margin: 30px 0 10px;
-  padding: 30px 28px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background:
-    radial-gradient(700px 240px at 8% 0%, rgba(246, 130, 31, .14), transparent 62%),
-    linear-gradient(180deg, var(--panel-2), var(--panel));
-  box-shadow: var(--shadow);
+  margin: 32px 0 0;
+  padding: 0 0 8px;
+  border-bottom: 1px solid var(--border);
 }
-
 .hero h1 { margin-top: 0; }
 
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin: 22px 0 6px; }
+/* home hero: 50/50 split - headline on the left, the four answer lines on the
+   right, so the answer box is inside the first screen on a desktop */
+.home-hero { border-bottom: 0; }
 
-.stats > div {
-  background: linear-gradient(180deg, var(--panel-2), var(--panel));
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  padding: 14px 16px;
-  box-shadow: var(--shadow-sm);
+@media (min-width: 768px) {
+  .home-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.04fr) minmax(0, 1fr);
+    column-gap: 40px;
+    align-items: start;
+  }
+  .home-hero h1 { grid-column: 1; grid-row: 1; font-size: clamp(34px, 5.5vw, 64px); }
+  .home-hero .lede { grid-column: 1; grid-row: 2; }
+  .home-hero .answer { grid-column: 2; grid-row: 1 / span 2; margin-top: 4px; }
+  .home-hero .byline { grid-column: 1 / -1; }
 }
 
-.stats b { display: block; font-size: 24px; letter-spacing: -.02em; }
-.stats span { display: block; margin-top: 2px; }
+/* the answer box: four labelled lines, kept inside the first screen on a desktop */
+.answer {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 22px;
+}
+.answer p { margin: 0 0 11px; max-width: none; line-height: 1.55; }
+.answer p:last-child { margin-bottom: 0; }
+.answer strong { display: block; font-size: 13.5px; font-weight: 700; margin-bottom: 1px; }
+.answer p:not(:last-child) {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.answer strong + *, .answer p { color: var(--muted-ink); }
+.answer p:not(:last-child) > strong { color: var(--ink); }
+
+/* stats row: hairline-bounded cells, values in tabular numerals */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 28px;
+  margin: 24px 0 20px;
+  padding: 16px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.stats > div { padding-right: 28px; border-right: 1px solid var(--border); }
+.stats > div:last-child { border-right: 0; padding-right: 0; }
+.stats b {
+  display: block;
+  font-family: var(--display);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  font-variant-numeric: tabular-nums;
+}
+.stats span { display: block; margin-top: 2px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted-ink); }
 
 /* byline: who maintains the page and when its facts were last checked.
    ::RULE{byline must be visible text - not JSON-LD only} */
@@ -163,251 +220,305 @@ li::marker { color: var(--accent); }
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 6px 14px;
-  margin: 18px 0 0;
+  gap: 6px 12px;
+  margin: 24px 0 0;
   padding-top: 14px;
-  border-top: 1px solid var(--line);
-  font-size: 14px;
-  color: var(--muted);
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--muted-ink);
+  max-width: none;
 }
-.byline a { color: var(--text); }
-.byline .sep { color: var(--line-2); }
+.byline a { color: var(--ink); }
+.byline .sep { color: var(--border); }
+.byline time { font-variant-numeric: tabular-nums; }
 
 /* ----------------------------------------------------------------- cards */
 
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(224px, 1fr)); gap: 14px; margin-top: 14px; }
-
-.card {
-  background: linear-gradient(180deg, var(--panel-2), var(--panel));
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  padding: 16px 16px 14px;
-  box-shadow: var(--shadow-sm);
-  transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 20px;
 }
 
-.card:hover { transform: translateY(-2px); border-color: var(--line-2); box-shadow: var(--shadow); }
-.card h3 { margin: 0 0 8px; font-size: 17px; letter-spacing: -.01em; }
-.card h3 a { color: var(--text); }
-.card h3 a:hover { color: var(--accent); }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  transition: border-color .18s ease;
+}
+/* hover changes the hairline only - the card never lifts or grows a shadow */
+.card:hover { border-color: var(--border-strong); }
+.card h3 { margin: 0 0 10px; }
+.card h3 a { color: var(--ink); }
+.card h3 a:hover { color: var(--accent); text-decoration: none; }
+.card p { margin: 0 0 10px; max-width: none; }
+.card p:last-child { margin-bottom: 0; }
+
+.price {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: var(--ink);
+}
+td .price, table .price { white-space: nowrap; }
+.price.big {
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  color: var(--accent);
+  margin: 0 0 10px;
+  white-space: normal;
+}
 
 /* ----------------------------------------------------------------- table */
 
-.table-shell { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius-sm); box-shadow: var(--shadow-sm); }
-
-table { width: 100%; border-collapse: collapse; background: var(--panel); margin: 14px 0 0; }
-.table-shell table { margin: 0; border: none; }
-
-th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--line); font-size: 15px; vertical-align: middle; }
-
-th {
-  color: var(--dim);
-  font-weight: 600;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: .07em;
-  background: var(--bg-soft);
-  position: sticky;
-  top: 0;
+/* the builder emits bare <table> elements, so the table itself is the scroll
+   container wide, and stacks into labelled rows below 680px */
+table {
+  width: 100%;
+  max-width: 100%;
+  /* display:block turns the table itself into the horizontal scroll container,
+     so a wide fact table scrolls instead of squashing its columns */
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 20px 0 0;
 }
 
-tbody tr { transition: background .14s ease; }
-tbody tr:hover { background: var(--panel-2); }
-tr:last-child td { border-bottom: none; }
+caption {
+  display: block;
+  text-align: left;
+  padding: 12px 16px 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted-ink);
+  white-space: normal;
+}
 
-.price { font: 600 15.5px/1.2 var(--mono); color: var(--text); }
-td .price, table .price { white-space: nowrap; }
-td.price { color: var(--accent-2); }
-.price.big { font-size: 24px; color: var(--accent); margin: 8px 0 2px; white-space: normal; }
+/* every one of the builder's cells carries data-th, so the mobile stack can
+   label itself; nothing here depends on JS */
+th, td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  line-height: 1.55;
+  vertical-align: top;
+  font-variant-numeric: tabular-nums;
+}
+
+th {
+  color: var(--muted-ink);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  white-space: nowrap;
+  background: var(--base);
+  border-bottom: 1px solid var(--border);
+}
+thead tr { border-bottom: 1px solid var(--border); }
+
+tbody tr { transition: background .14s ease; }
+tbody tr:hover { background: var(--base); }
+tr:last-child td { border-bottom: none; }
+tr:last-child th { border-bottom: none; }
+
+th:first-child, td:first-child { min-width: 280px; }
+td a { overflow-wrap: anywhere; }
+td a.muted { font-size: 13px; }
 
 /* ----------------------------------------------------------------- button */
 
 .btn {
   display: inline-block;
-  background: linear-gradient(180deg, var(--accent-2), var(--accent));
+  background: var(--accent);
   color: var(--accent-ink);
-  font-weight: 700;
-  font-size: 14px;
-  padding: 8px 14px;
-  border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, .18);
-  box-shadow: 0 1px 0 rgba(255, 255, 255, .25) inset, var(--shadow-sm);
-  transition: transform .12s ease, filter .12s ease;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 18px;
+  border-radius: var(--radius);
+  border: 0;
+  transition: opacity .15s ease, transform .1s ease;
   white-space: nowrap;
 }
-
-.btn:hover { text-decoration: none; filter: brightness(1.06); transform: translateY(-1px); }
-.btn:active { transform: translateY(0); }
-
-.cta {
-  display: inline-block;
-  background: linear-gradient(180deg, var(--accent-2), var(--accent));
-  color: var(--accent-ink);
-  font-weight: 800;
-  padding: 13px 22px;
-  border-radius: 10px;
-  font-size: 16px;
-  margin: 10px 0 4px;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, .25) inset, var(--shadow);
-}
-.cta:hover { text-decoration: none; filter: brightness(1.06); }
+.btn:hover { color: var(--accent-ink); text-decoration: none; opacity: .9; }
+.btn:active { transform: scale(.98); }
 
 /* ------------------------------------------------------------------ misc */
-
-.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; margin: 20px 0; }
-.facts > div { background: linear-gradient(180deg, var(--panel-2), var(--panel)); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 14px 16px; }
-.facts b { display: block; font: 700 20px/1.3 var(--mono); }
-.facts span { display: block; margin-top: 3px; }
 
 ul.related {
   list-style: none;
   padding: 0;
-  margin: 16px 0 0;
+  margin: 20px 0 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 12px;
+  gap: 0 32px;
+  border-top: 1px solid var(--border);
 }
 ul.related li {
   margin: 0;
   padding: 0;
-  background: linear-gradient(180deg, var(--panel-2), var(--panel));
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  transition: border-color .14s ease, transform .14s ease;
+  border-bottom: 1px solid var(--border);
+  max-width: none;
 }
-ul.related li:hover { border-color: var(--line-2); transform: translateY(-2px); }
 ul.related li::marker { content: none; }
-/* whole card is the tap target, so the link clears 40px on touch */
+/* whole row is the tap target, so the link clears 40px on touch */
 ul.related a {
   display: block;
-  padding: 13px 16px 4px;
+  padding: 14px 0 2px;
   min-height: 40px;
   font-weight: 600;
+  color: var(--ink);
 }
-ul.related .muted {
-  display: block;
-  padding: 0 16px 14px;
-  margin-top: 0;
+ul.related a:hover { color: var(--accent); text-decoration: none; }
+ul.related .muted { display: block; padding: 0 0 14px; margin-top: 0; }
+
+/* figure / figcaption: the eleven hand-drawn data charts */
+figure { margin: 24px 0; padding: 0; }
+figure img { display: block; max-width: 100%; height: auto; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+figcaption { margin-top: 8px; font-size: 13px; line-height: 1.55; color: var(--muted-ink); max-width: var(--prose); }
+
+/* FAQ: a centred 68ch hairline list rather than a stack of boxes.
+   The only <details> the builder emits is a FAQ entry (the mobile nav uses a
+   checkbox, not <details>), so a bare selector is safe here. */
+details {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin: 0 auto;
+  max-width: var(--prose);
+  background: transparent;
 }
-
-dl {
-  display: grid;
-  grid-template-columns: 190px 1fr;
-  gap: 10px 18px;
-  background: linear-gradient(180deg, var(--panel-2), var(--panel));
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  padding: 18px;
-  margin: 20px 0;
-}
-dt { color: var(--dim); }
-dd { margin: 0; word-break: break-word; }
-
-.mail { display: inline-block; font: 800 21px/1.2 var(--mono); margin: 8px 0 2px; }
-
-footer.site { border-top: 1px solid var(--line); margin-top: 52px; padding-top: 22px; }
-footer.site p { margin: 0 0 7px; }
-footer.site strong { color: var(--text); }
-
-/* --------------------------------------------------------- pixel critters */
-
-.critter {
-  position: fixed;
-  right: 18px;
-  bottom: 16px;
-  z-index: 30;
-  width: 104px;
-  height: 104px;
-  pointer-events: none;
-}
-
-.critter canvas {
-  width: 100%;
-  height: 100%;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
+details:first-of-type { border-top: 1px solid var(--border); }
+details summary {
   cursor: pointer;
-  pointer-events: auto;
-  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, .5));
-  transition: transform .18s ease;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 0;
+  font-family: var(--display);
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  color: var(--ink);
 }
-
-.critter canvas:hover { transform: translateY(-3px); }
-
-.critter .hider {
-  position: absolute;
-  top: -2px;
-  right: -2px;
-  width: 20px;
-  height: 20px;
-  border: 1px solid var(--line-2);
-  border-radius: 6px;
-  background: var(--panel);
-  color: var(--dim);
-  font: 700 12px/1 var(--font);
-  cursor: pointer;
-  pointer-events: auto;
-  opacity: 0;
-  transition: opacity .15s ease, color .15s ease;
+details summary::-webkit-details-marker { display: none; }
+details summary:hover { color: var(--accent); }
+details summary::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  border-right: 2px solid var(--muted-ink);
+  border-bottom: 2px solid var(--muted-ink);
+  transform: rotate(45deg);
+  transition: transform .2s ease;
+  margin-top: -4px;
 }
+details[open] summary::after { transform: rotate(225deg); margin-top: 4px; }
+details p { margin: 0 0 10px; }
+details p:last-child { padding-bottom: 18px; }
+details p.muted { font-size: 13px; }
 
-.critter:hover .hider { opacity: 1; }
-.critter .hider:hover { color: var(--accent); }
+/* -------------------------------------------------------- mobile nav */
+
+/* The masthead carries seventeen page links. At desktop width they are simply
+   a wrapped row of text; narrower than 1024px they collapse behind a checkbox
+   disclosure (the prototype's mobile menu, done without JavaScript) because at
+   that width the row runs to four lines and pushes the answer box off the
+   first screen. The links stay in the markup at every width, so crawlers always
+   see the full internal linking.
+
+   A checkbox rather than <details>: Chrome controls a closed <details>'s
+   content with content-visibility, and forcing it back open from CSS left the
+   nav out of flow (it overlapped the H1 at desktop widths). */
+input.navtoggle { display: none; }
+label.navtoggle-label { display: none; }
+
+footer.site {
+  border-top: 1px solid var(--border);
+  margin-top: 72px;
+  padding-top: 28px;
+  font-size: 13px;
+  color: var(--muted-ink);
+  text-align: center;
+}
+footer.site p { margin: 0 0 7px; max-width: none; }
+footer.site strong { color: var(--ink); }
+footer.site a { color: var(--muted-ink); }
+footer.site a:hover { color: var(--ink); }
 
 /* ------------------------------------------------------------ responsive */
 
 /* line-1 fix 2026-10-04: this block used to stack the tables too, while the only copy of the
    td::before cell labels lived in the 640px block further down. That left a band at 641-680px
    where every table rendered as unlabeled stacked cells. Table stacking and its labels now
-   live in ONE place (the 680px block at the bottom of this file); this block keeps the rest
-   of the mobile pass. */
+   live in ONE place (the 680px block at the bottom of this file). */
+@media (max-width: 1024px) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Collapse the seventeen page links behind a disclosure on anything narrower
+   than a full desktop: at 1024px they still run to four rows and push the
+   answer box off the first screen. A checkbox drives it (no JavaScript runs on
+   this site). The off-screen checkbox stays focusable, so the menu is
+   keyboard-operable. The links remain in the markup at every width, so
+   crawlers always see the full internal linking. */
+@media (max-width: 1024px) {
+  label.navtoggle-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    cursor: pointer;
+    min-height: 40px;
+  }
+  label.navtoggle-label::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid var(--accent);
+    border-bottom: 2px solid var(--accent);
+    transform: rotate(45deg) translateY(-2px);
+    transition: transform .2s ease;
+  }
+  input.navtoggle:checked ~ label.navtoggle-label::after { transform: rotate(225deg) translateY(-1px); }
+  input.navtoggle:focus-visible ~ label.navtoggle-label { outline: 2px solid var(--accent); outline-offset: 2px; }
+  input.navtoggle:not(:checked) ~ nav.crumbs { display: none; }
+  input.navtoggle:checked ~ nav.crumbs {
+    display: flex;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+  }
+  nav.crumbs a {
+    /* 40px tap targets while the menu is open */
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+  }
+}
+
 @media (max-width: 680px) {
-  dl { grid-template-columns: 1fr; gap: 4px 0; }
-  dt { margin-top: 8px; }
-  .critter { width: 84px; height: 84px; right: 12px; bottom: 10px; }
-  .hero { padding: 22px 18px; }
+  .grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .hero { margin-top: 28px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
   * { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
-  .card:hover, .btn:hover, .critter canvas:hover { transform: none; }
+  .card:hover, .btn:active { transform: none; }
 }
-
-/* page-specific bits used by this site's templates */
-nav.crumbs { margin-top: 6px; font-size: 14px; color: var(--muted); }
-nav.crumbs a { color: var(--muted); }
-nav.crumbs a:hover { color: var(--accent); }
-
-.answer {
-  background: linear-gradient(180deg, var(--panel-2), var(--panel));
-  border: 1px solid var(--line-2);
-  border-left: 3px solid var(--accent);
-  border-radius: var(--radius-sm);
-  padding: 16px 18px;
-  margin: 18px 0 4px;
-}
-.answer p { margin: 0 0 10px; }
-.answer p:last-child { margin-bottom: 0; }
-
-details {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  padding: 12px 16px;
-  margin: 10px 0;
-}
-details summary { cursor: pointer; font-weight: 600; }
-details[open] summary { margin-bottom: 8px; }
-details p { margin: 6px 0; }
-
-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
-thead { display: table-header-group; }
-th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); font-size: 15px; vertical-align: top; }
-th { color: var(--muted); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
-tr:last-child td { border-bottom: none; }
-td a { word-break: break-all; }
-
-footer.site { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 20px; font-size: 14px; color: var(--muted); }
 
 /* line-1 fix 2026-10-04: widened from 640px to 680px and made the SINGLE home for table
    stacking + cell labels, so no width band is left without the data-th labels. Every cell the
@@ -415,50 +526,33 @@ footer.site { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 
 @media (max-width: 680px) {
   table, thead, tbody, tr, td { display: block; }
   thead { display: none; }
-  tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
-  tr:last-child { border-bottom: none; }
+  table { border: 0; background: transparent; border-radius: 0; }
+  tbody { display: block; border-top: 1px solid var(--border); }
+  tr { border-bottom: 1px solid var(--border); padding: 12px 0; }
+  tr:last-child { border-bottom: 1px solid var(--border); }
   td { border: none; padding: 3px 0; }
-  table { background: transparent; }
-  td::before { content: attr(data-th); display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--dim); margin-bottom: 2px; }
+  th:first-child, td:first-child { min-width: 0; }
+  td::before { content: attr(data-th); display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted-ink); margin-bottom: 2px; }
 }
 
 /* mobile density pass (line-1 redesign, 2026-09-25) */
 @media (max-width: 680px) {
   body { font-size: 16px; }
   .wrap { padding: 0 16px 56px; }
-  header.site .wrap { padding: 10px 16px 8px; }
-  /* line-1 fix 2026-09-28: crumbs become ONE horizontally scrollable row
-     (was ~5 wrapped rows eating the first screen) with 40px tap targets */
-  nav.crumbs {
-    font-size: 13px;
-    gap: 4px 10px;
-    margin-top: 4px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    padding: 6px 0;
-    min-height: 40px;
-    box-sizing: border-box;
-  }
-  nav.crumbs::-webkit-scrollbar { display: none; }
-  nav.crumbs a {
-    display: inline-flex;
-    align-items: center;
-    min-height: 40px;
-    white-space: nowrap;
-    text-decoration: none;
-    border-bottom: 0;
-  }
-  h1 { font-size: clamp(24px, 6.5vw, 30px); margin-top: 26px; }
+  header.site .wrap { padding: 12px 16px 10px; }
+  .brand { font-size: 18px; }
+  nav.crumbs { gap: 0 10px; font-size: 12.5px; }
+  h1 { font-size: clamp(26px, 7vw, 34px); }
+  h2 { margin-top: 44px; }
   p.lede { font-size: 16px; }
-  .hero { margin-top: 20px; padding: 18px 16px; }
-  .answer { padding: 14px; }
+  .hero { padding: 0 0 8px; }
+  .answer { padding: 18px 16px; }
+  .stats { gap: 0 18px; }
+  .stats > div { padding-right: 18px; }
   .stats b { font-size: 21px; }
-  .facts b { font-size: 18px; }
-  /* line-1 fix 2026-09-28: remaining non-inline tap targets < 40px
-     (footer links were 18px, card h3 links 21px) */
+  table { margin-top: 16px; }
+  figure img { border-radius: var(--radius-sm); }
+  /* line-1 fix 2026-09-28: remaining non-inline tap targets < 40px */
   footer.site a {
     display: inline-flex;
     align-items: center;

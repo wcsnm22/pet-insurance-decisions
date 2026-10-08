@@ -38,14 +38,14 @@ STAT_GAP = 26          # 数字条与标题之间的最小空隙
 FOOT_LINE_Y = 520
 FOOT_TEXT_Y = 544
 
-BG = (10, 13, 19)
-PANEL = (18, 25, 38)
-LINE = (33, 44, 61)
-TEXT = (233, 239, 248)
-MUTED = (147, 163, 184)
-DIM = (125, 142, 166)
-ACCENT = (246, 130, 31)
-ACCENT_2 = (255, 180, 107)
+BG = (247, 245, 240)
+PANEL = (255, 255, 255)
+LINE = (217, 214, 206)
+TEXT = (26, 26, 24)
+MUTED = (118, 118, 112)
+DIM = (154, 152, 143)
+ACCENT = (43, 92, 230)
+ACCENT_2 = (43, 92, 230)
 
 STAT_TOP = FOOT_LINE_Y - 34 - STAT_H          # 数字条自下而上定位
 TITLE_MAX_W = W - PAD * 2
@@ -84,7 +84,7 @@ def fit_title(draw: ImageDraw.ImageDraw, title: str) -> tuple[ImageFont.FreeType
 
 def glow(base: Image.Image, cx: float, cy: float, r: float, color: tuple[int, int, int], alpha: int) -> None:
     """柔和径向光斑：画在独立图层上再高斯模糊，叠回底色。"""
-    layer = Image.new("RGB", base.size, (0, 0, 0))
+    layer = Image.new("RGB", base.size, BG)
     d = ImageDraw.Draw(layer)
     d.ellipse([(cx - r) * SCALE, (cy - r) * SCALE, (cx + r) * SCALE, (cy + r) * SCALE], fill=color)
     layer = layer.filter(ImageFilter.GaussianBlur(r * SCALE * 0.55))
@@ -93,8 +93,8 @@ def glow(base: Image.Image, cx: float, cy: float, r: float, color: tuple[int, in
 
 def render(title: str, stat_value: str, stat_label: str, out: Path) -> None:
     img = Image.new("RGB", (W * SCALE, H * SCALE), BG)
-    glow(img, 120, 20, 520, (58, 30, 8), 150)
-    glow(img, 1120, 40, 460, (22, 33, 62), 150)
+    glow(img, 120, 20, 520, (234, 230, 220), 150)
+    glow(img, 1120, 40, 460, (226, 231, 245), 150)
 
     d = ImageDraw.Draw(img)
     f_brand = font("segoeuib.ttf", 30)

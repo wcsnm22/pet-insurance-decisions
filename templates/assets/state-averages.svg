@@ -2,15 +2,15 @@
   <title id="t">Where the published pet insurance price changes: Lemonade state average bands and each brand's example quote</title>
   <desc id="d">Top panel: Lemonade published state average ranges of 45 to 49 dollars in California and Connecticut, 40 to 44 in Illinois and New York, 35 to 39 in Florida and Arizona and 30 to 34 in Texas, Ohio, Pennsylvania, Georgia and Michigan. Bottom panel: example quotes printed on each brand's own page - Lemonade 61 dollars, Spot from 15 dollars dogs and from 9 dollars cats, Fetch not published. Checked 2026-09-25.</desc>
   <style>
-    .ttl{font:700 20px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
-    .sub{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#5a6672}
-    .ph{font:700 14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
-    .lb{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#2b3743}
-    .val{font:700 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#16202b}
+    .ttl{font:700 20px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
+    .sub{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#767670}
+    .ph{font:700 14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
+    .lb{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
+    .val{font:700 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#1a1a18}
     .vali{font:700 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#ffffff}
-    .np{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#5a6672;font-style:italic}
-    .ax{font:400 11px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#7a8794}
-    .fn{font:400 11.5px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#5a6672}
+    .np{font:400 13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#767670;font-style:italic}
+    .ax{font:400 11px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#767670}
+    .fn{font:400 11.5px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;fill:#767670}
   </style>
   <rect width="720" height="600" fill="#ffffff"/>
   <text class="ttl" x="24" y="34">Where the published price changes</text>
@@ -19,25 +19,25 @@
   <!-- Panel A: state average bands, 0-50 $/month (x 260 -> 680, 420px = 50) -->
   <text class="ph" x="24" y="88">State averages (one brand only)</text>
   <text class="ax" x="680" y="88" text-anchor="end">$ per month · 0 – 50</text>
-  <line x1="260" y1="96" x2="680" y2="96" stroke="#dde3e9"/>
+  <line x1="260" y1="96" x2="680" y2="96" stroke="#d9d6ce"/>
   <g>
     <text class="lb" x="24" y="121">California &amp; Connecticut</text>
-    <rect x="638" y="108" width="34" height="18" fill="#1FA8C1"/>
+    <rect x="638" y="108" width="34" height="18" fill="#2b5ce6"/>
     <text class="val" x="630" y="121" text-anchor="end">$45 – $49</text>
 
     <text class="lb" x="24" y="153">Illinois &amp; New York</text>
-    <rect x="600" y="140" width="34" height="18" fill="#1FA8C1"/>
+    <rect x="600" y="140" width="34" height="18" fill="#2b5ce6"/>
     <text class="val" x="592" y="153" text-anchor="end">$40 – $44</text>
 
     <text class="lb" x="24" y="185">Florida &amp; Arizona</text>
-    <rect x="554" y="172" width="34" height="18" fill="#1FA8C1"/>
+    <rect x="554" y="172" width="34" height="18" fill="#2b5ce6"/>
     <text class="val" x="546" y="185" text-anchor="end">$35 – $39</text>
 
     <text class="lb" x="24" y="217">TX · OH · PA · GA · MI</text>
-    <rect x="512" y="204" width="34" height="18" fill="#1FA8C1"/>
+    <rect x="512" y="204" width="34" height="18" fill="#2b5ce6"/>
     <text class="val" x="504" y="217" text-anchor="end">$30 – $34</text>
   </g>
-  <line x1="260" y1="232" x2="680" y2="232" stroke="#dde3e9"/>
+  <line x1="260" y1="232" x2="680" y2="232" stroke="#d9d6ce"/>
   <g>
     <text class="ax" x="260" y="247">0</text>
     <text class="ax" x="344" y="247">$10</text>
@@ -52,25 +52,25 @@
   <!-- Panel B: example quote each brand prints, 0-70 $/month (x 260 -> 680, 420px = 70) -->
   <text class="ph" x="24" y="316">Example quote printed on each brand's page</text>
   <text class="ax" x="680" y="316" text-anchor="end">$ per month · 0 – 70</text>
-  <line x1="260" y1="324" x2="680" y2="324" stroke="#dde3e9"/>
+  <line x1="260" y1="324" x2="680" y2="324" stroke="#d9d6ce"/>
   <g>
     <text class="lb" x="24" y="349">Lemonade · Goldendoodle, Chicago</text>
-    <rect x="260" y="336" width="366" height="18" fill="#1FA8C1"/>
+    <rect x="260" y="336" width="366" height="18" fill="#2b5ce6"/>
     <text class="vali" x="618" y="349" text-anchor="end">$61/mo</text>
 
     <text class="lb" x="24" y="381">Spot · small mixed dog, ZIP 32009</text>
-    <rect x="260" y="368" width="90" height="18" fill="#E8833A"/>
+    <rect x="260" y="368" width="90" height="18" fill="#767670"/>
     <text class="val" x="358" y="381">from $15/mo</text>
 
     <text class="lb" x="24" y="413">Spot · mixed cat, ZIP 33801</text>
-    <rect x="260" y="400" width="54" height="18" fill="#E8833A"/>
+    <rect x="260" y="400" width="54" height="18" fill="#767670"/>
     <text class="val" x="322" y="413">from $9/mo</text>
 
     <text class="lb" x="24" y="445">Fetch</text>
-    <rect x="260" y="432" width="420" height="18" fill="#f4f6f8" stroke="#c9d2da" stroke-dasharray="4 3"/>
+    <rect x="260" y="432" width="420" height="18" fill="#efece5" stroke="#767670" stroke-dasharray="4 3"/>
     <text class="np" x="272" y="445">not published - averages with the configuration instead</text>
   </g>
-  <line x1="260" y1="460" x2="680" y2="460" stroke="#dde3e9"/>
+  <line x1="260" y1="460" x2="680" y2="460" stroke="#d9d6ce"/>
   <g>
     <text class="ax" x="260" y="475">0</text>
     <text class="ax" x="320" y="475">$10</text>
