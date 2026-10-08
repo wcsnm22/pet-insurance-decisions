@@ -482,6 +482,27 @@ FOOTER_LINKS = (
     '<a href="/contact">Contact</a> · <a href="/sitemap.xml">Sitemap</a>'
 )
 
+# 同属一个项目、同一套采集规则的四个站。互为姊妹站，但域名彼此独立
+# （pages.dev 在 Public Suffix List 里是独立条目），所以这些是跨站链接而非站内链接。
+# `self` 在构建时按本站剔除，锚文本用描述性词组而不是品牌名堆砌。
+SIBLING_SITES = (
+    ("furadvisor", "https://furadvisor.com", "pet insurance coverage and waiting periods"),
+    ("pet-health-decisions", "https://pet-health-decisions.pages.dev", "online vet visits and at-home tests"),
+    ("pet-fresh-food-decisions", "https://pet-fresh-food-decisions.pages.dev", "fresh food subscriptions"),
+    ("smart-pet-device-decisions", "https://smart-pet-device-decisions.pages.dev", "smart feeders and trackers"),
+)
+SITE_KEY = "furadvisor"
+
+
+def family_footer() -> str:
+    """页脚里指向姊妹站的链接行；只列出另外三个站。"""
+    links = " · ".join(
+        f'<a href="{url}">{label}</a>'
+        for key, url, label in SIBLING_SITES
+        if key != SITE_KEY
+    )
+    return f'<p class="family">Pet Care Decisions project: {links}</p>'
+
 
 # ------------------------------------------------------------------ 构建
 def build() -> None:
@@ -612,7 +633,7 @@ def build() -> None:
         "article_cards": article_cards,
         "fact_table_rows": fact_rows(data["home_facts"]),
         "faqs": faq_html,
-        "footer": FOOTER_LINKS,
+        "footer": FOOTER_LINKS + family_footer(),
         "generated_at": generated_at,
     })
     (SITE_DIR / "index.html").write_text(home, encoding="utf-8")
@@ -713,7 +734,7 @@ def build() -> None:
             "related": related_html,
             "checked": site["checked"],
             "byline": byline_html(b_updated),
-            "footer": FOOTER_LINKS,
+            "footer": FOOTER_LINKS + family_footer(),
         })
         (SITE_DIR / f'{b["slug"]}.html').write_text(html, encoding="utf-8")
 
@@ -799,7 +820,7 @@ def build() -> None:
             "disclaimer": a.get("disclaimer", ""),
             "checked": site["checked"],
             "byline": byline_html(a_updated),
-            "footer": FOOTER_LINKS,
+            "footer": FOOTER_LINKS + family_footer(),
         })
         (SITE_DIR / f'{a["slug"]}.html').write_text(html, encoding="utf-8")
 
@@ -830,7 +851,7 @@ def build() -> None:
             "nav": f'<a href="/">Home</a> · {nav}',
             "repo": site["repo"],
             "checked": site["checked"],
-            "footer": FOOTER_LINKS,
+            "footer": FOOTER_LINKS + family_footer(),
         })
         (SITE_DIR / f"{page}.html").write_text(html, encoding="utf-8")
 

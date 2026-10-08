@@ -456,6 +456,18 @@ footer.site strong { color: var(--ink); }
 footer.site a { color: var(--muted-ink); }
 footer.site a:hover { color: var(--ink); }
 
+/* ::RULE{family links are real cross-site links - keep them visible text, never hidden} */
+footer.site p.family {
+  margin: 14px 0 0;
+  padding-top: 13px;
+  border-top: 1px solid var(--border);
+  font-size: 12.5px;
+  line-height: 2;
+  color: var(--muted-ink);
+}
+footer.site p.family a { color: var(--muted-ink); text-decoration: underline; text-underline-offset: 2px; }
+footer.site p.family a:hover { color: var(--ink); }
+
 /* ------------------------------------------------------------ responsive */
 
 /* line-1 fix 2026-10-04: this block used to stack the tables too, while the only copy of the
