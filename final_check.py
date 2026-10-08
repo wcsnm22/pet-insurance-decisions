@@ -1,5 +1,5 @@
 """Final live check of every P0 item on the deployed site."""
-import json, re, urllib.request, urllib.error
+import json, re, ssl, urllib.request, urllib.error
 
 UA = "Mozilla/5.0 (compatible; furadvisor-check/1.0; +https://furadvisor.com/about)"
 BASE = "https://furadvisor.com"
@@ -95,3 +95,42 @@ for p in ("/index.html", "/about/"):
         print(f"{p}: 200 (no redirect)")
     except urllib.error.HTTPError as e:
         print(f"{p}: {e.code} -> {e.headers.get('location')}")
+
+# 6. www 必须能解析并 301 到裸域（否则别人链接 www 就是死链，外链全废）
+# 注意：这台机器的时钟比真实 UTC 慢 8 小时，新签发的证书会被判定"尚未生效"。
+# 所以校验失败时用不校验上下文的 opener 重试，只为看清 301 目标，并在输出里注明。
+print("--- www ---")
+
+
+class NoRedir2(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *a, **k):
+        return None
+
+
+def www_probe(path):
+    """返回 (code, location, err)；先做证书校验，遇到时钟偏差就退回不校验。"""
+    for insecure in (False, True):
+        handlers = [NoRedir2]
+        if insecure:
+            handlers.append(urllib.request.HTTPSHandler(context=ssl._create_unverified_context()))
+        op = urllib.request.build_opener(*handlers)
+        try:
+            op.open(urllib.request.Request("https://www.furadvisor.com" + path, headers={"User-Agent": UA}), timeout=30)
+            return 200, "", ""
+        except urllib.error.HTTPError as e:
+            return e.code, e.headers.get("location") or "", ""
+        except urllib.error.URLError as e:
+            reason = str(getattr(e, "reason", e))
+            if insecure:
+                return None, "", reason
+            continue
+    return None, "", "unreachable"
+
+
+for wp in ("/", "/best-pet-insurance", "/sitemap.xml"):
+    code, loc, err = www_probe(wp)
+    if code is None:
+        print(f"  www{wp}: FAILED ({err})")
+    else:
+        ok = code in (301, 308) and loc.startswith("https://furadvisor.com/")
+        print(f"  www{wp}: {code} -> {loc} {'OK' if ok else 'WRONG'}")
