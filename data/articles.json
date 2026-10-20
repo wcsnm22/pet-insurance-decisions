@@ -217,9 +217,9 @@
     },
     {
      "fact": "Lemonade pet parents pay around $48/month for dogs and around $27/month for cats on average.",
-     "condition": "Stated as on-average figures across different ages, breeds and locations on the cost guide page (last updated Jun 3, 2026).",
+     "condition": "Stated as on-average figures across different ages, breeds and locations on the cost guide page (last updated Oct 13, 2026 when re-read 2026-10-20; the values themselves were unchanged).",
      "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
-     "checked": "2026-09-25"
+     "checked": "2026-10-20"
     },
     {
      "fact": "Lemonade waiting periods: 14 days for illnesses and 30 days for orthopedic conditions; preventative package benefits can be used the day after purchase.",
@@ -1036,7 +1036,7 @@
      ]
     },
     {
-     "label": "Premium behaviour over time",
+     "label": "Premium behavior over time",
      "cells": [
       "not published on the official site",
       "Premiums are based on the current age of your pet and may increase due to the age of your pet at renewal; species or breed and home address can change the initial premium"
@@ -2356,7 +2356,7 @@
      "label": "Fetch's published orthopedic waiting period"
     },
     {
-     "value": "2026-09-28",
+     "value": "2026-10-20",
      "label": "every figure rechecked on the brands' own pages"
     }
    ],
@@ -2496,7 +2496,7 @@
    "facts": [
     {
      "fact": "Lemonade's published waiting periods are 14 days for illnesses and 30 days for orthopedic conditions, and they begin on the policy's start date",
-     "condition": "Waiting-period guide, section \"How do pet insurance waiting periods work?\"; the page is marked Last Updated: Jun 3, 2026",
+     "condition": "Waiting-period guide, section \"How do pet insurance waiting periods work?\"; the page is marked Last Updated: Oct 13, 2026",
      "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
      "checked": "2026-09-28"
     },
@@ -2595,6 +2595,54 @@
      "condition": "Footer disclaimer on fetchpet.com; the site publishes a single national waiting-period figure in its FAQ and no state-by-state table (checked 2026-09-28)",
      "source_url": "https://www.fetchpet.com/",
      "checked": "2026-09-28"
+    },
+    {
+     "fact": "Lemonade's waiting-period guide is now marked Last Updated: Oct 13, 2026 - it was marked Jun 3, 2026 when this page first cited it, and the whole guide was rewritten around the same 0 / 14 / 30 day table",
+     "condition": "The date line at the top of the guide. The table beneath it is unchanged: accidents 0 days, illnesses 14 days, orthopedic conditions 30 days, pre-existing conditions never covered",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
+    },
+    {
+     "fact": "Illness coverage starts at \"12:01 AM on day 15\" of a 14-day wait - and a pet that shows symptoms on day 10 is not covered for that condition, because the wait has to finish completely before coverage begins",
+     "condition": "FAQ \"Will my pet be covered if they get sick on day 10 of a 14-day waiting period?\" - the clock is counted to the minute, not to the day",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
+    },
+    {
+     "fact": "Lemonade lists what counts as \"showing signs\" during the wait: limping, vomiting, changes in appetite, lethargy, unusual behavior, or symptoms a vet observes during an exam",
+     "condition": "FAQ \"What counts as showing signs of an illness during the waiting period?\" - these are the observations that convert a later diagnosis into a pre-existing condition",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
+    },
+    {
+     "fact": "A surgery or treatment scheduled before the waiting period ends is not covered even when the procedure itself takes place after the wait, because the timing shows the condition was already present or suspected",
+     "condition": "FAQ \"Can I get reimbursement for a surgery that was scheduled before the waiting period ended?\" - the scheduling date matters, not the surgery date",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
+    },
+    {
+     "fact": "Lemonade says no vet exam is required before buying a policy, and that waiting periods apply to every pet regardless of age - including a two-month-old puppy",
+     "condition": "FAQs \"Do I need to take my pet for a vet exam before I can get insurance?\" and \"If my puppy is only 2 months old, does the waiting period still apply?\" - only the preventative add-on starts without a wait",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
+    },
+    {
+     "fact": "Lemonade defines orthopedic conditions as those affecting bones, joints, ligaments and tendons - naming cruciate ligament injuries, hip dysplasia and arthritis as examples - and says the 30-day wait exists because these develop gradually or have genetic components",
+     "condition": "FAQ \"What are orthopedic conditions and why do they have a 30-day waiting period?\" - arthritis is named inside the orthopedic bucket, not treated as an illness",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
+    },
+    {
+     "fact": "Lemonade states the policy itself goes into effect at \"12:01 AM the day after purchase\", and that there is \"no such thing as truly same-day coverage\"",
+     "condition": "FAQs \"How long does pet insurance take to go into effect?\" and \"Can pet insurance be active the same day?\" - the answer sits next to the claim that accident cover \"kicks in immediately\"",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
+    },
+    {
+     "fact": "Spot's own waiting-period blog prints the same industry spread Lemonade does: accidents \"usually range from 0-15 days\", orthopedic conditions \"often 6-12 months\", and a 14-day illness wait as the norm",
+     "condition": "Spot blog page dated 09/25/2026 - independent of the state sample policies already cited on this page, and consistent with them",
+     "source_url": "https://spotpet.com/blog/why-pet-insurance/what-is-the-waiting-period-in-pet-insurance",
+     "checked": "2026-10-20"
     }
    ],
    "faqs": [
@@ -2651,13 +2699,43 @@
      "a": "Yes - that is the coverage gap Lemonade defines in its own glossary: \"A period when switching providers where your pet may temporarily lack full coverage, since new waiting periods apply with each new policy.\" Spot's California sample policy says the same thing for a new enrollment: \"A new enrollment will result in new waiting periods\", and conditions before it are pre-existing. This is why switching mid-treatment can cost coverage (checked 2026-09-28).",
      "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
      "checked": "2026-09-28"
+    },
+    {
+     "q": "If my pet shows symptoms on day 10 of a 14-day wait, is that condition covered?",
+     "a": "No. Lemonade's guide answers this one directly: the wait has to end completely, so illness coverage starts at 12:01 AM on day 15, and symptoms that appear before then make the condition pre-existing. The same logic applies to a surgery booked during the wait - it stays excluded even if it happens afterwards, because the booking shows the problem was already known (checked 2026-10-20).",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
+    },
+    {
+     "q": "Do I need a vet exam before I can buy pet insurance?",
+     "a": "Not with Lemonade - it says plainly that no exam is required before buying. What an exam does is create a dated record of your pet's health, and that record is what a later claim is measured against. Lemonade's rescue-pet scenario makes the point: an unknown history gets read as possibly-symptomatic, so a clean exam soon after adoption is the only thing that turns it into a baseline (checked 2026-10-20).",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
+    },
+    {
+     "q": "Does the waiting period still apply to a very young puppy?",
+     "a": "Yes. Lemonade states that waiting periods apply to all pets regardless of age, even a two-month-old puppy: 14 days for illnesses and 30 days for orthopedic conditions. The exception is the preventative care add-on, which starts as soon as the policy takes effect (checked 2026-10-20).",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
+    },
+    {
+     "q": "Is arthritis treated as an illness or an orthopedic condition?",
+     "a": "Orthopedic. Lemonade's new FAQ defines orthopedic conditions as those affecting bones, joints, ligaments and tendons and names cruciate ligament injuries, hip dysplasia and arthritis among the examples - which puts arthritis behind the 30-day wait rather than the 14-day one (checked 2026-10-20).",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
+    },
+    {
+     "q": "Is there really such a thing as a pet insurance policy with no waiting periods?",
+     "a": "Not as a whole policy. Lemonade's guide answers the whole-policy question with one word - \"Nope\" - while separately saying that accident cover and preventative care have no waiting period at all. Both statements are on the same page. The practical reading: no policy has zero waits, but two of its coverages can start on day one (checked 2026-10-20).",
+     "source_url": "https://www.lemonade.com/pet/insurance-guide/waiting-periods/",
+     "checked": "2026-10-20"
     }
    ],
    "blocks": [
     {
      "type": "section",
      "h2": "How this page was checked",
-     "html": "<p>On <strong>2026-09-28</strong> we read the pages each brand itself publishes on waiting periods, not review sites or comparison tables:</p><ul><li><strong>Lemonade</strong> - its waiting-period guide (page marked Last Updated: Jun 3, 2026) and the FAQ on its pet insurance product page.</li><li><strong>Spot</strong> - the FAQ block on its home page, its dog insurance page, and six Accident &amp; Illness sample policies linked from spotpet.com/sample-policy: Arizona, California, Colorado, Florida, Georgia and Illinois (plus Arizona's Accident Only sample). The five non-California forms repeat the same waiting-period sentence; California's does not.</li><li><strong>Fetch</strong> - its \"What is a waiting period for pet insurance?\" FAQ, its \"Is there a waiting period for pet wellness?\" FAQ, and the disclaimer on its home page.</li></ul><p>Where a brand does not publish a figure - or does not publish one state by state - this page says so instead of filling the gap with a third-party estimate.</p>"
+     "html": "<p>On <strong>2026-09-28</strong> we read the pages each brand itself publishes on waiting periods, not review sites or comparison tables:</p><ul><li><strong>Lemonade</strong> - its waiting-period guide (page then marked Last Updated: Jun 3, 2026) and the FAQ on its pet insurance product page.</li><li><strong>Spot</strong> - the FAQ block on its home page, its dog insurance page, and six Accident &amp; Illness sample policies linked from spotpet.com/sample-policy: Arizona, California, Colorado, Florida, Georgia and Illinois (plus Arizona's Accident Only sample). The five non-California forms repeat the same waiting-period sentence; California's does not.</li><li><strong>Fetch</strong> - its \"What is a waiting period for pet insurance?\" FAQ, its \"Is there a waiting period for pet wellness?\" FAQ, and the disclaimer on its home page.</li></ul><p>On <strong>2026-10-20</strong> the same Lemonade guide was read again and had been rewritten on 13 October 2026. The new answers, the three places where the page's own statements pull against each other, and the five worked scenarios are recorded below; the day counts themselves did not move.</p><p>Where a brand does not publish a figure - or does not publish one state by state - this page says so instead of filling the gap with a third-party estimate.</p>"
     },
     {
      "type": "section",
@@ -2667,6 +2745,21 @@
     {
      "type": "compare",
      "h2": "Side by side: what each brand's own pages say"
+    },
+    {
+     "type": "section",
+     "h2": "What Lemonade changed on 13 October 2026",
+     "html": "<p>Lemonade rewrote its waiting-period guide on 13 October 2026 and left the day counts alone. The table still reads accidents 0 days, illnesses 14 days, orthopedic conditions 30 days, pre-existing conditions never covered. What changed is the depth of the answers around that table: a full question-and-answer set, five worked scenarios, and a section that answers questions the company says came from Reddit.</p><p>Three of the new answers are operational rather than definitional, and they are the ones worth reading before you buy:</p><ul><li><strong>The wait is counted to the minute.</strong> Illness cover begins at 12:01 AM on day 15. A pet that vomits on day 10 is not covered for whatever that turns out to be, because the condition became pre-existing before cover started.</li><li><strong>The scheduling date decides, not the surgery date.</strong> A procedure booked while the wait was still running is excluded even if the operation happens afterwards - Lemonade reads the booking as proof the problem was already known.</li><li><strong>A clean exam before symptoms is the only baseline that helps.</strong> No vet exam is required to buy a policy, and the waiting periods apply at every age, including a two-month-old puppy. What an exam does is fix your pet's health on a date, which is what a claim three months later gets judged against.</li></ul><p>Lemonade also names what counts as \"showing signs\" during the wait - limping, vomiting, changes in appetite, lethargy, unusual behavior, or anything a vet notes at an exam. That list is the practical definition of a pre-existing condition, and it is wider than most owners assume: none of those needs a diagnosis attached to count.</p>"
+    },
+    {
+     "type": "section",
+     "h2": "Where Lemonade's own answers disagree",
+     "html": "<p>Reading the rewritten guide end to end turns up three places where answers on the same page pull against each other. None of them is dishonest, but each one changes what you should expect to be paid.</p><p><strong>1. Is there a policy with no waiting periods?</strong> The heading says \"Nope.\" Two answers further down say some coverage types do not have waiting periods - accidents and preventative care - and a third says no insurer offers zero waiting periods \"across the board\". The three are reconcilable only if \"no waiting periods\" means the whole policy. Read as a per-coverage question, two of the three coverages on the policy really do start on day one.</p><p><strong>2. When does accident cover actually begin?</strong> The comparison section says accident coverage \"kicks in immediately, with no waiting period at all\". The FAQ says the same cover is usable \"at 12:01 AM the day after purchase\". Both can be true - there is no waiting period, and the policy still is not effective the instant you pay - but the two sentences only add up to an answer once you supply the second half. Buy at noon and your pet is hurt that afternoon, and this is the paragraph that decides it.</p><p><strong>3. When does preventative care start?</strong> The guide says the preventative packages take effect \"the date your policy becomes effective\". The product page says you can use them \"the day after you purchased the policy\". That is a one-day gap in the same company's description of the same benefit, and it has been there since before the 13 October rewrite.</p><p>For a reader, the useful habit is to take the strictest version of each answer: no waiting period on accidents still means the next midnight, and preventative care still means the effective date printed on your policy rather than the day you paid.</p>"
+    },
+    {
+     "type": "section",
+     "h2": "The five scenarios Lemonade now spells out",
+     "html": "<p>The guide's new scenario section is the most useful addition, because each case isolates one mechanism that decides a claim. Summarised, with the mechanism named:</p><ul><li><strong>A new puppy.</strong> An eight-week-old puppy insured the day it comes home, vomiting three weeks later, is covered - the 14-day wait has passed. The mechanism: hip dysplasia at six months is still inside the 30-day orthopedic wait if the policy lapsed and restarted in between. Continuous cover is what protects the second half of a dog's first year, not the first policy.</li><li><strong>Switching insurers.</strong> A three-year-old cat healthy for two years, switched to a new policy, starts showing urinary signs on day six. The previous insurer's history is irrelevant: the signs appeared during the new waiting period, so the condition is pre-existing under the new policy. The mechanism: a switch restarts the clock, and anything that surfaces mid-clock belongs to the new insurer as an exclusion.</li><li><strong>A large breed.</strong> A one-year-old German Shepherd limping at month two, with the vet suspecting hip dysplasia. Inside the 30-day orthopedic wait, so flagged pre-existing and not covered. The mechanism: for joints, the 30 days is the whole risk window, and large breeds are the ones that walk into it.</li><li><strong>A rescue with no history.</strong> A four-year-old rescue insured immediately. The insurer reviews whatever records exist to work out what was already there. The mechanism: an unknown history is read as possibly-symptomatic, so a clean exam soon after adoption is the only thing that turns unknown into a documented baseline.</li><li><strong>A senior adoption.</strong> A nine-year-old cat from a shelter. More exclusions and narrower cover are expected; new unrelated conditions after the waits are still eligible. The mechanism: on an older pet the policy buys coverage of what happens next, not of what is already happening.</li></ul><p>All five use named people, which are illustrative examples rather than claim records, so read them as the company explaining its own rules rather than as cases it adjudicated.</p>"
     },
     {
      "type": "section",
@@ -2711,7 +2804,7 @@
      ]
     }
    ],
-   "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It repeats only what each brand publishes on its own guide pages, FAQ pages, product pages and sample policies, with the source and check date attached to every figure; waiting periods depend on the policy you are actually sold, your state and your pet's history, and the policy wording always governs. Facts last checked 2026-09-28."
+   "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It repeats only what each brand publishes on its own guide pages, FAQ pages, product pages and sample policies, with the source and check date attached to every figure; waiting periods depend on the policy you are actually sold, your state and your pet's history, and the policy wording always governs. Facts last checked 2026-10-20."
   },
   {
    "slug": "pet-insurance-cost-by-brand",
@@ -2754,7 +2847,7 @@
     {
      "label": "Lowest price published",
      "cells": [
-      "$10/month: \"a policy for a dog or a cat starts at $10/month\", basic accident and illness, varying by breed and state; the guide page is marked Last Updated: Jun 3, 2026 (read 2026-09-28)",
+      "$10/month: \"a policy for a dog or a cat starts at $10/month\", basic accident and illness, varying by breed and state; the guide page is marked Last Updated: Oct 13, 2026 (read 2026-10-20)",
       "Dogs from $15/month. The footnote: \"Advertised premium is from Dec. 11 2024 based on an accident and illness plan with an 80% reimbursement rate, $500 annual deductible, and a $2,500 annual limit for a 2-year-old small mixed dog (11-25lbs) in 32009\" (read 2026-09-28)",
       "not published on the official site - the cost page opens with averages, not a floor price, and says the price depends on age, breed and where you live (read 2026-09-28)"
      ],
@@ -2832,7 +2925,7 @@
     {
      "label": "Date stamp the brand puts on the number",
      "cells": [
-      "Guide page marked \"Last Updated: Jun 3, 2026\"; the state averages and the premium analysis behind them are stamped \"as of October, 2024\"; the competitor rows carry no date (read 2026-09-28)",
+      "Guide page marked \"Last Updated: Oct 13, 2026\"; the state averages and the premium analysis behind them are stamped \"as of October, 2024\"; the competitor rows carry no date (read 2026-09-28)",
       "\"Advertised premium is from Dec. 11 2024\" in the starting-price footnote; no other date on the price figures (read 2026-09-28)",
       "Comparison \"as of March 2026\"; species averages cover 07.01.2024 through 06.30.2025; breed averages cover 01.01.25 through 11.01.25; page statistics \"as of 9.10.2026\" (read 2026-09-28)"
      ],
@@ -2859,9 +2952,9 @@
    "facts": [
     {
      "fact": "Lemonade's published floor price: \"a policy for a dog or a cat starts at $10/month\"",
-     "condition": "Cost guide, first figure on the page; the page is marked Last Updated: Jun 3, 2026; the same page states the base accident and illness policy \"starts around $10 per month, but this can vary by breed and state\"",
+     "condition": "Cost guide, first figure on the page; the page was marked Last Updated: Oct 13, 2026 when re-read on 2026-10-20 (it read Jun 3, 2026 when this page first cited it); the same page states the base accident and illness policy \"starts around $10 per month, but this can vary by breed and state\"",
      "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
-     "checked": "2026-09-28"
+     "checked": "2026-10-20"
     },
     {
      "fact": "Lemonade's published averages are about $48/month for dogs and about $27/month for cats",
@@ -2977,29 +3070,29 @@
      "q": "What is the cheapest pet insurance, by brand, from published numbers?",
      "a": "Only within one table. The lowest figures each brand publishes for itself are Lemonade's $10/month starting price, Spot's $9/month cat and $15/month dog starting prices, and Fetch's $22/month cat and $35/month dog averages - but those three are three different assumption sets (read 2026-09-28). The only same-assumption cross-brand numbers available are Fetch's table ($14.97 to $27.51/month for one Tampa quote) and Lemonade's table ($61 to $336/month for one Chicago Goldendoodle). Comparing across the two tables produces nonsense.",
      "source_url": "https://www.fetchpet.com/pet-insurance-cost",
-     "checked": "2026-09-28"
+     "checked": "2026-10-20"
     },
     {
      "q": "Why do Lemonade and Fetch publish competitor prices that disagree about who is cheaper?",
      "a": "Because each one prices a different pet under a different policy. Fetch prices a 1-year-old small mixed breed in Tampa, FL 33602 at a $5,000 limit, $500 deductible and 80% reimbursement, without wellness, \"as of March 2026\". Lemonade prices a 4-year-old Goldendoodle in Chicago at a $250 deductible, 80% co-insurance and the maximum annual limit, with no date on the competitor rows. Same two brands, opposite order - the assumption footnote is the difference.",
      "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
-     "checked": "2026-09-28"
+     "checked": "2026-10-20"
     },
     {
      "q": "What does Spot's \"Starting from $15/mo\" actually assume?",
      "a": "Spot's footnote spells it out: an accident and illness plan with an 80% reimbursement rate, a $500 annual deductible and a $2,500 annual limit, for a 2-year-old small mixed dog of 11-25 lbs in ZIP 32009, advertised as of Dec. 11 2024. The cat version uses a $750 deductible and ZIP 33801. Your ZIP, your pet's age and a different deductible all move that number.",
      "source_url": "https://spotpet.com/",
-     "checked": "2026-09-28"
+     "checked": "2026-10-20"
     },
     {
      "q": "Why doesn't Fetch publish a starting price?",
      "a": "It publishes averages instead: $35/month for dogs and $22/month for cats under a stated $10,000 limit / $300 deductible / 80% reimbursement configuration for 07.01.2024-06.30.2025, plus twelve breed averages from its own in-force policies. The page says your price depends on age, breed and location, so it gives portfolio figures rather than a floor.",
      "source_url": "https://www.fetchpet.com/pet-insurance-cost",
-     "checked": "2026-09-28"
+     "checked": "2026-10-20"
     },
     {
      "q": "How old are the prices on this page?",
-     "a": "Each brand dates its own figures differently: Lemonade marks its guide \"Last Updated: Jun 3, 2026\" while the underlying premium analysis and state table are \"as of October, 2024\"; Spot dates its advertised premium \"Dec. 11 2024\"; Fetch dates its comparison \"as of March 2026\", its averages 07.01.2024-06.30.2025 and its breed figures 01.01.25-11.01.25. All three pages were read again on 2026-09-28.",
+     "a": "Each brand dates its own figures differently: Lemonade marks its guide \"Last Updated: Oct 13, 2026\" (it read Jun 3, 2026 when first cited, and the analysis behind the averages still reads \"as of October, 2024\") while the underlying premium analysis and state table are \"as of October, 2024\"; Spot dates its advertised premium \"Dec. 11 2024\"; Fetch dates its comparison \"as of March 2026\", its averages 07.01.2024-06.30.2025 and its breed figures 01.01.25-11.01.25. All three pages were read again on 2026-09-28.",
      "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
      "checked": "2026-09-28"
     },
@@ -3007,32 +3100,32 @@
      "q": "Are the three brands' published prices comparable?",
      "a": "No. Lemonade's averages come from its own policyholders across ages, breeds and locations; Spot's starting prices are one fixed plan for one age, weight band and ZIP; Fetch's averages use the most common configuration of $10,000 limit, $300 deductible and 80% reimbursement. Subtracting one from another tells you about the assumptions, not about the brands.",
      "source_url": "https://www.fetchpet.com/pet-insurance-cost",
-     "checked": "2026-09-28"
+     "checked": "2026-10-20"
     },
     {
      "q": "Do these published prices include taxes, fees and add-ons?",
      "a": "Fetch states its comparison premiums \"do not include any taxes or fees\" and that Lemonade and Pets Best pricing excludes the optional Exam Fee add-on. Spot's advertised premium is a specific accident and illness configuration, and its other discounts (10% multi-pet, 20% employee) are listed separately. Lemonade's figures assume no add-ons or discounts.",
      "source_url": "https://www.fetchpet.com/pet-insurance-cost",
-     "checked": "2026-09-28"
+     "checked": "2026-10-20"
     },
     {
      "q": "What is the actual price I would pay?",
      "a": "The quote each brand gives you for your pet - Lemonade's quote flow, Spot's \"Click For Price\" button and Fetch's \"Get your price\" button. The published numbers on this page are averages, floors and worked examples stamped with someone else's pet, ZIP and deductible (read 2026-09-28).",
      "source_url": "https://spotpet.com/",
-     "checked": "2026-09-28"
+     "checked": "2026-10-20"
     },
     {
      "q": "Do the brands update these published prices?",
      "a": "Only by rewriting the page. Each price carries whatever stamp the brand gave it (Jun 3 2026 / October 2024, Dec. 11 2024, March 2026), so a figure can sit on an official page for months after the analysis behind it. Re-reading the page - as this page does, most recently on 2026-09-28 - is the only way to know what is printed today.",
      "source_url": "https://www.fetchpet.com/pet-insurance-cost",
-     "checked": "2026-09-28"
+     "checked": "2026-10-20"
     }
    ],
    "blocks": [
     {
      "type": "section",
      "h2": "How this page was checked",
-     "html": "<p>On <strong>2026-09-28</strong> we read three pages - and only official pages - looking for every monthly price each brand publishes, together with the assumption footnote the brand prints underneath it:</p><ul><li><strong>Lemonade</strong> - its pet insurance cost guide (page marked Last Updated: Jun 3, 2026): starting price, species averages, the Goldendoodle and Danbury worked examples, the two six-insurer tables and the 47-state range table.</li><li><strong>Spot</strong> - the home page: the two \"Starting from\" prices in the hero and plan cards, their ^ and ^^ footnotes, the $12,345 claim example and its $75.01/month policy footnote.</li><li><strong>Fetch</strong> - fetchpet.com/pet-insurance-cost: the species averages, the twelve breed averages, the four-insurer comparison table and the three methodology footnotes at the bottom of the page.</li></ul><p>No third-party comparison site, review site or broker table was used. Where a brand does not publish a figure, this page says \"not published on the official site\" instead of borrowing an estimate from somewhere else, and every cell in the table below links the page it came from.</p>"
+     "html": "<p>On <strong>2026-09-28</strong> we read three pages - and only official pages - looking for every monthly price each brand publishes, together with the assumption footnote the brand prints underneath it:</p><ul><li><strong>Lemonade</strong> - its pet insurance cost guide (page then marked Last Updated: Jun 3, 2026, and re-read on 2026-10-20 showing Last Updated: Oct 13, 2026): starting price, species averages, the Goldendoodle and Danbury worked examples, the two six-insurer tables and the 47-state range table.</li><li><strong>Spot</strong> - the home page: the two \"Starting from\" prices in the hero and plan cards, their ^ and ^^ footnotes, the $12,345 claim example and its $75.01/month policy footnote.</li><li><strong>Fetch</strong> - fetchpet.com/pet-insurance-cost: the species averages, the twelve breed averages, the four-insurer comparison table and the three methodology footnotes at the bottom of the page.</li></ul><p>No third-party comparison site, review site or broker table was used. Where a brand does not publish a figure, this page says \"not published on the official site\" instead of borrowing an estimate from somewhere else, and every cell in the table below links the page it came from.</p>"
     },
     {
      "type": "section",
@@ -3051,7 +3144,7 @@
     {
      "type": "section",
      "h2": "The date stamp is the whole point",
-     "html": "<p>Every brand dates its prices, but they date different things. Lemonade dates the <em>page</em> (Jun 3, 2026) and the <em>analysis behind its averages</em> (October, 2024) - the competitor rows in between carry no date at all. Spot dates only the advertised starting premium (Dec. 11 2024), and only on the dog footnote. Fetch dates everything: the comparison (March 2026), the species averages (07.01.2024-06.30.2025), the breed averages (01.01.25-11.01.25) and its own site statistics (9.10.2026).</p><p>So a price printed today can rest on an analysis that is 11, 17 or 20 months old. That is not a scandal - insurers cannot publish live rates - but it means the honest way to state a figure is <em>number + assumption + brand's own date + the day you read it</em>, which is the format every row and fact above uses.</p>"
+     "html": "<p>Every brand dates its prices, but they date different things. Lemonade dates the <em>page</em> (Oct 13, 2026, as re-read on 2026-10-20; it read Jun 3, 2026 before the revision) and the <em>analysis behind its averages</em> (October, 2024) - the competitor rows in between carry no date at all. Spot dates only the advertised starting premium (Dec. 11 2024), and only on the dog footnote. Fetch dates everything: the comparison (March 2026), the species averages (07.01.2024-06.30.2025), the breed averages (01.01.25-11.01.25) and its own site statistics (9.10.2026).</p><p>So a price printed today can rest on an analysis that is 11, 17 or 20 months old. That is not a scandal - insurers cannot publish live rates - but it means the honest way to state a figure is <em>number + assumption + brand's own date + the day you read it</em>, which is the format every row and fact above uses.</p>"
     },
     {
      "type": "facts",
@@ -3091,7 +3184,7 @@
      ]
     }
    ],
-   "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It repeats only prices the brands publish on their own guide pages, home pages and pricing pages, with the source, the brand's own date stamp and the day we read it attached to every figure; published prices are averages, floors or worked examples for the pet, ZIP code, deductible and limit each brand states, your quote will differ, and the policy you are sold governs. Facts last checked 2026-09-28."
+   "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It repeats only prices the brands publish on their own guide pages, home pages and pricing pages, with the source, the brand's own date stamp and the day we read it attached to every figure; published prices are averages, floors or worked examples for the pet, ZIP code, deductible and limit each brand states, your quote will differ, and the policy you are sold governs. Facts last checked 2026-10-20."
   },
   {
    "slug": "pet-insurance-wellness-add-on",
@@ -3925,7 +4018,7 @@
      "checked": "2026-09-28"
     }
    ],
-   "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It quotes only what the brands publish on their own claim guides, FAQ pages, claims pages and sample policy documents, with the source and the day we read it attached to every figure; policy terms always govern, deadlines vary by state and by plan, and your own claim timeline will differ. Facts last checked 2026-09-28.",
+   "disclaimer": "This page is not affiliated with Lemonade, Spot or Fetch. It quotes only what the brands publish on their own claim guides, FAQ pages, claims pages and sample policy documents, with the source and the day we read it attached to every figure; policy terms always govern, deadlines vary by state and by plan, and your own claim timeline will differ. Facts last checked 2026-10-20.",
    "blocks": [
     {
      "type": "section",
@@ -4534,7 +4627,7 @@
     {
      "label": "Species limits and exclusions printed",
      "cells": [
-      "Not covered: venomous or poisonous species in the listed genus groups; endangered or threatened species; any listed species needing a state/federal permit, licence or registration; any species illegal to own; hybrids of domesticated pets with wild species; species kept in flocks or on display; and any species not listed.",
+      "Not covered: venomous or poisonous species in the listed genus groups; endangered or threatened species; any listed species needing a state/federal permit, license or registration; any species illegal to own; hybrids of domesticated pets with wild species; species kept in flocks or on display; and any species not listed.",
       "No exotic product on the page, so there are no exotic species rules on it to publish.",
       "No exotic product on the page, so there are no exotic species rules - the products are cat and dog insurance.",
       "No exotic tier in the plan menu, so no exotic species rules exist on the site to publish."
@@ -4582,7 +4675,7 @@
      "checked": "2026-09-30"
     },
     {
-     "fact": "Nationwide's not-covered list for exotics: venomous or poisonous species in the listed genus groups, endangered or threatened species, species needing a state or federal permit/licence/registration, species illegal to own, hybrids of domesticated pets with wild species, species kept in flocks or on display, and any other species not listed.",
+     "fact": "Nationwide's not-covered list for exotics: venomous or poisonous species in the listed genus groups, endangered or threatened species, species needing a state or federal permit/license/registration, species illegal to own, hybrids of domesticated pets with wild species, species kept in flocks or on display, and any other species not listed.",
      "condition": "Read verbatim from the 'Which exotic pets are not covered?' answer on the check date.",
      "source_url": "https://www.petinsurance.com/exotics/",
      "checked": "2026-09-30"
@@ -4687,7 +4780,7 @@
     },
     {
      "q": "What exotic pets does Nationwide NOT cover?",
-     "a": "Its published exclusions: venomous or poisonous species in the listed genus groups, endangered or threatened species, species that need a state or federal permit/licence/registration, species illegal to own, hybrids of domesticated pets with wild species, species kept in flocks or on display, and any species not on its list.",
+     "a": "Its published exclusions: venomous or poisonous species in the listed genus groups, endangered or threatened species, species that need a state or federal permit/license/registration, species illegal to own, hybrids of domesticated pets with wild species, species kept in flocks or on display, and any species not on its list.",
      "source_url": "https://www.petinsurance.com/exotics/",
      "checked": "2026-09-30"
     },
@@ -4747,7 +4840,7 @@
     {
      "type": "section",
      "h2": "Nationwide's exotic exclusions, in its own words",
-     "html": "<p>Because Nationwide is the only seller here, its exclusions are the practical rules for anyone with a bird, rabbit or reptile. From the 'Which exotic pets are not covered?' answer read on 2026-09-30, the not-covered list is:</p><ul><li>venomous or poisonous species in the genus groups it lists;</li><li>endangered or threatened species;</li><li>any listed species that needs a permit, licence or registration by state or federal law;</li><li>any listed species that is illegal to own by state or federal law;</li><li>hybrids of domesticated pets with a wild/non-domesticated species;</li><li>species that are kept in flocks or on display; and</li><li>any other species not listed.</li></ul><p>That last line is the one to read twice: if the animal is not on Nationwide's list, there is no exotic cover to buy - which is different from the three brands that simply have no exotic product at all.</p>"
+     "html": "<p>Because Nationwide is the only seller here, its exclusions are the practical rules for anyone with a bird, rabbit or reptile. From the 'Which exotic pets are not covered?' answer read on 2026-09-30, the not-covered list is:</p><ul><li>venomous or poisonous species in the genus groups it lists;</li><li>endangered or threatened species;</li><li>any listed species that needs a permit, license or registration by state or federal law;</li><li>any listed species that is illegal to own by state or federal law;</li><li>hybrids of domesticated pets with a wild/non-domesticated species;</li><li>species that are kept in flocks or on display; and</li><li>any other species not listed.</li></ul><p>That last line is the one to read twice: if the animal is not on Nationwide's list, there is no exotic cover to buy - which is different from the three brands that simply have no exotic product at all.</p>"
     },
     {
      "type": "section",
@@ -4961,7 +5054,7 @@
      "checked": "2026-09-28"
     }
    ],
-   "disclaimer": "This page is not affiliated with Lemonade. In the brand-facts sections and the official source table, it repeats only what Lemonade publishes on its own cat, cost, claim and pre-existing-condition pages, with the source and check date attached to every figure; the owner-reported section further down states its own sourcing. Policy terms always govern and your own quote and renewal will differ. Facts last checked 2026-09-28.",
+   "disclaimer": "This page is not affiliated with Lemonade. In the brand-facts sections and the official source table, it repeats only what Lemonade publishes on its own cat, cost, claim and pre-existing-condition pages, with the source and check date attached to every figure; the owner-reported section further down states its own sourcing. Policy terms always govern and your own quote and renewal will differ. Facts last checked 2026-10-20.",
    "blocks": [
     {
      "type": "section",
@@ -4986,7 +5079,7 @@
     {
      "type": "section",
      "h2": "How a cat claim actually pays out",
-     "html": "<p>Lemonade runs on reimbursement, and the mechanics decide how a claim feels. The flow is six steps inside the app: open it, meet AI Jim and sign a pledge that everything in the claim is true, describe what happened, record a short video of roughly a minute explaining it, upload the invoice and paid receipt, then get paid. The video is unusual enough to be worth knowing about before your first claim - it is where you state what, when and how, and Lemonade says it is confidential and used only to review the claim.</p><p>Speed is published: 50% of eligible claims are processed instantly through AI Jim, most others resolve inside 5 business days, and complex claims take longer depending on documentation. Lemonade's own cat example is Luna, a 5-year-old indoor cat with a urinary tract infection - a $320 bill covering the exam, urinalysis and antibiotics, a $100 deductible at 90% co-insurance, and $198 reimbursed. On a first illness claim, AI Jim can pull the medical records from your vet directly, which is the one automation in the process that works in your favour.</p><p>The catch is the deductible, and Lemonade explains it against itself. On a $250 deductible with 80% co-insurance, a $100 cat bill pays nothing: $40 of it is a standard vet visit fee that is not covered and does not count toward the deductible, and the remaining $60 does not clear it - it reduces the deductible to $202, an approved claim and no money in your account. The deductible is annual rather than per claim or per condition, so it only needs clearing once a year, and Lemonade's own guidance is that within a couple of covered vet visits you will likely be met and reimbursed. For a cat on a $31/mo kitten add-on and a $10/mo base policy, that means the first year is mostly a bill you pay yourself.</p>"
+     "html": "<p>Lemonade runs on reimbursement, and the mechanics decide how a claim feels. The flow is six steps inside the app: open it, meet AI Jim and sign a pledge that everything in the claim is true, describe what happened, record a short video of roughly a minute explaining it, upload the invoice and paid receipt, then get paid. The video is unusual enough to be worth knowing about before your first claim - it is where you state what, when and how, and Lemonade says it is confidential and used only to review the claim.</p><p>Speed is published: 50% of eligible claims are processed instantly through AI Jim, most others resolve inside 5 business days, and complex claims take longer depending on documentation. Lemonade's own cat example is Luna, a 5-year-old indoor cat with a urinary tract infection - a $320 bill covering the exam, urinalysis and antibiotics, a $100 deductible at 90% co-insurance, and $198 reimbursed. On a first illness claim, AI Jim can pull the medical records from your vet directly, which is the one automation in the process that works in your favor.</p><p>The catch is the deductible, and Lemonade explains it against itself. On a $250 deductible with 80% co-insurance, a $100 cat bill pays nothing: $40 of it is a standard vet visit fee that is not covered and does not count toward the deductible, and the remaining $60 does not clear it - it reduces the deductible to $202, an approved claim and no money in your account. The deductible is annual rather than per claim or per condition, so it only needs clearing once a year, and Lemonade's own guidance is that within a couple of covered vet visits you will likely be met and reimbursed. For a cat on a $31/mo kitten add-on and a $10/mo base policy, that means the first year is mostly a bill you pay yourself.</p>"
     },
     {
      "type": "section",
