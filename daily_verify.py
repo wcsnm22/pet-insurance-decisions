@@ -127,22 +127,29 @@ def main():
         status, text, rev = fetch(url)
         fp = fingerprint(text) if status == "ok" else None
         old = baseline.get(url, {})
+        accepted = old.get("fingerprint")  # 上一次被认可的指纹
         if status != "ok":
             state = status.upper()
-        elif not old.get("fingerprint"):
+        elif not accepted:
             state = "BASELINE"  # 第一次记录，没有可比对象
-        elif old["fingerprint"] != fp:
+        elif accepted != fp:
             state = "CHANGED"
         else:
             state = "UNCHANGED"
+        if state in ("BASELINE", "UNCHANGED"):
+            accepted = fp
         now[url] = {
             "status": status,
-            "fingerprint": fp,
+            # fingerprint 是「认可的基线」：CHANGED 时故意保持旧值，
+            # 否则下一次运行会把新内容当基线，改动就自己消失了。
+            "fingerprint": accepted,
+            "seen_fingerprint": fp,  # 今天实际抓到的
             "chars": len(text),
             "rev_date": rev,
             "prev_rev_date": old.get("rev_date"),
             "prev_fingerprint": old.get("fingerprint"),
             "state": state,
+            "changed_since": (old.get("changed_since") or today) if state == "CHANGED" else None,
             "first_seen": old.get("first_seen") or today,
             "last_ok": today if status == "ok" else old.get("last_ok"),
         }
@@ -166,11 +173,16 @@ def main():
     down = [u for u, v in now.items() if v["state"] not in ("CHANGED", "UNCHANGED", "BASELINE")]
     if changed:
         print(f"\n内容变了的页面：{len(changed)}")
+        print("  基线会一直停在改动前的版本，直到你确认后跑 --apply --force。")
         for u in changed:
             aff = [f"articles{p}" for p, n in iter_items(articles) if n["source_url"] == u]
             aff += [f"brands{p}" for p, n in iter_items(brands) if n["source_url"] == u]
+            since = now[u].get("changed_since") or today
             print(f"  {u}")
-            print(f"      影响 {len(aff)} 条：{', '.join(aff[:6])}{' ...' if len(aff) > 6 else ''}")
+            print(f"      最早发现于 {since}    影响 {len(aff)} 条：{', '.join(aff[:6])}{' ...' if len(aff) > 6 else ''}")
+            ov, nv = now[u].get("prev_fingerprint"), now[u].get("seen_fingerprint")
+            if ov and nv:
+                print(f"      指纹 {ov} -> {nv}（{now[u].get('chars', 0)}B）")
     if down:
         print(f"\n抓不到的页面：{len(down)}")
         for u in down:
@@ -197,6 +209,12 @@ def main():
     else:
         changed_n = 0
         print("\n[dry] 未写 data/*.json")
+
+    # --apply --force 表示人已经看过新内容并认可：把新指纹收为基线，解除告警
+    if force and apply:
+        for u in changed:
+            now[u]["fingerprint"] = now[u]["seen_fingerprint"]
+            now[u]["changed_since"] = None
 
     BASE.write_text(json.dumps(now, ensure_ascii=False, indent=1), encoding="utf-8")
     report = {

@@ -59,8 +59,11 @@ def log(msg):
 
 def run(cmd, env=None):
     log(f"$ {' '.join(str(c) for c in cmd)}")
+    # 子进程一律用 UTF-8 解码：它的输出可能含中文，而 Windows 默认按 GBK
+    # 解码会变成乱码，再写进 UTF-8 日志就永久烂掉了。
+    child_env = dict(env or os.environ, PYTHONIOENCODING="utf-8")
     p = subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True,
-                       encoding="utf-8", errors="replace", env=env)
+                       encoding="utf-8", errors="replace", env=child_env)
     out = ((p.stdout or "") + (p.stderr or "")).strip()
     for ln in out.splitlines()[-40:]:
         log(f"  | {ln}")
@@ -89,6 +92,51 @@ def parse_stat(out, key):
     return 0
 
 
+# 待人工确认的来源页改动，写成独立文件；日志会被后面的运行淹没，文件不会。
+ALERT = ROOT / "docs" / "CHANGED-SOURCES.md"
+
+
+def load_baseline_pending():
+    """返回基线里仍处于「变了但没人确认」状态的来源页。"""
+    base = ROOT / "data" / "source_baseline.json"
+    if not base.exists():
+        return []
+    data = json.loads(base.read_text(encoding="utf-8"))
+    return [(u, v) for u, v in sorted(data.items()) if v.get("changed_since")]
+
+
+def write_alert(pending):
+    lines = [
+        "# 来源页内容变了，网站暂停更新",
+        "",
+        "这些问题不解决，每天的流水线会一直 ABORT，站点停在上一版（安全，但不会更新）。",
+        "",
+        "处理方式：打开下面每个页面，人工核对改动，确认接受后运行",
+        "",
+        "```",
+        "python daily_verify.py --apply --force",
+        "```",
+        "",
+        "运行完这个文件会被自动清掉，第二天恢复正常。",
+        "",
+        "| 最早发现 | 来源页 | 旧指纹 | 新指纹 |",
+        "| --- | --- | --- | --- |",
+    ]
+    for u, v in pending:
+        lines.append(
+            f"| {v.get('changed_since', '?')} | {u} | "
+            f"{v.get('prev_fingerprint') or '-'} | {v.get('seen_fingerprint') or '-'} |"
+        )
+    ALERT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    log(f"ALERT 写入 {ALERT.relative_to(ROOT)}")
+
+
+def clear_alert():
+    if ALERT.exists():
+        ALERT.unlink()
+        log(f"清掉旧告警 {ALERT.relative_to(ROOT)}")
+
+
 def main():
     log("=" * 70)
     log("daily update start")
@@ -96,10 +144,18 @@ def main():
     # 1) 核对来源页；确认没变的那些，checked 推到今天
     code, out = run([PY, "daily_verify.py", "--apply"])
     if code != 0:
-        log("ABORT: 有来源页内容变了或抓取异常，未部署。")
-        log("       逐条看上面的 CHANGED 行，人工核对后用 "
-            "`python daily_verify.py --apply --force` 推进。")
+        # 退出码 1 只代表「有来源页内容变了」，抓不到的页面不会让它失败。
+        # 变化会一直挡在这里，直到有人看过并跑 --apply --force，所以要把
+        # 是哪几个页面、影响哪些条目直接写进日志，别让人去翻 68 行输出。
+        pending = load_baseline_pending()
+        log("ABORT: 有来源页内容变了，未部署。基线保持旧值，明天还会继续报。")
+        for u, v in pending:
+            log(f"  CHANGED  {u}  since {v.get('changed_since')}")
+        log("       人工核对改动后用 `python daily_verify.py --apply --force` 认可，"
+            "下一次运行才会恢复。")
+        write_alert(pending)
         return 1
+    clear_alert()
     n_sources = parse_stat(out, "sources")
     n_ok = parse_stat(out, "fetch_ok")
     n_changed = parse_stat(out, "changed")
