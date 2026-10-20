@@ -143,7 +143,7 @@
     },
     {
      "fact": "No dedicated promo code or coupon page appears in Lemonade's official sitemap.",
-     "condition": "Sitemap at https://www.lemonade.com/sitemap.xml checked on 2026-09-25; no URL matching promo, coupon, discount or deal was found. The published discounts are the multi-pet, bundle and annual-payment discounts listed above.",
+     "condition": "Sitemap at https://www.lemonade.com/sitemap.xml checked on 2026-10-20; no URL matching promo, coupon, discount or deal was found. The published discounts are the multi-pet, bundle and annual-payment discounts listed above.",
      "source_url": "https://www.lemonade.com/sitemap.xml",
      "checked": "2026-10-20"
     }
@@ -175,7 +175,7 @@
     },
     {
      "q": "Are there Lemonade pet insurance promo codes or discounts?",
-     "a": "Lemonade's official sitemap contains no promo code or coupon page (checked 2026-09-25). The discounts published on its own site are a multi-pet discount (eligibility depends on where you live), a bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly.",
+     "a": "Lemonade's official sitemap contains no promo code or coupon page (checked 2026-10-20). The discounts published on its own site are a multi-pet discount (eligibility depends on where you live), a bundle discount with other Lemonade policies, and a discount for paying annually instead of monthly.",
      "source_url": "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/",
      "checked": "2026-10-20"
     },
@@ -298,7 +298,7 @@
     },
     {
      "fact": "No dedicated promo code page appears in Spot's official sitemaps.",
-     "condition": "Sitemap index at https://spotpet.com/sitemap.xml and its child sitemaps checked on 2026-09-25; no URL matching promo or coupon was found. The published discounts are the multi-pet discount, the group/employee discount and Spot Perks.",
+     "condition": "Sitemap index at https://spotpet.com/sitemap.xml and its child sitemaps checked on 2026-10-20; no URL matching promo or coupon was found. The published discounts are the multi-pet discount, the group/employee discount and Spot Perks.",
      "source_url": "https://spotpet.com/sitemap.xml",
      "checked": "2026-10-20"
     }
@@ -330,7 +330,7 @@
     },
     {
      "q": "Are there Spot pet insurance promo codes or discounts?",
-     "a": "Spot's official sitemaps contain no promo code page (checked 2026-09-25). Discounts published on its own site: 10% off for every pet enrolled after the first, an advertised 20% employee discount through employer benefits (up to 10% group discount plus up to 10% multi-pet discount on 2nd+ pets, varies by state, not available in all states), and Spot Perks with $2,500+ in brand discounts.",
+     "a": "Spot's official sitemaps contain no promo code page (checked 2026-10-20). Discounts published on its own site: 10% off for every pet enrolled after the first, an advertised 20% employee discount through employer benefits (up to 10% group discount plus up to 10% multi-pet discount on 2nd+ pets, varies by state, not available in all states), and Spot Perks with $2,500+ in brand discounts.",
      "source_url": "https://spotpet.com/cat-insurance",
      "checked": "2026-10-20"
     },
@@ -470,7 +470,7 @@
     },
     {
      "fact": "No dedicated promo code page appears in Fetch's official sitemap.",
-     "condition": "Sitemap at https://fetchpet.com/sitemap.xml checked on 2026-09-25; no URL matching promo or coupon was found. The published discounts are the 10% military discount (maximum available discount is 10% per the site footnote) and the Fetch Deals member savings.",
+     "condition": "Sitemap at https://fetchpet.com/sitemap.xml checked on 2026-10-20; no URL matching promo or coupon was found. The published discounts are the 10% military discount (maximum available discount is 10% per the site footnote) and the Fetch Deals member savings.",
      "source_url": "https://fetchpet.com/sitemap.xml",
      "checked": "2026-10-20"
     }
@@ -502,7 +502,7 @@
     },
     {
      "q": "Are there Fetch pet insurance promo codes or discounts?",
-     "a": "Fetch's official sitemap contains no promo code page (checked 2026-09-25). Discounts published on its own site: veterans and active military save 10% every month for life (maximum available discount is 10%, subject to approval, may not be available in all states, not valid with any other offer), and Fetch Deals member savings of $1,500+ included at no extra cost.",
+     "a": "Fetch's official sitemap contains no promo code page (checked 2026-10-20). Discounts published on its own site: veterans and active military save 10% every month for life (maximum available discount is 10%, subject to approval, may not be available in all states, not valid with any other offer), and Fetch Deals member savings of $1,500+ included at no extra cost.",
      "source_url": "https://www.fetchpet.com/faqs/military-pet-insurance-discount",
      "checked": "2026-10-20"
     },
@@ -566,8 +566,8 @@
    "checked": "2026-10-20"
   },
   {
-   "fact": "None of the three brands publishes a promo code page in its official sitemap (checked 2026-09-25). The discounts that do exist on their own sites are multi-pet/bundle/annual-pay (Lemonade), multi-pet/employee/Spot Perks (Spot), and military 10%/Fetch Deals (Fetch).",
-   "condition": "Sitemaps of lemonade.com, spotpet.com and fetchpet.com checked on 2026-09-25; no URL matching promo or coupon found on any of them.",
+   "fact": "None of the three brands publishes a promo code page in its official sitemap (checked 2026-10-20). The discounts that do exist on their own sites are multi-pet/bundle/annual-pay (Lemonade), multi-pet/employee/Spot Perks (Spot), and military 10%/Fetch Deals (Fetch).",
+   "condition": "Sitemaps of lemonade.com, spotpet.com and fetchpet.com checked on 2026-10-20; no URL matching promo or coupon found on any of them.",
    "source_url": "https://www.lemonade.com/sitemap.xml",
    "checked": "2026-10-20"
   }
@@ -599,7 +599,7 @@
   },
   {
    "q": "Are there legitimate pet insurance promo codes?",
-   "a": "None of the three brands publishes a promo code page in its official sitemap (checked 2026-09-25). The discounts that exist on their own sites are: Lemonade - multi-pet, bundle and annual-payment discounts; Spot - 10% off for each pet after the first, an advertised 20% employee discount via employer benefits (composed of up to 10% group plus up to 10% multi-pet on 2nd+ pets, varies by state) and Spot Perks brand discounts; Fetch - 10% off for veterans and active military (maximum available discount is 10%) and Fetch Deals member savings.",
+   "a": "None of the three brands publishes a promo code page in its official sitemap (checked 2026-10-20). The discounts that exist on their own sites are: Lemonade - multi-pet, bundle and annual-payment discounts; Spot - 10% off for each pet after the first, an advertised 20% employee discount via employer benefits (composed of up to 10% group plus up to 10% multi-pet on 2nd+ pets, varies by state) and Spot Perks brand discounts; Fetch - 10% off for veterans and active military (maximum available discount is 10%) and Fetch Deals member savings.",
    "source_url": "https://www.fetchpet.com/faqs/military-pet-insurance-discount",
    "checked": "2026-10-20"
   },

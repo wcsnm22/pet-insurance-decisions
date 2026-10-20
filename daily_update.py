@@ -106,20 +106,30 @@ def main():
     n_applied = parse_stat(out, "applied")
     log(f"verify: sources={n_sources} fetch_ok={n_ok} changed={n_changed} applied={n_applied}")
 
-    # 2) 重建
+    # 2) 正文里的核查日期跟着 checked 走；页面级日期跟着本页最新 checked 走
+    run([PY, "sync_prose_dates.py", "--apply"])
+    run([PY, "sync_page_dates.py", "--apply"])
+
+    # 3) 一致性审计：还有对不上的日期就不发
+    code, out = run([PY, "audit_prose_dates.py"])
+    if code != 0:
+        log("ABORT: 页面日期仍不一致，未部署。先把上面 STALE 的行处理掉。")
+        return 1
+
+    # 4) 重建
     code, _ = run([PY, "build.py"])
     if code != 0:
         log("ABORT: 构建失败，未部署。")
         return 1
 
-    # 3) 自检；不过就不发
+    # 5) 自检；不过就不发
     code, out = run([PY, "selfcheck.py"])
     if code != 0 or "RESULT: PASS" not in out:
         log("ABORT: 自检未通过，未部署。")
         return 1
     log("selfcheck PASS")
 
-    # 4) 站点没变就不部署
+    # 6) 站点没变就不部署
     fp = site_fingerprint()
     prev = STAMP.read_text(encoding="utf-8").strip() if STAMP.exists() else ""
     if fp == prev:
@@ -127,7 +137,7 @@ def main():
         return 0
     log(f"site fingerprint {prev or '(none)'} -> {fp}")
 
-    # 5) 本地留痕（push 仍坏着，只做本地提交）
+    # 7) 本地留痕（push 仍坏着，只做本地提交）
     today = datetime.now().strftime("%Y-%m-%d")
     run(["git", "add", "-A"])
     code, out = run(["git", "commit", "-q", "-m",
@@ -135,7 +145,7 @@ def main():
     if code != 0 and "nothing to commit" not in out:
         log("note: git commit 没成功，继续部署（部署不依赖提交）")
 
-    # 6) 部署
+    # 8) 部署
     env = dict(os.environ, CLOUDFLARE_ACCOUNT_ID=ACCOUNT_ID)
     code, out = run([str(WRANGLER), "pages", "deploy", "site",
                      f"--project-name={PROJECT}", "--branch=main",
@@ -144,7 +154,7 @@ def main():
         log("ABORT: 部署失败。")
         return 1
 
-    # 7) 线上抽检。首次部署后边缘可能短暂 404/旧版，给 3 分钟重试窗口
+    # 9) 线上抽检。首次部署后边缘可能短暂 404/旧版，给 3 分钟重试窗口
     deadline = time.time() + 180
     failures = []
     for path in SPOT_CHECK:
@@ -172,6 +182,16 @@ def main():
 
     STAMP.write_text(fp, encoding="utf-8")
     log("daily update done")
+
+    # 10) 长期抓不到的来源：不阻塞发布，但必须每次都报出来，
+    #     否则「每天核对过了」会变成没人验证的空话。
+    base = json.loads((ROOT / "data" / "source_baseline.json").read_text(encoding="utf-8"))
+    stuck = {u: v["state"] for u, v in base.items()
+             if v["state"] not in ("UNCHANGED", "BASELINE")}
+    if stuck:
+        log(f"WARN: {len(stuck)} 个来源页抓不到，其事实的日期无法推进：")
+        for u, st in sorted(stuck.items()):
+            log(f"        {st:<12} {u}")
     return 0
 
 

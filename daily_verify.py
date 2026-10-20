@@ -52,16 +52,21 @@ REV_PATTERNS = [
 
 
 def fetch(url):
-    """返回 (status, text, rev_date)。status: ok / http_NNN / pdf / err_X"""
+    """返回 (status, text, rev_date)。status: ok / http_NNN / err_X
+
+    PDF 也照常核对：按字节算指纹。之前把 PDF 当作「无法核对」跳过，
+    结果是那几条的日期永远冻在原地 —— 而 PDF 恰恰是最容易整份换掉的东西。
+    """
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30, allow_redirects=True)
+        r = requests.get(url, headers=HEADERS, timeout=60, allow_redirects=True)
     except Exception as e:  # noqa: BLE001
         return f"err_{type(e).__name__}", "", None
     if r.status_code != 200:
         return f"http_{r.status_code}", "", None
     ctype = r.headers.get("content-type", "")
     if "pdf" in ctype or url.lower().endswith(".pdf"):
-        return "pdf", "", None
+        # 用字节的 sha256 当作「正文」，走同一套指纹逻辑
+        return "ok", "pdf-bytes:" + hashlib.sha256(r.content).hexdigest(), None
 
     html = r.text
     rev = None

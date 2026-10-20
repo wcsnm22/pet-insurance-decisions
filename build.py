@@ -337,6 +337,22 @@ def _css_v() -> str:
     return hashlib.sha1(p.read_bytes()).hexdigest()[:8]
 
 
+def checked_for_source(item_groups, source_url: str, fallback: str) -> str:
+    """The check date that actually belongs to a given source URL.
+
+    A brand card quotes one source (its price page); that page's check date is
+    whatever the newest item citing the SAME url records. Falling back to the
+    site-wide date would print a date for a page that has since been re-read.
+    """
+    dates = [
+        i["checked"]
+        for items in item_groups
+        for i in items
+        if i.get("source_url") == source_url and i.get("checked")
+    ]
+    return max(dates) if dates else fallback
+
+
 def latest_checked(items: list[dict]) -> str:
     """Most recent check date among a page's own facts/FAQs.
 
@@ -547,7 +563,7 @@ def build() -> None:
         f'<div class="card"><h3><a href="/{a["slug"]}">{escape(a["title"])}</a></h3>'
         f'<p>{escape(a["description"])}</p>'
         f'<p class="muted">Type: {escape(a.get("type", ""))} · keyword: {escape(a.get("keyword", ""))} · '
-        f'facts checked {escape(site["checked"])}</p></div>'
+        f'facts checked {escape(latest_checked(a["facts"] + a["faqs"]) or site["checked"])}</p></div>'
         for a in articles
     )
 
@@ -598,7 +614,8 @@ def build() -> None:
         f'<p class="price big">{escape(b["price_line"])}</p>'
         f'<p class="muted">{escape(b["price_condition"])}</p>'
         f'<p class="muted">Source: <a href="{escape(b["price_source"])}" rel="noopener" target="_blank">'
-        f'{escape(b["price_source"])}</a> · checked {escape(site["checked"])}</p>'
+        f'{escape(b["price_source"])}</a> · checked '
+        f'{escape(checked_for_source([b["facts"], b["faqs"]], b["price_source"], site["checked"]))}</p>'
         f'<p>{escape(b["short_answer"])}</p></div>'
         for b in brands
     )

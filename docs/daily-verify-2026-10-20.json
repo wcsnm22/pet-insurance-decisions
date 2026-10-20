@@ -3,24 +3,15 @@
  "sources": 68,
  "tally": {
   "HTTP_403": 5,
-  "PDF": 5,
-  "UNCHANGED": 56,
-  "ERR_CONNECTIONERROR": 1,
-  "BASELINE": 1
+  "UNCHANGED": 63
  },
  "changed": [],
  "unreachable": [
   "https://aspcapetinsurance.com/more-info/notice-to-california-residents",
-  "https://assets.ctfassets.net/m5ehn3s5t7ec/1BnVbZD0bckBstD3zXO6wE/05ab8626875f3adbc9c06bf1134664b0/Sample_PolicyPages_CA_AccidentIllness_IAIC.pdf",
-  "https://assets.ctfassets.net/m5ehn3s5t7ec/1jSJ3wibAqaL8wdIY3yKhQ/5c6fe63f297179c6da4cef326dc5fc3e/Sample_PolicyPages_AZ_AccidentandIllness_47_copy.pdf",
-  "https://assets.ctfassets.net/m5ehn3s5t7ec/4v8nxVvZL52Gzot7vlIfZz/b4210a777421682f3e6f2c7e09b6e618/Preventive_IAIC_Platinum_copy.pdf",
-  "https://assets.ctfassets.net/m5ehn3s5t7ec/rcRJqNeeTUUYxIm0WS6bU/10732c41bdf344599e656aecfbb93125/Preventive_IAIC_Gold_copy.pdf",
   "https://www.aspcapetinsurance.com/",
   "https://www.aspcapetinsurance.com/more-info/state-documents-and-sample-policies",
   "https://www.aspcapetinsurance.com/quote/",
-  "https://www.aspcapetinsurance.com/research-and-compare/pet-insurance-basics/whats-covered/",
-  "https://www.fetchpet.com/PORTALDOCS/FORMS/2016_04/TermsConditions/GPTM_050-XX_0316.pdf",
-  "https://www.geico.com/living/pet-insurance-what-is-it-how-does-it-work/"
+  "https://www.aspcapetinsurance.com/research-and-compare/pet-insurance-basics/whats-covered/"
  ],
  "detail": {
   "https://aspcapetinsurance.com/more-info/notice-to-california-residents": {
@@ -35,48 +26,48 @@
    "last_ok": null
   },
   "https://assets.ctfassets.net/m5ehn3s5t7ec/1BnVbZD0bckBstD3zXO6wE/05ab8626875f3adbc9c06bf1134664b0/Sample_PolicyPages_CA_AccidentIllness_IAIC.pdf": {
-   "status": "pdf",
-   "fingerprint": null,
-   "chars": 0,
+   "status": "ok",
+   "fingerprint": "11973ad6d00f9172",
+   "chars": 74,
    "rev_date": null,
    "prev_rev_date": null,
-   "prev_fingerprint": null,
-   "state": "PDF",
+   "prev_fingerprint": "11973ad6d00f9172",
+   "state": "UNCHANGED",
    "first_seen": "2026-10-20",
-   "last_ok": null
+   "last_ok": "2026-10-20"
   },
   "https://assets.ctfassets.net/m5ehn3s5t7ec/1jSJ3wibAqaL8wdIY3yKhQ/5c6fe63f297179c6da4cef326dc5fc3e/Sample_PolicyPages_AZ_AccidentandIllness_47_copy.pdf": {
-   "status": "pdf",
-   "fingerprint": null,
-   "chars": 0,
+   "status": "ok",
+   "fingerprint": "2f764c179fe034a1",
+   "chars": 74,
    "rev_date": null,
    "prev_rev_date": null,
-   "prev_fingerprint": null,
-   "state": "PDF",
+   "prev_fingerprint": "2f764c179fe034a1",
+   "state": "UNCHANGED",
    "first_seen": "2026-10-20",
-   "last_ok": null
+   "last_ok": "2026-10-20"
   },
   "https://assets.ctfassets.net/m5ehn3s5t7ec/4v8nxVvZL52Gzot7vlIfZz/b4210a777421682f3e6f2c7e09b6e618/Preventive_IAIC_Platinum_copy.pdf": {
-   "status": "pdf",
-   "fingerprint": null,
-   "chars": 0,
+   "status": "ok",
+   "fingerprint": "4f618af18af5c9ad",
+   "chars": 74,
    "rev_date": null,
    "prev_rev_date": null,
-   "prev_fingerprint": null,
-   "state": "PDF",
+   "prev_fingerprint": "4f618af18af5c9ad",
+   "state": "UNCHANGED",
    "first_seen": "2026-10-20",
-   "last_ok": null
+   "last_ok": "2026-10-20"
   },
   "https://assets.ctfassets.net/m5ehn3s5t7ec/rcRJqNeeTUUYxIm0WS6bU/10732c41bdf344599e656aecfbb93125/Preventive_IAIC_Gold_copy.pdf": {
-   "status": "pdf",
-   "fingerprint": null,
-   "chars": 0,
+   "status": "ok",
+   "fingerprint": "89059501aa8eba65",
+   "chars": 74,
    "rev_date": null,
    "prev_rev_date": null,
-   "prev_fingerprint": null,
-   "state": "PDF",
+   "prev_fingerprint": "89059501aa8eba65",
+   "state": "UNCHANGED",
    "first_seen": "2026-10-20",
-   "last_ok": null
+   "last_ok": "2026-10-20"
   },
   "https://fetchpet.com/sitemap.xml": {
    "status": "ok",
@@ -376,15 +367,15 @@
    "last_ok": "2026-10-20"
   },
   "https://www.fetchpet.com/PORTALDOCS/FORMS/2016_04/TermsConditions/GPTM_050-XX_0316.pdf": {
-   "status": "pdf",
-   "fingerprint": null,
-   "chars": 0,
+   "status": "ok",
+   "fingerprint": "c6dab62563409bf5",
+   "chars": 74,
    "rev_date": null,
    "prev_rev_date": null,
-   "prev_fingerprint": null,
-   "state": "PDF",
+   "prev_fingerprint": "c6dab62563409bf5",
+   "state": "UNCHANGED",
    "first_seen": "2026-10-20",
-   "last_ok": null
+   "last_ok": "2026-10-20"
   },
   "https://www.fetchpet.com/claims": {
    "status": "ok",
@@ -563,13 +554,13 @@
    "last_ok": "2026-10-20"
   },
   "https://www.geico.com/living/pet-insurance-what-is-it-how-does-it-work/": {
-   "status": "err_ConnectionError",
-   "fingerprint": null,
-   "chars": 0,
+   "status": "ok",
+   "fingerprint": "b29da3a90c9371cd",
+   "chars": 15705,
    "rev_date": null,
    "prev_rev_date": null,
    "prev_fingerprint": "b29da3a90c9371cd",
-   "state": "ERR_CONNECTIONERROR",
+   "state": "UNCHANGED",
    "first_seen": "2026-10-20",
    "last_ok": "2026-10-20"
   },
@@ -579,8 +570,8 @@
    "chars": 11962,
    "rev_date": null,
    "prev_rev_date": null,
-   "prev_fingerprint": null,
-   "state": "BASELINE",
+   "prev_fingerprint": "4934f8c80333ef84",
+   "state": "UNCHANGED",
    "first_seen": "2026-10-20",
    "last_ok": "2026-10-20"
   },
