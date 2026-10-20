@@ -187,8 +187,10 @@ def main():
             (DATA / "brands.json").write_text(json.dumps(brands, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"\nchecked 推进到 {today}：{changed_n} 条")
     elif blocked:
+        changed_n = 0
         print(f"\n有 {len(changed)} 个来源页内容变了，不推进任何日期。看过之后再跑 --apply --force。")
     else:
+        changed_n = 0
         print("\n[dry] 未写 data/*.json")
 
     BASE.write_text(json.dumps(now, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -203,6 +205,13 @@ def main():
     (DOCS / f"daily-verify-{today}.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8"
     )
+
+    # 机器可读的统计行：全 ASCII，避免 Windows 控制台 GBK 把中文吞掉后解析失败
+    fetch_ok = sum(1 for v in now.values() if v["status"] == "ok")
+    print(f"STAT sources={len(urls)} fetch_ok={fetch_ok} "
+          f"unchanged={tally.get('UNCHANGED', 0)} baseline={tally.get('BASELINE', 0)} "
+          f"changed={len(changed)} unreachable={len(down)} applied={changed_n}")
+
     print(f"报告：docs/daily-verify-{today}.json")
     print(f"基线：data/source_baseline.json")
     return 1 if (changed and not force) else 0

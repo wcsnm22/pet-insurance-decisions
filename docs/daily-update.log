@@ -1,0 +1,157 @@
+[2026-10-20 17:43:33] ======================================================================
+[2026-10-20 17:43:33] daily update start
+[2026-10-20 17:43:33] $ C:\Users\Administrator\AppData\Local\Programs\Python\Python312\python.exe daily_verify.py --apply
+[2026-10-20 17:45:00]   |   [50/68] ok UNCHANGED      15705B  https://www.geico.com/living/pet-insurance-what-is-it-how-does-it-work/
+[2026-10-20 17:45:00]   |   [51/68] ok UNCHANGED      11962B  https://www.geico.com/pet-insurance/
+[2026-10-20 17:45:00]   |   [52/68] ok UNCHANGED      13443B  https://www.lemonade.com/pet-insurance
+[2026-10-20 17:45:00]   |   [53/68] ok UNCHANGED      13528B  https://www.lemonade.com/pet/cats
+[2026-10-20 17:45:00]   |   [54/68] ok UNCHANGED      13264B  https://www.lemonade.com/pet/explained/how-to-file-a-pet-insurance-claim
+[2026-10-20 17:45:00]   |   [55/68] ok UNCHANGED      13264B  https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/
+[2026-10-20 17:45:00]   |   [56/68] ok UNCHANGED      37989B  https://www.lemonade.com/pet/insurance-guide/lemonade-pet-insurance-faq/
+[2026-10-20 17:45:00]   |   [57/68] ok UNCHANGED      13385B  https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/
+[2026-10-20 17:45:00]   |   [58/68] ok UNCHANGED      18963B  https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/
+[2026-10-20 17:45:00]   |   [59/68] ok UNCHANGED       9536B  https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/
+[2026-10-20 17:45:00]   |   [60/68] ok UNCHANGED      27483B  https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/
+[2026-10-20 17:45:00]   |   [61/68] ok UNCHANGED      20299B  https://www.lemonade.com/pet/insurance-guide/pet-insurance-pre-existing-conditions/
+[2026-10-20 17:45:00]   |   [62/68] ok UNCHANGED      31215B  https://www.lemonade.com/pet/insurance-guide/pet-insurance/
+[2026-10-20 17:45:00]   |   [63/68] ok UNCHANGED      26794B  https://www.lemonade.com/pet/insurance-guide/waiting-periods/
+[2026-10-20 17:45:00]   |   [64/68] ok UNCHANGED       1377B  https://www.lemonade.com/sitemap.xml
+[2026-10-20 17:45:00]   |   [65/68] ok UNCHANGED       6575B  https://www.lemonade.com/terms-and-conditions-referral-program
+[2026-10-20 17:45:00]   |   [66/68] ok UNCHANGED       6778B  https://www.petinsurance.com/exotics/
+[2026-10-20 17:45:00]   |   [67/68] ok UNCHANGED      14781B  https://www.petinsurance.com/faq/
+[2026-10-20 17:45:00]   |   [68/68] ok UNCHANGED       5929B  https://www.petinsurance.com/petwellness/
+[2026-10-20 17:45:00]   | 
+[2026-10-20 17:45:17] ======================================================================
+[2026-10-20 17:45:17] daily update start
+[2026-10-20 17:45:17] $ C:\Users\Administrator\AppData\Local\Programs\Python\Python312\python.exe daily_verify.py --apply
+[2026-10-20 17:46:40]   |   [50/68] ok UNCHANGED      15705B  https://www.geico.com/living/pet-insurance-what-is-it-how-does-it-work/
+[2026-10-20 17:46:40]   |   [51/68] ok UNCHANGED      11962B  https://www.geico.com/pet-insurance/
+[2026-10-20 17:46:40]   |   [52/68] ok UNCHANGED      13443B  https://www.lemonade.com/pet-insurance
+[2026-10-20 17:46:40]   |   [53/68] ok UNCHANGED      13528B  https://www.lemonade.com/pet/cats
+[2026-10-20 17:46:40]   |   [54/68] ok UNCHANGED      13264B  https://www.lemonade.com/pet/explained/how-to-file-a-pet-insurance-claim
+[2026-10-20 17:46:40]   |   [55/68] ok UNCHANGED      13264B  https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/
+[2026-10-20 17:46:40]   |   [56/68] ok UNCHANGED      37989B  https://www.lemonade.com/pet/insurance-guide/lemonade-pet-insurance-faq/
+[2026-10-20 17:46:40]   |   [57/68] ok UNCHANGED      13385B  https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/
+[2026-10-20 17:46:40]   |   [58/68] ok UNCHANGED      18963B  https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/
+[2026-10-20 17:46:40]   |   [59/68] ok UNCHANGED       9536B  https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/
+[2026-10-20 17:46:40]   |   [60/68] ok UNCHANGED      27483B  https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/
+[2026-10-20 17:46:40]   |   [61/68] ok UNCHANGED      20299B  https://www.lemonade.com/pet/insurance-guide/pet-insurance-pre-existing-conditions/
+[2026-10-20 17:46:40]   |   [62/68] ok UNCHANGED      31215B  https://www.lemonade.com/pet/insurance-guide/pet-insurance/
+[2026-10-20 17:46:40]   |   [63/68] ok UNCHANGED      26794B  https://www.lemonade.com/pet/insurance-guide/waiting-periods/
+[2026-10-20 17:46:40]   |   [64/68] ok UNCHANGED       1377B  https://www.lemonade.com/sitemap.xml
+[2026-10-20 17:46:40]   |   [65/68] ok UNCHANGED       6575B  https://www.lemonade.com/terms-and-conditions-referral-program
+[2026-10-20 17:46:40]   |   [66/68] ok UNCHANGED       6778B  https://www.petinsurance.com/exotics/
+[2026-10-20 17:46:40]   |   [67/68] ok UNCHANGED      14781B  https://www.petinsurance.com/faq/
+[2026-10-20 17:46:40]   |   [68/68] ok UNCHANGED       5929B  https://www.petinsurance.com/petwellness/
+[2026-10-20 17:46:40]   | 
+[2026-10-20 17:46:40]   | ״̬���ܣ�
+[2026-10-20 17:46:40]   |   UNCHANGED    58
+[2026-10-20 17:46:40]   |   HTTP_403     5
+[2026-10-20 17:46:40]   |   PDF          5
+[2026-10-20 17:46:40]   | 
+[2026-10-20 17:46:40]   | ץ������ҳ�棺10
+[2026-10-20 17:46:40]   |   HTTP_403       https://aspcapetinsurance.com/more-info/notice-to-california-residents
+[2026-10-20 17:46:40]   |   PDF            https://assets.ctfassets.net/m5ehn3s5t7ec/1BnVbZD0bckBstD3zXO6wE/05ab8626875f3adbc9c06bf1134664b0/Sample_PolicyPages_CA_AccidentIllness_IAIC.pdf
+[2026-10-20 17:46:40]   |   PDF            https://assets.ctfassets.net/m5ehn3s5t7ec/1jSJ3wibAqaL8wdIY3yKhQ/5c6fe63f297179c6da4cef326dc5fc3e/Sample_PolicyPages_AZ_AccidentandIllness_47_copy.pdf
+[2026-10-20 17:46:40]   |   PDF            https://assets.ctfassets.net/m5ehn3s5t7ec/4v8nxVvZL52Gzot7vlIfZz/b4210a777421682f3e6f2c7e09b6e618/Preventive_IAIC_Platinum_copy.pdf
+[2026-10-20 17:46:40]   |   PDF            https://assets.ctfassets.net/m5ehn3s5t7ec/rcRJqNeeTUUYxIm0WS6bU/10732c41bdf344599e656aecfbb93125/Preventive_IAIC_Gold_copy.pdf
+[2026-10-20 17:46:40]   |   HTTP_403       https://www.aspcapetinsurance.com/
+[2026-10-20 17:46:40]   |   HTTP_403       https://www.aspcapetinsurance.com/more-info/state-documents-and-sample-policies
+[2026-10-20 17:46:40]   |   HTTP_403       https://www.aspcapetinsurance.com/quote/
+[2026-10-20 17:46:40]   |   HTTP_403       https://www.aspcapetinsurance.com/research-and-compare/pet-insurance-basics/whats-covered/
+[2026-10-20 17:46:40]   |   PDF            https://www.fetchpet.com/PORTALDOCS/FORMS/2016_04/TermsConditions/GPTM_050-XX_0316.pdf
+[2026-10-20 17:46:40]   | 
+[2026-10-20 17:46:40]   | checked �ƽ��� 2026-10-20��0 ��
+[2026-10-20 17:46:40]   | ���棺docs/daily-verify-2026-10-20.json
+[2026-10-20 17:46:40]   | ���ߣ�data/source_baseline.json
+[2026-10-20 17:46:40] SKIP DEPLOY: 今天没有抓到任何来源页，checked 一条都没推进，不制造空部署。
+[2026-10-20 17:53:56] ======================================================================
+[2026-10-20 17:53:56] daily update start
+[2026-10-20 17:53:56] $ C:\Users\Administrator\AppData\Local\Programs\Python\Python312\python.exe daily_verify.py --apply
+[2026-10-20 17:55:22]   |   [54/68] ok UNCHANGED      13264B  https://www.lemonade.com/pet/explained/how-to-file-a-pet-insurance-claim
+[2026-10-20 17:55:22]   |   [55/68] ok UNCHANGED      13264B  https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/
+[2026-10-20 17:55:22]   |   [56/68] ok UNCHANGED      37989B  https://www.lemonade.com/pet/insurance-guide/lemonade-pet-insurance-faq/
+[2026-10-20 17:55:22]   |   [57/68] ok UNCHANGED      13385B  https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/
+[2026-10-20 17:55:22]   |   [58/68] ok UNCHANGED      18963B  https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/
+[2026-10-20 17:55:22]   |   [59/68] ok UNCHANGED       9536B  https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/
+[2026-10-20 17:55:22]   |   [60/68] ok UNCHANGED      27483B  https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/
+[2026-10-20 17:55:22]   |   [61/68] ok UNCHANGED      20299B  https://www.lemonade.com/pet/insurance-guide/pet-insurance-pre-existing-conditions/
+[2026-10-20 17:55:22]   |   [62/68] ok UNCHANGED      31215B  https://www.lemonade.com/pet/insurance-guide/pet-insurance/
+[2026-10-20 17:55:22]   |   [63/68] ok UNCHANGED      26794B  https://www.lemonade.com/pet/insurance-guide/waiting-periods/
+[2026-10-20 17:55:22]   |   [64/68] ok UNCHANGED       1377B  https://www.lemonade.com/sitemap.xml
+[2026-10-20 17:55:22]   |   [65/68] ok UNCHANGED       6575B  https://www.lemonade.com/terms-and-conditions-referral-program
+[2026-10-20 17:55:22]   |   [66/68] ok UNCHANGED       6778B  https://www.petinsurance.com/exotics/
+[2026-10-20 17:55:22]   |   [67/68] ok UNCHANGED      14781B  https://www.petinsurance.com/faq/
+[2026-10-20 17:55:22]   |   [68/68] ok UNCHANGED       5929B  https://www.petinsurance.com/petwellness/
+[2026-10-20 17:55:22]   | 
+[2026-10-20 17:55:22]   | ״̬���ܣ�
+[2026-10-20 17:55:22]   |   UNCHANGED    56
+[2026-10-20 17:55:22]   |   HTTP_403     5
+[2026-10-20 17:55:22]   |   PDF          5
+[2026-10-20 17:55:22]   |   ERR_CONNECTIONERROR 1
+[2026-10-20 17:55:22]   |   BASELINE     1
+[2026-10-20 17:55:22]   | 
+[2026-10-20 17:55:22]   | ץ������ҳ�棺11
+[2026-10-20 17:55:22]   |   HTTP_403       https://aspcapetinsurance.com/more-info/notice-to-california-residents
+[2026-10-20 17:55:22]   |   PDF            https://assets.ctfassets.net/m5ehn3s5t7ec/1BnVbZD0bckBstD3zXO6wE/05ab8626875f3adbc9c06bf1134664b0/Sample_PolicyPages_CA_AccidentIllness_IAIC.pdf
+[2026-10-20 17:55:22]   |   PDF            https://assets.ctfassets.net/m5ehn3s5t7ec/1jSJ3wibAqaL8wdIY3yKhQ/5c6fe63f297179c6da4cef326dc5fc3e/Sample_PolicyPages_AZ_AccidentandIllness_47_copy.pdf
+[2026-10-20 17:55:22]   |   PDF            https://assets.ctfassets.net/m5ehn3s5t7ec/4v8nxVvZL52Gzot7vlIfZz/b4210a777421682f3e6f2c7e09b6e618/Preventive_IAIC_Platinum_copy.pdf
+[2026-10-20 17:55:22]   |   PDF            https://assets.ctfassets.net/m5ehn3s5t7ec/rcRJqNeeTUUYxIm0WS6bU/10732c41bdf344599e656aecfbb93125/Preventive_IAIC_Gold_copy.pdf
+[2026-10-20 17:55:22]   |   HTTP_403       https://www.aspcapetinsurance.com/
+[2026-10-20 17:55:22]   |   HTTP_403       https://www.aspcapetinsurance.com/more-info/state-documents-and-sample-policies
+[2026-10-20 17:55:22]   |   HTTP_403       https://www.aspcapetinsurance.com/quote/
+[2026-10-20 17:55:22]   |   HTTP_403       https://www.aspcapetinsurance.com/research-and-compare/pet-insurance-basics/whats-covered/
+[2026-10-20 17:55:22]   |   PDF            https://www.fetchpet.com/PORTALDOCS/FORMS/2016_04/TermsConditions/GPTM_050-XX_0316.pdf
+[2026-10-20 17:55:22]   |   ERR_CONNECTIONERROR https://www.geico.com/living/pet-insurance-what-is-it-how-does-it-work/
+[2026-10-20 17:55:22]   | 
+[2026-10-20 17:55:22]   | checked �ƽ��� 2026-10-20��0 ��
+[2026-10-20 17:55:22]   | STAT sources=68 fetch_ok=57 unchanged=56 baseline=1 changed=0 unreachable=11 applied=0
+[2026-10-20 17:55:22]   | ���棺docs/daily-verify-2026-10-20.json
+[2026-10-20 17:55:22]   | ���ߣ�data/source_baseline.json
+[2026-10-20 17:55:22] verify: sources=68 fetch_ok=57 changed=0 applied=0
+[2026-10-20 17:55:22] $ C:\Users\Administrator\AppData\Local\Programs\Python\Python312\python.exe build.py
+[2026-10-20 17:55:23]   | built 21 pages -> D:\�½��ļ��� (2)\pet-insurance-decisions\site at 2026-10-20T09:55:22Z
+[2026-10-20 17:55:23] $ C:\Users\Administrator\AppData\Local\Programs\Python\Python312\python.exe selfcheck.py
+[2026-10-20 17:55:24]   | [4] pet-insurance-claim-denied.html: jsonld=True canonical=True
+[2026-10-20 17:55:24]   | [4] pet-insurance-claim-filing-deadline.html: jsonld=True canonical=True
+[2026-10-20 17:55:24]   | [4] pet-insurance-cost-by-brand.html: jsonld=True canonical=True
+[2026-10-20 17:55:24]   | [4] pet-insurance-cost.html: jsonld=True canonical=True
+[2026-10-20 17:55:24]   | [4] pet-insurance-promo-code.html: jsonld=True canonical=True
+[2026-10-20 17:55:24]   | [4] pet-insurance-waiting-periods-by-condition.html: jsonld=True canonical=True
+[2026-10-20 17:55:24]   | [4] pet-insurance-waiting-periods.html: jsonld=True canonical=True
+[2026-10-20 17:55:24]   | [4] pet-insurance-wellness-add-on.html: jsonld=True canonical=True
+[2026-10-20 17:55:24]   | [4] privacy.html: jsonld=True canonical=True
+[2026-10-20 17:55:24]   | [4] spot-pet-insurance.html: jsonld=True canonical=True
+[2026-10-20 17:55:24]   | [4] sitemap.xml: ok
+[2026-10-20 17:55:24]   | [4] robots.txt: ok
+[2026-10-20 17:55:24]   | [4] _worker.js: ok
+[2026-10-20 17:55:24]   | [4] assets/style.css: ok
+[2026-10-20 17:55:24]   | [4] llms.txt: ok
+[2026-10-20 17:55:24]   | [4] llms-full.txt: ok
+[2026-10-20 17:55:24]   | [4] ads.txt: ok
+[2026-10-20 17:55:24]   | [4] .well-known/security.txt: ok
+[2026-10-20 17:55:24]   | [4b] indexnow key=0b0ea185... file=True serves_key=True in_worker=True
+[2026-10-20 17:55:24]   | [6] lemonade-pet-insurance: og_image=og-lemonade-pet-insurance.png problems=[]
+[2026-10-20 17:55:24]   | [6] spot-pet-insurance: og_image=og-spot-pet-insurance.png problems=[]
+[2026-10-20 17:55:24]   | [6] fetch-pet-insurance: og_image=og-fetch-pet-insurance.png problems=[]
+[2026-10-20 17:55:24]   | [6] best-pet-insurance: og_image=og-best-pet-insurance.png problems=[]
+[2026-10-20 17:55:24]   | [6] pet-insurance-cost: og_image=og-pet-insurance-cost.png problems=[]
+[2026-10-20 17:55:24]   | [6] lemonade-vs-spot: og_image=og-lemonade-vs-spot.png problems=[]
+[2026-10-20 17:55:24]   | [6] how-to-submit-a-pet-insurance-claim: og_image=og-how-to-submit-a-pet-insurance-claim.png problems=[]
+[2026-10-20 17:55:24]   | [6] pet-insurance-promo-code: og_image=og-pet-insurance-promo-code.png problems=[]
+[2026-10-20 17:55:24]   | [6] pet-insurance-claim-denied: og_image=og-pet-insurance-claim-denied.png problems=[]
+[2026-10-20 17:55:24]   | [6] pet-insurance-waiting-periods: og_image=og-pet-insurance-waiting-periods.png problems=[]
+[2026-10-20 17:55:24]   | [6] pet-insurance-cost-by-brand: og_image=og-pet-insurance-cost-by-brand.png problems=[]
+[2026-10-20 17:55:24]   | [6] pet-insurance-wellness-add-on: og_image=og-pet-insurance-wellness-add-on.png problems=[]
+[2026-10-20 17:55:24]   | [6] pet-insurance-claim-filing-deadline: og_image=og-pet-insurance-claim-filing-deadline.png problems=[]
+[2026-10-20 17:55:24]   | [6] pet-insurance-waiting-periods-by-condition: og_image=og-pet-insurance-waiting-periods-by-condition.png problems=[]
+[2026-10-20 17:55:24]   | [6] exotic-pet-insurance: og_image=og-exotic-pet-insurance.png problems=[]
+[2026-10-20 17:55:24]   | [6] lemonade-cat-insurance: og_image=og-lemonade-cat-insurance.png problems=[]
+[2026-10-20 17:55:24]   | [5] llms.txt pages=16 missing=[]
+[2026-10-20 17:55:24]   | [5] llms-full.txt source_urls=68 dropped=0 []
+[2026-10-20 17:55:24]   | [5] worker allowlist llms routes missing=[]
+[2026-10-20 17:55:24]   | [7] sitemap urls=20 issues=[]
+[2026-10-20 17:55:24]   | RESULT: PASS
+[2026-10-20 17:55:24] selfcheck PASS
+[2026-10-20 17:55:25] site fingerprint (none) -> a3e0668c27891717
+[2026-10-20 17:55:25] $ git add -A

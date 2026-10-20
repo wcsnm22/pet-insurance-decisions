@@ -4,7 +4,9 @@
  "tally": {
   "HTTP_403": 5,
   "PDF": 5,
-  "UNCHANGED": 58
+  "UNCHANGED": 56,
+  "ERR_CONNECTIONERROR": 1,
+  "BASELINE": 1
  },
  "changed": [],
  "unreachable": [
@@ -17,7 +19,8 @@
   "https://www.aspcapetinsurance.com/more-info/state-documents-and-sample-policies",
   "https://www.aspcapetinsurance.com/quote/",
   "https://www.aspcapetinsurance.com/research-and-compare/pet-insurance-basics/whats-covered/",
-  "https://www.fetchpet.com/PORTALDOCS/FORMS/2016_04/TermsConditions/GPTM_050-XX_0316.pdf"
+  "https://www.fetchpet.com/PORTALDOCS/FORMS/2016_04/TermsConditions/GPTM_050-XX_0316.pdf",
+  "https://www.geico.com/living/pet-insurance-what-is-it-how-does-it-work/"
  ],
  "detail": {
   "https://aspcapetinsurance.com/more-info/notice-to-california-residents": {
@@ -560,13 +563,13 @@
    "last_ok": "2026-10-20"
   },
   "https://www.geico.com/living/pet-insurance-what-is-it-how-does-it-work/": {
-   "status": "ok",
-   "fingerprint": "b29da3a90c9371cd",
-   "chars": 15705,
+   "status": "err_ConnectionError",
+   "fingerprint": null,
+   "chars": 0,
    "rev_date": null,
    "prev_rev_date": null,
    "prev_fingerprint": "b29da3a90c9371cd",
-   "state": "UNCHANGED",
+   "state": "ERR_CONNECTIONERROR",
    "first_seen": "2026-10-20",
    "last_ok": "2026-10-20"
   },
@@ -576,8 +579,8 @@
    "chars": 11962,
    "rev_date": null,
    "prev_rev_date": null,
-   "prev_fingerprint": "4934f8c80333ef84",
-   "state": "UNCHANGED",
+   "prev_fingerprint": null,
+   "state": "BASELINE",
    "first_seen": "2026-10-20",
    "last_ok": "2026-10-20"
   },
