@@ -632,6 +632,7 @@ def build() -> None:
         "brand": site["name"],
         "nav": f'<a href="/">Home</a> · {nav}',
         "tagline": site["tagline"],
+        "home_checked": home_updated or site["checked"],
         "byline": byline_html(home_updated),
         "cards": cards,
         "article_cards": article_cards,
