@@ -75,14 +75,18 @@ print(f"[2] facts+faqs={n} missing_source_or_date={bad} non_official_domain={off
 if bad or offsite:
     fails.append("fact-provenance")
 
-# (3) rendered pages show source link + date per fact row; check dates == today
-for slug in ("lemonade", "spot", "fetch"):
-    html = (site / f"{slug}-pet-insurance.html").read_text(encoding="utf-8")
+# (3) rendered brand pages: every fact/FAQ carries an official source link + its OWN check date.
+# Facts get rechecked on different days, so a page may legitimately mix dates; the global
+# site["checked"] is only the fallback. Each item's own date must still be visible on the page.
+for b in data["brands"]:
+    slug = b["slug"].replace("-pet-insurance", "")
+    html = (site / f'{b["slug"]}.html').read_text(encoding="utf-8")
     rows = html.count("<tr>") - (1 if "<th>" in html else 0)
     srcs = len(re.findall(r'href="https://(?:www\.)?(?:lemonade|spotpet|spotpetins|fetchpet|petinsurance|geico|allstate|aspcapetinsurance|embracepetinsurance)[^"]*"|href="https://assets\.ctfassets\.net[^"]*"', html))
-    dates = html.count(data["site"]["checked"])
-    print(f"[3] {slug}: rows={rows} official_source_links={srcs} check_dates={dates}")
-    if srcs < rows or dates < rows:
+    items = b["facts"] + b["faqs"]
+    missing_dates = sorted({i.get("checked", "") for i in items if i.get("checked", data["site"]["checked"]) not in html})
+    print(f"[3] {slug}: rows={rows} official_source_links={srcs} items={len(items)} missing_check_dates={missing_dates}")
+    if srcs < rows or missing_dates:
         fails.append(f"render-provenance-{slug}")
 
 # (3b) rendered article pages: every fact/FAQ carries an official source link + its OWN check date

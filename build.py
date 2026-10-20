@@ -677,7 +677,7 @@ def build() -> None:
         faq_html = "".join(
             f'<details open><summary>{escape(f["q"])}</summary><p>{escape(f["a"])}</p>'
             f'<p class="muted">Source: <a href="{escape(f["source_url"])}" rel="noopener" target="_blank">'
-            f'{escape(f["source_url"])}</a> · checked {escape(site["checked"])}</p></details>'
+            f'{escape(f["source_url"])}</a> · checked {escape(f.get("checked", site["checked"]))}</p></details>'
             for f in b["faqs"]
         )
         related = b.get("related", [])
