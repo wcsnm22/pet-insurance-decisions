@@ -240,19 +240,6 @@ def fact_rows(facts: list[dict]) -> str:
     return "".join(rows)
 
 
-def fact_jsonld_items(facts: list[dict]) -> list[dict]:
-    return [
-        {
-            "@type": "ClaimReview",
-            "claimReviewed": f["fact"],
-            "author": {"@type": "Organization", "name": "brand's own official site"},
-            "url": f["source_url"],
-            "datePublished": f["checked"],
-        }
-        for f in facts
-    ]
-
-
 def official_host(url: str) -> str:
     parts = url.split("/")
     return parts[2] if url.startswith("http") and len(parts) > 2 else ""
@@ -683,15 +670,6 @@ def build() -> None:
                 "publisher": publisher_jsonld(site),
                 "mainEntityOfPage": canonical,
                 "about": {"@type": "Thing", "name": f'{b["name"]} pet insurance'},
-            }),
-            jsonld({
-                "@context": "https://schema.org",
-                "@type": "ClaimReview",
-                "itemReviewed": {"@type": "Thing", "name": f'{b["name"]} pet insurance facts'},
-                "claimReviewed": f'Facts about {b["name"]} pet insurance as published on its official site',
-                "url": b["official_site"],
-                "datePublished": site["checked"],
-                "author": {"@type": "Organization", "name": site["name"]},
             }),
         ]
         jsonld_blocks.append(breadcrumb_jsonld(b["name"], canonical, site))

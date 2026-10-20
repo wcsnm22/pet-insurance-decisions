@@ -42,11 +42,15 @@ for s in slugs:
     desc = desc.group(1).strip() if desc else ""
     og = re.search(r'<meta property="og:image" content="(.*?)"', h)
     # datePublished is only suspect on an Article (a first-publish date the site
-    # never recorded); ClaimReview legitimately carries its own datePublished.
+    # never recorded).
     ld_blocks = [json.loads(m) for m in
                  re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S)]
     article_ld = [b for b in ld_blocks if b.get("@type") == "Article"]
     article_invented_date = any("datePublished" in b for b in article_ld)
+    # ClaimReview without reviewRating was removed 2026-10-20: it claimed review
+    # semantics the site never performed, and Google's review-snippet policy
+    # rejects self-serving review markup on a site that does not review anything.
+    no_claimreview = not any(b.get("@type") == "ClaimReview" for b in ld_blocks)
     checks = {
         "200": st == 200,
         "title<=58": len(title) <= 58,
@@ -56,6 +60,7 @@ for s in slugs:
         "max_image_preview": "max-image-preview:large" in h,
         "byline": 'class="byline"' in h and "tangshoufu" in h,
         "article_no_datePublished": not article_invented_date,
+        "no_claimreview": no_claimreview,
         "dateModified": '"dateModified"' in h,
         "related": 'class="related"' in h,
     }
