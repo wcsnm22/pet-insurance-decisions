@@ -198,13 +198,19 @@ def main():
         return 0
     log(f"site fingerprint {prev or '(none)'} -> {fp}")
 
-    # 7) 本地留痕（push 仍坏着，只做本地提交）
+    # 7) 本地留痕并推回 origin，让本地和 VPS 构建同一棵树
     today = datetime.now().strftime("%Y-%m-%d")
     run(["git", "add", "-A"])
     code, out = run(["git", "commit", "-q", "-m",
                      f"daily: re-verify {n_ok}/{n_sources} sources on {today}"])
     if code != 0 and "nothing to commit" not in out:
         log("note: git commit 没成功，继续部署（部署不依赖提交）")
+    code, out = run(["git", "push", "origin", "main"])
+    if code != 0:
+        log("note: git push 失败，先 pull --rebase 再重试")
+        run(["git", "pull", "--rebase", "--autostash", "origin", "main"])
+        code, out = run(["git", "push", "origin", "main"])
+    log("git push 成功" if code == 0 else "note: git push 仍失败，提交留在本地（部署已完成，不影响线上）")
 
     # 8) 部署
     env = dict(os.environ, CLOUDFLARE_ACCOUNT_ID=ACCOUNT_ID)

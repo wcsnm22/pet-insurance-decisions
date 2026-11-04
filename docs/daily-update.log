@@ -420,3 +420,41 @@
 [2026-11-04 22:03:07] selfcheck PASS
 [2026-11-04 22:03:07] site fingerprint b9ca980212496258 -> 22c67572e9b73cf6
 [2026-11-04 22:03:07] $ git add -A
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-10-21.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-10-22.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-10-23.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-10-24.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-10-25.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-10-26.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-10-27.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-10-28.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-10-29.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-10-30.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-10-31.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07]   | warning: in the working copy of 'docs/daily-verify-2026-11-01.json', CRLF will be replaced by LF the next time Git touches it
+[2026-11-04 22:03:07] $ git commit -q -m daily: re-verify 63/68 sources on 2026-11-04
+[2026-11-04 22:03:07] $ /usr/bin/wrangler pages deploy site --project-name=furwell --branch=main --commit-dirty=true
+[2026-11-04 22:03:18]   | ⛅️ wrangler 4.157.0
+[2026-11-04 22:03:18]   | ────────────────────
+[2026-11-04 22:03:18]   | Uploading... (40/59)
+[2026-11-04 22:03:18]   | Uploading... (46/59)
+[2026-11-04 22:03:18]   | Uploading... (52/59)
+[2026-11-04 22:03:18]   | Uploading... (59/59)
+[2026-11-04 22:03:18]   | ✨ Success! Uploaded 19 files (40 already uploaded) (1.58 sec)
+[2026-11-04 22:03:18]   | 
+[2026-11-04 22:03:18]   | ✨ Compiled Worker successfully
+[2026-11-04 22:03:18]   | ✨ Uploading Worker bundle
+[2026-11-04 22:03:18]   | 🌎 Deploying...
+[2026-11-04 22:03:18]   | ✨ Deployment complete! Take a peek over at https://ffbb8534.furwell.pages.dev
+[2026-11-04 22:03:19]   live /: 200 23865B
+[2026-11-04 22:03:19]   live /pet-insurance-cost: 200 47313B
+[2026-11-04 22:03:20]   live /pet-insurance-waiting-periods: 200 65479B
+[2026-11-04 22:03:20]   live /lemonade-cat-insurance: 200 48944B
+[2026-11-04 22:03:21]   live /sitemap.xml: 200 2489B
+[2026-11-04 22:03:21] daily update done
+[2026-11-04 22:03:21] WARN: 5 个来源页抓不到，其事实的日期无法推进：
+[2026-11-04 22:03:21]         HTTP_403     https://aspcapetinsurance.com/more-info/notice-to-california-residents
+[2026-11-04 22:03:21]         HTTP_403     https://www.aspcapetinsurance.com/
+[2026-11-04 22:03:21]         HTTP_403     https://www.aspcapetinsurance.com/more-info/state-documents-and-sample-policies
+[2026-11-04 22:03:21]         HTTP_403     https://www.aspcapetinsurance.com/quote/
+[2026-11-04 22:03:21]         HTTP_403     https://www.aspcapetinsurance.com/research-and-compare/pet-insurance-basics/whats-covered/
