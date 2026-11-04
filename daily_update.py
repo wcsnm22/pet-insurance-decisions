@@ -26,7 +26,12 @@ import requests
 
 ROOT = Path(__file__).resolve().parent
 PY = sys.executable
-WRANGLER = Path(os.environ["APPDATA"]) / "npm" / "wrangler.cmd"
+if os.name == "nt":
+    WRANGLER = Path(os.environ["APPDATA"]) / "npm" / "wrangler.cmd"
+else:
+    # Linux / VPS: npm -g 装的 wrangler 本身可执行, 直接走 PATH
+    import shutil as _shutil
+    WRANGLER = Path(_shutil.which("wrangler") or "/usr/bin/wrangler")
 ACCOUNT_ID = "a42087cd60e437c858761af03941e415"
 PROJECT = "furwell"
 BASE_URL = "https://furadvisor.com"
