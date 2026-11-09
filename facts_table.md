@@ -39,7 +39,7 @@
 | Spot Perks gives access to $2,500+ in discounts on pet brands. | No purchase necessary; based on total combined Spot Perks discounts applied to average vendor cart value; terms at spotpet.com/perks-terms. | https://spotpet.com/ | 2026-09-24 |
 | An employee discount advertised at 20% appears on Spot's plan pages for employer benefits. | Footnote: includes up to 10% group discount plus up to 10% multi-pet discount on 2nd+ pets. Discounts vary by state, are subject to change, and are not available in all states. | https://spotpet.com/dog-insurance | 2026-09-24 |
 | Spot plans are underwritten by Independence American Insurance Company (NAIC #26581) or United States Fire Insurance Company, and produced by Spot Pet Insurance Services, LLC (NPN #19246385). | Underwriter disclosure in the page footer; which carrier applies depends on the policy. | https://spotpet.com/ | 2026-09-24 |
-| Spot displays a rating of 4.7 / 5 based on 8,300+ reviews. | Rating as displayed on Spot's homepage; it is the company's own displayed figure. | https://spotpet.com/ | 2026-09-24 |
+| Spot displays a rating of 4.6 / 5 based on 12,304 reviews. | Rating as displayed on Spot's homepage; it is the company's own displayed figure. | https://spotpet.com/ | 2026-09-24 |
 | You can visit any licensed vet in the United States or Canada. | No network restrictions; stated on the homepage and FAQ. | https://spotpet.com/ | 2026-09-24 |
 | No dedicated promo code page appears in Spot's official sitemaps. | Sitemap index at https://spotpet.com/sitemap.xml and its child sitemaps checked on 2026-09-24; no URL matching promo or coupon was found. The published discounts are the multi-pet discount, the group/employee discount and Spot Perks. | https://spotpet.com/sitemap.xml | 2026-09-24 |
 

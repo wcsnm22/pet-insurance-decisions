@@ -23,7 +23,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://assets.ctfassets.net/m5ehn3s5t7ec/1jSJ3wibAqaL8wdIY3yKhQ/5c6fe63f297179c6da4cef326dc5fc3e/Sample_PolicyPages_AZ_AccidentandIllness_47_copy.pdf": {
   "status": "ok",
@@ -36,7 +36,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://assets.ctfassets.net/m5ehn3s5t7ec/4v8nxVvZL52Gzot7vlIfZz/b4210a777421682f3e6f2c7e09b6e618/Preventive_IAIC_Platinum_copy.pdf": {
   "status": "ok",
@@ -49,7 +49,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://assets.ctfassets.net/m5ehn3s5t7ec/rcRJqNeeTUUYxIm0WS6bU/10732c41bdf344599e656aecfbb93125/Preventive_IAIC_Gold_copy.pdf": {
   "status": "ok",
@@ -62,7 +62,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://fetchpet.com/sitemap.xml": {
   "status": "ok",
@@ -75,189 +75,189 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/": {
   "status": "ok",
-  "fingerprint": "7ca17f92414d5939",
-  "seen_fingerprint": "7ca17f92414d5939",
-  "chars": 17831,
+  "fingerprint": "a72edbc9017bd4cd",
+  "seen_fingerprint": "a72edbc9017bd4cd",
+  "chars": 12208,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "7ca17f92414d5939",
+  "prev_fingerprint": "a72edbc9017bd4cd",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/blog/why-pet-insurance/what-is-the-waiting-period-in-pet-insurance": {
   "status": "ok",
-  "fingerprint": "b592dcec5b586938",
-  "seen_fingerprint": "b592dcec5b586938",
-  "chars": 12853,
-  "rev_date": "2026-11-01",
-  "prev_rev_date": "2026-11-01",
-  "prev_fingerprint": "b592dcec5b586938",
+  "fingerprint": "e2e587913bf74596",
+  "seen_fingerprint": "e2e587913bf74596",
+  "chars": 12874,
+  "rev_date": "2026-11-06",
+  "prev_rev_date": "2026-11-06",
+  "prev_fingerprint": "e2e587913bf74596",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/cat-insurance": {
   "status": "ok",
-  "fingerprint": "698ef119eb16c7f4",
-  "seen_fingerprint": "698ef119eb16c7f4",
-  "chars": 15189,
+  "fingerprint": "6b09b55cf3637f6d",
+  "seen_fingerprint": "6b09b55cf3637f6d",
+  "chars": 14650,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "698ef119eb16c7f4",
+  "prev_fingerprint": "6b09b55cf3637f6d",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/claims-form": {
   "status": "ok",
-  "fingerprint": "2e599db118ce7f21",
-  "seen_fingerprint": "2e599db118ce7f21",
-  "chars": 3698,
+  "fingerprint": "339acb6691a90cee",
+  "seen_fingerprint": "339acb6691a90cee",
+  "chars": 3719,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "2e599db118ce7f21",
+  "prev_fingerprint": "339acb6691a90cee",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/dog-insurance": {
   "status": "ok",
-  "fingerprint": "ff8f2c1fbe903420",
-  "seen_fingerprint": "ff8f2c1fbe903420",
-  "chars": 18406,
+  "fingerprint": "ea1f2d95221271a8",
+  "seen_fingerprint": "ea1f2d95221271a8",
+  "chars": 17867,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "ff8f2c1fbe903420",
+  "prev_fingerprint": "ea1f2d95221271a8",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/employers": {
   "status": "ok",
-  "fingerprint": "537b7636784bb8bc",
-  "seen_fingerprint": "537b7636784bb8bc",
-  "chars": 5779,
+  "fingerprint": "b05c13d8b0af579b",
+  "seen_fingerprint": "b05c13d8b0af579b",
+  "chars": 5800,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "537b7636784bb8bc",
+  "prev_fingerprint": "b05c13d8b0af579b",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/faqs": {
   "status": "ok",
-  "fingerprint": "a1286f019eaa803b",
-  "seen_fingerprint": "a1286f019eaa803b",
-  "chars": 5306,
+  "fingerprint": "891a3da1e80f8188",
+  "seen_fingerprint": "891a3da1e80f8188",
+  "chars": 5327,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "a1286f019eaa803b",
+  "prev_fingerprint": "891a3da1e80f8188",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/insurance-for-multiple-pets": {
   "status": "ok",
-  "fingerprint": "d56422ab38f00404",
-  "seen_fingerprint": "d56422ab38f00404",
-  "chars": 5725,
+  "fingerprint": "59abb1dc0eb3aad9",
+  "seen_fingerprint": "59abb1dc0eb3aad9",
+  "chars": 5746,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "d56422ab38f00404",
+  "prev_fingerprint": "59abb1dc0eb3aad9",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/perks-terms": {
   "status": "ok",
-  "fingerprint": "e4d2f2a217799fa3",
-  "seen_fingerprint": "e4d2f2a217799fa3",
-  "chars": 7403,
+  "fingerprint": "55c540f57c776d4d",
+  "seen_fingerprint": "55c540f57c776d4d",
+  "chars": 7424,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "e4d2f2a217799fa3",
+  "prev_fingerprint": "55c540f57c776d4d",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/pet-supermarket-offer": {
   "status": "ok",
-  "fingerprint": "57429cdc89995e2a",
-  "seen_fingerprint": "57429cdc89995e2a",
-  "chars": 3869,
+  "fingerprint": "fcde6d948e86a32d",
+  "seen_fingerprint": "fcde6d948e86a32d",
+  "chars": 3890,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "57429cdc89995e2a",
+  "prev_fingerprint": "fcde6d948e86a32d",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/sample-policy": {
   "status": "ok",
-  "fingerprint": "09ac0cb3422fe590",
-  "seen_fingerprint": "09ac0cb3422fe590",
-  "chars": 5315,
+  "fingerprint": "d2da6edfb40362d0",
+  "seen_fingerprint": "d2da6edfb40362d0",
+  "chars": 5336,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "09ac0cb3422fe590",
+  "prev_fingerprint": "d2da6edfb40362d0",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/sitemap.xml": {
   "status": "ok",
-  "fingerprint": "e1add68f7533a4a0",
-  "seen_fingerprint": "e1add68f7533a4a0",
+  "fingerprint": "8f8b5657d7f4393c",
+  "seen_fingerprint": "8f8b5657d7f4393c",
   "chars": 448,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "e1add68f7533a4a0",
+  "prev_fingerprint": "8f8b5657d7f4393c",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/submitting-a-claim": {
   "status": "ok",
-  "fingerprint": "9d9f6242224efbb4",
-  "seen_fingerprint": "9d9f6242224efbb4",
-  "chars": 8392,
+  "fingerprint": "698c69163a6fab9f",
+  "seen_fingerprint": "698c69163a6fab9f",
+  "chars": 7854,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "9d9f6242224efbb4",
+  "prev_fingerprint": "698c69163a6fab9f",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://spotpet.com/wellness": {
   "status": "ok",
-  "fingerprint": "939c5e1ab4c2b978",
-  "seen_fingerprint": "939c5e1ab4c2b978",
-  "chars": 9716,
+  "fingerprint": "22bce9875461eb32",
+  "seen_fingerprint": "22bce9875461eb32",
+  "chars": 9177,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "939c5e1ab4c2b978",
+  "prev_fingerprint": "22bce9875461eb32",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.allstate.com/pet-insurance": {
   "status": "ok",
@@ -270,7 +270,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.allstate.com/resources/pet-insurance/dog-insurance": {
   "status": "ok",
@@ -283,7 +283,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.aspcapetinsurance.com/": {
   "status": "http_403",
@@ -342,13 +342,13 @@
   "fingerprint": "39d923e6a566424a",
   "seen_fingerprint": "39d923e6a566424a",
   "chars": 4161,
-  "rev_date": "2026-11-03",
-  "prev_rev_date": "2026-11-03",
+  "rev_date": "2026-11-04",
+  "prev_rev_date": "2026-11-04",
   "prev_fingerprint": "39d923e6a566424a",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.embracepetinsurance.com/coverage/waiting-period": {
   "status": "ok",
@@ -361,7 +361,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.embracepetinsurance.com/help/article/what-is-the-waiting-period-for-orthopedic-conditions": {
   "status": "ok",
@@ -374,7 +374,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.embracepetinsurance.com/state-terms/v5": {
   "status": "ok",
@@ -387,7 +387,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.embracepetinsurance.com/state-terms/v6": {
   "status": "ok",
@@ -400,7 +400,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/": {
   "status": "ok",
@@ -413,7 +413,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/PORTALDOCS/FORMS/2016_04/TermsConditions/GPTM_050-XX_0316.pdf": {
   "status": "ok",
@@ -426,7 +426,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/claims": {
   "status": "ok",
@@ -439,7 +439,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/deals": {
   "status": "ok",
@@ -452,7 +452,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/faqs/can-i-get-a-pet-wellness-plan-on-its-own": {
   "status": "ok",
@@ -465,7 +465,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/faqs/claim-submission": {
   "status": "ok",
@@ -478,7 +478,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/faqs/is-there-a-deductible-for-pet-wellness": {
   "status": "ok",
@@ -491,7 +491,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/faqs/is-there-a-waiting-period-for-pet-wellness": {
   "status": "ok",
@@ -504,7 +504,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/faqs/military-pet-insurance-discount": {
   "status": "ok",
@@ -517,7 +517,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/faqs/monthly-payments": {
   "status": "ok",
@@ -530,7 +530,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/faqs/track-claim": {
   "status": "ok",
@@ -543,7 +543,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/faqs/waiting-period": {
   "status": "ok",
@@ -556,7 +556,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/faqs/when-to-claim-pet-insurance": {
   "status": "ok",
@@ -569,33 +569,33 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/partners/aarp": {
   "status": "ok",
-  "fingerprint": "4adc1956127ca13b",
-  "seen_fingerprint": "4adc1956127ca13b",
-  "chars": 24951,
+  "fingerprint": "dfba7c0839adaf5b",
+  "seen_fingerprint": "dfba7c0839adaf5b",
+  "chars": 24936,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "4adc1956127ca13b",
+  "prev_fingerprint": "dfba7c0839adaf5b",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/partners/walmart": {
   "status": "ok",
-  "fingerprint": "53145849d766a278",
-  "seen_fingerprint": "53145849d766a278",
-  "chars": 23859,
+  "fingerprint": "ed9f130253ab6d22",
+  "seen_fingerprint": "ed9f130253ab6d22",
+  "chars": 23844,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "53145849d766a278",
+  "prev_fingerprint": "ed9f130253ab6d22",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/pet-insurance-cost": {
   "status": "ok",
@@ -608,7 +608,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.fetchpet.com/pet-insurance/wellness": {
   "status": "ok",
@@ -621,7 +621,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.geico.com/living/how-much-does-it-cost-to-own-a-pet/": {
   "status": "ok",
@@ -634,7 +634,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.geico.com/living/pet-insurance-what-is-it-how-does-it-work/": {
   "status": "ok",
@@ -647,176 +647,176 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.geico.com/pet-insurance/": {
   "status": "ok",
-  "fingerprint": "c5ff3d2dfa12249d",
-  "seen_fingerprint": "c5ff3d2dfa12249d",
-  "chars": 16039,
+  "fingerprint": "5b4669b0ab9b8063",
+  "seen_fingerprint": "5b4669b0ab9b8063",
+  "chars": 20306,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "c5ff3d2dfa12249d",
+  "prev_fingerprint": "5b4669b0ab9b8063",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet-insurance": {
   "status": "ok",
-  "fingerprint": "b306f87f723ba0e9",
-  "seen_fingerprint": "b306f87f723ba0e9",
+  "fingerprint": "418bd5f6ad129eed",
+  "seen_fingerprint": "418bd5f6ad129eed",
   "chars": 13457,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "b306f87f723ba0e9",
+  "prev_fingerprint": "418bd5f6ad129eed",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet/cats": {
   "status": "ok",
-  "fingerprint": "2ee642c5a7b14c4b",
-  "seen_fingerprint": "2ee642c5a7b14c4b",
+  "fingerprint": "192cdfe30faf106a",
+  "seen_fingerprint": "192cdfe30faf106a",
   "chars": 13542,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "2ee642c5a7b14c4b",
+  "prev_fingerprint": "192cdfe30faf106a",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet/explained/how-to-file-a-pet-insurance-claim": {
   "status": "ok",
-  "fingerprint": "a4a9dc7cbf540824",
-  "seen_fingerprint": "a4a9dc7cbf540824",
+  "fingerprint": "c6ce131f2bc3a023",
+  "seen_fingerprint": "c6ce131f2bc3a023",
   "chars": 13278,
   "rev_date": "2026-10-13",
   "prev_rev_date": "2026-10-13",
-  "prev_fingerprint": "a4a9dc7cbf540824",
+  "prev_fingerprint": "c6ce131f2bc3a023",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet/insurance-guide/how-to-file-a-pet-insurance-claim/": {
   "status": "ok",
-  "fingerprint": "a4a9dc7cbf540824",
-  "seen_fingerprint": "a4a9dc7cbf540824",
+  "fingerprint": "c6ce131f2bc3a023",
+  "seen_fingerprint": "c6ce131f2bc3a023",
   "chars": 13278,
   "rev_date": "2026-10-13",
   "prev_rev_date": "2026-10-13",
-  "prev_fingerprint": "a4a9dc7cbf540824",
+  "prev_fingerprint": "c6ce131f2bc3a023",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-insurance-faq/": {
   "status": "ok",
-  "fingerprint": "9d3d579d5ce139e6",
-  "seen_fingerprint": "9d3d579d5ce139e6",
+  "fingerprint": "c57a74982b447531",
+  "seen_fingerprint": "c57a74982b447531",
   "chars": 38003,
   "rev_date": "2026-10-26",
   "prev_rev_date": "2026-10-26",
-  "prev_fingerprint": "9d3d579d5ce139e6",
+  "prev_fingerprint": "c57a74982b447531",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet/insurance-guide/lemonade-pet-renewals/": {
   "status": "ok",
-  "fingerprint": "01665c60059fc0db",
-  "seen_fingerprint": "01665c60059fc0db",
+  "fingerprint": "fc0605e85a931556",
+  "seen_fingerprint": "fc0605e85a931556",
   "chars": 13399,
   "rev_date": "2026-10-13",
   "prev_rev_date": "2026-10-13",
-  "prev_fingerprint": "01665c60059fc0db",
+  "prev_fingerprint": "fc0605e85a931556",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet/insurance-guide/lemonades-preventative-care-options-explained/": {
   "status": "ok",
-  "fingerprint": "37b1f778ff0ecbc3",
-  "seen_fingerprint": "37b1f778ff0ecbc3",
+  "fingerprint": "b3eb45f3d2a3bce0",
+  "seen_fingerprint": "b3eb45f3d2a3bce0",
   "chars": 18977,
   "rev_date": "2026-10-28",
   "prev_rev_date": "2026-10-28",
-  "prev_fingerprint": "37b1f778ff0ecbc3",
+  "prev_fingerprint": "b3eb45f3d2a3bce0",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet/insurance-guide/pet-claim-denials/": {
   "status": "ok",
-  "fingerprint": "99ce4a2f10d386c1",
-  "seen_fingerprint": "99ce4a2f10d386c1",
+  "fingerprint": "cf0fc9019ac4400c",
+  "seen_fingerprint": "cf0fc9019ac4400c",
   "chars": 9550,
   "rev_date": "2026-10-13",
   "prev_rev_date": "2026-10-13",
-  "prev_fingerprint": "99ce4a2f10d386c1",
+  "prev_fingerprint": "cf0fc9019ac4400c",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet/insurance-guide/pet-insurance-cost/": {
   "status": "ok",
-  "fingerprint": "db7c30e2fe6618fa",
-  "seen_fingerprint": "db7c30e2fe6618fa",
+  "fingerprint": "279732122cf9adf5",
+  "seen_fingerprint": "279732122cf9adf5",
   "chars": 27497,
   "rev_date": "2026-10-26",
   "prev_rev_date": "2026-10-26",
-  "prev_fingerprint": "db7c30e2fe6618fa",
+  "prev_fingerprint": "279732122cf9adf5",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet/insurance-guide/pet-insurance-pre-existing-conditions/": {
   "status": "ok",
-  "fingerprint": "2412badbbd7cd217",
-  "seen_fingerprint": "2412badbbd7cd217",
+  "fingerprint": "f8a53e434592158f",
+  "seen_fingerprint": "f8a53e434592158f",
   "chars": 20313,
   "rev_date": "2026-10-13",
   "prev_rev_date": "2026-10-13",
-  "prev_fingerprint": "2412badbbd7cd217",
+  "prev_fingerprint": "f8a53e434592158f",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet/insurance-guide/pet-insurance/": {
   "status": "ok",
-  "fingerprint": "d9c954d8d517ec50",
-  "seen_fingerprint": "d9c954d8d517ec50",
+  "fingerprint": "aa4f8cbca9be9f95",
+  "seen_fingerprint": "aa4f8cbca9be9f95",
   "chars": 31229,
   "rev_date": "2026-10-26",
   "prev_rev_date": "2026-10-26",
-  "prev_fingerprint": "d9c954d8d517ec50",
+  "prev_fingerprint": "aa4f8cbca9be9f95",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/pet/insurance-guide/waiting-periods/": {
   "status": "ok",
-  "fingerprint": "c2a5563cb81da896",
-  "seen_fingerprint": "c2a5563cb81da896",
+  "fingerprint": "ae4ddb278141407f",
+  "seen_fingerprint": "ae4ddb278141407f",
   "chars": 26808,
   "rev_date": "2026-10-13",
   "prev_rev_date": "2026-10-13",
-  "prev_fingerprint": "c2a5563cb81da896",
+  "prev_fingerprint": "ae4ddb278141407f",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/sitemap.xml": {
   "status": "ok",
@@ -829,20 +829,20 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.lemonade.com/terms-and-conditions-referral-program": {
   "status": "ok",
-  "fingerprint": "662198acb58baf03",
-  "seen_fingerprint": "662198acb58baf03",
+  "fingerprint": "d0538c532990c97a",
+  "seen_fingerprint": "d0538c532990c97a",
   "chars": 6589,
   "rev_date": null,
   "prev_rev_date": null,
-  "prev_fingerprint": "662198acb58baf03",
+  "prev_fingerprint": "d0538c532990c97a",
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.petinsurance.com/exotics/": {
   "status": "ok",
@@ -855,7 +855,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.petinsurance.com/faq/": {
   "status": "ok",
@@ -868,7 +868,7 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  },
  "https://www.petinsurance.com/petwellness/": {
   "status": "ok",
@@ -881,6 +881,6 @@
   "state": "UNCHANGED",
   "changed_since": null,
   "first_seen": "2026-10-20",
-  "last_ok": "2026-11-04"
+  "last_ok": "2026-11-09"
  }
 }
